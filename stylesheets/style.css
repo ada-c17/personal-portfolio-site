@@ -1,0 +1,143 @@
+@import "vars";
+
+html {
+   font-size: 18px;
+}
+
+body {
+    margin: 0;
+    /* font-size: 1rem; */
+    /* color: black; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+.header {
+    padding: 1.2rem 0;
+    position: relative;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    }
+    .nav__link {
+        margin-left: 2rem;
+        position: relative;
+    
+        font-size: 0.93rem;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0.66rem 2rem;
+        border: 2px solid black;
+        border-radius: 20px;
+    
+        
+        }
+    
+
+a.social__link img{
+    width: 98px;
+}
+
+.intro__inner {
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    position: relative;
+
+    background: url("../images/symbols.png") right bottom no-repeat;
+    border-bottom: 1px solid fade(gray, 30%);
+}
+
+.intro__content {
+    width: 50%;
+}
+
+.intro__subtitle {
+    font-size: 2.13rem;
+    color: fade(black, 50%);;
+    font-weight: 510;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.intro__title {
+    margin-bottom: 5px;
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+.intro__text {
+    margin-bottom: 100px;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    color: fade(black, 70%);
+}
+
+.intro__photo {
+    position: absolute;
+    bottom: -3px;
+    right: 35px;
+    width: 400px;
+}
+
+.footer__inner {
+    margin-top: 100px;
+    padding: 1rem 0;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer__copyright {
+    padding-right: .8rem;
+    margin-right: 1rem;
+
+    font-size: .94rem;
+    color: #BBBBCC;
+
+    border-right: 1px solid fade(gray, 35%);
+
+}
+    
+
+    
+
+.footer_social {
+    margin-right: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
