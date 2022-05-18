@@ -1,0 +1,14 @@
+header {
+    background-color: #FFC6FF;
+    margin-left: 400;
+    padding: .5em 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: .5rem 0;
+}
