@@ -1,0 +1,22 @@
+figure {
+  display: inline-table;
+  margin: 0;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  text-align: center;
+}
+
+#content {
+  padding-right: .25rem;
+}
+
+#project-links img {
+  border: #000 solid .5px;
+  border-radius: 5px;
+  height: auto;
+  margin-right: .5rem;
+  max-width: 100%;
+}

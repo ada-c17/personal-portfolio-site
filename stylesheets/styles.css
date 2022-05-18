@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Josefin+Sans&family=Noto+Sans+Thai&family=Noto+Sans+TC&display=swap');
+
+/********** Global styles **********/
+
+html {
+  font: 20px/1.35 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: #8BC7BE;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#page-wrapper {
+  border: #333 solid 3px;
+  border-top: none;
+  box-shadow: 10px 10px 5px #1D4741,
+    -10px 10px 5px #1D4741;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/********** Nav menu **********/
+
+#skip-link {
+  background-color: #fff0bb;
+  border: #000 dotted 4px;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  position: absolute;
+  text-decoration: none;
+  top: -9999px;
+}
+
+#skip-link:focus {
+  left: 2rem;
+  top: 1rem;
+  z-index: 200;
+}
+
+nav ul {
+  background-color: #317A6F;
+  border-bottom: #000 solid 3px;
+  margin: 0;
+  padding: .8rem 0 .8rem 2rem;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #317A6F;
+}
+
+#selected-page {
+  background-color: #276158;
+}
+
+#selected-page:hover {
+  color: #fff;
+}
+
+#nav-trigger,
+#nav-box {
+  display: none;
+}
+
+/********** Global main content **********/
+
+#content {
+  background-color: #FFDE66;
+  border-top: #000 dotted 9px;
+  border-bottom: #000 dotted 9px;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-family: 'Emilys Candy', cursive;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+h3 {
+  border-bottom: #000 solid 1px;
+  border-top: #000 solid 1px;
+  margin-bottom: 0.25rem;
+  padding: .5rem 0;
+}
+
+/********** Footer **********/
+
+footer {
+  background-color: #317A6F;
+  border-top: #000 solid 3px;
+}
+
+footer p {
+  color: #fff;
+  font-variant: small-caps;
+  line-height: normal;
+  margin: 0 auto;
+  padding: .75rem 1rem;
+}
+
+/********** fluid text **********/
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: calc(30px + (40 - 30) * (100vw - 320px) / (1200 - 320));
+  }
+
+  h2 {
+    font-size: calc(24px + (30 - 24) * (100vw - 320px) / (1200 - 320));
+  }
+
+  h3 {
+    font-size: calc(20px + (24 - 20) * (100vw - 320px) / (1200 - 320));
+  }
+
+  .thai {
+    font-size: calc(28px + (40 - 28) * (100vw - 320px) / (1200 - 320));
+  }
+
+  .chinese {
+    font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1200 - 320));
+  }
+}
+
+/********** 950 and under **********/
+
+@media screen and (max-width: 950px) {
+
+  #page-wrapper {
+    width: 100%;
+  }
+
+  #content {
+    padding: 0 .5rem .5rem;
+  }
+}
+
+/********** 560 and under, responsive nav **********/
+
+@media screen and (max-width: 560px) {
+  nav {
+    left: 0;
+    margin-left: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  nav ul {
+    display: none;
+    padding: 0;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav a {
+    border-bottom: 1px solid #fff;
+    display: block;
+    padding: 1rem;
+  }
+
+  #nav-trigger {
+    background-color: #317A6F;
+    border-bottom: #000 solid 2px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.75rem;
+    padding: .5rem;
+    text-align: center;
+  }
+
+  #nav-box:checked+ul {
+    display: block;
+  }
+
+  footer p {
+    font-size: .75rem;
+  }
+
+  #content {
+    overflow: hidden;
+  }
+}
+
+
+/********** Minimum font sizes **********/
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .thai {
+    font-size: 28px;
+  }
+
+  .chinese {
+    font-size: 20px;
+  }
+}
