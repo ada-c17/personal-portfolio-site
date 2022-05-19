@@ -44,7 +44,7 @@ have nav bar that scrolls with page ** DO LAST**? Check old codepen stuff, proba
 }
 
 body {
-    background-color: #B8C4D1;
+    background-color: #7491AD;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -80,19 +80,20 @@ nav {
     background-color: #2E231A;
     grid-row: 2 / 3;
     grid-column: 1 / 5;
-    color: #8B6267;
+    color: #B8C4D1;
 }
 
 
 main {
     grid-column: 2 / 4; 
     grid-row: 3 / 4;
-    background-color: orange;
+    background-color: #8B6267;
+    color: #B8C4D1;
 }
 
 footer{
     grid-column: 1 / 5;
     grid-row: 4 / 5;
-    background-color: green;
+    background-color: #723F43;
     order: 1;
 }

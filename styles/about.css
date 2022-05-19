@@ -1,0 +1,23 @@
+.nested-container {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr;
+    
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+#teapot-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B6267;
+}
+
+#about-me {
+    background-color: #8B6267;
+    color: #B8C4D1;
+}

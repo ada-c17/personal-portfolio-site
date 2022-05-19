@@ -1,0 +1,29 @@
+/* projects to list:
+    - task list @ top
+    - solar system api next - specify this one was pair programmed
+    - swap meet next
+    - viewing party - note that this was first project
+total rows: 
+    1. header image - 2fr
+    2. navbar - .15 fr
+    3. task list api - 1 fr
+    4. solar system api - 1fr
+    5. swap meet - 1fr
+    6. viewing party - 1fr
+    7. footer - .1fr
+*/
+
+.nested-container {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
+    
+}
+
+/* main {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+} */
