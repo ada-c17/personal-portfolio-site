@@ -45,15 +45,15 @@ body{
     color:#9a93e6;
 }
 
-#git-container:first-of-type {
+.git-container:first-of-type {
     margin-top: 100px;
 }
 
-#git-container:last-of-type{
+.git-container:last-of-type{
     margin-bottom: 100px;
 }
 
-#git-container {
+.git-container {
     border: 1px solid black;
     margin-left: 10px;
     margin-right: 10px;
@@ -63,7 +63,7 @@ body{
     grid-column-gap: 80px;
 }
 
-.git-tile img {
+.git-pic img {
     width: 100%;   
     margin: auto;
     padding: 30px;
