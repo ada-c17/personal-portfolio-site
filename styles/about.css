@@ -1,6 +1,97 @@
+h2 {
+    margin-bottom: 30px;;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: (4, 5vw);
-    gap: 10px;
+    grid-template-rows: 2, 1vw;
+    gap: 20px;
+    /* border: 2px solid black; */
+    grid-auto-flow: row;
+    /* text-align: center; */
+    /* position: relative; */
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    /* z-index: -1; */
+}
+
+/* .ctr-text {
+    /* z-index: -1; */
+    /* background-color: 
+    black; */
+    /* transform:  */
+    /* margin: 30px; */
+    /* opacity: 0.6; */
+/* } */ 
+
+/* p.ctr-text {
+    font-weight: bold;
+    /* z-index: -1; */
+    /* color: white;
+} */ 
+
+/* .container {
+    position: relative;
+    z-index: -1;
+    
+} */
+
+.gallery_item figcaption {
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* grid-area: 2 / 1 / 3 / 2; */
+    /* position: relative; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+
+}
+
+.gallery_item:hover img{
+    opacity: 0.3;
+    /* border: none; */
+}
+/* .container:hover .gallery_img {
+    opacity: 0.3;
+    border: none;
+} */
+
+.gallery_item:hover figcaption {
+    opacity: 1;
+    /* background-color: #B3000000; */
+}
+
+.text {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.58);
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#nature-fig {
+    grid-area: 1 / 1 / span 1 / span 3;
+}
+
+#bg-fig {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#charlie-fig {
+    grid-area: 2 / 2 / span 1 / span 3;
 }
