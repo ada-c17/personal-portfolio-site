@@ -1,12 +1,15 @@
-#intro__title {
+#about__bigtitle {
     position:relative;
-    color: white;
-    -webkit-text-stroke: 0.3vw whitesmoke;
+    color: black;
+    -webkit-text-stroke: 0.3vw rgb(59, 58, 58);
     text-transform: uppercase;
     white-space: nowrap;
+    font-family:'Poppins', sans-serif;
+
+    
 }
 
-#intro__title::before {
+#about__bigtitle::before {
     content: attr(data-text);
     position: absolute;
 
@@ -15,7 +18,7 @@
     width:0;
     height: 100%;
     color: #15fa8f;
-    -webkit-text-stroke: 0vw white;
+    -webkit-text-stroke: 0vw black;
     border-right: 2px solid #15fa8f;
     overflow: hidden;
     animation: animate 6s linear infinite;

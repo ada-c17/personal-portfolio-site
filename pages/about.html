@@ -5,8 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../stylesheets/style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="../stylesheets/about.css">
+  <link rel="stylesheet" href="../stylesheets/animate_about.css">
+
+  <title>Portfolio__about</title>
 </head>
 <body>
 
@@ -23,33 +27,174 @@
     </div>
   </header>
 
-
+  <!-- About -->
   <section class="about">
     <div class="container">
-
         <div class="about__inner">
-            <div class="about__photo">
-                <img class="img" src="images/designer_photo.png" alt="">
-            </div>
-
             <div class="about__content">
-                <h3 class="about__title">about me</h3>
-                <h2 class="about__bigtitle">WHO AM I</h2>
-                <div class="about__text">
-                    <p>Hi, I am Nina. I moved to the United States from Russia. Before moving here, I had a very successful career in Moscow. I am a very highly educated woman who has a Master’s degree in investment management and a bachelor’s degree in civil law. Right after graduation from University I found a job in a back office of a small investment bank. In this first job I learned how the securities market works and after 2 years I passed a very competitive interview and started to work for the largest well known Russian investment company. I worked there in security settlements. 
-                    I loved my job. I enjoyed the intense work environment, every day we faced a new challenge and the high salary and bonuses!  After that the company was sold to UniCredit group and I was promoted to the head of the Custody department. 
-                        Then  I met my future husband and agreed to move after my husband to US. 
-                         As things in Russia are getting really unstable politically over the last 10 years, we decided to stay here. We were fortunate and feel grateful to have had the privilege to became US citizens 6 months ago.
-                        While raising my children, I continued to grow and develop new skills. 
-                        My goal was always to return to work.
-                        Now that all my children are in school, I finally have the space to seriously focus on my career. I have no interest in going backwards and trying to recreate my career from Russia, Instead I would like to focus on growing new skills and develop in a new field for the next 20 years.  Programming excites me and I am confident I will be excellent. </p>
-                </div>
-                <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
-            </div><!-- /.about__content -->
+              <h2 id="about__bigtitle" data-text="WHO AM I...">WHO AM I</h2>
+              <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
+            </div>
+            <div class="about__text">
+              <p>Hi, I am Nina. I moved to the United States from Russia. Before moving here, I had a very successful career in Moscow. I am a very highly educated woman who has a Master’s degree in investment management and a bachelor’s degree in civil law. Right after graduation from University I found a job in a back office of a small investment bank. In this first job I learned how the securities market works and after 2 years I passed a very competitive interview and started to work for the largest well known Russian investment company. I worked there in security settlements. 
+              I loved my job. I enjoyed the intense work environment, every day we faced a new challenge and the high salary and bonuses!  After that the company was sold to UniCredit group and I was promoted to the head of the Custody department. 
+              Then  I met my future husband and agreed to move after my husband to US. 
+              As things in Russia are getting really unstable politically over the last 10 years, we decided to stay here. We were fortunate and feel grateful to have had the privilege to became US citizens 6 months ago.
+              While raising my children, I continued to grow and develop new skills. 
+              My goal was always to return to work.
+              Now that all my children are in school, I finally have the space to seriously focus on my career. I have no interest in going backwards and trying to recreate my career from Russia, Instead I would like to focus on growing new skills and develop in a new field for the next 20 years.  Programming excites me and I am confident I will be excellent. </p>
+            </div>
         </div><!-- /.about__inner -->
-
     </div><!-- /.container -->
 </section>
-  
+
+<div class="modal" id="modal_resume">
+  <div class="modal__dialog">
+
+      <button class="modal__close" type="button" data-close>
+          <img src="images/modal-close.png" width="20" height="20" alt="Close">
+      </button>
+
+      <div class="modal__content">
+          <h3 class="modal__title  text-center">RESUME</h3>
+
+          <!-- <div class="text-center">
+              <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
+              <a class="btn btn--thin" href="#">PRINT</a>
+          </div> -->
+
+          <div class="timeline">
+              <div class="timeline__col  timeline__col--left">
+                  <h4 class="timeline__title">EXPERIENCE</h4>
+
+                  <div class="timeline__item">
+                      <time class="timeline__date" datetime="11-21-2019">Sept 2022 - <b>Present</b></time>
+                      <h5 class="timeline__subtitle">Software Engineer</h5>
+                      <div class="timeline__position">Amazon, Seattle, USA</div>
+                      <div class="timeline__text">
+                          <p>Internership</p>
+                      </div>
+                  </div>
+
+                  <div class="timeline__item">
+                      <time class="timeline__date" datetime="11-21-2019">2007 - <b>2014</b></time>
+                      <h5 class="timeline__subtitle">Head of Custody</h5>
+                      <div class="timeline__position">UniCredit Securities, Moscow, Russia</div>
+                      <div class="timeline__text">
+                          <p>Managing Custody Department (in submission 7 persons); Safekeeping, reporting of customers' marketable securities, supervizing daily operations, control over corporate actions, reconcillliations and settlement process. 
+                              Optimizing operational expences; Working out new products and implementing them; Writing technical requirements to IT Department for Custody Software; assighning responsibilities among employees.
+                          </p>
+                      </div>
+                  </div>
+
+                  <div class="timeline__item">
+                      <time class="timeline__date" datetime="11-21-2019">2002 - <b>2007</b></time>
+                      <h5 class="timeline__subtitle">Settlement Officer</h5>
+                      <div class="timeline__position">ATON, Moscow, Russia</div>
+                      <div class="timeline__text">
+                          <p>Settlements processing through many depositories such as DCC /NDC /Gazprombank /ING /DTC /Euroclear etc.
+                              Settle all trades within a predetermined time frame 
+                              Check all COB and intraday reports 
+                              Investigate and resolve any booking or settlement discrepancies in a timely manner 
+                              Follow up on any outstanding confirmations and fixing notifications with counterparties 
+                              Check custody invoices 
+                              Check and sign manual instructions and fixing notifications 
+                              Opening customer accounts and preparing agreements with external custodies.
+                              Monitoring of external custodies’ demands and introduction of necessary changes into internal instructions 
+                              </p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="timeline__col  timeline__col--right">
+                  <h4 class="timeline__title">EDUCATION</h4>
+
+                  <div class="timeline__item">
+                      <time class="timeline__date" datetime="11-21-2019">Mar 2022 - Aug 2022</time>
+                      <h5 class="timeline__subtitle">Software Engineering Student</h5>
+                      <div class="timeline__position">Ada Developers Academy, Seattle, USA</div>
+                  </div>
+
+                  <div class="timeline__item">
+                      <time class="timeline__date" datetime="11-21-2019">2001 - 2005</time>
+                      <h5 class="timeline__subtitle">Bachelor's degree in Law</h5>
+                      <div class="timeline__position">Kutafin Moscow State Law University, Moscow, Russia</div>
+                  </div>
+
+                  <div class="timeline__item">
+                      <time class="timeline__date" datetime="11-21-2019">1995 - 2000</time>
+                      <h5 class="timeline__subtitle">Master's degree, Investments and Securities</h5>
+                      <div class="timeline__position">State University of Management, Moscow, Russia</div>
+                  </div>
+
+                  <h4 class="timeline__title">Skills</h4>
+                  <div class="progress-bar">
+                      <div class="progress-bar__item">
+                          <div class="progress-bar__left">
+                              <div class="progress-bar__title">Flask, SQL </div>
+                          </div>
+                          <div class="progress-bar__right">
+                              <div class="progress-bar__bar">
+                                  <div class="progress-bar__progress" style="width: 50%;"></div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="progress-bar__item">
+                          <div class="progress-bar__left">
+                              <div class="progress-bar__title">React</div>
+                          </div>
+                          <div class="progress-bar__right">
+                              <div class="progress-bar__bar">
+                                  <div class="progress-bar__progress" style="width: 50%;"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="progress-bar__item">
+                          <div class="progress-bar__left">
+                              <div class="progress-bar__title">HTML, CSS</div>
+                          </div>
+                          <div class="progress-bar__right">
+                              <div class="progress-bar__bar">
+                                  <div class="progress-bar__progress" style="width: 60%;"></div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="progress-bar__item">
+                          <div class="progress-bar__left">
+                              <div class="progress-bar__title">Python, JavaScript, C#</div>
+                          </div>
+                          <div class="progress-bar__right">
+                              <div class="progress-bar__bar">
+                                  <div class="progress-bar__progress" style="width: 80%;"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div><!-- /.progress-bar -->
+
+                  <!-- <h4 class="timeline__title">Awards</h4>
+
+                  <div class="timeline__item">
+                      <time class="timeline__date" datetime="11-21-2019">2010</time>
+                      <h5 class="timeline__subtitle">UI/UX Design</h5>
+                      <div class="timeline__position">LA University, USA</div>
+                      <div class="timeline__text">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
+                      </div>
+                  </div> -->
+              </div><!-- /.timeline__col -->
+
+          </div><!-- /.timeline -->
+
+          <div class="text-center">
+              <a class="nav__link  nav__link--btn" data-modal="#modal_hire_me">Hire me</a>
+          </div>
+
+      </div><!-- /.modal__content -->
+
+  </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
 </body>
 </html>

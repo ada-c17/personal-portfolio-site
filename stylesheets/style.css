@@ -6,8 +6,6 @@ html {
 
 body {
     margin: 0;
-    /* font-size: 1rem; */
-    /* color: black; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,7 +85,7 @@ a.social__link img{
     font-weight: 510;
 }
 
-.intro__title {
+#intro__title {
     margin-bottom: 5px;
     font-size: 3rem;
     font-family:'Poppins', sans-serif;
@@ -100,7 +98,7 @@ a.social__link img{
     color: fade(black, 70%);
 }
 
-.intro__photo {
+#intro__photo {
     position: absolute;
     bottom: -3px;
     right: 35px;
@@ -129,8 +127,9 @@ a.social__link img{
     margin-right: 50px;
 }
 
-.footer__copyright {
-    font-size: .94rem;    
+#footer__copyright {
+    font-size: .94rem;   
+    padding-left: 1em; 
 }
 .footer__social img{
     width: 18px;

@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav__link {
+    color: white;
+    border: 2px solid white;
+    }
+
+.about__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding-top: 7rem;
+    align-items: center;
+
+}    
+.about__content {
+    width: 60%;
+}
+
+#about__bigtitle {
+    font-size: 3rem;
+    font-family:'Poppins', sans-serif;
+}
+
+.btn {
+    margin-top: 5rem;
+    /* position: relative; */
+    font-size: 0.93rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.66rem 2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.about__text {
+    text-align: justify;
+    text-indent: 2em;
+
+}
