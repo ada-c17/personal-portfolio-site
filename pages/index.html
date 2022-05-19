@@ -4,9 +4,70 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/styles/style.css">
+  <title>Main Page of Personal Portfolio</title>
 </head>
+
 <body>
+
+  <header>
+    <nav id="navbar">
+      <a id ="homeButton" href="index.html">Home</a>
+      <div id=navbar-right>
+          <a href="about.html">Resume</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+      </div>
+  </nav>
+</header>
+
+
+<section id="welcome-section">
+  <div id="greet"><h1>Hello, I am Katherine.</h1>
+  <p>a promising software developer</p></div>
+</section>
+
+<section id="projects">
+  <div id="checkout">
+    <p> These are my practice projects.</p></div>
+  
+    <div id="project-container">
+  <div class="project-tile">
+  <a href="https://codepen.io/KimOtten/pen/poJXYrb" target="_blank">
+    <img src="/assets/project1.jpg" alt="projectA"/>
+    </a>
+    <p>Alan Turing Biography</p></div>
+  
+  <div class="project-tile">
+  <a href="https://codepen.io/KimOtten/pen/OJNorzW" target="_blank">
+  <img src="/assets/project2.jpg" alt="projectB"/>  
+    </a>
+      <p>Online dog treat shop </p>
+    </div>
+
+  <div class="project-tile" >
+    <video  controls>
+      <source src = "/assets/JavaFx_ContactForm_Demo.mp4" type="video/mp4">
+    </video>
+    <p>JavaFX project <br>video demo</p>
+  </div> 
+
+  <div class="project-tile">
+    <p>To see more projects that I've been working on...</p>
+    <div class="github-card" data-github="kkatottn" data-width="700" data-height="" data-theme="default"></div>
+  <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></div>
+  </div>
+
+</div>
+
+</section>
+
+<footer>
+<section id="contact">      
+  <a href ="https://www.linkedin.com/in/hjkat-ottenkim/" target = "_blank">
+    <button>LinkedIn</button></a>
+</section>
+</footer>
   
 </body>
 </html>
