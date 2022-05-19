@@ -9,23 +9,23 @@ figcaption {
 }
 
 #project-links {
-  align-content: stretch;
   align-items: center;
   display: grid;
-  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-  justify-content: space-evenly;
+  grid-template: repeat(5, auto) / repeat(2, 1fr);
   justify-items: center;
+  row-gap: .5rem;
 }
 
 #project-links>* {
   margin: 0 .5rem;
 }
 
-#project-links>*:nth-child(even) {
-  grid-column-start: 2;
+#project-links>*:first-child,
+#project-links>*:nth-child(6) {
+  grid-column-end: span 2;
 }
 
-#project-links img {
+img {
   border: #000 solid .5px;
   border-radius: 5px;
   height: auto;
