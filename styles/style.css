@@ -1,9 +1,37 @@
-* {
-    border: 2px grey solid;
-}
-
 .container {
     font-family: Avenir;
     display: grid;
     grid-template: 1fr 1fr 3fr 1fr / 1fr 2fr;
+    border: 2px grey solid;
+}
+
+header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    border: 2px grey solid;
+    color: teal;
+}
+
+nav {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    border: 2px grey solid;
+}
+
+footer {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    border: 2px grey solid;
+}
+
+#welcome-pic {
+    grid-column: 1;
+    border: 2px grey solid;
+    grid-row: 3;
+}
+
+#welcome-message {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    border: 2px grey solid;
 }
