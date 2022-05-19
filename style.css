@@ -1,0 +1,45 @@
+header {
+    font-family: Helvetica;
+    color: whitesmoke;
+    font-size: 36pt;
+    font-weight: bolder;
+    background-color: teal;
+    line-height: 100px;
+    align-items: center;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+header nav {
+    display: inline;
+    float: right;
+    font-size: 14pt;
+    font-weight: lighter;
+}
+
+p {
+    text-align: center;
+    font-size: 24pt;
+}
+
+a:visited{
+    color: orange
+}
+
+a:link{
+
+    color: whitesmoke
+}
+
+#about {
+    text-align: center;
+    max-width: 150px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+    background-color: brown;
+}
+
