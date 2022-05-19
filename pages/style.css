@@ -1,0 +1,23 @@
+header nav {
+
+}
+
+#nature-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+footer nav {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.projects {
+
+}
+
+#resume {
+    text-decoration: none;
+}
