@@ -1,0 +1,28 @@
+h2 {
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info p {
+    height: 25vh;
+    width: 25vw;
+    border: solid 2px #82AC20;
+    padding: 10px;
+}
+
+.info img {
+    height: 25vh;
+    width: 25vw;
+    border: solid 2px #82AC20;
+    /* need to match size to p */
+}

@@ -1,0 +1,43 @@
+.menu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    border-bottom: solid 3px #1766B5;
+    height: 5vh;
+}
+
+.menu li {
+    margin-right: 3vw; 
+} 
+
+.menu li a {
+    text-decoration: none;
+    color: #1766B5;
+    font-size: 1.3em;
+}
+
+.menu li a:hover {
+    color: #FA834C;
+}
+
+#name a {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.main-menu {
+   /* display: flex; */
+    align-items: flex-end;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+footer {
+    font-size: 0.7em;
+} 
+

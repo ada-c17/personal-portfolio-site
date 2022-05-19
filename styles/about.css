@@ -1,0 +1,58 @@
+h2 {
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10%;
+    border-radius: 2em;
+}
+
+.info p, .info ul {
+    height: 25vh;
+    width: 25vw;
+    /* border-radius: 3em; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: #FAFFFD;
+    opacity: 0.6;
+}
+
+/* .info p {
+    
+} */
+
+.info ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.pic-1, .pic-2, .pic-3 {
+    background-color: #FDC8AF;
+    background-size: cover;
+    background-position: 20% 40%;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+    order: 1;
+}
+
+.pic-1 {
+    background-image: url("../assets/sunset.JPG");
+}
+
+.pic-2 {
+    background-image: url("../assets/beach.JPG");
+}
+
+.pic-3 {
+    background-image: url("../assets/lighthouse.JPG");
+}
