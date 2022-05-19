@@ -1,15 +1,50 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-    display:grid;
+    /* height: vh; */
+    width: vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
 }
 
 #main-content {
     background-color: rgb(184, 113, 125);
+    grid-column: 2 / 4;;
+    grid-row: 1 / 4;
 }
 
 #header-bar {
     background-color: coral;
+    grid-column: 1 / 1;
+    grid-row: 1 / 4;
 }
 
 #footer {
     background-color: palevioletred;
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+}
+
+#footer p {
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 75%;
+    justify-content: space-around;
+    align-items: center;
+
 }
