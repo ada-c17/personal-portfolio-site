@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nobile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #24917C;
+    font-family: Zen Maru Gothic;
+    background-color: #9ec1b5;
+    border-style:groove;
+    border-color: #9ec1b5;
+    border-width: 4px;
+    padding: 7px;
+}
+
+
+header nav {
+    margin-left: 80%;
+}
+
+header nav a {
+    color: #f2df55;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px;
+    font-size: x-small;
+}
+
+
+/* nav ul {
+    list-style: none;
+} */
+
+a {
+    color: #584c99;
+}
+a:hover {
+    color: #cbb1d4;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown > span {
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display:none;
+    min-width: 80px;
+    box-shadow: 0px 4px 8px 0px whitesmoke;
+    padding: 10px 10px;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.flex-box {
+    border: 1px dotted ;
+    border-radius: 17px;
+} 
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 7px;
+}
+
+#self-socials {
+    padding-left: 70%;
+}
+#self-socials h3 {
+    color:#ff8d83;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+    padding-left: 4%;
+}
+
+#self-socials img {
+    max-width: 225px;
+    align-items:center;
+    border-width: 7px;
+    border-style:double;
+    border-color: #584c99;
+}
+
+
+/* main {
+    display: flex;
+}
+
+#intro-box {
+    display: flex;
+    margin: 2%;
+    padding: 10px;
+} */
+
