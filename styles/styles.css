@@ -1,14 +1,76 @@
-header {
-    background-color: #FFC6FF;
-    margin-left: 400;
-    padding: .5em 0;
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Macondo&family=Montserrat:wght@700&display=swap');
+
+html {
+    background-color: #BDB2FF;
 }
 
-header nav ul {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFC6FF;
+    height: 10vh;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+
+#nav-list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
-    margin: 0;
-    padding: .5rem 0;
+    align-items: center;
+    background-color: #A0C4FF;
+    border: 2px solid;
+}
+
+.nav-item {
+    padding-right: 2em;
+    padding-left: 2em;
+    font-family: 'Lora', serif;
+    font-family: 'Macondo', cursive;
+    /* font-family: 'Lora', serif; */
+    font-size: larger;
+    padding:20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:first-of-type {
+    background-color: #FFADAD;
+}
+
+.nav-item:nth-of-type(2) {
+    background-color: #FFD6A5;
+}
+
+.nav-item:nth-of-type(3) {
+    background-color: #FDFFB6;
+}
+
+.nav-item:nth-of-type(4) {
+    background-color: #CAFFBF;
+}
+
+.nav-item:hover {
+    /* font-size: larger; */
+    border-left: 1px solid;
+    border-right: 1px solid;
+    text-decoration: underline;
+}
+
+main {
+    font-family: 'Hind Madurai', sans-serif;
 }
