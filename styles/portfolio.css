@@ -20,6 +20,7 @@ body{
     height: 40px;
     padding-top: 10px;
     background-color: #130d42;
+
 } 
 
 #homeButton{
@@ -42,4 +43,46 @@ body{
 
 #navbar a:hover{
     color:#9a93e6;
+}
+
+#git-container:first-of-type {
+    margin-top: 100px;
+}
+
+#git-container:last-of-type{
+    margin-bottom: 100px;
+}
+
+#git-container {
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top : 50px;
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+    grid-column-gap: 80px;
+}
+
+.git-tile img {
+    width: 100%;   
+    margin: auto;
+    padding: 30px;
+}
+
+.description{
+    padding-top: 10px;
+
+}
+
+.description h1 {
+    padding-bottom: 15px;
+}
+
+.description h3 {
+    line-height: 5px;
+}
+
+.description p {
+    padding-top: 10px;
+    font-size: 18px;
 }
