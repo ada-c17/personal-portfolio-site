@@ -1,9 +1,15 @@
 h2 {
     margin: auto;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 5vh;
     text-align: center;
 }
+
+h2 + img {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
 
 .info {
     display: flex;
@@ -14,15 +20,33 @@ h2 {
 }
 
 .info p {
-    height: 25vh;
-    width: 25vw;
-    border: solid 2px #82AC20;
+    height: 30%;
+    width: 40%;
+    background-color: #BACACA;
+    color: #2D3A3A;
+    /* border: solid 2px #82AC20; */
     padding: 10px;
+    text-align: center;
+    border-radius: 1em;
 }
 
 .info img {
-    height: 25vh;
-    width: 25vw;
-    border: solid 2px #82AC20;
+    height: 30%;
+    width: 40%;
+    border-radius: 1em;
+    /* border: solid 2px #82AC20; */
     /* need to match size to p */
 }
+
+.one img {
+    height: 30%;
+    width: 30%;
+    background-color: #F4F6F6;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* main {
+    background-image: linear-gradient(#FAFFFD, rgb(156, 207, 38, .5))
+} */
+
+
