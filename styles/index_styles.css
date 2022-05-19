@@ -1,0 +1,31 @@
+body {
+    background-color: #B7B6C1;
+    border: groove;
+    border-color: #4E0250;
+}
+
+h1 {
+    text-align: center;
+    color: #2A2B27;
+    background-color: #B7B6C1;
+}
+
+h2 {
+    text-align: center;
+    color: #2A2B27;
+    background-color: #B7B6C1
+}
+
+nav {
+    word-spacing: 270px;
+    text-align: center;
+    border-style: solid;
+    border-color: #645986;
+}
+
+a {
+    color: #343630;
+    font-weight: 800;
+    font-size: larger;
+    word-spacing: 10xp;
+}

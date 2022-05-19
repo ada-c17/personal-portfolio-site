@@ -1,0 +1,37 @@
+body {
+    background-color: #B7B6C1
+}
+
+header {
+    background-image: url(/images/twins_1.img);
+}
+
+h1 {
+    text-align: center;
+    color: #B7B6C1;
+}
+
+h2 {
+    text-align: center;
+    color: #B7B6C1;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    display: grid;
+    /*   grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    grid-template: 1fr 2fr 1fr/ 1fr 1fr 1fr;
+}
+
+#purple_1_header {
+    background-color: #4E0250;
+    grid-column: 1/4;
+}
+
+#purple_2_left {
+    background-color: #B2ABF2;
+    grid-column: 1/1;
+    grid-row: 2/4;
+}
