@@ -1,0 +1,79 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+
+
+/* nav {
+    position: relative;
+    display:flex;
+    align-content:flex-end;
+    color: white;
+    text-decoration: none;
+
+    padding:0%;
+} */
+nav {
+    display:flex;
+    /* align-items:flex-end; */
+    /* flex-direction:row-reverse; */
+    margin:0%;
+    padding:0%;
+}
+
+nav a {
+    /* position:absolute; */
+    color:white;
+    text-decoration:none;
+    /* font-size: 2vw; */
+    font-size:calc(12px + 1vw);
+    align-self: flex-end;
+
+}
+
+nav a:hover {
+    border-bottom: white solid 2px;
+}
+
+#header-logo {
+    justify-content:left;
+    max-width:200px;
+    margin:0%;
+    padding:0%;
+    text-align:start;
+}
+
+header {
+    background-color: rgb(245, 109, 145);
+    background-image: url("../assets/gerbera_flower_fibbonacci_spiral.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    /* background: width 100vw; */
+    /* -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    /* text-align:center; */
+    padding:1em;
+    height:100vh;
+}
+
+.screen-1 {
+    /* display: flex; */
+    font-size:calc(20px + 1.5vw);
+    padding-top:4vw;
+    text-align:center;
+    /* transform: translate(-50px, -50px); */
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin:0%;
+    
+
+}
+
+/* * {
+    border: red 1px solid;
+} */
