@@ -121,7 +121,7 @@ float: right;
     padding-top: 10px;
 }
 
-.project-tile p{
+.project-tile h1{
     text-align: center;
     /*padding-bottom: 10px;*/
     font-weight: bold;
@@ -137,6 +137,11 @@ float: right;
     padding-top: 72px;
     padding-bottom: 20px;
 
+}
+
+#extra-projects h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 #profile{

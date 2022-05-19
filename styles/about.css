@@ -78,30 +78,28 @@ body{
     padding-bottom: 5px;
 }
 
-#content-box{
+.content-box{
     display: flex;
 }
 
-#content-menu{
+.content-menu{
     width: 20%;
     text-align: center;
-    font-size: 18px;
-    font-weight: bold;
+
 }
 
-#content{
+.content{
     width: 80%;
-    padding-left: 20px;
-    padding-right: 20px;;
+    /*padding-left: 20px;
+    padding-right: 20px;;*/
     
 }
 
-#exp{
+.exp{
     padding-bottom: 10px;
 
 }
 
-#exp_title{
+.h1{
     font-weight: bold;
-    font-size: 18px;
 }
