@@ -1,14 +1,13 @@
 .container {
     display: grid;
-    grid-template-columns: 15vw 3vw 18vw 18w 18vw 18vw;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 5vh, 2fr;
     column-gap: 2vw;
-    grid-template-rows: 33vh, 33vh, 1fr;
     font-family: 'Poppins', sans-serif;
 }
 
 .container header, footer {
     background: linear-gradient(90deg, #191970 20%, #2286A9 50%, #FDF6EC 100%);
-    height: 15vh;
     color: snow;
     grid-column: 1 / span 7;
     font-size: x-large;
@@ -34,7 +33,7 @@ nav ul:first-child {
     padding-top: 10vh;
 }
 
-li {
+nav ul li {
     padding-bottom: 10vh;
 }
 
@@ -45,16 +44,17 @@ li {
 }
 
 .active {
-    padding: 3vh 1vh 3vh 3vw;
-    text-align: right;
+    padding: 3vh 2vw 3vh 2vw;
+    text-align: left;
     background-color: #2286A9;
+    color: midnightblue;
     border: 1mm ridge snow;
 }
 
 .container main {
     background-color: snow;
     color: midnightblue;
-    grid-area: 2 / 2 / span 4 / 7;
+    grid-area: 2 / 2 / span 4 / span 6;
 }
 
 p::first-letter {
