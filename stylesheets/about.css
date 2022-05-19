@@ -1,7 +1,17 @@
+img {
+  border: #000 solid 2px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #302f2f;
+  float: right;
+  margin: 1rem 0 0 2rem;
+  height: auto;
+  max-width: 100%
+}
+
 aside {
   display: flex;
   flex-wrap: wrap;
-  margin: 1rem 0;
+  margin: 2rem 0 1rem;
 }
 
 aside a {
@@ -34,4 +44,12 @@ aside a:hover {
 #github-link:hover {
   background-color: #8BC7BE;
   color: #fff;
+}
+
+@media screen and (max-width: 630px) {
+  img {
+    display: block;
+    float: none;
+    margin: 0 0 1rem 0;
+  }
 }

@@ -82,10 +82,11 @@ nav a:hover {
 
 /********** Global main content **********/
 
-#content {
+main {
   background-color: #FFDE66;
   border-top: #000 dotted 9px;
   border-bottom: #000 dotted 9px;
+  min-height: calc(100vh - 68.75px - 53px);
   padding: 0 2rem;
 }
 
@@ -151,7 +152,7 @@ footer p {
     width: 100%;
   }
 
-  #content {
+  main {
     padding: 0 .5rem .5rem;
   }
 }
@@ -199,12 +200,12 @@ footer p {
     display: block;
   }
 
-  footer p {
-    font-size: .75rem;
+  main {
+    overflow: hidden;
   }
 
-  #content {
-    overflow: hidden;
+  footer p {
+    font-size: .75rem;
   }
 }
 

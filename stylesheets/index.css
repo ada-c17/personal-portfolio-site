@@ -1,12 +1,11 @@
 img {
-  align-self: flex-start;
   border: #000 solid 2px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px #302f2f;
   float: left;
-  margin-right: 2rem;
+  margin: 1rem 2rem 0 0;
   height: auto;
-  max-width: 100%;
+  max-width: 100%
 }
 
 #greetings {
@@ -35,6 +34,11 @@ img {
 /********** 950 and under **********/
 
 @media screen and (max-width: 950px) {
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 
   h1,
   p {

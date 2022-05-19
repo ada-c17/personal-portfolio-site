@@ -4,19 +4,47 @@ figure {
 }
 
 figcaption {
-  display: table-caption;
   caption-side: top;
+  display: table-caption;
   text-align: center;
 }
 
-#content {
-  padding-right: .25rem;
+#project-links {
+  align-content: stretch;
+  align-items: center;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+#project-links>* {
+  margin: 0 .5rem;
+}
+
+#project-links>*:nth-child(even) {
+  grid-column-start: 2;
 }
 
 #project-links img {
   border: #000 solid .5px;
   border-radius: 5px;
   height: auto;
-  margin-right: .5rem;
   max-width: 100%;
+}
+
+/*********** 950 and below ***********/
+@media screen and (max-width: 950px) {
+
+  #project-links {
+    display: block;
+    text-align: center;
+  }
+}
+
+/********** 560 and below **********/
+@media screen and (max-width: 950px) {
+  #project-links {
+    padding-right: 1rem;
+  }
 }
