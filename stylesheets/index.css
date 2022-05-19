@@ -1,70 +1,48 @@
+main {
+  display: grid;
+  grid-template: 1fr 2fr 1fr 1fr / 1fr 2fr;
+}
+
 img {
   border: #000 solid 2px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px #302f2f;
-  float: left;
+  grid-row-end: span 4;
   margin: 1rem 2rem 0 0;
   height: auto;
   max-width: 100%
 }
 
-#greetings {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+h1,
+h2,
+p {
+  grid-column-start: 2;
+  margin-left: 1.5rem;
+}
+
+p {
+  grid-row-start: 2;
 }
 
 .thai {
-  font-size: 2rem;
-  margin-right: 1rem;
+  grid-row-start: 3;
 }
 
 .chinese {
-  margin-left: 1rem;
+  grid-row-start: 4;
+  text-align: right;
 }
 
-/********** 1040 and under **********/
+/********** 850 and under *********/
 
-@media screen and (max-width: 1040px) {
-  #greetings {
-    clear: left;
-  }
-}
-
-/********** 950 and under **********/
-
-@media screen and (max-width: 950px) {
-
+@media screen and (max-width: 850px) {
   main {
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 
   h1,
+  h2,
   p {
-    clear: left;
+    margin-left: .25rem;
   }
-
-  img {
-    margin: 1rem auto;
-  }
-}
-
-/********** 560 and under, responsive nav **********/
-
-@media screen and (max-width: 560px) {
-
-  #greetings {
-      display: block;
-    }
-  
-    .thai {
-      float: left;
-      margin: .5rem;
-    }
-  
-    .chinese {
-      float: right;
-      margin: .5rem
-    }
 }

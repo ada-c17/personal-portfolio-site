@@ -1,16 +1,20 @@
+main {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 img {
   border: #000 solid 2px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px #302f2f;
-  float: right;
-  margin: 1rem 0 0 2rem;
   height: auto;
-  max-width: 100%
+  margin-left: 1rem;
+  max-width: 100%;
 }
 
 aside {
   display: flex;
-  flex-wrap: wrap;
   margin: 2rem 0 1rem;
 }
 
@@ -46,10 +50,22 @@ aside a:hover {
   color: #fff;
 }
 
-@media screen and (max-width: 630px) {
+/********** 1000px and below **********/
+
+@media screen and (max-width: 1000px) {
+  main {
+    flex-wrap: wrap-reverse;
+  }
+
   img {
-    display: block;
-    float: none;
-    margin: 0 0 1rem 0;
+    margin: 1rem .25rem;
+  }
+}
+
+/********** 500px and below **********/
+
+@media screen and (max-width: 500px) {
+  main {
+    justify-content: center;
   }
 }
