@@ -1,0 +1,15 @@
+.container {
+    display:grid;
+}
+
+#main-content {
+    background-color: rgb(184, 113, 125);
+}
+
+#header-bar {
+    background-color: coral;
+}
+
+#footer {
+    background-color: palevioletred;
+}
