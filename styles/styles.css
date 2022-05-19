@@ -1,5 +1,6 @@
-.container {
+body {
     display:grid;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #main-content {
@@ -13,3 +14,4 @@
 #footer {
     background-color: palevioletred;
 }
+
