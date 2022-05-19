@@ -17,13 +17,17 @@ total rows:
     width: 100%;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
-    
+    row-gap: 10px;
+}
+main {
+    background-color: #7491AD;
+    margin-top: 10px;
 }
 
-/* main {
-    display: flex;
-    flex-wrap: wrap;
+section {
+    background-color: #8B6267;
+}
 
-
-
-} */
+footer {
+    margin-top: 10px;
+}

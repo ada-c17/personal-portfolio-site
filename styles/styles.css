@@ -102,6 +102,10 @@ li > a:hover {
     color: #2E231A;
 }
 
+li > a:visited {
+    color: #723F43;
+}
+
 main {
     grid-column: 2 / 4; 
     grid-row: 3 / 4;
@@ -115,7 +119,6 @@ footer{
     grid-row: 4 / 5;
     background-color: #723F43;
     order: 1;
-    margin-top: 1em;
     border-radius: 5px;
     text-align: center;
 }
