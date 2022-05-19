@@ -1,20 +1,19 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 50% 50%;
-    column-gap: 1vw;
-    row-gap: 1vh;
+    grid-template-columns: 15vw 3vw 18vw 18w 18vw 18vw;
+    column-gap: 2vw;
+    grid-template-rows: 33vh, 33vh, 1fr;
+    font-family: 'Poppins', sans-serif;
 }
 
-.container header {
-    background: linear-gradient(90deg, #FDF6EC 0%, #2286A9 35%, #191970 100%);
-    height: 16vh;
+.container header, footer {
+    background: linear-gradient(90deg, #191970 20%, #2286A9 50%, #FDF6EC 100%);
+    height: 15vh;
     color: snow;
-    grid-column: 1 / flex-end;
-    font-family: 'Poppins', sans-serif;
+    grid-column: 1 / span 7;
+    font-size: x-large;
     text-align: center;
-    padding-top: 4vh;
-
+    padding-top: 3vh;
 }
 
 body {
@@ -22,36 +21,43 @@ body {
 }
 
 .container nav {
-    background: linear-gradient(180deg, #FDF6EC 0%, #2286A9 35%, #191970 100%);
-    grid-row-start: 2;
+    background: linear-gradient(180deg, #191970 0%, #2286A9 35%, #191970 100%);
+    grid-row: 2 / 6;
+    grid-column: 1 / 2;
 }
 
 nav ul {
     list-style-type: none;
 }
 
-.navlink {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-size: x-large;
-    font-family:Verdana, sans-serif;
+nav ul:first-child {
+    padding-top: 10vh;
 }
 
-a {
-    color: midnightblue;
+li {
+    padding-bottom: 10vh;
+}
+
+.navlink {
+    color: snow;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.active {
+    padding: 3vh 1vh 3vh 3vw;
+    text-align: right;
+    background-color: #2286A9;
+    border: 1mm ridge snow;
 }
 
 .container main {
-    background-color: #FDF6EC;
+    background-color: snow;
     color: midnightblue;
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 2 / 2 / span 4 / 7;
 }
 
-footer {
-    background: linear-gradient(90deg, #191970 0%, #2286A9 35%, #FDF6EC 100%);
-    height: 15vh;
-    color: #FDF6EC;
-    font-size: x-large;
-    grid-column: 1 / span 3;
-    text-align: center;
+p::first-letter {
+    text-transform: capitalize;
+    font-size: xx-large;
 }
