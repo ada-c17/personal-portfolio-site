@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "oddly-calming";
+    src: url('../assets/oddly-calming-font/OddlyCalmingRegular-7B89V.ttf');
+}
+
+:root {
+    --shadow-color: hsl(120, 100%, 42%);
+    --shadow-color-light: hsl(129, 100%, 92%);
+    font-size: calc(18px + .3vw);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    font-family: 'oddly-calming';
+    padding: 3vh;
+}
+
+header > div {
+    font-size: 2.25rem;
+    color: rgb(30, 16, 22);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a:any-link {
+    text-decoration: none;
+    color:hsl(129, 90%, 33%);
+    font-size: 1.5rem;
+    padding: 2vw;
+}
+
+nav a:hover {
+    animation: glow 3s infinite;
+}
+
+nav a.current {
+    text-decoration: underline;
+    /* text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color); */
+}
+
+nav a.current:hover {
+    /* animation: downcast-glow 3s infinite; */
+    animation: none;
+    /* text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+        0 1 3px var(--shadow-color-light), 0 5 10px var(--shadow-color), 0 10 20px var(--shadow-color),
+        0 15 30px var(--shadow-color), 0 20 40px var(--shadow-color), 0 25 50px var(--shadow-color), 0 35 70px var(--shadow-color);
+     */
+    text-shadow: 0 20px 20px hsl(120, 100%, 50%)
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+        0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color), 0 0 20px var(--shadow-color),
+        0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color-light), 0 0 70px var(--shadow-color-light);
+    }
+    50% {
+        text-shadow: -1px -1px 1px var(--shadow-color), -1px 1px 1px var(--shadow-color), 1px -1px 1px var(--shadow-color), 1px 1px 1px var(--shadow-color),
+        0 0 3px var(--shadow-color), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+        0 0 30px var(--shadow-color-light), 0 0 40px var(--shadow-color-light), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color);
+    }
+    100% {
+        text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+        0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color), 0 0 20px var(--shadow-color),
+        0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color-light), 0 0 70px var(--shadow-color-light);
+    }
+}
+
+/* @keyframes downcast-glow {
+    0% {
+        text-shadow: -1px -1px 1px var(--shadow-color), -1px 1px 1px var(--shadow-color), 1px -1px 1px var(--shadow-color), 1px 1px 1px var(--shadow-color),
+        0 0 3px var(--shadow-color), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+        0 0 30px var(--shadow-color-light), 0 0 40px var(--shadow-color-light), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color);
+    }
+    50% {
+        text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+        0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color), 0 0 20px var(--shadow-color),
+        0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color-light), 0 0 70px var(--shadow-color-light);
+    }
+    100% {
+        text-shadow: -1px -1px 1px var(--shadow-color), -1px 1px 1px var(--shadow-color), 1px -1px 1px var(--shadow-color), 1px 1px 1px var(--shadow-color),
+        0 0 3px var(--shadow-color), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+        0 0 30px var(--shadow-color-light), 0 0 40px var(--shadow-color-light), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color);
+    }
+} */
