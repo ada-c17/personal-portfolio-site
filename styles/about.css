@@ -8,6 +8,10 @@
 img {
     max-width: 50%;
     height: auto;
+    border-color: #B8C4D1;
+    border-style: double;
+    border-radius: 25px;
+    border-width: medium;
 }
 
 #teapot-pic {
@@ -15,9 +19,14 @@ img {
     align-items: center;
     justify-content: center;
     background-color: #8B6267;
+    
+
 }
 
 #about-me {
     background-color: #8B6267;
     color: #B8C4D1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }

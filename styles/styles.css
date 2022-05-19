@@ -39,7 +39,7 @@ have nav bar that scrolls with page ** DO LAST**? Check old codepen stuff, proba
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template: 1fr .15fr 1fr .10fr/ .5fr 1fr 1fr .5fr;
+    grid-template: 1fr 56px 1fr .10fr/ .5fr 1fr 1fr .5fr;
     
 }
 
@@ -80,15 +80,34 @@ nav {
     background-color: #2E231A;
     grid-row: 2 / 3;
     grid-column: 1 / 5;
-    color: #B8C4D1;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
+ul > li {
+    display: inline-block;
+    align-content: center;
+    font-size: larger;
+}
+
+li > a {
+    color: #B8C4D1;
+    text-decoration: none;
+    padding: 10px 30px
+}
+
+li > a:hover {
+    background-color: #B8C4D1;
+    color: #2E231A;
+}
 
 main {
     grid-column: 2 / 4; 
     grid-row: 3 / 4;
     background-color: #8B6267;
     color: #B8C4D1;
+    border-radius: 5px;
 }
 
 footer{
@@ -96,4 +115,7 @@ footer{
     grid-row: 4 / 5;
     background-color: #723F43;
     order: 1;
+    margin-top: 1em;
+    border-radius: 5px;
+    text-align: center;
 }
