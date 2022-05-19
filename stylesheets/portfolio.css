@@ -4,7 +4,6 @@ figure {
 }
 
 figcaption {
-  caption-side: top;
   display: table-caption;
   text-align: center;
 }

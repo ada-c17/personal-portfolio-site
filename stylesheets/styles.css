@@ -19,7 +19,7 @@ body {
   border: #333 solid 3px;
   border-top: none;
   box-shadow: 10px 10px 5px #1D4741,
-    -10px 10px 5px #1D4741;
+              -10px 10px 5px #1D4741;
   margin: 0 auto;
   width: 90%;
 }
@@ -94,17 +94,6 @@ h1 {
   font-family: 'Emilys Candy', cursive;
 }
 
-h2 {
-  margin-top: 2rem;
-}
-
-h3 {
-  border-bottom: #000 solid 1px;
-  border-top: #000 solid 1px;
-  margin-bottom: 0.25rem;
-  padding: .5rem 0;
-}
-
 /********** Footer **********/
 
 footer {
@@ -120,19 +109,18 @@ footer p {
   padding: .75rem 1rem;
 }
 
-/********** fluid text **********/
+/********** Fluid text **********/
+/* 
+Formula: 
+min font size + (max font size - min font size) * (100vw - min window width) / 
+ (max window width - min window width) 
+-units of measure on first instances only
+-set min font size (desktop-first) or max font size (mobile first) separately
+*/
 
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: calc(30px + (40 - 30) * (100vw - 320px) / (1200 - 320));
-  }
-
-  h2 {
-    font-size: calc(24px + (30 - 24) * (100vw - 320px) / (1200 - 320));
-  }
-
-  h3 {
-    font-size: calc(20px + (24 - 20) * (100vw - 320px) / (1200 - 320));
   }
 
   .thai {
@@ -157,7 +145,7 @@ footer p {
   }
 }
 
-/********** 560 and under, responsive nav **********/
+/********** 560 and under, Responsive Nav **********/
 
 @media screen and (max-width: 560px) {
   nav {
@@ -215,14 +203,6 @@ footer p {
 @media screen and (max-width: 320px) {
   h1 {
     font-size: 30px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 20px;
   }
 
   .thai {
