@@ -26,10 +26,26 @@ footer {
     text-underline-offset: .1em;
 }
 
+.about-me {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
 .bio {
-    border: 2px grey solid;
+    /* border: 2px grey solid; */
+    max-width: 65%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .photo {
-    border: 2px grey solid;
+    /* border: 2px grey solid; */
+    max-width: 35%;
+    border-radius: 50%;
+    /* vertical-align: middle; */
 }
