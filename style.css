@@ -1,0 +1,115 @@
+body{background-color: pink;
+    display: grid inline grid;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header{
+    display: inline;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    font-size: 16pt;
+    text-align: right;
+}
+a {
+    color: white;
+}
+.links {list-style: none;}
+.links :hover {color:blue;}
+.links:visited {color: gray}
+
+
+h1{
+    color:white;
+    text-align: Center;
+    font-family: italic;
+}
+
+
+.me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    color:black;
+    text-align: center;
+    font-size: 20pt;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.projects{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightpink;
+}
+
+.row{
+    display: flex;
+    list-style: none;
+    
+}
+
+.column{
+    flex: 50%;
+    padding: .5em;
+    justify-content: center;
+}
+
+img.project-pic{
+    border-radius: 30pt;
+    float: left;
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+div {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{text-align: center;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
