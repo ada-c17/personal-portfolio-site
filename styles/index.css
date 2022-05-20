@@ -1,8 +1,17 @@
-h2 {
+/* h2 {
     margin: auto;
     padding-top: 2vh;
     padding-bottom: 5vh;
     text-align: center;
+} */
+h2 {
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 200;
+    color: #1766B5; 
 }
 
 h2 + img {
@@ -45,8 +54,6 @@ h2 + img {
     padding-right: 10px;
     padding-left: 10px;
 }
-/* main {
-    background-image: linear-gradient(#FAFFFD, rgb(156, 207, 38, .5))
-} */
+
 
 
