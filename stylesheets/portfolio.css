@@ -1,0 +1,49 @@
+figure {
+  display: inline-table;
+  margin: 0;
+}
+
+figcaption {
+  display: table-caption;
+  text-align: center;
+}
+
+#project-links {
+  align-items: center;
+  display: grid;
+  grid-template: repeat(5, auto) / repeat(2, 1fr);
+  justify-items: center;
+  row-gap: .5rem;
+}
+
+#project-links>* {
+  margin: 0 .5rem;
+}
+
+#project-links>*:first-child,
+#project-links>*:nth-child(6) {
+  grid-column-end: span 2;
+}
+
+img {
+  border: #000 solid .5px;
+  border-radius: 5px;
+  height: auto;
+  max-width: 100%;
+}
+
+/*********** 950 and below ***********/
+@media screen and (max-width: 950px) {
+
+  #project-links {
+    display: block;
+    text-align: center;
+  }
+}
+
+/********** 560 and below **********/
+@media screen and (max-width: 950px) {
+  #project-links {
+    padding-right: 1rem;
+  }
+}

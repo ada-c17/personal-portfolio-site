@@ -1,0 +1,49 @@
+main {
+  display: grid;
+  grid-template: 1fr 2fr 1fr 1fr / 1fr 2fr;
+}
+
+img {
+  border: #000 solid 2px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #302f2f;
+  grid-row-end: span 4;
+  margin: 1rem 2rem 0 0;
+  height: auto;
+  max-width: 100%
+}
+
+h1,
+h2,
+p {
+  grid-column-start: 2;
+  margin-left: 1.5rem;
+}
+
+p {
+  grid-row-start: 2;
+}
+
+.thai {
+  font-size: 2rem;
+  grid-row-start: 3;
+}
+
+.chinese {
+  grid-row-start: 4;
+  text-align: right;
+}
+
+/********** 850 and under *********/
+
+@media screen and (max-width: 850px) {
+  main {
+    display: block;
+  }
+
+  h1,
+  h2,
+  p {
+    margin-left: .25rem;
+  }
+}
