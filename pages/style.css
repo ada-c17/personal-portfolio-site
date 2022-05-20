@@ -10,13 +10,14 @@ header{
 
 title {
     color: #9D8189;
+    font-size: x-large;
 }
 
 aside {
     background-color: #F4ACB7;
-    grid-row-start:2;
-    grid-column-start:1;
-    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 5;
     grid-column-end: 2;
 }
 
@@ -25,8 +26,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: grid;
     grid-template-columns: 20% auto;
-    grid-template-rows: 50px 1fr;
-    margin:auto;
+    grid-template-rows: 15% auto auto auto;
+    margin: auto;
     width: 100vw;
     height: 100vh;
 }
@@ -34,10 +35,15 @@ body {
 ul {
     color:#9D8189;
     list-style: none;
+    text-align: center;
 }
 
 p {
     color: #808080;
+}
+
+h2 {
+    color: #9D8189;
 }
 
 h3 {
@@ -46,8 +52,14 @@ h3 {
 
 footer {
     background-color: #7fffd4;
-    grid-row-start:3 ;
-    grid-column-start:1;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-row-end: 5;
     grid-column-end: 3;
+}
+
+.profile_img {
+    width: 25%;
+    height: auto;
+
 }
