@@ -4,13 +4,12 @@
   /* justify-content: space-around; */
 }
 
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   padding-right: 50;
-  width: 60px;
+  width: 400px;
   text-align: center;
   border: 5px solid pink;
 } 
