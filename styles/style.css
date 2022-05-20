@@ -5,13 +5,14 @@
 
 body{
 	font-family: 'Assistant', sans-serif;
-	background-color: #F08E80;
+	background-color: #CF8BA3;
 	margin-top: 50px;
 }
 
 nav{
-	height: 2.8em;
+	height: 4em;
 	width: 100%;
+	padding-bottom: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -23,15 +24,16 @@ a{
 }
 
 a:hover{
-	color: pink;
+	color: #CF8BA3;
 }
 
 nav a{
-	background-color: aliceblue;
+	background-color: white;
+	border: black solid;
 	font-size: 1.2em;
-	padding: 10px;
+	padding: 15px;
 	border-radius: 10%;
-	margin: 1em;
+	margin: 2em;
 	align-self:center;
 	text-align: center;
 	line-height: 8px;
@@ -52,11 +54,6 @@ nav a:nth-child(4){
 	padding-left: 22px;
 }
 
-
-nav a:first-child{
-	border-left: none;
-}
-
 header{
 	height: 450px;
 	display: grid;
@@ -67,9 +64,11 @@ header{
 }
 
 header img{
-	border-radius: 100%;
+	border-radius: 20%;
+	border:black solid;
 	grid-row-start: 1/2;
 	margin:auto;
+	margin-bottom: 20px;
 }
 
 header h1{
