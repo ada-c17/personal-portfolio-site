@@ -31,16 +31,30 @@ main {
 
 section {
     padding: 10px 30px;
+    
 }
 
-ul {
+section > ul {
     font-size: small;
-    color: #8B6267;
+    color: #723F43;
     list-style-type: disc;
+}
+
+section > ul > li {
+    display: list-item;
 }
 
 section > a {
     color: #B8C4D1;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+section > p > a {
+    color: #723F43;
+    font-style: italic;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -51,7 +65,7 @@ footer {
 
 .description {
     background-color: #B8C4D1;
-    color: #8B6267;
+    color: #723F43;
 }
 
 .git-link {
