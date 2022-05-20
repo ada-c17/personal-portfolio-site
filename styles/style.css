@@ -1,3 +1,12 @@
+a {
+    border-style: dotted;
+    border-color: red;
+}
+
+nav {
+
+}
+
 h1 {
     font-size: 60px;
     text-align: center;
@@ -14,13 +23,16 @@ section {
 
 .columns {
     display: grid;
-    grid-template-columns: 0.15fr 1fr 0.15fr;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
 }
 
 .copyright-info {
     text-align: right;
 }
 
+.home-button {
+    text-align: left;
+}
 /* .columns {
     /* grid-template-rows: minmax(100px, auto);
     grid-template-columns: minmax(auto, 50%) 1fr 3em; */
