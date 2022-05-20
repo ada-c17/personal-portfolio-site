@@ -5,10 +5,11 @@ h2 {
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2, 1vw;
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-template: 2 / 4; */
     gap: 20px;
     /* border: 2px solid black; */
-    grid-auto-flow: row;
+    /* grid-auto-flow: row; */
     /* text-align: center; */
     /* position: relative; */
 }

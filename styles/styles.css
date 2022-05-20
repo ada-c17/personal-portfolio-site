@@ -80,6 +80,6 @@ main {
     font-family: 'Hind Madurai', sans-serif;
 }
 /* Trying to mark an ancestor with overflow to get sticky to work */
-#section1 {
+/* #section1 {
     overflow: auto;
-}
+} */
