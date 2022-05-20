@@ -1,13 +1,13 @@
 .container {
     font-family: Avenir;
     display: grid;
-    grid-template: 1fr .5fr 4fr .25fr / 1fr;
+    grid-template: 1fr .5fr 4fr .25fr / 1fr 1fr;
     border: 2px grey solid;
     font-size: 20px;
 }
 
 header {
-    grid-column: 1;
+    grid-column: 1 / 3;
     grid-row: 1;
     border: 2px grey solid;
     color: teal;
@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-    grid-column: 1;
+    grid-column: 1 / 3;
     grid-row: 2;
     border: 2px grey solid;
     /* text-align: center; */
@@ -29,7 +29,7 @@ nav {
 }
 
 footer {
-    grid-column: 1;
+    grid-column: 1 / 3;
     grid-row: 4;
     font-size: .75em;
     border: 2px grey solid;
@@ -66,4 +66,12 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.bio {
+    border: 2px grey solid;
+}
+
+.photo {
+    border: 2px grey solid;
 }
