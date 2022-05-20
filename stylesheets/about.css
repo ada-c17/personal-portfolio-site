@@ -1,5 +1,22 @@
 .content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.details {
+    text-align: center;
+    height: 12vw;
+    width: 100%;
+}
+
+.picture {
+    max-width: 22%;
+    margin-bottom: 5vh;
+}
+
+.gradient-box {
+  border: 5px solid;
+  background: linear-gradient(to right, #E2E1E6, #807A7A, #2286A9, #191970);
+  padding: 8px;
 }
