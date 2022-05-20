@@ -58,6 +58,10 @@ section > p > a {
     text-decoration: none;
 }
 
+h4 {
+    font-style: italic;
+}
+
 footer {
     margin-top: 10px;
     background-color: #8B6267;
@@ -75,10 +79,16 @@ footer {
 
 .left-column {
     border-radius: 5px 0 0 5px;
+    border-top-style: double;
+    border-left-style: double;
+    border-bottom-style: double;
 }
 
 .right-column {
     border-radius: 0 5px 5px 0;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
 }
 
 
