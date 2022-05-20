@@ -4,9 +4,10 @@ body {
     padding: 0px;
 }
 
+
 h1 {
     color: #EC576B;
-    font-size: 9em;
+    font-size: 7em;
     text-align: center;
 }
 
@@ -31,18 +32,31 @@ header {
     margin: 0px;
 }
 
-footer{
-    padding: 20px 50px 20px 50px;
-    /* color: white;
-    background-color: #EC576B; */
+a {
+    color:black;
 }
+
+footer {
+    padding: 20px 50px 20px 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.topnavigation li {
+    display:inline;
+    padding-left: 30px;
+}
+
+.topnavigation a {
+    color: white;
+    text-decoration:none;
+} 
 
 .mainbody {
     text-align:center;
-}
-
-.mainbody a {
-    color:black;
 }
 
 .sitetitle {
@@ -60,17 +74,31 @@ footer{
 
 }
 
-
-ul {
-    list-style-type: none;
+.innergrid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    padding-left: 15%;
+    padding-right:15%;
 }
 
-.topnavigation li {
-    display:inline;
-    padding-left: 30px;
+#profilepic {
+    max-width: 90%;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-row-start:1;
+    grid-row-end:3;
 }
 
-.topnavigation a {
-    color: white;
-    text-decoration:none;
-} 
+#p1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#p2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+
+
