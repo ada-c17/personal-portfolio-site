@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    column-gap: 2vw;
+}
+
+.info {
+    align-items: stretch;
+    min-width: 48vw;
+    position: absolute;
+    opacity: 100%;
+    font-size: 28px;
+    border: 3px solid yellow;
+}
+
+.info #one {
+    width: 35vw;
+    min-width: 15%;
+}
+
+.info #two {
+    text-align: right;
+}
+
+h1 {
+    text-align: right;
+}
+
+.content .picture {
+    max-width: 25vw;
+    opacity: 60%;
+}
+
+.content .picture:nth-of-type(2) {
+    opacity: 100%;
+}
+
