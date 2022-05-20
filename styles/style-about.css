@@ -1,0 +1,88 @@
+header {
+    grid-row: 1/2;
+    border: solid purple 2px;
+    background-color: #DBDFFD;
+}
+header img {
+    position: absolute;
+    right: 34%;
+    top: 3%;
+}
+
+h1 {
+    color: #242F9B;
+    padding-bottom: 10px;
+}
+#jen-cam {
+    border-radius: 50%;
+    border: solid #242F9B 2px;
+}
+/* about.html page; row #2: */
+#container-about {
+    display: grid;
+    grid-template-rows: .75fr .25fr 2fr .25fr 2fr .25fr 2fr .5fr;
+    border: solid blue 2px;
+    /* grid-template-rows: 30% 50% 20%; */
+}
+
+.title-work {
+    grid-row: 2/3;
+    border: solid blue 2px;
+}
+.section-work {
+    grid-row: 3/4;
+}
+.title-coding {
+    grid-row: 4/5;
+    border: solid blue 2px;
+}
+.section-coding {
+    grid-row: 5/6;
+    border: solid blue 2px;
+}
+
+.title-family {
+    grid-row: 6/7;
+    border: solid blue 2px;
+}
+.section-hobbies {
+    grid-row: 7/8;
+    border: solid blue 2px;
+}
+footer {
+    grid-row: 8/9;
+    border: solid purple 2px;
+}
+
+
+
+/* .work-hobbies {
+    grid-row: 2/3;
+    border: solid purple 2px;
+    display: grid;
+    grid-template-rows: .5fr .5fr .5fr;
+} */
+
+/* .section-work-hobbies {
+    display: flex;
+    flex-direction: row;
+} */
+
+img {
+    height: 40vh;
+    width: 40vw;
+    object-fit: cover;
+}
+
+#hobbies {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    border: solid green 4px;
+}
+
+.item{
+    flex: 1;
+    object-fit: cover;
+    align-items: center;
+}
