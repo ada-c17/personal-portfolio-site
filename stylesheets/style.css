@@ -1,0 +1,36 @@
+body { 
+    background-color: black;
+    color: white;
+}
+
+nav { 
+    text-align: center;
+    font-size: 20px;
+}
+
+a:visited{ 
+    color: orange;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+h1 { 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+h1:hover { 
+    color: lightcoral;
+}
+
+li { 
+    list-style-type: circle;
+}
+
+
+
+
