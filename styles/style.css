@@ -1,15 +1,7 @@
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-div {
-    margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    padding: 10px;
 }
 
 button {
@@ -34,16 +26,16 @@ footer {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     color: #ccd5ae;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: normal;
     margin: 20px;
-    color: #e9edc9;
+    color: #a4ac86;
 }
 
 hr {
@@ -64,6 +56,12 @@ nav {
     justify-content: flex-end;
 }
 
+p {
+    /* width: fit-content;
+    height: fit-content; */
+    /* pointer-events: none; */
+}
+
 .collage-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -77,28 +75,30 @@ nav {
     object-fit: cover;
 }
 
-.collage-grid-one {
+.collage-grid-vp {
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 4;
-}
+    /* justify-self: center; 
+    align-self: center; */
+} 
 
-.collage-grid-two {
+.collage-grid-ag {
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 1;
     grid-row-end: 8;
 }
 
-.collage-grid-three {
+.collage-grid-sm {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 8;
 }
 
-.collage-grid-four {
+.collage-grid-tl {
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 4;
@@ -117,6 +117,34 @@ nav {
     background-color: #d4a373;
 }
 
+.img_name {
+    color: #ef0606;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    z-index: -1;
+    transition: .8s;
+}
+
+.collage-grid:hover .img_name {
+    z-index: 0;
+}
+/* .overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #09ba00;
+} */
+/* .collage-grid-one:hover {
+    visibility: hidden;
+} */
+
+/* .img_name:hover {
+    visibility: hidden;
+} */
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -124,7 +152,5 @@ nav {
     justify-content: center;
 }
 
-.nav-right {
-    text-align: right;
-}
+
 
