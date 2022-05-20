@@ -1,0 +1,42 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    font-size: 32px;
+    border-style: dashed;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr 0.15fr;
+}
+
+.copyright-info {
+    text-align: right;
+}
+
+/* .columns {
+    /* grid-template-rows: minmax(100px, auto);
+    grid-template-columns: minmax(auto, 50%) 1fr 3em; */
+
+    /* grid-template-columns: 90px 50px 120px;
+} */ */
+
+
+/*.left-column {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 50%;
+}*/
+
+/*.right-column {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width:-50%;
+}*/
