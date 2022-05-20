@@ -28,6 +28,7 @@
     border: 3px solid #807A7A;
     max-width: 25vw;
     opacity: 40%;
+    margin: 3vh;
 }
 
 .content .picture:nth-of-type(2) {

@@ -1,7 +1,7 @@
 .content {
     display: grid;
     grid-template-columns: 3vw 25vw 5vw 20vw 20vw 1fr;
-    grid-template-rows: 10% 10% 10% 10% 57% 3vh;
+    grid-template-rows: 10% 10% 10% 10% 1fr;
     align-items: center;
 }
 
