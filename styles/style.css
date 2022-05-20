@@ -1,19 +1,11 @@
-#navbar{
-        width: 100%;
-        
-    }
-
 body{
     margin: 0;
-    
 }
 
 #welcome-section{
     height: 100vh;
     padding-top: 10px;
     background-color: #9a93e6;
-    
-    
 }
 
 #greet{
@@ -23,7 +15,6 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     line-height: 75px;
-    
 }
 
 #greet h1{
@@ -35,7 +26,6 @@ body{
     line-height: 0px;
 }
 
-
 #navbar{
     z-index: 1;
     top: 0px;
@@ -45,7 +35,6 @@ body{
     height: 40px;
     padding-top: 10px;
     background-color: #130d42;
-
 } 
 
 #homeButton{
@@ -54,35 +43,30 @@ body{
 }
 
 #navbar-right{
-float: right;
+    float: right;
 }
 
 #navbar a{ 
-    
     color: white;
     font-weight: bold;
     font-size: 25px;
     padding-right: 25px;
     padding-left:25px;
     text-decoration: none;
-
 }
 
 #navbar a:hover{
     color: #9a93e6;
 }
 
-
 #projects{
     background-color: #cfc8f8;
     padding-bottom: 50px;
-        
 }
 
 #checkout{
     font-size: 35px;
     text-align: center;
-    
     padding-top: 20px;
     padding-bottom: 20px;
     color: black;
@@ -91,7 +75,6 @@ float: right;
 }
 
 #project-container{
-
     width: 90vw;
     margin: auto;
     text-align: center;
@@ -100,13 +83,8 @@ float: right;
 }
 
 .project-tile{
-    
-    /*width: 40%;
-    height: 40%;*/
     background-color: #9a93e6;
     border: 6px solid black;
-    /*display: inline-block;*/
-    
     margin-top: 30px;
     margin-bottom: 30px;
     margin-inline-end: 10px;
@@ -114,9 +92,7 @@ float: right;
 }
 
 .project-tile img{
-    
     width: 95%;   
-    /*display: block;*/
     margin: auto;
     padding-top: 10px;
 }
@@ -128,20 +104,16 @@ float: right;
 
 .project-tile h1{
     text-align: center;
-    /*padding-bottom: 10px;*/
     font-weight: bold;
     font-size: 25px;
     color: black;
-    
 }
 
 .project-tile video{
     width: 95%;
-    /*display: block;*/
     margin: auto;
     padding-top: 72px;
     padding-bottom: 20px;
-
 }
 
 #extra-projects h1{
@@ -162,7 +134,6 @@ float: right;
     padding-top: 20px;
     padding-bottom: 70px;
     font-size: 30px;
-    
 }
 
 #profile-link{
@@ -187,7 +158,6 @@ float: right;
     background-color:#cfc8f8;
 }
 
-
 input, textarea{
     border: 3px solid black;
 }
@@ -207,7 +177,6 @@ footer{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 footer button{
@@ -220,7 +189,6 @@ footer button{
     border: #9a93e6;
     transition-duration: 0.4s;
 }
-
 
 footer button:hover{
     background-color:#9a93e6;

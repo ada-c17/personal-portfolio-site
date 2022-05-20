@@ -1,11 +1,3 @@
-@media screen and (max-width: 900px){
-    #navbar{
-    float:none;
-    width: 100%;
-    
-    }
-}
-
 body{
     margin: 0;
     background-color: #cfc8f8;
@@ -31,13 +23,11 @@ body{
 }
 
 #navbar a{ 
-    
     color: white;
     font-weight: bold;
     font-size: 25px;
     padding-right: 45px;
     text-decoration: none;
-
 }
 
 #navbar a:hover{
@@ -53,19 +43,16 @@ body{
     margin-right: auto;
     border: 2px solid black;
     margin-bottom: 80px;
-
 }
 
 #nameTitle{
     display: flex;
     padding-top: 20px;
     padding-bottom: 10px;
-
 }
 
 #nameLeft{
     width: 20%;
-
 }
 
 #nameRight{
@@ -85,19 +72,14 @@ body{
 .content-menu{
     width: 20%;
     text-align: center;
-
 }
 
 .content{
-    width: 80%;
-    /*padding-left: 20px;
-    padding-right: 20px;;*/
-    
+    width: 80%;    
 }
 
 .exp{
     padding-bottom: 10px;
-
 }
 
 .h1{
