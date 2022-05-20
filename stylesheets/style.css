@@ -1,7 +1,33 @@
 body {
-    font-family: sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, [col-start] 1fr);
+}
+
+.sitetitle {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.topnavigation {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
 
 ul {
     list-style-type: none;
 }
+
+.topnavigation li {
+    display:inline;
+}
+
+.topnavigation a {
+    color: black;
+    text-decoration:none;
+    font-weight:bold;
+} 
