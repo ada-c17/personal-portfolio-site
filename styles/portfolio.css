@@ -19,15 +19,52 @@ total rows:
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
     row-gap: 10px;
 }
+
+body {
+    background-color: #723F43;
+}
+
 main {
-    background-color: #7491AD;
+    background-color: #723F43;
     margin-top: 10px;
 }
 
 section {
-    background-color: #8B6267;
+    padding: 10px 30px;
+}
+
+ul {
+    font-size: small;
+    color: #8B6267;
+    list-style-type: disc;
+}
+
+section > a {
+    color: #B8C4D1;
+    text-decoration: none;
 }
 
 footer {
     margin-top: 10px;
+    background-color: #8B6267;
 }
+
+.description {
+    background-color: #B8C4D1;
+    color: #8B6267;
+}
+
+.git-link {
+    background-color: #7491AD;
+    color: #723F43;
+}
+
+.left-column {
+    border-radius: 5px 0 0 5px;
+}
+
+.right-column {
+    border-radius: 0 5px 5px 0;
+}
+
+
