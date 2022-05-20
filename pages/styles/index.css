@@ -67,10 +67,12 @@ a:hover {
 }
 
 
-.flex-box {
+#project-display {
+    display: block;
     border: 1px dotted ;
     border-radius: 17px;
 } 
+
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -79,6 +81,9 @@ h2 {
 
 #self-socials {
     padding-left: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #self-socials h3 {
     color:#ff8d83;
@@ -94,7 +99,15 @@ h2 {
     border-style:double;
     border-color: #584c99;
 }
+#self-socials nav img {
+border-style: none;
+}
 
+#intro-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 /* main {
     display: flex;
