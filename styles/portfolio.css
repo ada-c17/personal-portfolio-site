@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: #cfc8f8;
+}
+
+#navbar{
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    height: 40px;
+    padding-top: 10px;
+    background-color: #130d42;
+} 
+
+#homeButton{
+    padding-left: 30px;
+}
+
+#navbar-right{
+    float: right;
+}
+
+#navbar a{ 
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 45px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color:#9a93e6;
+}
+
+.git-container:first-of-type {
+    margin-top: 100px;
+}
+
+.git-container:last-of-type{
+    margin-bottom: 100px;
+}
+
+.git-container {
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top : 50px;
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+    grid-column-gap: 80px;
+}
+
+.git-pic img {
+    width: 100%;   
+    margin: auto;
+    padding: 30px;
+}
+
+.git-pic img:hover{
+    filter: invert(100%);
+}
+
+.git-pic img:hover{
+    color:aliceblue;
+}
+
+.description{
+    padding-top: 10px;
+}
+
+.description h1 {
+    padding-bottom: 15px;
+}
+
+.description h3 {
+    line-height: 5px;
+}
+
+.description p {
+    padding-top: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: #cfc8f8;
+}
+
+#navbar{
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    height: 40px;
+    padding-top: 10px;
+    background-color: #130d42;
+} 
+
+#homeButton{
+    padding-left: 30px;
+}
+
+#navbar-right{
+    float: right;
+}
+
+#navbar a{ 
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 45px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color:#9a93e6;
+}
+
+#hjResume{
+    background-color: white;
+    width: 90vw;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-bottom: 80px;
+}
+
+#nameTitle{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#nameLeft{
+    width: 20%;
+}
+
+#nameRight{
+    padding-left: 10px;   
+}
+
+#nameRight h1{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.content-box{
+    display: flex;
+}
+
+.content-menu{
+    width: 20%;
+    text-align: center;
+}
+
+.content{
+    width: 80%;    
+}
+
+.exp{
+    padding-bottom: 10px;
+}
+
+.h1{
+    font-weight: bold;
+}

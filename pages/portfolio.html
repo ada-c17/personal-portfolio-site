@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/portfolio.css">
+    <title>Ada projects</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <a id ="homeButton" href="index.html">Home</a>
+      <div id=navbar-right>
+          <a href="about.html">Resume</a>
+          <a href="portfolio.html">Projects</a>
+          <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="git-projects">
+      <div class="git-container">
+        <div class="git-pic">
+          <a href="https://github.com/kkatottn/viewing-party" target="_blank">
+          <img src="/assets/git1.jpg" alt="viewing-party"/>
+          </a>
+        </div>
+        <div class="description">
+          <h1>First project at Ada</h1>
+          <h3>Title: Viewing Party</h3>
+          <h3>Technology: Python, Git</h3>
+          <p>For this project, I used given data structures such as nested lists and nested dictionaries 
+            to write functions to give movie recommendations.<br> I also wrote unit test in pytest.</p>
+        </div>
+      </div>
+
+      <div class="git-container">
+        <div class="git-pic">
+          <a href="https://github.com/kkatottn/swap-meet" target="_blank">
+          <img src="/assets/git2.jpg" alt="swap-meet"/>
+          </a>
+        </div>
+        <div class="description">
+          <h1>Second project at Ada</h1>
+          <h3>Title: Swap Meet</h3>
+          <h3>Technology: Python, Git</h3>
+          <p>For this project, I created classes and instance methods to provide feature 
+            that vendors can swap their item depend on different conditions.</p>
+        </div>
+      </div>
+
+      <div class="git-container">
+        <div class="git-pic">
+          <a href="https://github.com/kkatottn/task-list-api" target="_blank">
+          <img src="/assets/git3.jpg" alt="task-list-api"/>
+          </a>
+        </div>
+        <div class="description">
+          <h1>Third project at Ada</h1>
+          <h3>Title: Task List Api</h3>
+          <h3>Technology: Python, Git, Flask, PostgresSQL, SQLalchemy, Postman</h3>
+          <p>For this project, I created CRUD endpoints(Create, Read, Update, Delete) to provide feature
+            that people can manage their tasks and goals.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html> 

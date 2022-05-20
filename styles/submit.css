@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: #cfc8f8;
+}
+
+#navbar{
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    height: 40px;
+    padding-top: 10px;
+    background-color: #130d42;
+} 
+
+#homeButton{
+    padding-left: 30px;
+}
+
+#navbar-right{
+    float: right;
+}
+
+#navbar a{ 
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 45px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color:#9a93e6;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
