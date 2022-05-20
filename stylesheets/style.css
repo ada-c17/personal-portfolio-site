@@ -53,6 +53,10 @@ body {
     grid-area: 2 / 1 / span 2 / span 7;
 }
 
+h1 {
+    text-align: right;
+}
+
 p::first-letter {
     text-transform: capitalize;
     font-size: xx-large;
