@@ -1,17 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
 
+html {
+    background-color: #cbb1d4;
+}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    color: #24917C;
+    color: #FF8D83;
     font-family: Zen Maru Gothic;
-    background-color: #9ec1b5;
+    background-color: #FFC2BD;
     border-style:groove;
-    border-color: #9ec1b5;
+    border-color: #584c99;
     border-width: 4px;
     padding: 7px;
 }
@@ -60,7 +63,40 @@ a:hover {
     display: block;
 }
 
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4%;
+}
 
-.flex-box {
-    border: 1px dotted ;
-} 
+main s img {
+    border-radius: 100%;
+    border-width: 1px;
+    border-style: dotted;
+    border-color:#e5fa89;
+    max-width: 400px;
+}
+
+main h2 {
+    flex: 1;
+    align-self:inherit;
+    font-family: Georgia;
+}
+
+main div  {
+    align-self: center;
+    flex: 4;
+    /* border-style: dotted;
+    border-width: 1px;
+    border-radius: 25px;
+    margin: 1px;
+    padding: 3px;
+    text-align: center; */
+}
+
+main h3 {
+    text-align: center;
+}
