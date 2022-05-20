@@ -7,13 +7,15 @@ body {
 }
 
 h1 {
-    color: #24917C;
+    color: #cbb1d4;
     font-family: Zen Maru Gothic;
-    background-color: #9ec1b5;
-    border-style:groove;
-    border-color: #9ec1b5;
-    border-width: 4px;
+    background-color: #584c99;
+    border-style:double;
+    border-color: #ffc2bd;
+    border-width: 5px;
+    border-radius: 50px;
     padding: 7px;
+    max-width: 900px;
 }
 
 header nav a {
@@ -23,7 +25,7 @@ header nav a {
 }
 
 header nav {
-    margin-left: 82%;
+    margin-left: 690px;
 }
 
 footer {
@@ -38,6 +40,7 @@ a:hover {
     color: #cbb1d4;
 }
 
+/* start nav dropdown css */
 .dropdown {
     display: inline-block;
 }
@@ -58,14 +61,172 @@ a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* end nav dropdown css */
 
 
-.portfolio-a, .portfolio-b, .portfolio-c {
+/* box */
+main {
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /* border-radius: 17px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-around ;
+    align-content: center;
+    
+}
+main img {
+    max-width: 420px;
+    max-height: 300px;
+}
+/* end box */
+
+/* tags */
+/* .tag {
+    background-color: #584c99;
+    border-radius: 2%;
+} */
+/* end tags */
+
+/* portfolio style types */
+/* portfolio a and c - right img */
+
+.portfolio-a, .portfolio-c {
     border: 1px dotted;
     border-radius: 17px;
-    padding-left: 15px;
+    margin: 10px;
+    padding: 7px;
+    background-color: #cbb1d4;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: baseline;    
+    width: 820px;
+    min-height: 140px;
+    max-height: 420px;
+
 } 
 
-.portfolio-a, .portfolio-b, .portfolio-c h3 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.portfolio-a h3, .portfolio-c h3 {
+    grid-column: 1/ 2;
+    grid-row: 1/1;
 }
+
+.portfolio-a div, .portfolio-c div {
+    grid-column: 2/2;
+    grid-row: 3/4;
+}
+
+.portfolio-a h4, .portfolio-c h4 {
+    font-style: normal;
+    font-size: small;
+    grid-area: 4/2/4/span 2;
+    margin: 2px;
+}
+/* end a and c */
+/* portfolio-a */
+.portfolio-a img {
+    grid-column: 1/ 1;
+    grid-row: 2/span 2;
+    border-style:ridge;
+    border-width:2px;
+    margin-left: 15px;
+    margin-bottom: 10%;
+    padding: 1px;
+}
+.portfolio-a p {
+    grid-column: 2/2;
+    grid-row: 1/span 3;
+}
+.portfolio-a a {
+    grid-column: 2/2;
+    grid-row: 2/span 2;
+}
+/*  */
+
+/* portfolio b with 4 img */
+.portfolio-b {
+    border: 1px dotted;
+    border-radius: 17px;
+    margin: 10px;
+    padding: 7px;
+    background-color: #ffc2bd;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    width: 820px;
+    max-height: 555px;
+}
+
+.portfolio-b h3 {
+    grid-column: 4/ span 2;
+    grid-row: 1/1;
+}
+
+.portfolio-b p {
+    /* justify-content: flex-start; */
+    text-align: center;
+    grid-column: 1/ span 2;
+    padding: 2%;
+    grid-row: 2/span 4
+}
+
+.portfolio-b img {
+    max-width: 170px;
+    padding: 2px;
+    border-style:ridge;
+    border-width:2px;
+    /* justify-content: space-evenly; */
+}
+.portfolio-b div {
+    grid-column: 1/ span 2;
+    grid-row: 3/span 2;
+    
+}
+.portfolio-b h4 {
+    font-style: normal;
+    font-size: small;
+    grid-area: 4/1/4/span 2;
+    margin: 2px;
+}
+
+#img-b-1 {
+    grid-column: 3/3;
+    grid-row-start: 2;
+}
+#img-b-2 {
+
+    grid-column: 4/ span 2;
+    grid-row: 2 / 2;
+}
+#img-b-3 {
+
+    grid-column: 3/ span 2;
+    grid-row: 3/ 3;
+}
+#img-b-4 {
+
+    grid-column: 4/ span 4;
+    grid-row: 3 /3;
+}
+/* end portfolio-b */
+
+/* portfolio-c */
+.portfolio-c img {
+    grid-column: 1/span 2;
+    grid-row: 2/span 3;
+    border-style:ridge;
+    border-width:2px;
+    margin-left: 15px;
+    margin-bottom: 15%;
+    padding: 1px;
+
+}
+/*  */
