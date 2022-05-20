@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Macondo&family=Montserrat:wght@700&display=swap');
 
-html {
-    background-color: #BDB2FF;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #FFC6FF;
-    height: 10vh;
+footer {
+    background-color: #BDB2FF;
+    height: 7vh;
     border: 2px solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 h1 {
@@ -23,19 +20,28 @@ h1 {
     font-size: 2rem;
 }
 
+header {
+    background-color: #BDB2FF;
+    height: 10vh;
+    border: 2px solid;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    background-color: #FFC6FF;
+}
+
+main {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
 .top-bar {
     position: sticky;
     top: 0%;
-}
-
-#nav-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    background-color: #A0C4FF;
-    border: 2px solid;
+    z-index: 1;
 }
 
 .nav-item {
@@ -70,16 +76,17 @@ h1 {
 }
 
 .nav-item:hover {
-    /* font-size: larger; */
     border-left: 1px solid;
     border-right: 1px solid;
     text-decoration: underline;
 }
 
-main {
-    font-family: 'Hind Madurai', sans-serif;
+#nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #A0C4FF;
+    border: 2px solid;
 }
-/* Trying to mark an ancestor with overflow to get sticky to work */
-/* #section1 {
-    overflow: auto;
-} */
