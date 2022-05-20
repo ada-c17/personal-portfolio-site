@@ -4,46 +4,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>La Casa de Diana</title>
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <nav>
-    <header class="main-section">
-      <a href="pages/about.html">About Me</a>
-      <a href="pages/portfolio.html">Portfolio</a>
-    </header>
-  </nav>
-  <section class="main-section">
-    <section id="intro">
-      <h1>Hi! I'm Diana and I am a budding software developer.</h1>
-      <h2>Sunshine chaser, Python enthusiast and 10k Stepper</h2>
-      <a href="about.html"><button>More about me</button></a>
+  <div>
+    <nav class="header-nav">
+      <header>
+        <a href="about.html" class="nav-right">About Me</a>
+        <a href="portfolio.html" class="nav-right">Portfolio</a>
+      </header>
+    </nav>
+    <section>
+      <div class="intro">
+        <h1>Hi! I'm Diana.</h1>
+        <h2>Something, Something, Something</h2>
+        <a href="about.html"><button>More about me</button></a>
+      </div>
     </section>
-  </section>
-  <hr>
-    <section id="icons" class="centered-block">
-      <ul class="project-icons">
-        <li>
-          <img src="/images/viewing_party.jpg">
-        </li>
-        <li>
-          <img src="/images/adagrams.jpg">
-        </li>
-        <li>
-          <img src="/images/swap_meet.jpg">
-        </li>
-        <li>
-          <img src="/images/task_list.jpg">
-        </li>
-      </ul>
-      <a href="portfolio.html"><button>View More</button></a>
-    </section>
-  <hr>
-  <nav>
-    <footer class="main-section">
-      This is a fake footer.
-    </footer>
-  </nav>
+    <hr>
+      <div class="collage-flex">
+        <div class="collage-grid">
+          <img class="collage-grid-one grayscale" src="/images/viewing_party.jpg">
+          <img class="collage-grid-two grayscale" src="/images/adagrams.jpg">
+          <img class="collage-grid-three grayscale" src="/images/swap_meet.jpg">
+          <img class="collage-grid-four grayscale" src="/images/task_list.jpg">
+        </div>
+        <a href="portfolio.html"><button id="collaga-button">View More</button></a>
+      </div>
+    <hr>
+    <nav>
+      <footer>
+        This is a fake footer.
+      </footer>
+    </nav>
+  </div>
 </body>
 </html>

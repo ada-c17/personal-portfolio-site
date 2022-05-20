@@ -1,14 +1,19 @@
 a {
-    color:#40e0d0;
+    color: #ffffff;
     text-decoration: none;
 }
 
-body {
-    line-height: 1;
+div {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 button {
-    background: #ffa1f9;
+    background: #d4a373;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
@@ -19,53 +24,107 @@ button {
 
 footer {
     width: 100%;
-    bottom: 0px;
-    background-color: #f7c70b;
-    padding: 15px 0px 10px 0px;
+    bottom: 0px; 
+    background-color: #d4a373;
+    padding: 15px 0px 10px 0px; 
     font-size: 10px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px; 
     color:#ffffff;
 }
 
 h1 {
     font-size: 25px;
     font-weight: bold;
-    color: #f7bff2
+    color: #ccd5ae;
 }
 
 h2 {
     font-size: 20px;
     font-weight: normal;
-    margin: 20px 
+    margin: 20px;
+    color: #e9edc9;
 }
 
 hr {
-    margin: 100px 0 100px 0;
-    border: 1px solid #891fec;
+    margin: 10px;
+    border: 1px solid #4a4e69;
 }
 
-img {
-    width: 90%;
+img.grayscale {
+    filter: grayscale();
 }
 
-ul {
-    list-style: none;
+img.grayscale:hover {
+    filter: none;
 }
 
-.main-section {
-    width: 80%;
-    margin: 0 auto;
-
-}
-
-.project-icons {
+nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-end;
 }
 
-#icon {
-    margin: 10% auto;
-    text-align: center;
+.collage-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 5vw;
+    grid-gap: 1px;
 }
+
+.collage-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collage-grid-one {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.collage-grid-two {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.collage-grid-three {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.collage-grid-four {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 8;
+}
+
+.collage-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    row-gap: 12px;
+}
+
+.header-nav {
+    background-color: #d4a373;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right {
+    text-align: right;
+}
+
