@@ -100,5 +100,27 @@ ul {
     grid-row-start: 2;
 }
 
+.portfolio-image {
+    width: 175px;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
 
+.innerflex {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: flex-end;
+    justify-content: center;
+}
 
+.fleximage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure figcaption {
+    text-align: center;
+}
