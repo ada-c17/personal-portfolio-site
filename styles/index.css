@@ -1,0 +1,44 @@
+main {
+	padding: 0;
+	height: 60vh;
+	width: 100vw;
+	background-color: #eedcd4;
+	display:grid;
+	grid-template: 1fr auto 1fr / 30% 25% 45%;
+	margin: 0;
+}
+
+main div{
+	font-size: 1.2em;
+	font-weight: 300;
+	grid-column: 1/2;
+	flex-direction: row;
+	justify-self: flex-end;
+	align-self: center;
+}
+
+div:last-of-type {
+	grid-row: 3/4;
+	align-self: flex-start;
+}
+
+main article{
+	font-size: 1.2em;
+	grid-column: 3/4;
+	flex-direction: row;
+	justify-self: flex-start;
+	align-self: center;
+}
+
+article:last-of-type {
+	grid-row: 3/4;
+	align-self: flex-start;
+}
+
+li{
+	list-style-type: none;
+	margin: 10px;
+}
+
+
+

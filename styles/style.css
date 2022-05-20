@@ -1,0 +1,107 @@
+
+*{
+	margin: 0;
+}
+
+body{
+	font-family: 'Assistant', sans-serif;
+	background-color: #CF8BA3;
+	margin-top: 50px;
+}
+
+nav{
+	height: 4em;
+	width: 100%;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #CF8BA3;
+}
+
+nav a{
+	background-color: white;
+	border: black solid;
+	font-size: 1.2em;
+	padding: 15px;
+	border-radius: 10%;
+	margin: 2em;
+	align-self:center;
+	text-align: center;
+	line-height: 8px;
+}
+
+nav a:nth-child(1), a:nth-child(2){
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+nav a:nth-child(3){
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+nav a:nth-child(4){
+	padding-right: 22px;
+	padding-left: 22px;
+}
+
+header{
+	height: 450px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	justify-content: center;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+
+header img{
+	border-radius: 20%;
+	border:black solid;
+	grid-row-start: 1/2;
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+header h1{
+	font-size: 3em;
+	grid-row-start: 2/3;
+	margin: auto;
+}
+
+header p{
+	grid-row-start: 3/4;
+	margin: auto;
+	font-size: 1.5em;
+}
+
+footer{
+	background-color: black;
+	height: 12em;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+img[src="/images/white-github.png"] { 
+	height:30px;
+	width:40px;
+	margin: 5px;
+}
+
+img[src="/images/white-linkedin.png"] { 
+	height:26px;
+	width:35px;
+	margin: 5px;
+}
