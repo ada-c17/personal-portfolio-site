@@ -7,15 +7,16 @@ body {
     width: vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.25fr; 
+    grid-template-rows: 1fr 1fr 1fr 0.2fr; 
 }
 
 h1 {
     font-size: 35pt;
+    color: #2c423f;
 }
 
 body header {
-    background-color: coral;
+    background-color:#FFAFCC;
     grid-column: 1 / 1;
     grid-row: 1 / 4;
     display: flex;
@@ -24,38 +25,49 @@ body header {
 }
 
 body main {
-    background-color: rgb(184, 113, 125);
+    background-color: #FFC8DD;
     grid-column: 2 / 4;;
     grid-row: 1 / 4;
+    color: #2c423f;
 }
 
 body footer {
-    background-color: palevioletred;
+    background-color: #CDB4DB;
     grid-column: 1 / 4;
     grid-row: 4 / 5;
     text-align: center;
+    height: 90%;
 }
 
 .nav-container {
-    background-color: lightblue;
+    background-color: #FFC8DD;
     width: 80%;
     height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 10%;
 
 }
 
 .nav-container a {
-    background-color: blue;
+    background-color: #BDE0FE;
     padding: 10px 50px 10px 50px;
     margin: 5px;
     width: 33.3%;
     text-align: center;
     font-size: 20pt;
+    border-radius: 10%;
+    color: #2c423f;
 }
 
 a {
     text-decoration: none;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
 }
