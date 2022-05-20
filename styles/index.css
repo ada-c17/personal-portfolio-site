@@ -1,0 +1,10 @@
+header {
+    /* grid-column: 2 / 3;
+    grid-row: 1 / 2; */
+    padding-top: 5em;
+    padding-bottom: 20em;
+    margin-bottom: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

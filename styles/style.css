@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lato:ital,wght@1,400&family=Lustria&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #252323;
+}
+
+body {
+    background-color: #DAAE6C;
+}
+
+h1 {
+    font-family: "Cabin", sans-serif;
+    color: #0244A1;
+    font-size: 7.5vw;
+}
+
+h2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 3vw;
+}
+
+h3{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.7vw;
+}
+
+h4 {
+    font-family: "Cabin", sans-serif;
+    font-size: 1.6vw;
+    font-style: italic;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25vw 75vw;
+    grid-template-rows: 30vh 60vh 10vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: #C4361B;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    font-family: "Cabin", sans-serif;
+    color: #252323;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+header, 
+.content, 
+footer {
+    padding-left: 90px;
+}
+
+header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 5em;
+    padding-bottom: 20em;
+    margin-top: 10vh;
+    margin-bottom: 50em;
+}
+
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-top: 2em;
+    width: 40em;
+}
+
+.bio-photo{
+    width: 250px;
+    margin-left: 80px;
+}
+
+footer {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    font-size: .6em;
+}
+
+nav a:hover {
+    background-color: #FFB10A;
+    font-style: italic;
+    padding-left: 7px;
+    padding-right: 10px;
+}
