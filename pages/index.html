@@ -1,86 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/style.css">
-  <title>Main Page of Personal Portfolio</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Main Page of Personal Portfolio</title>
+  </head>
 
-<body>
+  <body>  
+    <header>
+      <nav id="navbar">
+        <a id ="homeButton" href="index.html">Home</a>
+        <div id=navbar-right>
+            <a href="about.html">Resume</a>
+            <a href="portfolio.html">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-  <header>
-    <nav id="navbar">
-      <a id ="homeButton" href="index.html">Home</a>
-      <div id=navbar-right>
-          <a href="about.html">Resume</a>
-          <a href="portfolio.html">Projects</a>
-          <a href="#contact">Contact</a>
+    <section id="welcome-section">
+      <div id="greet">
+        <h1>Hello, I am Katherine.</h1>
+        <p>a promising software developer</p>
       </div>
-  </nav>
-</header>
+    </section>
 
-
-<section id="welcome-section">
-  <div id="greet"><h1>Hello, I am Katherine.</h1>
-  <p>a promising software developer</p></div>
-</section>
-
-<section id="projects">
-  <div id="checkout">
-    <p> These are my practice projects.</p>
-  </div>
-  
-  <div id="project-container">
-    <div class="project-tile">
-      <a href="https://codepen.io/KimOtten/pen/poJXYrb" target="_blank">
-      <img src="/assets/project1.jpg" alt="projectA"/>
-      </a>
-      <h1>Alan Turing Biography</h1>
-    </div>
-  
-    <div class="project-tile">
-      <a href="https://codepen.io/KimOtten/pen/OJNorzW" target="_blank">
-      <img src="/assets/project2.jpg" alt="projectB"/>  
-      </a>
-      <h1>Online dog treat shop </h1>
-    </div>
-
-    <div class="project-tile" >
-      <video  controls>
-        <source src = "/assets/JavaFx_ContactForm_Demo.mp4" type="video/mp4">
-      </video>
-      <h1>JavaFX project <br>video demo</h1>
-    </div> 
-
-  <div id="extra-projects" class="project-tile">
-    <h1>To see more projects that I've been working on...</h1>
+    <section id="projects">
+      <div id="checkout">
+        <p> These are my practice projects.</p>
+      </div>
     
-    <div class="github-card" data-github="kkatottn" data-width="550" data-height="" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+      <div id="project-container">
+        <div class="project-tile">
+          <a href="https://codepen.io/KimOtten/pen/poJXYrb" target="_blank">
+          <img src="/assets/project1.jpg" alt="projectA"/>
+          </a>
+          <h1>Alan Turing Biography</h1>
+        </div>
+    
+        <div class="project-tile">
+          <a href="https://codepen.io/KimOtten/pen/OJNorzW" target="_blank">
+          <img src="/assets/project2.jpg" alt="projectB"/>  
+          </a>
+          <h1>Online dog treat shop </h1>
+        </div>
 
-    <h1>Feel Free to contact me if you have any questions!</h1>
-    <div id="contact">
-      <form action= "submit.html"id="form">
-        <label for="fname">First Name :</label><br><br>
-        <input type="text" id="fname" name="fname" placeholder="Please enter your first name."><br><br>
-        <label for="lname">Last Name :</label><br><br>
-        <input type="text" id="lname" name="lanme" placeholder="Please enter your last name."><br><br>
-        <label for="email">Email Address :</label><br><br>
-        <input type="email" id="email" name="email" placeholder="Please enter your email address."><br><br>
-        <label for="note">Note :</label><br><br>
-        <textarea id="note" name="note" placeholder="Feel free to let me know about your questions!"></textarea><br><br>
-        <input id="submit" type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
+        <div class="project-tile" >
+          <video  controls>
+            <source src = "/assets/JavaFx_ContactForm_Demo.mp4" type="video/mp4">
+          </video>
+          <h1>JavaFX project <br>video demo</h1>
+        </div> 
 
-</section>
+        <div id="extra-projects" class="project-tile">
+          <h1>Feel Free to contact me if you have any questions!</h1>
+            <div id="contact">
+              <form action= "submit.html" id="form">
+                <label for="fname">First Name :</label><br><br>
+                <input type="text" id="fname" name="fname" placeholder="Please enter your first name."><br><br>
+                <label for="lname">Last Name :</label><br><br>
+                <input type="text" id="lname" name="lanme" placeholder="Please enter your last name."><br><br>
+                <label for="email">Email Address :</label><br><br>
+                <input type="email" id="email" name="email" placeholder="Please enter your email address."><br><br>
+                <label for="note">Note :</label><br><br>
+                <textarea id="note" name="note" placeholder="Feel free to let me know about your questions!"></textarea><br><br>
+                <input id="submit" type="submit" value="Submit">
+              </form>
+            </div>
+        </div>
+      </div>
+    </section>
 
-<footer>    
-  <button onclick="location.href='https://www.linkedin.com/in/hjkat-ottenkim/'" type="button">LinkedIn</button>
-</footer>
-
-</body>
+    <footer>    
+      <button onclick="location.href='https://www.linkedin.com/in/hjkat-ottenkim/'" type="button">LinkedIn</button>
+    </footer>
+  </body>
 </html>
