@@ -1,9 +1,17 @@
-header {
-    font-family: Helvetica;
+body{
+
+    background-color: black;
+    margin: 0px;
     color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header {
+    /*font-family: Helvetica;*/
+    color: black;
     font-size: 36pt;
     font-weight: bolder;
-    background-color: teal;
+    background-color: whitesmoke;
     line-height: 100px;
     align-items: center;
     padding-inline-start: 20px;
@@ -17,13 +25,17 @@ header nav {
     font-weight: lighter;
 }
 
+header nav a{
+    margin-left: 10px;
+}
+
 p {
     text-align: center;
     font-size: 24pt;
 }
 
 a:visited{
-    color: orange
+    color: darkgoldenrod
 }
 
 a:link{
@@ -32,6 +44,7 @@ a:link{
 }
 
 #about {
+    font-family: Helvetica;
     text-align: center;
     max-width: 150px;
     height: 60px;
@@ -40,6 +53,7 @@ a:link{
     justify-content: center;
     align-items: center;
     font-size: 18pt;
-    background-color: brown;
+    background-color: lightblue;
+    border-radius: 20px;
 }
 
