@@ -1,23 +1,114 @@
-header nav {
 
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 5fr .5fr;
+    /* grid-template-rows: 30% 50% 20%; */
 }
 
+header {
+    grid-row: 1/2;
+    border: solid purple 2px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height:0%;
+    padding-left: 20px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+/* container for mountains img from : */
 #nature-pic {
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
+    grid-row: 2/3;
+    border: solid purple 2px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* display: flex;
+    justify-content: start; */
 }
-footer nav {
+#mountains {
+    height: 100%;
+    grid-column:1/2
+}
+
+
+
+#self-pic {
+    height: 100%;
+    grid-column: 2/3;
+    border-radius: 50%;
+}
+
+header nav {
     display: flex;
-    align-items:flex-end;
-    justify-content: space-between;
+    justify-content: end;
+    flex-direction: row;
+    align-items:flex-end; 
+}
+/* align-items not working above */
+
+header nav a {
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+
+footer {
+    grid-row: 3/4;
+    border: solid purple 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
     flex-direction: row;
 }
 
-.projects {
-
+#copywrite {
+    justify-self: flex-start;
 }
 
 #resume {
     text-decoration: none;
+}
+
+/* about.html page; row #2: */
+.work-hobbies {
+    grid-row: 2/3;
+    border: solid purple 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-work-hobbies {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 100%;
+}
+
+#hobbies {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item{
+    flex: 1;
+}
+
+.projects {
+
 }
