@@ -5,7 +5,7 @@
 
 body{
 	font-family: 'Assistant', sans-serif;
-	background-color: #CF8BA3;
+	background-color: #eedcd4;
 	margin-top: 50px;
 }
 
@@ -78,6 +78,7 @@ header h1{
 header p{
 	margin: auto;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 footer{

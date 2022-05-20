@@ -2,7 +2,7 @@ main {
 	padding: 0;
 	height: 60vh;
 	width: 100vw;
-	background-color: #eedcd4;
+	background-color: #987284;
 	display:grid;
 	grid-template: 1fr auto 1fr / 30% 25% 45%;
 	margin: 0;
