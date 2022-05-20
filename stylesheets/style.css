@@ -12,6 +12,7 @@ header {
     /* border: 2px grey solid; */
     color: teal;
     text-align: center;
+    letter-spacing: .1em;
 }
 
 nav {
