@@ -1,0 +1,40 @@
+main {
+    display: grid;
+    width: 90vw;
+    background-color: #DADAD9;
+    margin: auto;
+    grid-template: 10% auto 10% / 55% 45%;
+    border: #0E345D solid;
+    color: #EDE6E3;
+    font-family: Luminari, fantasy;
+    font-size: 3vw;
+    text-align: center;
+}
+
+main p:first-of-type {
+    background-color: #EC3273;
+    grid-column: 2 / span 1;
+    grid-row: 1 / 2;
+    margin: 0%;
+    text-shadow: 1px 1px #084C61;
+    padding: 5% 5%;
+    font-size: 5vw;
+}
+
+main img:first-of-type {
+    width: 100%;
+    grid-row: 1 / span 3;
+}
+
+.ada {
+    width: 90%;
+    padding: 6% 6%;
+}
+
+main p:last-child {
+    grid-column: 2 / 3;
+    background-color: #084C61;
+    margin: 0%;
+    text-shadow: 1px 1px #072F60;
+    padding: 20% 5%;
+}
