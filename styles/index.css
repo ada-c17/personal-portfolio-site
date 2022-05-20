@@ -1,0 +1,21 @@
+#greeting {
+    font-size: 4rem;
+    font-family: 'Koulen', cursive;
+    margin-bottom: 0;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 0% 0%;
+}
+
+#name {
+    margin: 0;
+    font-size: 3rem;
+}
+
+#desc {
+    margin-top: 0.5rem;
+}

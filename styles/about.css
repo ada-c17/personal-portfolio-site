@@ -1,0 +1,18 @@
+/* #decor,
+article {
+    border: 2px solid red;
+} */
+
+#decor {
+    grid-column: 1/6;
+    grid-row: 1/-1;
+}
+
+article {
+    grid-column: 6/-1;
+    grid-row: 1/-1;
+    padding: 30% 10%;
+    margin-left: 5%;
+    align-self: center;
+    border-left: 0.25rem solid black;
+}

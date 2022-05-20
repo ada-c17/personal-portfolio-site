@@ -2,18 +2,16 @@ body {
     margin: auto;
     height: 100vh;
     width: 100vw;
-    /* background-color: #fdc500; */
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 /* main,
 .container,
-#greeting,
-article,
-#name,
-#desc,
-#content,
-.side-bar {
+.side-bar,
+.page-arrow,
+.content-item,
+.content {
     border: 2px solid red;
 } */
 
@@ -34,6 +32,8 @@ header {
 .side-bar {
     display: flex;
     grid-row: 2/8;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 
@@ -72,7 +72,7 @@ main {
 
 }
 
-#content {
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,39 +80,21 @@ main {
     grid-row: 2/5;
 }
 
-
-#greeting {
-    font-size: 4rem;
-    font-family: 'Koulen', cursive;
-    margin-bottom: 0;
-
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    gap: 0% 0%;
-}
-
-#name {
-    margin: 0;
-    font-size: 3rem;
-}
-
-#desc {
-    margin-top: 0.5rem;
-}
-
 .content-item {
     align-self: center;
 }
 
-.next-page {
+.page-arrow {
     /* grid-column-start: 11;
     grid-row-start: 7; */
-    align-self: flex-end;
+    align-self: left;
     width: 6rem;
     height: auto;
+}
+
+#prev-page {
+    transform: rotate(180deg);
+
 }
 
 

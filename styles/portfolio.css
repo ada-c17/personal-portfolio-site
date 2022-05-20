@@ -1,0 +1,9 @@
+div img {
+    height: 90%;
+    width: auto;
+    margin: auto;
+}
+
+#loading-message {
+    font-size: 1.5rem;
+}
