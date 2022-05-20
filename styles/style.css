@@ -121,6 +121,11 @@ float: right;
     padding-top: 10px;
 }
 
+.project-tile img:hover{
+    -webkit-transform: scale(.9);
+	transform: scale(.9);
+}
+
 .project-tile h1{
     text-align: center;
     /*padding-bottom: 10px;*/
@@ -140,7 +145,7 @@ float: right;
 }
 
 #extra-projects h1{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -163,6 +168,33 @@ float: right;
 }
 
 #contact{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+    width: 550px;
+    height: 50%;
+    border-radius: 25px;
+    border: 4px solid black;
+    text-align: center;
+    background-color:#cfc8f8;
+}
+
+
+input, textarea{
+    border: 3px solid black;
+}
+
+#fname, #lname, #email{
+    width: 60%;
+    height: 25px;   
+}
+
+#note {
+    width: 60%;
+    height: 120px;
+}
+
+footer{
     background-color: #9a93e6;
     text-align: center;
     padding-top: 20px;
@@ -170,8 +202,7 @@ float: right;
 
 }
 
-#contact button{
-
+footer button{
     font-weight: bold;
     background-color: #130d42;
     padding:5px 15px;
@@ -183,7 +214,7 @@ float: right;
 }
 
 
-#contact button:hover{
+footer button:hover{
     background-color:#9a93e6;
     border: 4px solid #130d42;
     color: #130d42;
