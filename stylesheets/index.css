@@ -1,26 +1,27 @@
 .content {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
-    column-gap: 2vw;
+    column-gap: 1vw;
 }
 
 .info {
-    align-items: stretch;
-    min-width: 48vw;
+    font-family: 'Poiret One', cursive;
+    display: grid;
+    grid-template-columns: 17vw 19vw 20vw 1fr;
+    grid-template-rows: 25vh 1fr;
     position: absolute;
-    opacity: 100%;
-    font-size: 28px;
-    border: 3px solid yellow;
+    font-size: 32px;
+    text-shadow: 2px 2px snow;
 }
 
-.info #one {
-    width: 35vw;
-    min-width: 15%;
+#one {
+    grid-row-start: 4;
 }
 
-.info #two {
-    text-align: right;
+#two {
+    grid-column-start: 3;
+    grid-row-start: 4;
 }
 
 h1 {
@@ -28,8 +29,9 @@ h1 {
 }
 
 .content .picture {
+    border: 3px solid #807A7A;
     max-width: 25vw;
-    opacity: 60%;
+    opacity: 40%;
 }
 
 .content .picture:nth-of-type(2) {

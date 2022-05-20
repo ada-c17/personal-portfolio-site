@@ -1,49 +1,46 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 5vh, 2fr;
     column-gap: 2vw;
     font-family: 'Poppins', sans-serif;
+    border: 5px solid green;
 }
 
-.container header, footer {
-    background: linear-gradient(90deg, #191970 20%, #2286A9 50%, #FDF6EC 100%);
+header, footer {
     color: snow;
     grid-column: 1 / span 7;
     font-size: x-large;
+}
+
+header, footer, nav {
+    background: linear-gradient(90deg, #191970 20%, #2286A9 50%, #191970 100%);
+}
+
+footer {
     text-align: center;
-    padding-top: 3vh;
 }
 
-body {
-    background-color: snow;
-}
-
-.container nav {
-    background: linear-gradient(180deg, #191970 0%, #2286A9 35%, #191970 100%);
-    grid-row: 2 / 6;
-    grid-column: 1 / 2;
+nav {
+    background: linear-gradient(180deg,  #2286A9 35%, #191970 100%);
 }
 
 nav ul {
     list-style-type: none;
 }
 
-nav ul:first-child {
-    padding-top: 10vh;
-}
-
 nav ul li {
-    padding-bottom: 10vh;
+    border: 3px solid red;
 }
 
 .navlink {
     color: snow;
     text-decoration: none;
     font-size: x-large;
+    padding-right: 15vh;
 }
 
-.active {
+#active {
     padding: 3vh 2vw 3vh 2vw;
     text-align: left;
     background-color: #2286A9;
@@ -51,10 +48,14 @@ nav ul li {
     border: 1mm ridge snow;
 }
 
+body {
+    background-color: snow;
+}
+
 .container main {
     background-color: snow;
     color: midnightblue;
-    grid-area: 2 / 2 / span 4 / span 6;
+    grid-area: 2 / 1 / span 2 / span 7;
 }
 
 p::first-letter {
