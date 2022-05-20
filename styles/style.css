@@ -20,6 +20,10 @@ a{
 	text-decoration:none;
 }
 
+a:hover{
+	color: pink;
+}
+
 nav a{
 	background-color: aliceblue;
 	font-size: 1.2em;
@@ -51,45 +55,41 @@ nav a:first-child{
 	border-left: none;
 }
 
-a:hover{
-	color: whitesmoke;
-}
-
 header{
 	height: 380px;
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 	justify-content: center;
-	padding-top: 20px;
+	margin-top: 20px;
 	margin: 0 auto;
 }
 
 header img{
 	border-radius: 100%;
-	grid-row-start: 1/2;
+	/* can't get it to center in grid */
 }
 
 header h1{
 	font-size: 3em;
-	grid-row-start: 2/3;
-	margin: auto;
 }
 
 footer{
 	background-color: black;
 	height: 12em;
 	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	align-items: center;
 }
 
-footer a{
-	color: white;
+
+img[src="/images/white-github.png"] { 
+	height:30px;
+	width:40px;
 }
 
-footer a:hover{
-	color: #F08E80;
-}
-
-img:last-child{
-	height: 25px;
-	width: 30px;
+img[src="/images/white-linkedin.png"] { 
+	height:26px;
+	width:35px;
 }
