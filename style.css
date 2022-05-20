@@ -1,17 +1,17 @@
 body{background-color: lightpink;
-    display: grid auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    display: grid inline grid;
+    font-family: 'Times New Roman', Times, serif
 }
 
 header{
     background-color: lightcoral;
-    grid-column-start: 1;
+    grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
     font-size: 16pt;
     text-align: right;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 a {
     color: white;
@@ -21,11 +21,11 @@ a {
 .links:visited {color: gray}
 
 
-h1{color:white;
+h1{
+    color:white;
     text-align: Center;
     font-family: italic;
-    text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background-color: lightblue;;
 }
 
 
@@ -42,7 +42,6 @@ p {
     font-size: 20pt;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: pink
 }
 
 .projects{
