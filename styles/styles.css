@@ -1,14 +1,2 @@
 /* #font, navigation, background, color schemes, links, paragraph
 styles, body margins */
-
- * {
-   /* border: 2px solid black; */
-   font-family: Helvetica;
-   font-weight: lighter;
-   font-size: x-large;
-   }
-
-/* body {
-   margin: 0;
-   overflow: hidden;
-} */
