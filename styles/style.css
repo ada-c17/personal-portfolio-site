@@ -66,19 +66,16 @@ header{
 header img{
 	border-radius: 20%;
 	border:black solid;
-	grid-row-start: 1/2;
 	margin:auto;
 	margin-bottom: 20px;
 }
 
 header h1{
 	font-size: 3em;
-	grid-row-start: 2/3;
 	margin: auto;
 }
 
 header p{
-	grid-row-start: 3/4;
 	margin: auto;
 	font-size: 1.5em;
 }
