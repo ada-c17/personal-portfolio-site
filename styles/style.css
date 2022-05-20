@@ -3,15 +3,17 @@ a {
     border-color: red;
 }
 
-nav {
-
-}
-
 h1 {
     font-size: 60px;
     text-align: center;
+    border-style: dotted;
+    border-color: pink;
 }
+
 nav {
+    background-color: lightgray;
+    border-style: dotted;
+    border-color: blueviolet;
     text-align: center;
 }
 
@@ -28,27 +30,22 @@ section {
 
 .copyright-info {
     text-align: right;
+    padding-right: 50px;
 }
 
-.home-button {
-    text-align: left;
+.topnav {
+    padding-top: 30px;
 }
-/* .columns {
-    /* grid-template-rows: minmax(100px, auto);
-    grid-template-columns: minmax(auto, 50%) 1fr 3em; */
 
-    /* grid-template-columns: 90px 50px 120px;
-} */ */
+.topnav-left, .topnav-right {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
 
+.topnav-left {
+    float: left;
+}
 
-/*.left-column {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    width: 50%;
-}*/
-
-/*.right-column {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    width:-50%;
-}*/
+.topnav-right {
+    float: right;
+}
