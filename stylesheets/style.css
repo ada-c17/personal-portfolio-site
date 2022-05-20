@@ -51,6 +51,7 @@ a:hover {
 .body-link {
     color: teal;
     text-decoration: underline;
+    text-underline-offset: .1em;
 }
 
 .welcome {
