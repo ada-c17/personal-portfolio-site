@@ -1,26 +1,26 @@
 .content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    column-gap: 1vw;
+    justify-content: space-between;
 }
 
 .info {
     font-family: 'Poiret One', cursive;
     display: grid;
-    grid-template-columns: 17vw 19vw 20vw 1fr;
+    grid-template-columns: 3vw 17vw 37vw 25vw 1fr;
     grid-template-rows: 25vh 1fr;
     position: absolute;
-    font-size: 32px;
+    font-size: 36px;
     text-shadow: 2px 2px snow;
 }
 
 #one {
+    grid-column-start: 3;
     grid-row-start: 4;
 }
 
 #two {
-    grid-column-start: 3;
+    grid-column-start: 4;
     grid-row-start: 4;
 }
 
