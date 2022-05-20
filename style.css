@@ -1,17 +1,16 @@
-body{background-color: lightpink;
+body{background-color: pink;
     display: grid inline grid;
     font-family: 'Times New Roman', Times, serif
 }
 
 header{
-    background-color: lightcoral;
+    display: inline;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
     font-size: 16pt;
     text-align: right;
-
 }
 a {
     color: white;
@@ -25,7 +24,6 @@ h1{
     color:white;
     text-align: Center;
     font-family: italic;
-    background-color: lightblue;;
 }
 
 
