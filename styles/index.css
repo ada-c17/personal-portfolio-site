@@ -14,7 +14,7 @@ h2 + img {
 
 .info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     margin-bottom: 10px;
@@ -29,22 +29,21 @@ h2 + img {
     padding: 10px;
     text-align: center;
     border-radius: 1em;
-    border: 5px solid #FCA311;
+    border: 5px solid #FF9F1C;
 }
 
 .info img {
     height: 30%;
     width: 40%;
     border-radius: 1em;
-    border: 5px solid #14213D;
+    border: 5px solid #E71D36;
 }
 
 .one img {
-    height: 30%;
-    width: 30%;
+    height: 27%;
+    width: 27%;
     background-color: #F4F6F6;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 8px;
 }
 
 
