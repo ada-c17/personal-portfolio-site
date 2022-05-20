@@ -6,7 +6,8 @@
 body{
 	font-family: 'Bellefair', serif;
 	background-color: #eedcd4;
-	margin-top: 50px;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 
 nav{
