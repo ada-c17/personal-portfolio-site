@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600&family=Roboto:wght@100;300&display=swap');
 body {
     font-family: "Antonio", sans-serif;
     margin: auto;
@@ -12,6 +12,16 @@ footer {
     margin-top: 3vh;
 } 
 
+h2 {
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: right;
+    font-size: 2em;
+    font-weight: 200;
+    color: #000000; 
+}
+
 .menu {
     list-style-type: none;
     padding: 10px;
@@ -20,7 +30,8 @@ footer {
     align-items: flex-end;
     flex-wrap: wrap;
     font-size: 1.5em;
-    background-color: #1766B5;   
+    background-color: #000000; 
+    
 }
 
 .menu li a {
@@ -30,12 +41,17 @@ footer {
 }
 
 .menu li a:hover {
-    color: #FA834C;
+    color: #FCA311;
 }
 
 #name {
     font-size: 3em;
     font-weight: 400;
-    color: #4E6713;
+    color: #000000;
+    
 }
 
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}

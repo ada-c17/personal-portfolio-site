@@ -1,12 +1,4 @@
-h2 {
-    margin: auto;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    text-align: left;
-    font-size: 2em;
-    font-weight: 200;
-    color: #1766B5; 
-}
+
 
 .info {
     display: flex;
@@ -22,7 +14,7 @@ h2 {
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 2%;
-    background-color: #FAFFFD;
+    background-color: #E5E5E5;
     opacity: 0.7;
 }
 
@@ -30,21 +22,40 @@ h2 {
     list-style-type: none;
     text-align: left;
     width: 20%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 .info p {
     width: 30%;
 }
 
-.pic-1, .pic-2, .pic-3 {
+section:nth-child(even) {
+    background-color: #FCA311;
+    border: 5px solid #E5E5E5;
+}
+
+section:nth-child(odd) {
+    background-color: #14213D;
+    border: 5px solid #E5E5E5;
+    
+}
+
+.company {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+/* .pic-1, .pic-2, .pic-3 {
     background-color: #FDC8AF;
     background-size: cover;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
-}
+} */
 
-.pic-1 {
+/* .pic-1 {
     background-image: url("../images/sunset.JPG");
 }
 
@@ -54,10 +65,4 @@ h2 {
 
 .pic-3 {
     background-image: url("../images/lighthouse.JPG");
-}
-
-.work {
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 1.5em;
-}
+} */

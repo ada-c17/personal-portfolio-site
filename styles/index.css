@@ -4,15 +4,7 @@
     padding-bottom: 5vh;
     text-align: center;
 } */
-h2 {
-    margin: auto;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    text-align: left;
-    font-size: 2em;
-    font-weight: 200;
-    color: #1766B5; 
-}
+
 
 h2 + img {
     width: 100%;
@@ -31,20 +23,20 @@ h2 + img {
 .info p {
     height: 30%;
     width: 40%;
-    background-color: #BACACA;
+    background-color: #E5E5E5;
     color: #2D3A3A;
     /* border: solid 2px #82AC20; */
     padding: 10px;
     text-align: center;
     border-radius: 1em;
+    border: 5px solid #FCA311;
 }
 
 .info img {
     height: 30%;
     width: 40%;
     border-radius: 1em;
-    /* border: solid 2px #82AC20; */
-    /* need to match size to p */
+    border: 5px solid #14213D;
 }
 
 .one img {
