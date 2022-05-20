@@ -129,6 +129,7 @@
   .title {
     text-transform: lowercase;
     letter-spacing: 10px;
+    font-size: 3.5em;
   }
   
   h2, h3, h4 {
@@ -284,6 +285,13 @@
   #skills p {
     text-align: center;
     margin: 0;
+  }
+
+  .skills-item-description {
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
   }
   
   #skills i {
@@ -556,11 +564,25 @@
       font-size: 5em;
       margin: 10px 0;
     }
+
+    #about .content-wrapper {
+      flex-flow: nowrap;
+    }
   
     #about figure {
       border: 1em solid;
       padding: 10px;
+      width: 30%;
+      align-self: flex-start;
+      /* max-width: 200px; */
+    }
+
+    #about .about-content {
       width: 60%;
+    }
+
+    .about-content p {
+      font-size: .9em;
     }
   
     #skills article {
