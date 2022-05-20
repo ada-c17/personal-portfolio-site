@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="../stylesheets/style.css" rel="stylesheet" />
+	<link href="../stylesheets/index.css" rel="stylesheet" />
 	<title>Adriana, the Developer</title>
 	<!--Google font link-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,10 +18,10 @@
 	<header>
 		
 		<nav>
-			<a href="#index"><img src="../assets/adriana-gutierrez-logo-white.png" alt="logo" id="header-logo"></a>
-			<a href="#home" class="nav-link">Home</a>
-			<a href="#about" class="nav-link">About</a>
-			<a href="#portfolio" class="nav-link">Portfolio</a>
+			<a href="index.html"><img src="../assets/adriana-gutierrez-logo-white.png" alt="logo" id="header-logo"></a>
+			<a href="index.html" class="nav-link">Home</a>
+			<a href="about.html" class="nav-link">About</a>
+			<a href="portfolio.html" class="nav-link">Portfolio</a>
 		</nav>
 		<div class="screen-1">		
 			<h1>
@@ -47,8 +48,32 @@
 			</ul>
 		</section>
 		<section id="contact-form">
+			<h3>Send a message to Adriana</h3>
 			<form action="mailto:contact@yourdomain.com">
-				
+				<div class="form-query">
+					<label for="name">Your name</label>
+					<input type="text" id="name" name="name" placeholder="Your name...">
+				</div>
+				<br>
+				<div class="form-query">
+					<label for="purpose">How can I help?</label>
+					<select id="purpose" name="purpose">					
+						<option value="learn">To learn more about my skills and qualifications</option>
+						<option value="say-hello">Just wanted to say hello!</option>
+						<option value="other">Something else</option>					
+					</select>
+				</div>
+				<br>
+				<div class="form-query">
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" name="subject" placeholder="What is the subject of your message?">
+					<br>
+					<textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+				</div>
+				<br>
+				<div class="submit-button">
+					<input type="submit" value="Submit">
+				</div>
 			</form>
 		</section>
 		<section id="submitted-contact-form">

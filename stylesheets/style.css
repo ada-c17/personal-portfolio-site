@@ -3,25 +3,25 @@
 }
 
 nav {
-    margin:0%;
-    padding:0%;
     display:grid;
     align-items:center;
-    height:fit-content;
-    grid-template-rows: 100px;
-    grid-template-columns: 10vw auto calc(30px + 1vw) calc(30px + 1vw) calc(30px + 1vw);
-    justify-items:center;
+    height:6vw;
+    min-height:80px;
+    grid-template-rows: fit-content;
+    grid-template-columns: 1vw auto calc(30px + 1vw) calc(30px + 1vw) calc(30px + 1vw);
+    justify-items:left;
     column-gap:8vw;
-    margin-right:4vw;
-    margin-left:calc(30px + 0.2vw)
+    /* margin-right:4vw;
+    margin-left:calc(30px + 0.2vw); */
+    background-color:#cb000061;
 }
 
 .nav-link {
     color:white;
     text-decoration:none;
     font-size:calc(12px + .8vw);
-
-    /* justify-self:end; */
+    justify-self:right;
+    margin-right: 5vw;
 
 }
 
@@ -36,46 +36,14 @@ nav a:hover {
 
 #header-logo {
     object-fit:cover;
-    width:calc(150px + 5vw);
-    height:fit-content;
+    padding-top:1vh;
+    width: 12vw; 
+    height: 12vh; 
+    min-width:150px;
+    /* margin-left: 5vw; */
 }
 
-header {
-    background-color: rgb(245, 109, 145);
-    background-image: radial-gradient(closest-side, rgba(165, 0, 0, 0.335) 50%,rgba(255, 153, 0, 0.2) 100%), url("../assets/gerbera_flower_fibbonacci_spiral.jpg");
-    filter:brightness(1.1);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    padding:1em;
-    height:100vh;
-}
 
-.screen-1 {
-    font-size:calc(20px + 1.5vw);
-    padding-top:4vw;
-    text-align:center;
-    justify-content: center;
-    color: white;
-}
-
-.screen-1 h3 {
-    /* text-shadow: 2px 2px 2px #515070; */
-    line-height:.05em;
-}
-
-.screen-1 h4{
-    /* text-shadow: 2px 2px 3px #515070; */
-    font-size: 0.8em;
-    line-height: 2.5em;
-}
-
-body {
-    background-color: rgb(255, 255, 255);
-    margin:0%;
-    
-
-}
 
 footer {
     display: flex;
@@ -84,6 +52,8 @@ footer {
     font-size: calc(12px + .5vw);
     height: fit-content;
     padding: 1vw;
+    align-content:flex-start;
+    justify-content: space-evenly;
 }
 
 footer a {
@@ -95,14 +65,26 @@ footer a:hover {
     color:#FF8E6E;
 }
 
-#contact-info {
+
+
+#contact-info, #contact-form, #submitted-contact-form {
     color:white;
     justify-content: center;
     line-height:1.5em;
+    width:30vw;
+    max-width:380px;
+    min-width:200px;
+    gap:calc(20px + 10vw);
+    margin: 0vw calc(50px+5vw) auto calc(50px+5vw);
+    padding-right: 5vw;
+    flex-wrap:wrap;
+    
 }
 
 #contact-info ul {
     list-style-type: none;
+    padding-left:5vw;
+    margin-left:0vw;
 }
 
 #contact-info h3 {
@@ -112,4 +94,17 @@ footer a:hover {
 #contact-info img {
     width: calc(60px + 5vw);
     padding-top:1vh;
+}
+
+#submitted-contact-form {
+    display:none;
+}
+
+.form-query {
+    width:100%;
+}
+
+.form-query input, textarea, select {
+    width: 100%;
+    border-radius: 10px;
 }

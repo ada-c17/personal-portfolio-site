@@ -1,0 +1,37 @@
+header {
+    background-color: rgb(245, 109, 145);
+    background-image: radial-gradient(closest-side, rgba(165, 0, 0, 0.335) 50%,rgba(255, 153, 0, 0.2) 100%), url("../assets/gerbera_flower_fibbonacci_spiral.jpg");
+    filter:brightness(1.1);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+    height:100vh;
+    margin:0px;
+}
+
+.screen-1 {
+    font-size:calc(20px + 1.5vw);
+    padding-top:4vw;
+    text-align:center;
+    justify-content: center;
+    color: white;
+}
+
+.screen-1 h3 {
+    /* text-shadow: 2px 2px 2px #515070; */
+    line-height:.05em;
+}
+
+.screen-1 h4{
+    /* text-shadow: 2px 2px 3px #515070; */
+    font-size: 0.8em;
+    line-height: 2.5em;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin:0%;
+    
+
+}
