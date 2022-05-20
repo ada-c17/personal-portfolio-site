@@ -6,8 +6,12 @@
 
 .details {
     text-align: center;
-    height: 12vw;
-    width: 100%;
+    height:40vh;
+    width: 90%;
+}
+
+#intro {
+    font-size: 28px;
 }
 
 .picture {
