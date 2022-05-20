@@ -10,10 +10,9 @@
 
 .first-container ul {
     grid-column-start: 2;
-    line-height: 2;
-    
-    
+    line-height: 2;   
 }
+
 .first-container p {
     max-height: 500px;
     font-size: xx-large;
@@ -36,28 +35,32 @@
 
 .flex-container-row {
     display: flex;
+    justify-content: space-between;
+    width: 450px;
 }
 
 body {
     font-family: sans-serif;
     background-color: rgb(248, 250, 238);
 }
-
 footer {
     background-color:rgb(196, 255, 207);
-    border: 1px honeydew
-    
+    border: 1px honeydew    
 }
 
 h1 {
     font-size: rem;
     color:blue;
-    
-
 }
+
 h2 {
     font-size: rem;
     color:rgb(255, 0, 225);
-    
+}
 
+h3 {
+    
+    color:blue;
+    background-color:lightcyan;
+    border:1px blueviolet;
 }
