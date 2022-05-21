@@ -45,6 +45,10 @@ h3 {
     font-size: 11pt;
 }
 
+#contact span {
+    margin-right: 0.6em;
+}
+
 .info-container {
     display: grid;
     grid-template: 1fr 1fr 20% / 1fr 1fr;
