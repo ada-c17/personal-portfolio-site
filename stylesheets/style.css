@@ -29,8 +29,11 @@ div {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5px
-    
+    margin: 13px;  
+}
+
+section {
+    margin-bottom: 7px;
 }
 
 .nav {
@@ -49,7 +52,7 @@ div {
 }
 
 .nav-link:hover {
-    color:aliceblue;
+    color:rgb(193, 211, 227);
 }
 
 main {
