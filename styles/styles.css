@@ -3,7 +3,6 @@ h1 {
     font-size: 100px;
 }
 p {
-    font-size: 20px;
     color: black;
 }
 body{
@@ -15,15 +14,13 @@ body{
 }
 
 h2, h3 {
-    font-size: 20px;
     color: black;
 }
 
 .list {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    font-size: 20px;
+    justify-content: space-around;
 }
 .list a{
     text-decoration:none;
@@ -36,7 +33,7 @@ h2, h3 {
 
 #project-list {
     display: grid;
-    justify-content: space-evenly;
+    justify-content: space-around;
     grid-template-columns:25vw 25vw 25vw;
 }
 #chem-exp {
@@ -58,18 +55,14 @@ h2, h3 {
     border: 5px solid gray;
 }
 
-.chem-desc {
-    font-size: 15px;
-}
-
 #project-list img{
     width: 100%;
     height: auto;
 }
-#project-list > li, div li {
+#project-list > li, div li, p ,h2, h3, .list  {
     font-size: 20px;
 }
-#project-list > p, div p {
+#project-list > p, div p, .chem-desc {
     font-size: 15px;
 }
 
