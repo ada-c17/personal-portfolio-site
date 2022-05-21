@@ -1,25 +1,65 @@
-
+/* 
 .aboutme {
     color:  rgb(119 92 92);
     font-family: monospace;
     font-size: 25px;
     display: flex;
     justify-content: flex-start;
-    text-indent: 1.1em;
+    text-indent: 1.4em;
+    margin-top: 25px;
     margin-left: 25px;
     margin-bottom: 25px;
     font-weight: bold;
 
+} */
+
+.details {
+    display: block;
 }
 
-p {
+.first-paragraph {
     color:rgb(59,59, 59);
     font-family: monospace;
     font-size: 18px;
     display: flex;
     justify-content: flex-start;
-    margin-left: 25px;
+    margin-left: 37px;
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.paragraph {
+    color:rgb(59,59, 59);
+    font-family: monospace;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 37px;
     margin-top: 25px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+#portfolio {
+    color: #967a54;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: text-shadow 0.15s;
+
+}
+
+#portfolio:hover {
+    color: rgb(92, 86, 86);
+    text-shadow: 1.5px 1.5px;
+}
+#portfolio:visited {
+    color:  #9e7946;
 }
