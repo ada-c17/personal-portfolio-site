@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 7%;
     border-radius: 2em;
@@ -21,21 +22,21 @@
     font-weight: 300;
 }
 
-section:nth-child(even) {
+article:nth-child(even) {
     background-color: #A6EBC9;
     border: 5px solid #000;
 }
 
-section:nth-child(odd) {
+article:nth-child(odd) {
     background-color: #000;
     border: 5px solid #A6EBC9;
 }
 
-section:nth-child(even) ul {
+article:nth-child(even) ul {
     border: 5px solid #000;
 }
 
-section:nth-child(odd) ul {
+article:nth-child(odd) ul {
     border: 5px solid #A6EBC9;
 }
 

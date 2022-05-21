@@ -21,6 +21,10 @@ h3 {
     border-top-left-radius: 0.8em;
 }
 
+.container h3 a {
+    color: #000;
+}
+
 .container h3 a:visited {
     color: #000;
 }
