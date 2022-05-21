@@ -1,5 +1,4 @@
 body {
-  /* margin: 0; */
   background-color: pink;
   font-family: Nunito, Arial, Helvetica;
   margin: 0;
@@ -7,6 +6,13 @@ body {
 
 #page-title {
   text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid black;
 }
 
 li {
@@ -41,9 +47,9 @@ li {
 }
 
 .projects-container > section {
-  background-color: white;
+  text-align: center;
+  border-style: dotted;
   padding: 5%;
-  margin: 5%;
 }
 
 footer {
