@@ -88,11 +88,9 @@ ul {
 h4 {
     border-bottom: 1px solid black;
     width: 12em;
-    font-size: 17pt;
+    font-size: 2vh;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 2px;
     margin-bottom: 0;
 }
 
