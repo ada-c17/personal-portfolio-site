@@ -1,13 +1,15 @@
 a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     padding: 10px;
 }
 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 button {
     background: #d4a373;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
     border-radius: 20px;
     font-size: 14px;
@@ -51,16 +53,21 @@ img.grayscale:hover {
     filter: none;
 }
 
-nav {
+header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
 }
 
 p {
     width: fit-content;
     height: fit-content; 
     pointer-events: none; 
-    text-align: center;
 }
 
 .collage-grid {
@@ -112,28 +119,23 @@ p {
     row-gap: 12px;
 }
 
+/* .container {
+    display: flex;
+    justify-content: flex-end;
+} */
+
 .header-nav {
     background-color: #d4a373;
 }
 
 .img_name {
-    color: #ffffff;
-    background: #d4a3739e;
+    top: -100%;
+    right: -70%;
+    color: #000000;
     position: relative;
-    visibility: hidden;
-    top: -90%;
-    text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.project-blocks:hover .img_name {
-    visibility: visible;
-    opacity: 1;
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .intro {
@@ -143,5 +145,6 @@ p {
     justify-content: center;
 }
 
-
-
+#home {
+    justify-self: flex-start;
+}

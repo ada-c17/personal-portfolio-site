@@ -9,11 +9,17 @@
 </head>
 <body>
   <div>
-    <nav class="header-nav">
-      <header>
-        <a href="about.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-      </header>
+    <header role="banner" class="header-nav">
+      <div class="container">
+        <nav class="main-nav">
+        <ul>
+        <li><a class="right" href="index.html">Home</a></li>
+        <li><a class="left" href="about.html">About Me</a></li>
+        <li><a class="left" href="portfolio.html">Portfolio</a></li>
+        </ul>
+        </nav>
+      </div>
+    </header>
     </nav>
     <section>
       <div class="intro">
@@ -26,21 +32,21 @@
       <div class="collage-flex">
         <h2>Projects</h2>
         <div class="collage-grid">
-          <section class="project-blocks collage-grid-vp">
-            <img class="grayscale" src="/images/viewing_party.jpg">
-            <p class="img_name">Viewing Party</p>
+          <section class="collage-grid-vp">
+            <img class="grayscale collage-grid-vp" src="/images/viewing_party.jpg">
+            <p class="img_name" id="vp">Viewing Party</p>
           </section>
-          <section class="project-blocks collage-grid-ag">
+          <section class="collage-grid-ag">
             <img class="grayscale" src="/images/adagrams.jpg">
-            <p class="img_name">Adagrams</p>
+            <p class="img_name" id="ag">Adagrams</p>
           </section>
-          <section class="project-blocks collage-grid-sm">
+          <section class="collage-grid-sm">
             <img class="grayscale" src="/images/swap_meet.jpg">
-            <p class="img_name">Swap Meet</p>
+            <p class="img_name" id="sm">Swap Meet</p>
           </section>
-          <section class="project-blocks collage-grid-tl">
+          <section class="collage-grid-tl">
             <img class="grayscale" src="/images/task_list.jpg">
-            <p class="img_name">Task List</p>
+            <p class="img_name" id="tl">Task List</p>
           </section>
         </div>
         <a href="portfolio.html"><button id="collage-button">View More</button></a>
