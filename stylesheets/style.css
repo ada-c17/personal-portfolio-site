@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(179, 184, 220);
+}
+/* 
+div {
+    /* width: 100vw;
+    height: 100vh; 
+    display:grid; 
+    grid-template-columns: 3fr 5fr 3fr;
+    display:grid; 
+    grid-template-rows: 20px 1fr 20px;
+    display: flex;
+} */
+
+div {
+    height: 80vh;
+    display: flex; 
+}
+
+.header {
+    background-color: rgb(143, 195, 227);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 55px;
+    color: rgb(61, 100, 228);
+    font-weight: bold;
+    border:4px rgb(79, 118, 244);
+    border-style: double;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px
+    
+}
+
+.nav {
+    background-color:#eaa68e;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.link-1, .link-2 {
+    font-size:medium;
+    background-color: rgb(79, 118, 244);
+    background-image: linear-gradient(to left, rgba(66, 44, 155, 0), rgb(223, 174, 121));
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.nav-link:hover {
+    color:aliceblue;
+}
+
+main {
+    background-color: rgb(218, 159, 131);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border:3px rgb(79, 118, 244);
+    border-style: solid; 
+    padding: 20px
+
+}
+
+
+.left-column {
+    background-color: rgb(75, 131, 227);
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.right-column {
+    background-color: rgb(75, 131, 227);
+    grid-column-start: 3;
+    grid-row-start: 2
+}
+
+.footer {
+    background-color: rgb(153, 197, 224);
+    color:rgb(33, 61, 151);
+    border:3px rgb(79, 118, 244);
+    border-style: double;
+    font-family:Calibri;
+    font-size: small;
+    text-align: center;
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.my-info {
+    background-color: rgb(181, 194, 216);
+    border:4px rgb(79, 118, 244);
+    border-style: double;
+    display:flex;
+    align-items: center;
+    height: 300px;
+    width: 700px;
+    color:rgb(33, 61, 151);
+}
+
+
+#text {
+    padding: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(206, 148, 121);
+    
+}
+
+#link:hover {
+    color:rgb(92, 43, 226)
+}
+
