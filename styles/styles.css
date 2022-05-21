@@ -48,6 +48,10 @@ body main {
     grid-column: 2 / 4;;
     grid-row: 1 / 4;
     color: #2c423f;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 body footer {
@@ -79,6 +83,10 @@ body footer {
     font-size: 20pt;
     border-radius: 10%;
     color: #2c423f;
+}
+
+.main-text {
+    text-align: justify;
 }
 
 
