@@ -4,9 +4,8 @@ body {
     display: grid;
     grid-template-columns: 20% auto 20%;
     grid-template-rows: .5fr 1fr .25fr;
-    color: #17075F;
+    color: #3e3e3e;
     font-weight: 300;
-    text-align: center;
 }
 
 header {
@@ -14,25 +13,38 @@ header {
     margin-top: 5em;
     grid-column: 2/3;
     grid-row: 1/2;
-    font-size: 2vw;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2vw;
+header img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+header nav li {
+    background-color: #f3f3f3;
+    padding: .5em;
+    border-radius: 10px;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3e3e3e;
 }
 
 main {
     grid-column: 1/4;
     grid-row: 2/3;
-    background-color: #E2E2F3;
+    background-color: #f3f3f3;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -40,24 +52,11 @@ main {
 }
 
 section {
-    width: 100vw;
-    height: 15vw;
-    align-items: center;
-    font-size: 1.5vw;
-    border: solid;
+    width: 500px;
 }
 
-nav {
-    word-spacing: 300px;
-    font-weight: 800;
-}
-
-#home {
-    color: #17075F;
-}
-
-#portfolio {
-    color: #17075F;
+section img {
+    width: 100%;
 }
 
 footer {
@@ -67,12 +66,7 @@ footer {
 }
 
 footer a {
-    color: #E8DEF7;
-    font-size: 1vw;
-}
-
-#footer-tags {
-    font-size: 10vw;
+    color: whitesmoke;
 }
 
 .tags li {
@@ -97,8 +91,4 @@ footer a {
 
 .tags li:nth-of-type(4) {
     background-color: teal;
-}
-
-.tags li:nth-of-type(5) {
-    background-color: purple;
 }
