@@ -5,10 +5,11 @@ a {
 }
 
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 button {
-    background: #d4a373;
+    background: #ddbea9;
     color: white;
     border: none;
     border-radius: 20px;
@@ -17,27 +18,30 @@ button {
 }
 
 footer {
-    width: 100%;
-    bottom: 0px; 
-    background-color: #d4a373;
-    padding: 15px 0px 10px 0px; 
-    font-size: 10px;
-    text-align: center;
-    margin-top: 50px; 
+    width: 100%; 
+    font-size: 25px; 
     color:#ffffff;
 }
 
 h1 {
     font-size: 50px;
     font-weight: bold;
-    color: #ccd5ae;
+    color: #a5a58d;
+    /* color: #ccd5ae; */
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px;
+    color: #a5a58d;
+}
+
+h3 {
+    font-size: 20px;
     font-weight: normal;
     margin: 20px;
-    color: #a4ac86;
+    color: #4a4e69;
 }
 
 hr {
@@ -53,15 +57,8 @@ img.grayscale:hover {
     filter: none;
 }
 
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-li {
-    display: inline;
-    list-style-type: none;
+nav  {
+    width: 100%;
 }
 
 p {
@@ -119,23 +116,14 @@ p {
     row-gap: 12px;
 }
 
-/* .container {
-    display: flex;
-    justify-content: flex-end;
-} */
-
-.header-nav {
-    background-color: #d4a373;
-}
-
 .img_name {
     top: -100%;
-    right: -70%;
     color: #000000;
     position: relative;
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    text-align: right;
 }
 
 .intro {
@@ -145,6 +133,27 @@ p {
     justify-content: center;
 }
 
-#home {
-    justify-self: flex-start;
+.nav-item a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color:#000000;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cb997e;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
 }
