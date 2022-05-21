@@ -1,10 +1,10 @@
 body {
+  margin: 0;
   background-color: pink;
   font-family: Nunito, Arial, Helvetica;
-  margin: 0;
 }
 
-#page-title {
+.page-title {
   text-align: center;
 }
 
@@ -29,7 +29,7 @@ li {
   border-radius: 30%;
 }
 
-.container {
+.intro-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,13 +43,15 @@ li {
 .projects-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   /* display: block; */
 }
 
 .projects-container > section {
   text-align: center;
   border-style: dotted;
-  padding: 5%;
+  /* padding: 10%; */
+  margin: 5%;
 }
 
 footer {
