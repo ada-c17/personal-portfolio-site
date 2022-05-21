@@ -2,6 +2,10 @@
 header{
 	margin-top: 3vh;
 }
+
+header h1{
+	font-size: 3em;
+}
 main {
 	padding: 0;
 	height: 60vh;
@@ -38,10 +42,14 @@ article:last-of-type {
 	grid-row: 3/4;
 	align-self: flex-start;
 }
+h2{
+	font-size: 2em;
+}
 
 li{
 	list-style-type: none;
 	margin: 10px;
+	font-size: 1.2em;
 }
 
 span {
