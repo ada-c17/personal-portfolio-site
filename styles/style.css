@@ -6,6 +6,13 @@ body {
   text-align: center;
 }
 
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
 #portrait {
   position: absolute;
   left: auto;
@@ -15,29 +22,13 @@ body {
 
 .introduction {
   position: relative;
-  left: 350px;
+  left: 450px;
   width: 100vh;
+  line-height: 1.5;
 } 
 
-/* body {
-  background-color: pink;
-  margin: 0;
-}
-
-
-h1 {
+footer {
+  position: absolute;
+  bottom: 0;
   text-align: center;
-  line-height: 200px;
-  padding: 50px;
 }
-
-section {
-  display: flex;
-}
-
-article {
-  background-color: white;
-  padding: 20px;
-  margin: 50px;
-  align-items: stretch;
-} */
