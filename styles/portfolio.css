@@ -1,0 +1,11 @@
+#linkstosocial li {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: None;
+}
+  .logoimage {
+      max-width:100%;
+      height: auto;
+  } 

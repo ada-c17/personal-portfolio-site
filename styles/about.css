@@ -1,0 +1,19 @@
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: None;
+    justify-content: space-around;
+}
+  .aboutimage {
+      max-width:auto;
+      height: 280px;
+  } 
+
+#aboutme li {
+    text-decoration: None;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A6163;
+    text-align: center;
+    background-color: #FFC94B;
+}
