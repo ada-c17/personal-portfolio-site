@@ -1,6 +1,8 @@
 body {
+  /* margin: 0; */
   background-color: pink;
   font-family: Nunito, Arial, Helvetica;
+  margin: 0;
 }
 
 #page-title {
@@ -32,9 +34,16 @@ li {
   line-height: 1.5;
 } 
 
-.projects {
-  background-color: white;
+.projects-container {
   display: flex;
+  flex-direction: row;
+  /* display: block; */
+}
+
+.projects-container > section {
+  background-color: white;
+  padding: 5%;
+  margin: 5%;
 }
 
 footer {
