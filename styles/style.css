@@ -1,0 +1,12 @@
+/* 
+Dark Red: #8F0C0C
+Rosewood: #5F1212 
+Dark Sienna: #230707
+Tuscany: #CAA2A2
+Snow: #F7F2F2
+*/
+body {
+    background-color: #230707;
+    background-image: url(/assets/cairovercoat-timetiles2.png);
+    background-repeat: repeat-y;
+}
