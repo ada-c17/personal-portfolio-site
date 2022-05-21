@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(167, 200, 232);
+}
+
+.overall {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.github-logo {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+img {
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+h2 {
+    text-align: center;
+}
+
+h2::before{
+    content: "\a";
+    white-space: break-spaces;
+}
+
+footer {
+    text-align: center;
+    color:white;
+    position: relative;
+    margin-top: -180px;
+    /* negative value of footer height */
+    height: 55px;
+    clear: both; 
+    background-color: #333;        /* Footer height */
+}
+
+footer a:visited {
+    color:white
+}
+
+
+/* MENU BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
