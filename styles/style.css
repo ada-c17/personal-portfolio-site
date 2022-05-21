@@ -1,5 +1,6 @@
 body {
   background-color: pink;
+  font-family: Nunito, Arial, Helvetica;
 }
 
 #page-title {
@@ -20,22 +21,21 @@ li {
   border-radius: 30%;
 }
 
-/* section {
-  display: flex;
-  flex-direction: row;
-} */
-
 .container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
+
 .introduction {
-  /* position: relative; */
-  /* left: 26%; */
-  /* width: 100vh; */
   line-height: 1.5;
 } 
+
+.projects {
+  background-color: white;
+  display: flex;
+}
 
 footer {
   position: absolute;
