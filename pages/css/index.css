@@ -66,6 +66,7 @@ main {
     place-items: center;
     grid-area: main;
     background: url("images/water.jpeg");
+    background-repeat:no-repeat;
     background-color: rgb(186, 151, 198);
     text-align: center;
 }
