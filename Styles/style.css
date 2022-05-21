@@ -3,20 +3,19 @@
     flex-direction: column;
     flex: 1;
     position: relative;
-    min-height: 100vh;
+    min-height: 110vh;
     min-width: 100vw;
-    border: 2px tomato dotted;
+    border: 7px tomato dotted;
 }
 .header {
     align-self: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Chalkduster, fantasy;
+    color:tomato;
     font-size:40px;
     text-align: center;
 }
 body {
-    background-color:rgb(255, 229, 162);
-    /* background-image: url(https://www.onlygfx.com/wp-content/uploads/2016/07/red-crayon-2.jpg); */
-
+    background-color:rgba(245,224,184,255);
 }
 .content {
     display: flex;
@@ -32,4 +31,11 @@ nav a {
 }
 nav a:hover {
     color: azure;
+}
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+}
+
+.animate-flicker {
+    animation: fadeIn 3s;
 }
