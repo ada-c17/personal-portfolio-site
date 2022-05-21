@@ -14,16 +14,26 @@ li {
 }
 
 #portrait {
-  position: absolute;
-  left: auto;
-  width: 25%;
+  /* position: absolute;
+  left: auto; */
+  width: 80%;
   border-radius: 30%;
 }
 
+/* section {
+  display: flex;
+  flex-direction: row;
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
 .introduction {
-  position: relative;
-  left: 450px;
-  width: 100vh;
+  /* position: relative; */
+  /* left: 26%; */
+  /* width: 100vh; */
   line-height: 1.5;
 } 
 
