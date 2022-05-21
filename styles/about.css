@@ -27,13 +27,13 @@ article:nth-child(even) {
     border: 5px solid #000;
 }
 
+article:nth-child(even) ul {
+    border: 5px solid #000;
+}
+
 article:nth-child(odd) {
     background-color: #000;
     border: 5px solid #A6EBC9;
-}
-
-article:nth-child(even) ul {
-    border: 5px solid #000;
 }
 
 article:nth-child(odd) ul {

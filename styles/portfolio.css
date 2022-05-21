@@ -15,7 +15,7 @@ h3 {
     font-style: italic;
     font-weight: 600;
     font-size: 1.5em;
-    line-height: 3em;
+    line-height: 2.5em;
     background-color: #A6EBC9;
     text-align: center;
     border-top-left-radius: 0.8em;
@@ -36,17 +36,15 @@ h3 {
     width: 90%; 
 }
 
-.container > img {
+.container img {
     grid-column: 3 / span 1;
     grid-row: 1 / span 2; 
+    width: 35vw;
+    height: 30vh;
 }
 
 a {
     text-decoration: none;
 }
 
-img {
-    width: 35vw;
-    height: 30vh;
-}
 
