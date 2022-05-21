@@ -7,17 +7,14 @@
     border-radius: 2em;
 }
 
-.info p, .info ul {
+.info ul {
     height: 20%;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 2%;
-    background-color: #FDFFFC;
+    background-color: #FFF;
     opacity: 0.8;
     width: 30%;
-}
-
-.info ul {
     list-style-type: none;
     text-align: left;
     font-family: "Roboto", sans-serif;
@@ -25,18 +22,24 @@
 }
 
 section:nth-child(even) {
-    background-color: #FF9F1C;
-    border: 5px solid #E5E5E5;
+    background-color: #A6EBC9;
+    border: 5px solid #000;
 }
 
 section:nth-child(odd) {
-    background-color: #2EC4B6;
-    border: 5px solid #E5E5E5;
-    
+    background-color: #000;
+    border: 5px solid #A6EBC9;
+}
+
+section:nth-child(even) ul {
+    border: 5px solid #000;
+}
+
+section:nth-child(odd) ul {
+    border: 5px solid #A6EBC9;
 }
 
 .company {
     font-size: 1.5em;
     margin-bottom: 1.5em;
 }
-

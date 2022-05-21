@@ -15,10 +15,8 @@ h2 {
     margin: auto;
     padding-top: 2%;
     padding-bottom: 3%;
-    text-align: right;
     font-size: 2em;
-    font-weight: 200;
-    color: #E71D36; 
+    font-weight: 600; 
 }
 
 .menu {
@@ -29,7 +27,7 @@ h2 {
     align-items: flex-end;
     flex-wrap: wrap;
     font-size: 1.5em;
-    background-color: #000000; 
+    background-color: #000; 
 }
 
 .menu li a {
@@ -39,14 +37,12 @@ h2 {
 }
 
 .menu li a:hover {
-    color: #E71D36;
+    color: #A6EBC9;
 }
 
 #name {
     font-size: 3em;
-    font-weight: 400;
-    color: #000000;
-    
+    font-weight: 400;    
 }
 
 p {
