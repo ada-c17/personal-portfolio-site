@@ -64,7 +64,6 @@ nav  {
 p {
     width: fit-content;
     height: fit-content; 
-    pointer-events: none; 
 }
 
 .collage-grid {
@@ -124,6 +123,7 @@ p {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
+    pointer-events: none;
 }
 
 .intro {
