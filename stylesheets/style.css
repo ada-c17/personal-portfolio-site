@@ -90,8 +90,6 @@ a.social__link img {
   padding-bottom:120px;
 
   position: relative;
-
-  background: url("../images/symbols.png") right bottom no-repeat;
   border-bottom: 1px solid fade(gray, 30%);
 }
 
@@ -118,10 +116,11 @@ a.social__link img {
 }
 
 #intro__photo {
-  position: absolute;
-  bottom: -3px;
-  right: 35px;
-  width: 400px;
+  position: relative;
+  right:-80px;
+  width: 600px;
+  border-radius: 20px;
+
 }
 
 .footer__inner {
@@ -130,7 +129,7 @@ a.social__link img {
   height: 120px;
   display: grid;
   grid-template-columns: 1fr 2fr 6fr 4fr;
-  font-size: 0.5em;
+  font-size: 0.7em;
   margin-top: 200px;
   padding: 2rem 0;
   background-color: var(--black);
@@ -140,7 +139,7 @@ a.social__link img {
   color: #bbbbcc;
   font-size: 0.94rem;
   text-decoration: none;
-  padding: 0.26rem;
+  padding: 0.7rem;
 }
 
 #disclaimer {
