@@ -16,7 +16,7 @@ body {
 .introduction {
   position: relative;
   left: 350px;
-  /* height: 500px; */
+  width: 100vh;
 } 
 
 /* body {
