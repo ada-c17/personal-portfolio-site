@@ -5,33 +5,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/dff1440c2f.js" crossorigin="anonymous"></script>
+
+  <!---------------------CSS Stylesheets ------------------->
+  <link rel="stylesheet" href="../static/stylesheets/style.css">
+
+  <!---------------------Fonts --------------------------->
+
+  <!-- Monserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Handlee  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
   <title>About Me</title>
 </head>
+
+
 <body>
   <header>
-    <h1><a href="index.html">Chi's Corner</a></h1>
+    <a href="index.html"><img id="logo" src="../static/images/CC.png" alt="Chi's Corner Logo"></a>
     <nav>
-      <ul>
-        <li><a href="index.html"></a>Home</li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About Me</a></li>
+      <ul class="header-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="about.html">ABOUT ME</a></li>
       </ul>
     </nav>
   </header>
-  <section>
-    <h3>Interests</h3>
-    <p>Looking to work in software engineering and transiiton into machine learning and natural language processing using her linguistics background.</p>
+
+  <!-------- Main  ---------->
+  <main>
+    <h1 class="purple-color" id="about-title">More about Me</h3>
+  <section class="about-container">
+    <div class="about-img">
+      <img class="chi-img" src="../static/images/Chi Pic.jpg" alt="Picture of Chi">
+      </div>
+
+    <div class="about-text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui ut ornare lectus sit amet est placerat in egestas. Justo laoreet sit amet cursus sit amet dictum. Lacus sed viverra tellus in hac habitasse platea. Amet purus gravida quis blandit turpis cursus in. Egestas sed tempus urna et pharetra pharetra. Sit amet nisl suscipit adipiscing bibendum est ultricies. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Sapien nec sagittis aliquam malesuada bibendum arcu. Id porta nibh venenatis cras sed felis eget velit aliquet. Ullamcorper a lacus vestibulum sed arcu non odio. Amet consectetur adipiscing elit pellentesque habitant morbi. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim.
   </section>
-  <section>
-    <h3>Background</h2>
-      <ul>
-        <li>Budding software engineer with graduate degrees in Applied Linguistics and Organization, Learning, and Technology.</li>
-        <li>Previous work with the arts including working as an actor, singer, video producer, writer, and editor.</li>
-        <li>Also has extensive experience as an instructor having taught English, Journalism, and Theater</li>
-      </ul>
-  </section>
+    </div>
+</main>
 </body>
-<footer>
-  <p>&copy; 2022 Chinazo Onwukaike</p>
-</footer>
+
+    <!--------------- Footer   --------->
+    <footer class="footer">
+      <section class="foot-container">
+      <p class="foot-text">&copy; 2022 Chinazo Onwukaike</p>
+      <div class="foot-links">
+      <nav>
+        <ul>
+          <li class="foot-links"><a class="ft" href="index.html">HOME</a></li>
+          <li class="foot-links"><a class="ft" href="portfolio.html">PORTFOLIO</a></li>
+          <li class="foot-links"><a class="ft" href="about.html">ABOUT ME</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="foot-icons">
+        <i class="fa-brands fa-2x fa-github"></i>
+        <i class="fa-brands fa-2x fa-facebook"></i>
+        <i class="fa-brands fa-2x fa-linkedin"></i>
+        <i class="fa-solid fa-2x fa-envelope"></i>
+    </div>
+  </section>
+    </footer>
 </html>
