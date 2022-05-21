@@ -18,6 +18,7 @@ h3 {
     line-height: 3em;
     background-color: #A6EBC9;
     text-align: center;
+    border-top-left-radius: 0.8em;
 }
 
 .container h3 a:visited {
