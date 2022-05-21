@@ -1,0 +1,172 @@
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    /* border: 1px solid blue;
+     */
+}
+
+.nav-items > li {
+    margin: 0 80px;
+}
+
+section .about-content {
+    /* display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr));
+*/
+    display: flex;
+    flex-direction: row;
+    /* border:1px solid blue; */
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 8% 5% 0 10%;
+    height: 550px;
+    line-height: 2em;
+}
+    
+.about-content img {
+    padding-top: 60%;
+    width: 70%;
+}
+
+.profile-text h1 {
+    margin: 0 38px
+}
+
+.about-content .profile-text p {
+    text-align: left;
+    /* border:1px solid blue;  */
+    margin: 0 20px
+}
+
+#profession {
+    display: inline-flex;
+    border-radius: 2em;
+    border: 1px solid gray;
+    margin-left: 30px;
+    padding: 0 10px;
+}
+
+
+section .skill-container{
+    height: 100%; /*deals overflow auto*/
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    padding:20px;
+    margin: 30px;
+}
+
+section .skill-container .skill{
+    /* border: 1px solid rgb(255, 0, 60); */
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding:20px;
+}
+
+section .skill-container .skill span{
+    border: 1px solid gray;
+    border-radius: .3em;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 2em;
+    /* margin: 20px 30px; */
+    
+}
+
+section .project {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr));
+    /* background-color: black; */
+    height: 600px;
+    padding: 30px;
+    text-align: justify;
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    text-align: right;
+
+}
+/* section .project > li {
+    border: 1px solid green;
+} */
+
+#Backend {
+    background-color: #9BAAAE;
+}
+
+#Java {
+    background-color: #863929;
+}
+
+#Spring{
+    background-color: #B8BDAB;
+}
+
+#MEAN {
+    background-color: #715650;
+}
+
+#JS {
+    background-color: #B8BDAB;
+}
+
+#JS {
+    background-color: #5A725B;
+}
+
+#html-css {
+    background-color: #80726C;
+}
+
+#expect1 {
+    background-color: #778EA2;
+}
+section .project > li:hover{
+    transform: scale(1.1);
+}
+
+
+
+footer .contact {
+    /* display: flex;
+    flex-direction: row; */
+    list-style-type: none;
+    text-align: center;
+    padding: 30px;
+}
+
+footer .icons{
+    width: 30px;
+    height: 30px;
+    
+}
+
+footer ul img:hover{
+    opacity: 70%;
+}
+
+footer h1 , p{
+    padding: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+#email {
+    padding-top: 10px;
+    
+}
+
+::selection{
+    color:#715650;
+}

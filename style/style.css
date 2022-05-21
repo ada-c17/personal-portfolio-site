@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Red+Hat+Display:wght@300;400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400;1,600&family=Source+Sans+Pro&display=swap');
+
+html {
+    font-family: 'Source Code Pro';
+    padding: 10px;
+}
+
+h1 {
+    margin: 30px;
+    padding-top: 5%;
+
+}
+
+section h1 {
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #715650;
+}
+
