@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,25 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../stylesheets/style.css">
   <link rel="stylesheet" href="../stylesheets/projects.css">
+  <link rel="stylesheet" href="../stylesheets/animate_projects.css">
+
 
   <title>Portfolio</title>
 </head>
+
 <body>
 
 
   <!-- Header -->
   <header class="header">
     <div class="container">
-            <nav class="nav" id="nav">
-              <a class="nav__link" href="index.html">home</a>
-              <a class="nav__link" href="portfolio.html">projects</a>
-              <a class="nav__link" href="about.html">about me</a>
-              <a class="nav__link" href="#">blog</a>
-              <a class="nav__link" href="#">contact</a>
-            </nav>
+      <nav class="nav" id="nav">
+        <a class="nav__link" href="index.html">home</a>
+        <a class="nav__link" href="portfolio.html">projects</a>
+        <a class="nav__link" href="about.html">about me</a>
+        <a class="nav__link" href="#">blog</a>
+        <a class="nav__link" href="#">contact</a>
+      </nav>
     </div>
   </header>
 
@@ -30,56 +34,111 @@
   <div class="projects">
     <div class="container">
 
-      <div class="portfolio" id="portfolio">
+      <div class="portfolio">
 
         <div class="portfolio__col" data-cat="Python">
           <div class="project__content">
-                    <div class="project__cat">category: Python</div>
-                    <a class="project__link" href="https://github.com/NinaPatrina/viewing-party">Viewing Patry <time class="project__date" datetime="2022-03-29 19:00">March 2022</time></a>
-                    <div class="project__description"> 
-                      <ul>Solving problems with...</ul>
-                        <li>Conditional logic</li>
-                        <li>Lists</li>
-                        <li>Dictionaries</li>
-                        <li>Nested loops</li>
-                        <li>Nested data structures</li>
-                    </div>
-                </div>
+            <div class="project__cat">category: Python</div>
+            <a class="project__link" href="https://github.com/NinaPatrina/viewing-party" target="_blank" rel="noopener noreferrer">Viewing Party </a>
+            <time class="project__date">March 2022</time>
+          </div>
+          <!--project__content -->
+
+          <div class="project__description">
+            <p>Small learning project, I was given a data structure of nested lists and dictionaries that represents the
+              things I've watched, favorited and want to watch. I created a series of functions. These functions
+              modified the data, like adding and removing things between different lists. This project required to solve
+              problems with...</p>
+            <ul>
+              <li>Conditional logic</li>
+              <li>Lists</li>
+              <li>Dictionaries</li>
+              <li>Nested loops</li>
+              <li>Nested data structures</li>
+            </ul>
+          </div>
         </div>
+        <!--portfolio__col -->
 
         <div class="portfolio__col" data-cat="Python">
-              <div class="project__content">
-                  <div class="project__cat">category: Python</div>
-                  <a class="project__link" href="https://github.com/NinaPatrina/viewing-party">Swap Meet <time class="project__date" datetime="2022-03-29 19:00">April 2022</time></a>
-                  </div class="project__description"> 
-                    <ul>Skill Assessed</ul>
-                      <li>Creating classes</li>
-                      <li>Importing modules</li>
-                      <li>Working with attributes that are lists of instances</li>
-                      <li>Implementing instance methods that interact with other instances and objects</li>
-                      <li>Overriding methods from superclasses and Object</li>
-                  <div>
-              </div>
+          <div class="project__description">
+            <p>Another student's project. I organized a swap meet! I had a bunch of stuff. So do my friends. The goal
+              was to write a program that will let each person swap one of their things with another person's things.
+              Vendors were able to swap their top item and swap items by category</p>
+            <p>Skill Assessed</p>
+            <ul>
+              <li>Creating classes</li>
+              <li>Importing modules</li>
+              <li>Working with attributes that are lists of instances</li>
+              <li>Implementing instance methods that interact with other instances and objects</li>
+              <li>Overriding methods from superclasses and Object</li>
+            </ul>
+          </div>
+
+          <div class="project__content">
+            <div class="project__cat">category: Python</div>
+            <a class="project__link" href="https://github.com/NinaPatrina/swap-meet" target="_blank" rel="noopener noreferrer">Swap Meet</a>
+            <time class="project__date">April 2022</time>
+          </div>
+          <!--project__content -->
+
         </div>
+        <!--portfolio__col -->
+
 
         <div class="portfolio__col" data-cat="Flask">
-          
-              <div class="project__content">
-                  <div class="project__cat">category: Flask</div>
-                  <a class="project__link" href="https://github.com/NinaPatrina/viewing-party">Task list API <time class="project__date" datetime="2022-03-29 19:00">May 2022</time></a>
-                  <div class="project__description"> 
-                    <ul>Skill Assessed</ul>
-                      <li>Demonstrating understanding of the client-server model, request-response cycle and conventional RESTful routes</li>
-                      <li>Reading and using existing external web APIs</li>
-                      <li>Apply knowledge about environment variables</li>
-                      <li>Creating models</li>
-                      <li>Creating a one-to-many relationship between two models</li>
-                  </div>
-              </div>
+          <div class="project__content">
+            <div class="project__cat">category: Flask</div>
+            <a class="project__link" href="https://github.com/NinaPatrina/task-list-api" target="_blank" rel="noopener noreferrer">Task list API</a>
+            <time class="project__date">May 2022</time>
+            <a class="project__link" href="https://task-nina.herokuapp.com/" target="_blank" rel="noopener noreferrer">Task list website </a>
+            <time class="project__date">May 2022</time>
+
+          </div>
+          <!--project__content -->
+
+          <div class="project__description">
+            <p>A Flask program to organize tasks, so anyone are able to create, read, update, and delete tasks as long
+              as they have access to the Internet and their API is running. This program also let a person sort tasks,
+              mark them as complete, get feedback about their task list through Slack, organize tasks with goals</p>
+
+          </div>
         </div>
-    </div><!-- /.portfolio -->
-  </div><!-- /.container -->
-</div><!-- /.projects -->
+        <!--portfolio__col -->
+      </div><!-- /.portfolio -->
+    </div><!-- /.container -->
+  </div><!-- /.projects -->
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div id="footer__copyright">
+                &copy; 2022
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/NinaPatrina" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/white-github.png" alt="Logo Github">
+                </a>
+                <a href="https://www.linkedin.com/in/patrina-nina-8a90295/" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="../images/linkedIn-gray.png" alt="Logo LinkedIn">
+                </a>
+            </div>
+            <p id="disclaimer"> I'm not responsible for, and expressly disclaims all liability for, damages of any
+                kind arising out of use, reference to, or reliance on any information contained within the site.
+                While the information contained within the site is periodically updated, no guarantee is given that
+                the information provided in this Web site is correct, complete, and up-to-date. Enjoy! </p>
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="portfolio.html">Projects</a>
+                <a class="footer__nav-link" href="about.html">About me</a>
+                <a class="footer__nav-link" href="#">Blog</a>
+                <a class="footer__nav-link" href="#">Hire me</a>
+            </nav>
+        </div><!-- /.footer__inner -->
+    </div><!-- /.container -->
+  </footer>
 
 </body>
 </html>

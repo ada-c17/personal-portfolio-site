@@ -1,136 +1,157 @@
-@import "vars";
+:root {
+  --black: #0e1538;
+  --white: #f0ebd8;
+}
 
 html {
-   font-size: 18px;
+  font-size: 18px;
+  background-color: #0e1538;
+  color: var(--white);
+  height: 100%;
 }
 
 body {
-    margin: 0;
+  margin: 0;
+  min-height: 100%;
+  position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 p {
-    margin: 0 0 1rem;
+  margin: 0 0 1rem;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
 }
 
 .header {
-    padding: 1.2rem 0;
-    display: flex;
-    justify-content: space-between;
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
 }
 .nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 100%;
-    justify-content: flex-end;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+}
 
 .nav__link {
-        margin-left: 2rem;
-        position: relative;
-        font-size: 0.93rem;
-        color: black;
-        text-transform: uppercase;
-        font-weight: 700;
-        text-decoration: none;
-        padding: 0.66rem 2rem;
-        border: 2px solid black;
-        border-radius: 20px;
-        }
-    
+  margin-left: 2rem;
+  position: relative;
+  font-size: 0.93rem;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.66rem 2rem;
+  border: 2px solid var(--white);
+  border-radius: 20px;
+}
 
-a.social__link img{
-    width: 98px;
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+a.social__link img {
+  width: 98px;
 }
 
 .intro__inner {
-    display: flex;
-    margin-left: 75px;
-    margin-right: 75px;
+  display: flex;
+  /* margin-left: 15px; */
+  margin-right: 75px;
 
-    padding-left: 1rem;
-    padding-top: 6rem;
-    padding-bottom: 2rem;
-    
-    position: relative;
+  padding-left: 1rem;
+  padding-top: 6rem;
+  padding-bottom:120px;
 
-    background: url("../images/symbols.png") right bottom no-repeat;
-    border-bottom: 1px solid fade(gray, 30%);
+  position: relative;
+
+  background: url("../images/symbols.png") right bottom no-repeat;
+  border-bottom: 1px solid fade(gray, 30%);
 }
 
 .intro__content {
-    width: 50%;
+  width: 41%;
 }
 
 .intro__subtitle {
-    font-size: 2.13rem;
-    font-weight: 510;
+  font-size: 2.13rem;
+  font-weight: 510;
 }
 
 #intro__title {
-    margin-bottom: 5px;
-    font-size: 3rem;
-    font-family:'Poppins', sans-serif;
+  margin-bottom: 5px;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .intro__text {
-    margin-bottom: 100px;
-    margin-top: 25px;
-    font-size: 1.2rem;
-    color: fade(black, 70%);
+  margin-bottom: 100px;
+  margin-top: 25px;
+  font-size: 1.2rem;
+  color: fade(var(--black), 70%);
 }
 
 #intro__photo {
-    position: absolute;
-    bottom: -3px;
-    right: 35px;
-    width: 400px;
+  position: absolute;
+  bottom: -3px;
+  right: 35px;
+  width: 400px;
 }
 
 .footer__inner {
-    display: grid;
-    grid-template-columns: 1fr 2fr 6fr 4fr;
-    font-size: 0.5em;
-    margin-top: 100px;
-    padding: 2rem 0;
-    background-color: black;
-    color: #BBBBCC;
-
+  position: absolute;
+  bottom: 0px;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 6fr 4fr;
+  font-size: 0.5em;
+  margin-top: 200px;
+  padding: 2rem 0;
+  background-color: var(--black);
+  color: #bbbbcc;
 }
-.footer__inner a{
-    color: #BBBBCC;
-    font-size: .94rem;   
-    text-decoration:none;
-    padding: 0.26rem;
-    }
+.footer__inner a {
+  color: #bbbbcc;
+  font-size: 0.94rem;
+  text-decoration: none;
+  padding: 0.26rem;
+}
 
 #disclaimer {
-    text-align: center;
-    margin-right: 50px;
+  text-align: center;
+  margin-right: 50px;
 }
 
 #footer__copyright {
-    font-size: .94rem;   
-    padding-left: 1em; 
+  font-size: 0.94rem;
+  padding-left: 1em;
 }
-.footer__social img{
-    width: 18px;
+.footer__social img {
+  width: 18px;
 }
