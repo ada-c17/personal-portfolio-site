@@ -1,5 +1,26 @@
 body {
   background-color: pink;
+}
+
+#page-title {
+  text-align: center;
+}
+
+#portrait {
+  position: absolute;
+  left: auto;
+  width: 25%;
+  border-radius: 30%;
+}
+
+.introduction {
+  position: relative;
+  left: 350px;
+  /* height: 500px; */
+} 
+
+/* body {
+  background-color: pink;
   margin: 0;
 }
 
@@ -19,4 +40,4 @@ article {
   padding: 20px;
   margin: 50px;
   align-items: stretch;
-}
+} */
