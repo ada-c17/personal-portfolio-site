@@ -18,13 +18,20 @@ header {
 header img {
     width: 500px;
     border-radius: 100%;
-    margin: 40px;
+    margin: 2em;
     }
+
+header h1 {
+    font-size: 3em;
+    margin: 2em;
+    margin-bottom: 2.5em;
+}
 
 header h2 {
     font-weight: lighter;
-    margin: 40px;
-    margin-bottom: 100px;
+    line-height: 200%;
+    margin: 0.5em;
+    margin-bottom: 2em;
 }    
 
 header nav li {
