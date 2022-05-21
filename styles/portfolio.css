@@ -14,9 +14,9 @@ header h1{
 
 nav{
 	background-color: #987284;
-	padding-bottom: 0;
 	position: sticky;
 	top: 0;
+	height: 2em;
 }
 
 nav a{

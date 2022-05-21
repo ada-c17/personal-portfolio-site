@@ -22,16 +22,6 @@ nav a{
 	font-size: 1.5em;
 }
 
-footer{
-	grid-row: 3/4;
-	background-color: black;
-	height: 8em;
-	color: white;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
 
 
 
