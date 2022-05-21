@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+    <head>
+        <link rel="stylesheet" href="../styles/styles.css">
+        <title>Mandy's Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1> Mandy Gao</h1>
+            <nav>
+                <ul class="list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Me</a></li>
+                    <li><a href="./portfolio.html">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2> Here are some of the projects that I have competed at Ada: </h2>
+            <ul id ="project-list">
+                <div>
+                    <li> Viewing Party </li>
+                    <a href="https://github.com/MandyG415/viewing-party"><img src="../images/viewing_party.png" alt="Mandy's Viewing Party Repo"/></a>
+                    <p> This was my first project at Ada which consisted of nested data structures.
+                            The goal was to retreive information from these data structures and compare movies watched,
+                            movies on the watchlist, and favorited movies. Additionally, I wrote test cases for this project. </p>
+                </div>
+
+                <div>
+                    <li> Swap Meet</li>
+                    <a href="https://github.com/MandyG415/swap-meet"><img src="../images/swap_meet.png" alt="Mandy's Swap Meet Repo"/></a>
+                    <p> This project focused on the fundamentals of Python OOP such as creating classes
+                        with attributes and instance methods, implementing inheritance, and creating objects.</p>
+                </div>
+                
+                <div>
+                    <li>Task List API</li>
+                    <a href="https://github.com/MandyG415/task-list-api"><img src="../images/task_list_api.png" alt="Mandy's Task List Repo"/></a>
+                    <p> This was my first backend project at Ada. It consisted of using the Flask framework, creatiing RESTful CRUD routes,
+                        and using a Slack API. I checked my endpoints via Postman and learned to implement model relationships in my code.</p>
+                </div>
+            </ul>
+        </section>
+        <footer>© Mandy Gao</footer>
+    </body>
 </html>

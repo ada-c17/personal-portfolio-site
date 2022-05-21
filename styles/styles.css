@@ -1,0 +1,75 @@
+h1 {
+    color: grey;
+    font-size: 100px;
+}
+p {
+    color: black;
+}
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFFFF3;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+h2, h3 {
+    color: black;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list a{
+    text-decoration:none;
+    color:black;
+}
+
+.list li, #project-list {
+    list-style: none
+}
+
+#project-list {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns:25vw 25vw 25vw;
+}
+#chem-exp {
+    display: grid;
+    grid-template-columns:30vw 30vw;
+    justify-content: space-evenly;
+
+}
+
+#chem-exp img{
+    width: 90%;
+}
+
+#mg-pic img{
+    width: auto;
+    height: 690px;
+    align-items: center;
+    border-radius: 50px;
+    border: 5px solid gray;
+}
+
+#project-list img{
+    width: 100%;
+    height: auto;
+}
+#project-list > li, div li, p ,h2, h3, .list  {
+    font-size: 20px;
+}
+#project-list > p, div p, .chem-desc {
+    font-size: 15px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
