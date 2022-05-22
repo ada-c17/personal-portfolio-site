@@ -15,6 +15,7 @@
     width: 90%;
     margin: 0 auto;
     justify-content: center;
+    
 
 }
 
@@ -38,10 +39,12 @@
     /* border: 2px solid rgb(96, 20, 210); */
     width: 100%;
     height: auto;
-
 }
 
-
+.project-desc > p {
+    
+    text-align: left;
+}
 .tech-stack {
     border: 1px solid gray;
     display: inline-flex;

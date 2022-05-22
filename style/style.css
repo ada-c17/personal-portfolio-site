@@ -39,10 +39,51 @@ a:hover{
 .nav-items > li {
     margin: 0 80px;
     font-weight: lighter;
-    font-weight:200;
+    font-weight:300;
   
 }
 
 .nav-items > li > a:hover{
     color: #863929;
+}
+
+footer > h1{
+    margin-top: 10%;
+}
+
+footer .contact {
+    /* display: flex;
+    flex-direction: row; */
+    list-style-type: none;
+    text-align: center;
+    padding: 30px;
+}
+
+footer .icons{
+    width: 30px;
+    height: 30px;
+    
+}
+
+footer ul img:hover{
+    opacity: 70%;
+}
+
+footer h1 , p{
+    padding: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+mark {
+    background-color:lightgray;
+    color: #715650;
+}
+
+#email {
+    padding-top: 10px;
+}
+
+::selection{
+    color:#715650;
 }
