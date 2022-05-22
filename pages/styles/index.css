@@ -15,11 +15,12 @@ h1 {
     border-color: #9ec1b5;
     border-width: 4px;
     padding: 7px;
+    width: 100vw;
 }
 
 
 header nav {
-    margin-left: 80%;
+    margin-left: 80vw;
 }
 
 header nav a {
@@ -68,15 +69,23 @@ a:hover {
 
 
 #project-display {
-    display: block;
+    display: grid;
     border: 1px dotted ;
     border-radius: 17px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 3fr;
 } 
+
+
+
 
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 7px;
+    display: inline-flex;
+    align-self:stretch;
+    font-size:calc(14px+ 0.8vw);
 }
 
 #self-socials {
@@ -93,7 +102,7 @@ h2 {
 }
 
 #self-socials img {
-    max-width: 225px;
+    max-width: 30vw;
     align-items:center;
     border-width: 7px;
     border-style:double;
@@ -104,9 +113,10 @@ border-style: none;
 }
 
 #intro-box {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     flex-direction: column;
+    align-self: flex-start;
 }
 
 /* main {
