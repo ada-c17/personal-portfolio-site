@@ -6,25 +6,13 @@
     height: 100vh;
 }
 
-video{
-    position: absolute;
-    top: 20px;
-    left:20px;
-    width:100%;
-    height:100%;
-    object-fit: cover ;
-    z-index: 2;
-    pointer-events: none;
-    mix-blend-mode: screen;
-
-}
 
 .text {
     position:relative;
     line-height:2.5em;
     overflow:hidden;
     z-index:1;
-
+    
 }
 .text span{
     color:red
@@ -42,5 +30,18 @@ video{
     0% { width:0%; 
     }
     100% { width:100%; 
-        }
+    }
+}
+
+video{
+    position: absolute;
+    top: 20px;
+    left:20px;
+    width:100%;
+    height:100%;
+    object-fit: cover ;
+    z-index: 2;
+    pointer-events: none;
+    mix-blend-mode: screen;
+
 }
