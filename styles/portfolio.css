@@ -1,0 +1,14 @@
+.projects-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 15px;
+grid-auto-rows: minmax(300px, auto);
+}
+
+.projects-container p{
+background-color: #112240;
+border-radius: 15px;
+text-align: center;
+
+}
+
