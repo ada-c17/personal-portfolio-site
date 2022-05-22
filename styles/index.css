@@ -1,85 +1,37 @@
 body {
-    margin: 20px;
-    font-family: helvetica;
     display: grid;
     grid-template-columns: 20% auto 20%;
     grid-template-rows: 2fr 1fr .25fr;
-    color: #3e3e3e;
-    font-weight: 300;
-    }
+}
 
 header {
-    text-align: center;
-    margin-top: 3em;
     grid-column: 2/3;
     grid-row: 1/2;
-    }
+}
     
 header img {
     width: 600px;
-    border-radius: 100%;
-    margin: 2em;
-    }
-
-header h1 {
-    font-size: 3em;
-    margin: 1em;
 }
-
-header h2 {
-    font-weight: lighter;
-    line-height: 200%;
-    margin: 0.5em;
-    margin-bottom: 2em;
-}    
-
-header nav li {
-    background-color: #f3f3f3;
-    padding: .5em;
-    border-radius: 10px;
-    margin-bottom: 40px;
-    }
-
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    }
-
-li {
-    list-style-type: none;
-    font-size: 1.25em;
-    }
-
-a {
-    text-decoration: none;
-    color: #3e3e3e;
-    }
 
 main {
     grid-column: 1/4;
     grid-row: 2/2;
     align-content: center;
-    }
+}
+    
+main a:hover {
+    color: teal;
+}
 
 main h2 {
     text-align: center;
     padding: 2em;
 }
-main section {
-    background-color: #f3f3f3;;
-    padding: 1.5em;
-    margin: 1em;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    }
 
-section img {
-    width: 75%;
-    }
+main section {
+    align-content: center;    
+}
+
 
 section h4 {
     font-size: 1.25em;
@@ -89,14 +41,13 @@ section h4 {
 footer {
     grid-column: 1/4;
     grid-row: 4/4;
-    background-color: #3e3e3e;
-    }
+}
 
-footer a {
-    color: whitesmoke;
-    }
+.footer_links:hover {
+    color: #ADFFD3;
+}
 
-.tags li {
+.subjects li {
     color: whitesmoke;
     border-radius: 10px;
     padding: .5em;
@@ -104,23 +55,23 @@ footer a {
     font-weight: bold;
     }
 
-.tags li:nth-child(1) {
-    background-color: royalblue;
+.subjects li:nth-child(1) {
+    background-color: #9FE5F9;
     }
 
-.tags li:nth-child(2) {
-    background-color: orange;
+.subjects li:nth-child(2) {
+    background-color: #40CBF2;
     }
 
-.tags li:nth-child(3) {
-    background-color: mediumvioletred;
+.subjects li:nth-child(3) {
+    background-color: #10B7E5;
     }
 
-.tags li:nth-child(4) {
-    background-color: teal;
+.subjects li:nth-child(4) {
+    background-color: #0C89AC;
     }
 
-.tags li:nth-child(5) {
-    background-color: darksalmon;
+.subjects li:nth-child(5) {
+    background-color: #0A6A85;
 }
     
