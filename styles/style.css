@@ -1,5 +1,6 @@
-body {
+html, body {
   margin: 0;
+  height: 100%;
   background-color: pink;
   font-family: Nunito, Arial, Helvetica;
 }
@@ -54,13 +55,14 @@ li {
   margin: 5%;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
+#apple-acc {
+  width: 60%;
 }
 
-.social-media {
-  height: 5%;
-  width: 5%;
+footer {
+  display: flex;
+}
+
+#social-media {
+  margin-left: auto;
 }
