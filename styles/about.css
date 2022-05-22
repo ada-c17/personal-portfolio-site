@@ -16,9 +16,9 @@ body h1 {
 .side-by-side p {
     justify-content: space-evenly;
     text-align: justify;
-    padding: 50px;
+    padding-right: 30px;
 }
 
 .side-by-side img {
-    margin: 10px 50px;
+    margin: 10px 40px;
 }
