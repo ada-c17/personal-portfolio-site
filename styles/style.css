@@ -32,11 +32,11 @@ header {
 header img { 
 
     width: 200px;
-    border-radius : 50%;
+    border-radius : 40%;
 }
 header nav li {
     background-color: rgba(141, 144, 148, 0.2);
-    padding: 1 em;
+    
     border-radius: 10px;
 }
 ul {
