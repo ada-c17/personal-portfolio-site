@@ -1,0 +1,15 @@
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+h2 {
+    margin-left: 30px;
+    color:chocolate;
+    font-family: monospace, sans-serif;
+}
+
+h3:hover {
+    background-color: aqua;
+}
