@@ -6,12 +6,13 @@
     height: 100vh;
 }
 
-
 .text {
     position:relative;
-    line-height:2.5em;
+    line-height:2.7em;
     overflow:hidden;
     z-index:1;
+    letter-spacing: 0.095em;
+
     
 }
 .text span{
@@ -22,12 +23,13 @@
     top:0; bottom:0; right:0;
     width:100%;
     background: var(--black);
-    animation: showHide 5s linear forwards;
-    animation-delay: 2.5s; 
+    animation: showHide 8s linear forwards;
 }
 
 @keyframes showHide {
     0% { width:0%; 
+    }
+    50% { width:0%; 
     }
     100% { width:100%; 
     }
@@ -35,7 +37,7 @@
 
 video{
     position: absolute;
-    top: 20px;
+    top: 80px;
     left:20px;
     width:100%;
     height:100%;
