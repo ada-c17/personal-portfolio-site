@@ -8,7 +8,10 @@
     --shadow-color-light: hsl(129, 100%, 92%);
     --plum-black: rgb(30, 16, 22);
     font-size: calc(18px + .3vw);
-    background: no-repeat top / 100vw url("../assets/IMG_1496-light.png");
+    background-image: url("../images/IMG_1496-light-long.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 /* body {
@@ -58,11 +61,13 @@ nav a:hover {
 }
 
 nav a.current {
-    text-shadow: 0 20px 20px hsl(120, 100%, 50%)
+    text-shadow: 0 20px 20px hsl(120, 100%, 50%);
+    transition: text-shadow 0.5s;
 }
 
 nav a.current:hover {
     animation: none;
+    text-shadow: 0 20px 20px hsl(129, 100%, 42%);
 }
 
 @keyframes glow {
@@ -90,17 +95,26 @@ main {
     margin-right: auto;
 }
 
-#about h1 {
+main h1 {
     font-family: oddly-calming;
     font-size: 2.5rem;
+    letter-spacing: 0.05rem;
+    padding-left: 2rem;
 }
 
-#about p:first-of-type {
+/* #landing h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.05rem;
+    padding-left:2rem;
+} */
+
+#landing p:first-of-type {
     font-size: 1.4rem;
 }
 
-#about p {
+#landing p {
     font-size: 1.2rem;
+    letter-spacing: 0.1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -116,16 +130,23 @@ main {
     min-height: 15rem;
     margin-bottom: 3rem;
     overflow: hidden;
-    background-color: hsla(120, 90%, 33%, 0.5);
-    box-shadow: /*inset 0 0 1rem rgb(30, 16, 22),*/ 0 0 0.2rem var(--plum-black);
-    transition-property: box-shadow;
+    border-color: var(--plum-black);
+    border-style: solid;
+    border-width: 0rem;
+    margin-left: 0rem;
+    transition-property: border margin;
+    /* background-color: hsla(120, 90%, 33%, 0.5); */
+    /* box-shadow: inset 0 0 1rem rgb(30, 16, 22), 0 0 0.2rem var(--plum-black); */
+    /* transition-property: box-shadow; */
     transition-duration: var(--hover-transition-duration); 
     transition-timing-function: ease-out;
 }
 
 
 .project:hover {
-    box-shadow: /*inset 0 0 0rem rgb(30, 16, 22),*/ 0 0 1rem var(--plum-black);
+    /* box-shadow: inset 0 0 0rem rgb(30, 16, 22), 0 0 1rem var(--plum-black); */
+    border-width: 0.7rem;
+    margin-left: -0.7rem;
 }
 
 .project a:any-link {
