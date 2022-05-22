@@ -4,6 +4,10 @@ main {
     border-style: double;
 }
 
+main > p {
+    padding: 30px 50px 0px 50px;
+}
+
 footer {
     background-color: #8B6267;
 }
