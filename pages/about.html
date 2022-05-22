@@ -4,9 +4,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="../styles/style.css" rel="stylesheet">
+  <title>Art of the Needle</title>
+  <style>
+    img.page-background {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+    }
+  </style>
+
 </head>
+
+
 <body>
-  
+
+
+  <img class="page-background" src="../assets/pnw_forest_background.jpg">
+  <header id=header-about>
+    <h1> Tattoos </h1>
+    <nav>
+      <ul class="header-tabs">
+        <li class="tab" id="about-highlight"><a href="about.html">About</a></li>
+        <li class="tab"><a href="index.html">Art of the Needle</a></li>
+        <li class="tab"><a href="portfolio.html">Portfolio</a></li>
+        <li class="tab"><a href="#">Examples</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-body">
+    <section>
+      <img class="self-image" src="../assets/self.jpg">
+      <p class="self-paragraph">
+        Hi!  My name is <em>Joan Kovacs</em> and this is an example website to showcase my html/css.  Since the beginning of the pandemic, I have been teaching myself both the art of programming and the art of stick-n-poke.  Cheers!
+      </p>
+    </section>
+  </div>
+
 </body>
 </html>
