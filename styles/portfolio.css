@@ -1,30 +1,82 @@
+/* Color RBG from https: //99designs.com/blog/tips/website-color-schemes/ */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
 .portfolio-cards {
+    flex-shrink: 1;
     display: flex;
     flex-wrap: space-around;
-    max-height: 70%;
+    margin-bottom: 2vh;
+    height: 70vh;
+    perspective: 1000px; /*3D effect*/
 }
 
 .portfolio-card {
-    flex: 1 1 0px;
-    border: 1px red solid;
+    flex: 1 1;
     margin: 0em 2em;
-    padding: 1em;
+    padding: 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60vh;
+    height: 100%;
 }
 
-.main-content {
-    text-align: center;
+.portfolio-title {
+    height: 10%;
+}
+.portfolio-flip-card {
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    margin-bottom: 2vh;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
 }
 
+.flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /*Not visible when flipped over*/
+}
 
-.portfolio-card img {
-    max-width: 70%;
-    max-height: 70%;
+.flip-card-back {
+    transform: rotateY(180deg); /* Not visible when not hovered over */
+}
+
+.flip-card-front img {
+    width: 100%;
+    max-height: 100%;
     object-fit: contain;
     margin-bottom: 1em;
     flex-grow: 1;
 }
+
+.portfolio-flip-card:hover {
+    transform: rotateY(180deg);
+}
+
+.portfolio-static-card {
+    width: 100%;
+    height: 10%;
+}
+
+
+.tech-stack {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.tech-stack img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.5em;
+}
+
 
