@@ -122,8 +122,9 @@ main img {
 } 
 
 .portfolio-a h3, .portfolio-c h3 {
-    grid-column: 1/ 2;
+    grid-column: 1/ 1;
     grid-row: 1/1;
+    /* align-self: initial; */
     align-self: flex-start;
 }
 
@@ -143,7 +144,7 @@ main img {
 .portfolio-a p, .portfolio-c p {
     grid-column: 2/2;
     grid-row: 1/span 3;
-    width: 40vw;
+    width: 38vw;
 }
 .portfolio-a a, .portfolio-c a {
     grid-column: 2/2;
@@ -162,7 +163,7 @@ main img {
     padding: 1px;
     /* max-width: 45vh; */
 }
-/*  */
+/* end a */
 
 /* portfolio b with 4 img */
 .portfolio-b {
@@ -175,7 +176,7 @@ main img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    align-items:space-evenly;
+    align-items:center;
 
     width: 90vw;
     height: 70vh;
@@ -190,8 +191,15 @@ main img {
     text-align: center;
     grid-column: 1/ span 2;
     padding: 2%;
-    grid-row: 2/span 4;
+    grid-row: 1/span 2;
+    align-self:initial;
     width: 40vw;
+}
+.portfolio-b div {
+    grid-column: 1/ span 2;
+    grid-row: 3/ 3;
+    width: 40vw;
+    
 }
 
 .portfolio-b img {
@@ -201,12 +209,6 @@ main img {
     border-style:ridge;
     border-width:2px;
     /* justify-content: space-evenly; */
-}
-.portfolio-b div {
-    grid-column: 1/ span 2;
-    grid-row: 3/span 2;
-    width: 40vw;
-    
 }
 .portfolio-b h4 {
     font-style: normal;
