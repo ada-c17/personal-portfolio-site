@@ -8,6 +8,7 @@
     "eggs eggs eggs";
     gap: 17px 17px;
     flex-wrap: no;
+    min-height: 37vw;
 }
 
 h1 {

@@ -1,7 +1,15 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
 a {
     text-decoration: none;
     color: black;
     transition: transform .3s;
+    z-index: 7;
 }
 
 a:visited {
@@ -16,7 +24,7 @@ nav.flex-container {
     padding: 0px 23px;
     margin: 0px;
     border: 0px;
-    background-color: rgba(239, 235, 221, 0.2);
+    background-color: rgba(239, 235, 221, 0.5);
     display: flex;
     justify-content: flex-end;
 }
@@ -38,22 +46,45 @@ nav.flex-container {
     color: #F4BB29;
 }
 
+.main-wrapper {
+    position:relative;
+    top: 110px;
+    margin-bottom: 250px;
+}
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section.flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    background-color: rgba(239, 235, 221, 0.3);
+    padding: 17px;
 }
 
 .icon {
-    width: 67px;
-    height: 67px;
-    margin: 47px;
+    width: 47px;
+    height: 47px;
+    margin: auto;
 }
 
 .enlarge {
-    width: 75px;
-    height: 75px;
+    width: 54px;
+    height: 54px;
+    margin: auto;
+}
+
+p.credits {
+    margin-right: 17px;
+    margin-bottom: 17px;
+    margin-left: auto;
+    align-self: flex-end;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 @media (max-width:560px) {
@@ -61,7 +92,7 @@ footer {
         padding: 0px 17px;
         margin: 0px;
         border: 0px;
-        background-color: rgba(239, 235, 221, 0.2);
+        background-color: rgba(239, 235, 221, 0.3);
         display: flex;
         justify-content: flex-end;
     }
@@ -79,13 +110,23 @@ footer {
     }
     
     .icon {
-        width: 47px;
-        height: 47px;
-        margin: 29px;
+        width: 41px;
+        height: 41px;
+        margin: auto;
     }
     
     .enlarge {
-        width: 53px;
-        height: 53px;
+        width: 49px;
+        height: 49px;
+        margin-left: -3px;
+    }
+
+    p.credits {
+        margin-right: 17px;
+        margin-bottom: 17px;
+        margin-left: auto;
+        align-self: flex-end;
+        font-size: 11px;
+        font-weight: bold;
     }
 }
