@@ -4,9 +4,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/portfolio.css">
+  <!--CSS loads on Chrome and Firefox, but not Safari-->
+  <script src="https://kit.fontawesome.com/cbd5459603.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <h1 id="name">Megan Korling</h1>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Software Development Portfolio</h2>
+    <article class="container">
+      <h3>Solar System Project</h3>
+      <p>This was a pair programming project where we created an API 
+        that connects with a postgres database to store, retrieve, update, and 
+        delete planet information. This was developed in Python
+        using Flask. It is deployed via Heroku.
+      </p>
+      <img src="../images/solar-system.png" alt="Preview of Solar System code">
+    </article>
+    <article class="container">
+      <h3>
+        <a href="https://github.com/mckorling/task-list-api" target="_blank">Task List API Project</a>
+      </h3>
+      <p>This was a solo project where I created a RESTful API to manage a users' 
+        tasks and goals. I wrote different routes that handled retreiving, deleting,
+        creating, and updating said tasks and goals. This uses a postgres database and is deployed
+        via Heroku.
+          </p>
+      <img src="../images/tasklist-screenshot.png" alt="Preview of Task List code">
+    </article>
+    <article class="container">
+      <h3><a href="https://github.com/mckorling/web-map-requests" target="_blank">Travel Map Project</a>
+      </h3>
+      <p>This is a personal project I created based off a tutorial using the Python folium
+        library. User input for a place name is entered in the terminal and the 
+        coordiantes are retrived by calling the LocationIQ API. Multiple places can be
+        entered and when the user is done, the webpage can be opened to view all entered
+        locations on a map.</p>
+      <img src="../images/map-screenshot.png" alt="Preview of travel map screen output">
+    </article>
+    <article class="container">
+      <h3><a href="https://github.com/mckorling/viewing-party" target="_blank">Viewing Party Project</a>
+      </h3>
+      <p>This was a solo project where a complex data structure is used to store movie
+        information. Movies can be retrieved by who watched them, who needs a 
+        recommendation, by genre, favorite genre, and more. </p>
+      <img src="../images/viewing-party.png" alt="Preview of Viewing Party code">
+      </article>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="https://github.com/mckorling" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/megan-korling-17804557" target="_blank"><i class="fa-brands fa-linkedin-in fa-3x"></i></a></li>
+      <li><a href="mailto:korlingm@gmail.com"><i class="fa-solid fa-envelope fa-3x"></i></a></li>
+      <li id="copy">&copy; Megan Korling</li>
+    </ul>
+  </footer>
 </body>
 </html>

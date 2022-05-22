@@ -1,0 +1,48 @@
+img {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info p {
+    height: 30%;
+    width: 40%;
+    background-color: #A6EBC9;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1em;
+    border: 5px solid #000;
+}
+
+.fa-html5 {
+    color: orange;
+}
+
+.fa-css3 {
+    color: #157DBD;
+}
+
+.fa-python {
+    color: #FFD43A;
+}
+
+.fa-react {
+    color: #61DCFB;
+}
+
+.fa-git {
+    color: #F1502F;
+}
+
+
+
+

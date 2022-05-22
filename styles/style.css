@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600&family=Roboto:wght@100;300&display=swap');
+
+body {
+    font-family: "Antonio", sans-serif;
+    margin: auto;
+    width: 80%;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-size: 2em;
+    font-weight: 600; 
+}
+
+.menu {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    background-color: #000; 
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 1em;
+}
+
+.menu li a:hover {
+    color: #A6EBC9;
+}
+
+#name {
+    font-size: 3em;
+    font-weight: 400;    
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+footer ul li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 2vw;
+}
+
+footer ul {
+    margin-right: 1vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #000;
+    color: #FFF;
+    font-size: 0.7em;
+    margin-top: 3vh
+} 
+
+footer li a:visited {
+    color: white;
+}
+
+footer li a i:hover {
+    color: #A6EBC9;
+}
+
+.fa-linkedin-in, .fa-envelope, .fa-github {
+    color: white;
+}
+
+

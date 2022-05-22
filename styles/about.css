@@ -1,0 +1,46 @@
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 7%;
+    border-radius: 2em;
+}
+
+.info ul {
+    height: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color: #FFF;
+    opacity: 0.8;
+    width: 30%;
+    list-style-type: none;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+article:nth-child(even) {
+    background-color: #A6EBC9;
+    border: 5px solid #000;
+}
+
+article:nth-child(even) ul {
+    border: 5px solid #000;
+}
+
+article:nth-child(odd) {
+    background-color: #000;
+    border: 5px solid #A6EBC9;
+}
+
+article:nth-child(odd) ul {
+    border: 5px solid #A6EBC9;
+}
+
+.company {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
