@@ -1,33 +1,62 @@
-/* #decor,
-article {
-    border: 2px solid red;
-} */
-
-body {
-    background-color: #fe6d73;
-    color: #fef9ef;
+.about {
+    background-color: #f8f7ff;
 }
 
-#decor {
-    grid-column: 1/6;
-    grid-row: 1/-1;
+.about .content {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
 }
 
-article {
-    grid-column: 6/-1;
-    grid-row: 1/-1;
-    padding: 30% 10%;
-    margin-left: 5%;
-    align-self: center;
-    border-left: 0.25rem solid black;
+.about-desc {
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
-.menu {
-    color: #fef9ef;
+.about .content-item {
+    margin: 5% 0 5% 5%;
 }
 
-.menu:hover {
-    transition: .3s ease-in-out;
-    box-shadow: inset 100px 0 0 0 #fef9ef;
-    color: #fe6d73;
+.content-item h3 {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.my-skills {
+    grid-column: 1/2;
+    padding: 5% 5% 15% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills {
+    border-right: 2px #22333b solid;
+}
+
+.skill {
+    display: inline;
+    width: 25%;
+    margin-bottom: 3rem;
+}
+
+.skill p {
+    margin-top: 0.5rem;
+}
+
+#my-desc {
+    grid-column: 2/3;
+    padding: 5% 2% 15% 5%;
+}
+
+.about-desc:first-child {
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.about-desc:first-child p {
+    padding-bottom: 2rem;
 }

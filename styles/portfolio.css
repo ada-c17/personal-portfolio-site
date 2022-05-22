@@ -1,24 +1,38 @@
-body {
-    background-color: #fef9ef;
-    color: #227c9d;
+.portfolio {
+    background-color: #89c2d9;
 }
 
-.menu {
-    color: #227c9d;
+.portfolio .content {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.menu:hover {
-    transition: .3s ease-in-out;
-    box-shadow: inset 100px 0 0 0 #227c9d;
-    color: #fef9ef;
+.project {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 42%;
+    height: 42%;
+    margin: 2%;
+    padding: 1rem;
+    border-radius: 30px;
+    border: 2px solid #7d99a5;
 }
 
-div img {
-    height: 90%;
-    width: auto;
-    margin: auto;
+.project h3,
+.project p {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
 }
 
-#loading-message {
-    font-size: 1.5rem;
+.project:hover {
+    opacity: 1;
+}
+
+.project img {
+    max-height: 75%;
+    min-width: 50%;
+    align-self: center;
+    border-radius: 30px;
 }
