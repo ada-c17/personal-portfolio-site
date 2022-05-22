@@ -1,0 +1,22 @@
+
+.photo-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.top {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.helpbar{
+    display: flex;
+}
+
+
