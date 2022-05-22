@@ -158,7 +158,9 @@ main {
 
 .project h1 {
     padding-left: 12%;
-    font-family:'oddly-calming'
+    font-family:'oddly-calming';
+    margin-block-start: 1rem;
+    margin-block-end: 0.8rem;
 }
 
 .project img {
@@ -166,10 +168,11 @@ main {
     /* border-radius: 1rem; */
 }
 
-.project img#test {
+.project img#tasklist {
     width: calc(100% - 5.2rem);
     align-self: center;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: 0 0 1rem black
+    box-shadow: 0 0.7rem 2rem black;
+    margin-bottom: 2.8rem;
 }
