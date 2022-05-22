@@ -1,0 +1,33 @@
+* {
+    border: red 1px solid;
+}
+
+h1 span:first-child {
+    display: inline-block;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 span.title {
+    font-weight: 700;
+}
+
+.container-flip {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+header {
+    background-color: plum;
+}
+
+/* .flip::after {
+    content: " ";
+    display: inline-block;
+    transform: translateX(5px);
+    background-size: cover;
+} */
