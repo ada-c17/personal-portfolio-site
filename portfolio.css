@@ -23,7 +23,7 @@ nav a{
 	border: black solid; 
 }
 
-a{
+section a{
 	justify-self: center;
 	align-self: flex-end;
 }
