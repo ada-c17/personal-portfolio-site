@@ -1,0 +1,13 @@
+.projects { 
+    display: grid; 
+    gap: 5px; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    margin-top: 50px;
+    justify-items: center; 
+    align-items: center;
+}
+
+.description { 
+    font-size: 20px; 
+}
