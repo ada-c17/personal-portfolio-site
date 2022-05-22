@@ -3,6 +3,11 @@ article {
     border: 2px solid red;
 } */
 
+body {
+    background-color: #fe6d73;
+    color: #fef9ef;
+}
+
 #decor {
     grid-column: 1/6;
     grid-row: 1/-1;
@@ -15,4 +20,14 @@ article {
     margin-left: 5%;
     align-self: center;
     border-left: 0.25rem solid black;
+}
+
+.menu {
+    color: #fef9ef;
+}
+
+.menu:hover {
+    transition: .3s ease-in-out;
+    box-shadow: inset 100px 0 0 0 #fef9ef;
+    color: #fe6d73;
 }

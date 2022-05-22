@@ -2,50 +2,175 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/style.css">
-  <link rel="stylesheet" href="../styles/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap"
-    rel="stylesheet">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/813a89c764.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 
-<body>
-  <div class="container">
+<body id="main">
     <header>
-
+        <nav class="navbar">
+            <a class="nav-name">Lin Liu</a>
+            <ul class="nav-menu">
+                <li class="nav-link"><a href="#home"> Home </a></li>
+                <li class="nav-link"><a href="#about"> About </a></li>
+                <li class="nav-link"><a href="#portfolio"> Portfolio </a></li>
+                <li class="nav-link"><a href="#" class="media-content" onclick="openNav()"> Contact </a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-      <li class="menu"> Home </li>
-      <li class="menu"> About </li>
-      <li class="menu"> Portfolio</li>
-      <li class="menu"> Contact </li>
-    </nav>
-    <aside class="side-bar" id="left-side-bar">
+    <div class="share-container">
+        <ul class="share-menu">
+            <li class="share-media"></li>
+        </ul>
+    </div>
+    <div class="container">
+        <section class="home" id="home">
+            <aside class="side-bar" id="left-side-bar"></aside>
+            <div class="content">
+                <div class="content-hello">
+                    <h1 id="hello">Hello, World!</h1>
+                </div>
 
-    </aside>
-    <main>
-      <div class="content">
-        <h1 class="content-item" id="greeting">Hello, World!</h1>
-        <article>
-          <h1 class="content-item" id="name">I am Lin</h1>
-          <h2 class="content-item" id="desc">{"A Full Stack Developer in training"}</h2>
-        </article>
-      </div>
+                <article>
+                    <h1 class="content-item" id="name">I am Lin</h1>
+                    <h2 class="content-item" id="desc">{"A Full Stack Developer in training"}</h2>
+                </article>
+            </div>
+            <aside class="side-bar" id="right-side-bar">
+            </aside>
+            <footer>
+                <img src="../assets/Images/next-page.png" alt="next-page">
+            </footer>
+        </section>
+        <section class="about" id="about">
+            <aside class="side-bar" id="left-side-bar"></aside>
+            <div class="content">
+                <div class="content-item skills">
+                    <h3>SKILLS</h3>
+                    <div class="my-skills">
+                        <div class="skill ">
+                            <i class="fa-brands fa-python fa-3x"></i>
+                            <p>Python</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-database fa-3x"></i>
+                            <p>SQL</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-html5 fa-3x"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-css3 fa-3x"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-js-square fa-3x"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-solid fa-laptop-code fa-3x"></i>
+                            <p>Flask</p>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-react fa-3x">
+                            </i>
+                            <p> React</p>
+                        </div>
+                    </div>
 
-    </main>
-    <aside class="side-bar" id="right-side-bar">
-      <div class="page-arrow" id="next-page"></div>
-      <img src="../assets/Images/down-arrow.png" alt="next-page" class="page-arrow" id="next-page">
-    </aside>
-    <footer>
-      <div></div>
-    </footer>
-  </div>
+                </div>
+                <div class="content-item" id="my-desc">
+                    <p class="about-desc">My name is Lin, I am a student software developer from Ada Developer Academy
+                        Seattle, WA.
+                        <br> I look forward to making a pivot into tech!
+                    </p>
+                    <div class="about-desc">
+                        <P>MY LOCATION</P>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.41615943256!2d-122.48214582349799!3d47.61294318530369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1653254461700!5m2!1sen!2sus"
+                            width="90%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <aside class="side-bar" id="right-side-bar"></aside>
+            <footer>
+                <img src="../assets/Images/next-page.png" alt="next-page">
+            </footer>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <aside class="side-bar" id="left-side-bar"></aside>
+            <div class="content">
+                <div class="project">
+                    <h3>Sample Project 1</h3>
+                    <p>Project desc</p>
+                    <img src="../assets/Images/project-1.jpg" alt="">
+                </div>
+                <div class="project">
+                    <h3>Sample Project 2</h3>
+                    <p>Project desc</p>
+                    <img src="../assets/Images/project-2.jpg" alt="">
+                </div>
+                <div class="project">
+                    <h3>Sample Project 3</h3>
+                    <p>Project desc</p>
+                    <img src="../assets/Images/project-3.jpg" alt="">
+                </div>
+                <div class="project">
+                    <h3>Sample Project 4</h3>
+                    <p>Project desc</p>
+                    <img src="../assets/Images/project-4.jpg" alt="">
+                </div>
+            </div>
+            <aside class="side-bar" id="right-side-bar"></aside>
+            <footer>
+
+            </footer>
+        </section>
+    </div>
+
+    <div id="contact-info" class="contact">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h1 class="contact-item">Get in Touch</h1>
+
+        <a href="mailto:someone@yoursite.com" class="contact-item">
+            <img src="../assets/Images/email_icon.png" alt="email-icon">
+        </a>
+        <a href="" class="contact-item">
+            <img src="../assets/Images/github_icon.png" alt="github-icon">
+        </a>
+        <a href="" class="contact-item">
+            <img src="../assets/Images/linkdin_icon.png" alt="linkdin-icon">
+        </a>
+        <a href="" class="contact-item">
+            <img src="../assets/Images/facebook_icon.png" alt="facebook-icon">
+        </a>
+        <div class="contact-item">
+            <img src="../assets/Images/contact.jpg" alt="contact">
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("contact-info").style.width = "400px";
+            document.getElementById("main").style.marginRight = "400px";
+        }
+
+        function closeNav() {
+            document.getElementById("contact-info").style.width = "0";
+            document.getElementById("main").style.marginRight = "0";
+        }
+    </script>
+
 </body>
 
 </html>
