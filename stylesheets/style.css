@@ -5,7 +5,7 @@ html {
 header, footer {
     width: 90vw;
     margin: auto;
-    font-family: American Typewriter, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #0E345D;
     border: #0E345D solid;
     background-color: #EDE6E3;

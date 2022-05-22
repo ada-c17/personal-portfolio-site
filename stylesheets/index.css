@@ -6,7 +6,7 @@ main {
     grid-template: 10% auto 10% / 55% 45%;
     border: #0E345D solid;
     color: #EDE6E3;
-    font-family: Luminari, fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3vw;
     text-align: center;
 }
