@@ -49,7 +49,8 @@ nav ul li {
 
 .main {
     width: 800px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    padding-bottom: 50px;}
 
 
 em {color:#64ffda;
@@ -75,7 +76,7 @@ a:hover {
 
 
 footer{
-    position:fixed;
+    position: fixed;
     padding: 10px 10px 0px 10px;
     bottom: 0px;
     width: 100%;
