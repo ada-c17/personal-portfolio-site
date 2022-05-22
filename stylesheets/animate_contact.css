@@ -1,0 +1,47 @@
+
+.contacts__inner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--black);
+}
+
+video{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover ;
+    z-index: 2;
+    pointer-events: none;
+    mix-blend-mode: screen;
+
+}
+
+.text {
+    position:relative;
+    line-height:2.5em;
+    overflow:hidden;
+    z-index:1;
+
+}
+.text span{
+    color:red
+}
+.fadingEffect {
+    position:absolute;
+    top:0; bottom:0; right:0;
+    width:100%;
+    background: var(--black);
+    animation: showHide 5s ease-in alternate forwards;
+    animation-delay: 2.5s; 
+}
+
+@keyframes showHide {
+    0% { width:0%; 
+    }
+    100% { width:100%; 
+        }
+}

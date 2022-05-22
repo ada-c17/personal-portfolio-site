@@ -1,0 +1,14 @@
+.blog__inner{
+
+    padding-bottom:120px;
+}
+.blog__entry{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+.blog__entry img{
+    width: 500px;   
+    border-radius: 20px;
+}
