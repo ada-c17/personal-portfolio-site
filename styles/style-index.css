@@ -1,9 +1,10 @@
 
 /* 242F9B  646FD4  9BA3EB   DBDFFD */
 
-
 body {
-    padding: 10px;
+    margin: 0 auto;
+    max-width: 60em;
+    /* padding: 10px; */
 }
 .container {
     display: grid;
@@ -37,24 +38,16 @@ a:hover {
     border: solid #242F9B 2px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* background-color: aliceblue;
-    background-blend-mode: lighten; */
     display: flex; 
     justify-content: start;
 }
 
+/* acutal img */
 #mountains {
     height: 100%;
     grid-column:1/2;
     object-fit: cover;
     width: 100%;
-}
-
-
-#self-pic {
-    height: 100%;
-    grid-column: 2/3;
-    border-radius: 50%;
 }
 
 header nav {
@@ -71,13 +64,11 @@ header nav a {
     font-size: xx-large;
 }
 
-
-
 footer {
     grid-row: 3/4;
     border: solid #242F9B 2px;
-    background-color: #646FD4;
-    /* background-color: #DBDFFD; */
+    background-color: #242F9B ;
+    color: #DBDFFD;
 }
 
 li {
@@ -89,18 +80,25 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    align-items:baseline ;
+    font-size: larger;
 }
 
-
 #copywrite {
-    /* margin-left: 10px; */
     position: absolute;
-    left: 5%;
-    /* justify-self: start; */
+    left: 10%;
 }
 
 .contact {
     margin-right: 50px;
+}
+
+.contact a {
+    color: #DBDFFD;
+}
+
+.contact a:hover {
+    color: #9BA3EB;
 }
 
 #resume {

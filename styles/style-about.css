@@ -1,72 +1,65 @@
-header {
-    grid-row: 1/2;
-    border: solid purple 2px;
-    background-color: #DBDFFD;
-}
+/* 
 header img {
     position: absolute;
-    right: 34%;
-    top: 3%;
-}
+    right: 55%;
+    top: 5%;
+} */
 
 h1 {
     color: #242F9B;
     padding-bottom: 10px;
 }
-#jen-cam {
-    border-radius: 50%;
-    border: solid #242F9B 2px;
+
+h3 {
+    font-size: 1.5em;
 }
+/* #jen-cam {
+    height: 43vh;
+    width: 20.5vw;
+    height:20%;
+    width:20%;
+    object-fit: cover;
+} */
+
 /* about.html page; row #2: */
 #container-about {
     display: grid;
-    grid-template-rows: .75fr .25fr 2fr .25fr 2fr .25fr 2fr .5fr;
-    border: solid blue 2px;
+    grid-template-rows: .25fr .75fr .15fr .5fr .15fr .5fr .15fr .75fr .1fr;
     /* grid-template-rows: 30% 50% 20%; */
 }
-
-.title-work {
+#intro {
     grid-row: 2/3;
-    border: solid blue 2px;
 }
-.section-work {
+#title-work {
     grid-row: 3/4;
+    padding: 30px 5px;
+    background-color: #242F9B;
+    color: #DBDFFD;
 }
-.title-coding {
+#section-work {
     grid-row: 4/5;
-    border: solid blue 2px;
 }
-.section-coding {
+#title-coding {
     grid-row: 5/6;
-    border: solid blue 2px;
+    padding: 30px 5px;
+    background-color: #242F9B;
+    color: #DBDFFD;
 }
-
-.title-family {
+#section-coding {
     grid-row: 6/7;
     border: solid blue 2px;
 }
-.section-hobbies {
+
+#title-family {
     grid-row: 7/8;
+    padding: 30px 5px;
+    background-color: #242F9B;
+    color: #DBDFFD;
+}
+#section-hobbies {
+    grid-row: 8/9;
     border: solid blue 2px;
 }
-footer {
-    grid-row: 8/9;
-    border: solid purple 2px;
-}
-
-
-
-/* .work-hobbies {
-    grid-row: 2/3;
-    border: solid purple 2px;
-    display: grid;
-    grid-template-rows: .5fr .5fr .5fr;
-} */
-
-/* .section-work-hobbies {
-    display: flex;
-    flex-direction: row;
-} */
 
 img {
     height: 40vh;
@@ -86,3 +79,10 @@ img {
     object-fit: cover;
     align-items: center;
 }
+
+footer {
+    grid-row: 9/10;
+    /* border: solid #242F9B 2px;
+    background-color: #646FD4; */
+}
+
