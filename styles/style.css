@@ -32,7 +32,7 @@ nav {
     border-color: blueviolet;
     text-align: center;
     padding: 50px;
-    display: flex;
+    /* display: flex; */
     text-align: center;
 }
 
@@ -40,6 +40,7 @@ section {
     text-align: center;
     font-size: 32px;
     border-style: dashed;
+    overflow: hidden;
 }
 
 .container {
