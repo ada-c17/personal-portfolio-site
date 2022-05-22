@@ -6,6 +6,7 @@
 :root {
     --shadow-color: hsl(120, 100%, 42%);
     --shadow-color-light: hsl(129, 100%, 92%);
+    --plum-black: rgb(30, 16, 22);
     font-size: calc(18px + .3vw);
     background: no-repeat top / 100vw url("../assets/IMG_1496-light.png");
 }
@@ -25,7 +26,7 @@ header {
 
 header > div {
     font-size: 5rem;
-    color: rgb(30, 16, 22);
+    color: var(--plum-black)
 }
 
 nav {
@@ -89,16 +90,86 @@ main {
     margin-right: auto;
 }
 
-main.about h1 {
+#about h1 {
     font-family: oddly-calming;
     font-size: 2.5rem;
 }
 
-main.about p:first-of-type {
+#about p:first-of-type {
     font-size: 1.4rem;
 }
 
-main.about p {
+#about p {
     font-size: 1.2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    --hover-transition-duration: 0.3s;
+}
+
+.project {
+    border-radius: 1.5rem;
+    width: 100%;
+    min-height: 15rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    background-color: hsla(120, 90%, 33%, 0.5);
+    box-shadow: /*inset 0 0 1rem rgb(30, 16, 22),*/ 0 0 0.2rem var(--plum-black);
+    transition-property: box-shadow;
+    transition-duration: var(--hover-transition-duration); 
+    transition-timing-function: ease-out;
+}
+
+
+.project:hover {
+    box-shadow: /*inset 0 0 0rem rgb(30, 16, 22),*/ 0 0 1rem var(--plum-black);
+}
+
+.project a:any-link {
+    text-decoration: none;
+    color: rgb(30, 16, 22);
+}
+
+.inner-grow {
+    width: 100%;
+    margin-left: 0;
+    transition: width var(--hover-transition-duration), 
+                margin-left var(--hover-transition-duration), 
+                font-size var(--hover-transition-duration),
+                letter-spacing var(--hover-transition-duration)
+                ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+
+.inner-grow:hover {
+    width: 102%;
+    margin-left: -0.3rem;
+    font-size: 2.04rem;
+    letter-spacing: .102rem;
+}
+
+.project h1 {
+    padding-left: 12%;
+    font-family:'oddly-calming'
+}
+
+.project img {
+    width: 100%;
+    /* border-radius: 1rem; */
+}
+
+.project img#test {
+    width: calc(100% - 5.2rem);
+    align-self: center;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 1rem black
 }
