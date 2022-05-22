@@ -1,6 +1,5 @@
 
 .feedback-message {
-    display: flex;
     justify-content: center;
 }
 
@@ -39,5 +38,5 @@
 .contact-logo {
     width: 45px;
     height: 45px;
-    margin-right: 25px;
+    margin-right: 5px;
 }
