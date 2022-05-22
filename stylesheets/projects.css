@@ -19,7 +19,6 @@ body{
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    /* min-height: 100vh; */
     background: var(--black) ;
 }
 
@@ -31,15 +30,11 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: rgba(0,0,0,0.5);
-    overflow: hidden;
     border-radius: 20px;
     margin: 75px;
 }
 
 .project__link{
-    z-index:10;
-    color:#15fa8f;
     font-size: 2rem;
     font-weight: 700;
 
@@ -49,23 +44,31 @@ body{
 }
 
 .project__cat{
-    z-index:10;
-    color:#15fa8f;
     font-size: 1rem;
     font-weight: 700;
 }
 .project__date{
-    z-index:10;
-    color:#15fa8f;
     font-size: 1rem;
     font-weight: 700;
 }
 .project__description{
     color:var(--white);
-    z-index: 10;
     font-size: 1.23rem;
     text-indent: 2em;
 }
-.project__inner{
-    z-index: 10;
+
+
+#view{
+    background-image: url("/images/movie.jpeg");
+}
+
+#swap{
+    background-image: url("/images/swap.webp");
+    color: var(--black)
+
+}
+
+#task{
+    background-image: url("/images/todo_list.webp");
+    color: var(--black)
 }

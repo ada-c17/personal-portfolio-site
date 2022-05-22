@@ -1,6 +1,20 @@
 .contacts__inner{
-    margin: 0;
-    align-items: center;
-    font-size: 3rem;
+    align-items: center-100px;
+    font-size: 2rem;
+    padding-bottom:120px;
 }
+input{
+    background-color: red;
+    padding: 50px;
+    color: var(--white);
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+flex-direction: column;}
 
