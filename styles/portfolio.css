@@ -29,7 +29,7 @@ main {
     margin-top: 10px;
 }
 
-section {
+section, div {
     padding: 10px 30px;
     
 }
@@ -44,7 +44,7 @@ section > ul > li {
     display: list-item;
 }
 
-section > a {
+div > a {
     color: #B8C4D1;
     text-decoration: none;
     display: block;

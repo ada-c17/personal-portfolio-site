@@ -9,7 +9,7 @@ body {
     background-color: #8B6267;
 }
 
-section {
+main > div {
     background-color: #7491AD; 
     color: #723F43;
     border-top-style: double;
@@ -38,9 +38,6 @@ img {
     align-items: center;
     justify-content: flex-start;
     border-right-style: double;
+    padding-right: 10px;
 }
 
-/* footer {
-    background-color: #7491AD;
-    color: #8B6267;
-} */
