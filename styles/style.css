@@ -1,0 +1,15 @@
+html{
+    height: 1000px;
+    background-color: #FFD6FF; /* For browsers that do not support gradients */
+    background-image: linear-gradient( #FFD6FF,#C8B6FF);
+  }
+
+a{
+    color:#8093F1;
+}
+a:hover{
+    color: #80FFDB;
+}
+footer{
+    display:flex ;
+}
