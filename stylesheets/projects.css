@@ -59,16 +59,16 @@ body{
 
 
 #view{
-    background-image: url("/images/movie.jpeg");
+    background-image: url("images/movie.jpeg");
 }
 
 #swap{
-    background-image: url("/images/swap.webp");
+    background-image: url("images/swap.webp");
     color: var(--black)
 
 }
 
 #task{
-    background-image: url("/images/todo_list.webp");
+    background-image: url("images/todo_list.webp");
     color: var(--black)
 }
