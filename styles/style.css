@@ -1,6 +1,10 @@
+/* Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
+
 html, body {
     /* width: 100vw; */
     /*min-height: 100vh; */
+    font-family: 'Lora', "Noto Serif", "Lato", serif;
     margin: 0;
     padding: 0;
 }
@@ -73,7 +77,7 @@ section {
 
 .topnav-left, .topnav-right {
     font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 } 
 
 /* .topnav-left {
