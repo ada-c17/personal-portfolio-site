@@ -1,24 +1,6 @@
-/* 
-.aboutme {
-    color:  rgb(119 92 92);
-    font-family: monospace;
-    font-size: 25px;
-    display: flex;
-    justify-content: flex-start;
-    text-indent: 1.4em;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 25px;
-    font-weight: bold;
-
-} */
-
-.details {
-    display: block;
-}
 
 .first-paragraph {
-    color:rgb(59,59, 59);
+    color:rgb(50 40 40);
     font-family: monospace;
     font-size: 18px;
     display: flex;
@@ -30,7 +12,7 @@
 }
 
 .paragraph {
-    color:rgb(59,59, 59);
+    color:rgb(50 40 40);
     font-family: monospace;
     font-size: 18px;
     display: flex;
@@ -48,8 +30,9 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    text-decoration: none;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 25px;
     padding-left: 5px;
     padding-right: 5px;
     transition: text-shadow 0.15s;
