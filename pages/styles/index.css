@@ -8,14 +8,18 @@ body {
 }
 
 h1 {
+    display:flex;
     color: #24917C;
     font-family: Zen Maru Gothic;
     background-color: #9ec1b5;
+    background-image:url(/Users/shelby_faulconer/ada/projects/personal-portfolio-site/assets/fireweed_d80.jpg);
     border-style:groove;
     border-color: #9ec1b5;
     border-width: 4px;
     padding: 7px;
     width: 100vw;
+    height: 25vh;
+    flex-direction: column-reverse;
 }
 
 
@@ -72,10 +76,35 @@ a:hover {
     display: grid;
     border: 1px dotted ;
     border-radius: 17px;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr 1fr 3fr 3fr;
+    align-items: stretch;
 } 
 
+#project-display h2 {
+    grid-column: 1/1;
+    grid-row: 1/span 2;
+    align-self: stretch;
+    font-size: 6vh;
+    padding-left: 6vw;
+}
+
+#project-display img {
+    width: 27vw;
+    height: 27vw;
+    /* align-content: space-around; */
+    margin: auto;
+    padding: 1vw;
+    padding: 1vh;
+}
+
+#project-display div {
+    grid: merge;
+    grid-column: 1/span 2;
+    grid-row: 3/ span 4;
+    align-items: space-evenly;
+    margin-left: 5vw;
+}
 
 
 
@@ -85,7 +114,17 @@ h2 {
     padding-left: 7px;
     display: inline-flex;
     align-self:stretch;
+    font-size: 4vh;
     font-size:calc(14px+ 0.8vw);
+    margin-bottom: 4vh;
+    flex-grow: initial;
+}
+.socials {
+    align-items: center;
+}
+.socials img {
+    margin-left: 2vw;
+    padding-left: 2vw;
 }
 
 #self-socials {
@@ -117,8 +156,14 @@ border-style: none;
     flex-wrap: wrap;
     flex-direction: column;
     align-self: flex-start;
-}
+    margin-bottom: 20vh;
+    margin-left: 20vh;
 
+    /* flex: -1; */
+}
+#intro-box p {
+    margin-left: -5vw;
+}
 /* main {
     display: flex;
 }
