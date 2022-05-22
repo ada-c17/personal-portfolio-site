@@ -1,18 +1,5 @@
 
-.nav-items {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: center;
-    font-weight: bold;
-    padding: 10px;
-    /* border: 1px solid blue;
-     */
-}
 
-.nav-items > li {
-    margin: 0 80px;
-}
 
 section .about-content {
     /* display: grid;
@@ -23,7 +10,7 @@ section .about-content {
     /* border:1px solid blue; */
     list-style-type: none;
     justify-content: space-between;
-    padding: 8% 5% 0 10%;
+    padding: 12% 5% 0 10%;
     height: 550px;
     line-height: 2em;
 }
@@ -68,7 +55,7 @@ section .skill-container{
 section .skill-container .skill{
     /* border: 1px solid rgb(255, 0, 60); */
     width: 50%;
-    height: 100%;
+    /* height: 400px; aligns but overflows*/
     text-align: center;
     padding:20px;
 }
@@ -80,7 +67,7 @@ section .skill-container .skill span{
     padding: 0 20px;
     line-height: 2em;
     /* margin: 20px 30px; */
-    
+   
 }
 
 section .project {
@@ -89,17 +76,19 @@ section .project {
     /* background-color: black; */
     height: 600px;
     padding: 30px;
-    text-align: justify;
     list-style-type: none;
     width: 90%;
     margin: 0 auto;
-    color: white;
     text-align: right;
+    grid-gap: 15px;
 
 }
-/* section .project > li {
-    border: 1px solid green;
-} */
+
+section .project > li {
+    text-align: center;
+    color:rgb(57, 54, 54);
+    font-size: larger;
+}
 
 #Backend {
     background-color: #9BAAAE;
@@ -162,9 +151,13 @@ footer h1 , p{
     padding: 20px;
 }
 
+mark {
+    background-color:lightgray;
+    color: #715650;
+}
+
 #email {
     padding-top: 10px;
-    
 }
 
 ::selection{

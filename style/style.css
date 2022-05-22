@@ -3,6 +3,7 @@
 html {
     font-family: 'Source Code Pro';
     padding: 10px;
+
 }
 
 h1 {
@@ -20,6 +21,28 @@ a{
 }
 
 a:hover{
-    color: #715650;
+    color: #9BAAAE;
 }
 
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    /* border: 1px solid blue;
+     */
+}
+
+.nav-items > li {
+    margin: 0 80px;
+    font-weight: lighter;
+    font-weight:200;
+  
+}
+
+.nav-items > li > a:hover{
+    color: #863929;
+}
