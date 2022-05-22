@@ -73,6 +73,8 @@ main {
 
 main img{
     width: 25%;
+    mix-blend-mode: multiply;
+    
 }
 
 footer {
