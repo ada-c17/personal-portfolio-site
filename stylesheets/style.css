@@ -26,20 +26,10 @@ nav a {
     text-decoration: none;
 }
 
-
-footer {
-    background-color: lavenderblush;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    text-indent: 50px;
-}
-
 main {
     background-color: lavenderblush;
     grid-row-start: 2;
     grid-row-end: 3;
-    display: flexbox;
-    flex-direction: row;
     margin: 50px;
 }
 
@@ -47,6 +37,13 @@ main img {
     width: 200px;
     background-color: white;
     border-radius: 20px;
+}
+
+footer {
+    background-color: lavenderblush;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-indent: 50px;
 }
 
 h1 {
