@@ -1,6 +1,6 @@
 header h1{
     color: rgb(73, 71, 51);
-    text-shadow: 1px 1px whitesmoke;
+    text-shadow: 1px 1px rgb(245, 245,245);
     font-family: sans-serif;
     font-size: 45px;
     display: flex;
@@ -28,7 +28,7 @@ header h1{
 }
 
 .top-section {
-    color: #97774b;
+    color: rgb(151, 119, 75);
     font-family: Arial,sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -47,7 +47,7 @@ header h1{
 }
 
 .top-section:visited {
-    color:  #9e7946;
+    color:  rgb(158, 121, 70);
 }
 
 .body {
@@ -86,7 +86,7 @@ header h1{
 }
 
 #learn-more {
-    color: #967a54;
+    color: rgb(150, 122, 84);
     font-weight: bold;
     font-size: 20px;
     display: flex;
@@ -106,7 +106,7 @@ header h1{
 }
 
 #learn-more:visited {
-    color:  #9e7946;
+    color:  rgb(150, 122, 84);
 }
 
 #first-sentence {
