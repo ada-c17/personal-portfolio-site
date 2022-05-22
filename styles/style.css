@@ -15,6 +15,10 @@ a {
     font-size: 24px;
 }
 
+header {
+    display: block;
+}
+
 h1 {
     font-size: 60px;
     text-align: center;
@@ -28,7 +32,7 @@ nav {
     border-color: blueviolet;
     text-align: center;
     padding: 50px;
-    display: block;
+    /* display: flex; */
     text-align: center;
 }
 
@@ -36,6 +40,12 @@ section {
     text-align: center;
     font-size: 32px;
     border-style: dashed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .columns {
@@ -50,11 +60,15 @@ section {
 
 .name-title {
     margin: 100px;
-}
-
-/* .topnav {
-    padding-top: 30px;
 } */
+
+.topnav {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+} 
 
 .topnav-left, .topnav-right {
     font-size: 24px;
@@ -63,14 +77,17 @@ section {
 
 .topnav-left {
     float: left;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 .topnav-right {
     float: right;
-    padding-right: 50px;
+    /* padding-right: 50px; */
+    justify-content: space-between;
 }
 
 .update-section > p {
+    /* display: flex;
+    flex-direction: row; */
     grid-template-columns: 50% 50%;
 }
