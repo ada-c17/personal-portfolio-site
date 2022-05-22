@@ -1,5 +1,5 @@
 
-242F9B  646FD4  9BA3EB   DBDFFD
+/* 242F9B  646FD4  9BA3EB   DBDFFD */
 
 
 body {
@@ -25,6 +25,10 @@ h1 {
 
 h2 {
     padding-left: 20px;
+}
+
+a:hover {
+    color: #9BA3EB;
 }
 
 /* container for mountains img from : */
@@ -72,21 +76,31 @@ header nav a {
 footer {
     grid-row: 3/4;
     border: solid #242F9B 2px;
-    background-color: #DBDFFD;
+    background-color: #646FD4;
+    /* background-color: #DBDFFD; */
 }
 
 li {
     list-style-type: none;
 }
 
+/* parent to copywrite and contact (li elements) */
 nav ul {
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    justify-content: end;
 }
 
+
 #copywrite {
-    justify-self: flex-start;
+    /* margin-left: 10px; */
+    position: absolute;
+    left: 5%;
+    /* justify-self: start; */
+}
+
+.contact {
+    margin-right: 50px;
 }
 
 #resume {
