@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/portfolio.css">
+  <!--CSS loads on Chrome and Firefox, but not Safari-->
   <script src="https://kit.fontawesome.com/cbd5459603.js" crossorigin="anonymous"></script>
   <title>Portfolio</title>
 </head>
@@ -25,7 +26,7 @@
     <article class="container">
       <h3>Solar System Project</h3>
       <p>This was a pair programming project where we created an API 
-        that works with a postgres database to store, retrieve, update, and 
+        that connects with a postgres database to store, retrieve, update, and 
         delete planet information. This was developed in Python
         using Flask. It is deployed via Heroku.
       </p>
@@ -36,9 +37,8 @@
         <a href="https://github.com/mckorling/task-list-api" target="_blank">Task List API Project</a>
       </h3>
       <p>This was a solo project where I created a RESTful API to manage a users' 
-        tasks and goals. I created different routes that handled retreiving, deleting,
-        creating, and updating said tasks and goals. This uses a postgres database adipisicing
-        which stores tables with a One (Goal) to Many (Tasks) relationship. It is deployed
+        tasks and goals. I wrote different routes that handled retreiving, deleting,
+        creating, and updating said tasks and goals. This uses a postgres database and is deployed
         via Heroku.
           </p>
       <img src="../images/tasklist-screenshot.png" alt="Preview of Task List code">
@@ -48,7 +48,7 @@
       </h3>
       <p>This is a personal project I created based off a tutorial using the Python folium
         library. User input for a place name is entered in the terminal and the 
-        coordiantes are retrived by calling the LocationIQ API. Multiple places can 
+        coordiantes are retrived by calling the LocationIQ API. Multiple places can be
         entered and when the user is done, the webpage can be opened to view all entered
         locations on a map.</p>
       <img src="../images/map-screenshot.png" alt="Preview of travel map screen output">
