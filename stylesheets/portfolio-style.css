@@ -1,10 +1,9 @@
 .projects { 
     display: grid; 
-    gap: 10px; 
+    gap: 5px; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100%;
-    list-style-type: none; 
-    margin-top: 100px;
+    margin-top: 50px;
     justify-items: center; 
     align-items: center;
 }
