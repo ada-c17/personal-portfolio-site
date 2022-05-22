@@ -75,14 +75,12 @@ section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 
-.topnav-left {
-    /* float: left; */
-    /* padding-left: 50px; */
-}
+/* .topnav-left {
+    float: left; 
+    padding-left: 50px;
+} */
 
 .topnav-right {
-    /* float: right; */
-    /* padding-left: 800px; */
     align-items: center;
     margin-left: auto;
     justify-content: space-between;
@@ -90,10 +88,19 @@ section {
 
 .update-section {
     display: grid;
-    /*flex-direction: row; */
-    font-size: 20px;
+    /* font-size: 20px; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: minmax(min-content, max-content);
-    /* grid-template-columns: 50% 50%; */
+    /* padding: 15px; */
+    border-style: dashed;
+    border-color: red;
+}
+
+.current-column, .latest-column {
+    border-style: dashed;
+    border-color: green;
+    padding: 25px;
+    text-align: justify;
+    font-size: 15px;;
 }
 
