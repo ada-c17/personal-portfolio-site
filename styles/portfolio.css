@@ -49,7 +49,7 @@ h1 {
 } */
 
 #task-list {
-    margin-left: -25px;
+    /* margin-left: -25px; */
     grid-area: image1;
     align-self: start;
     max-width: 27vw;
@@ -135,7 +135,7 @@ h1 {
     }
 
     #task-list>img:hover {
-        transform: translateX(-11vw) scale(3.1);
+        transform: translateX(-15vw) scale(3.1);
     }
 
     #arriba-gold>iframe:hover {
