@@ -38,7 +38,7 @@ header h1{
     text-decoration: none;
     cursor:pointer;
     vertical-align: top;
-    transition: text-shadow 0.1s;
+    transition: text-shadow 0.2s;
 }
 
 .top-section:hover {
@@ -97,7 +97,7 @@ header h1{
     margin-top: 30px;
     padding-left: 5px;
     padding-right: 5px;
-    transition: text-shadow 0.15s;
+    transition: text-shadow 0.2s;
 }
 
 #learn-more:hover {
