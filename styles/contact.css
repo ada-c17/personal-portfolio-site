@@ -1,0 +1,42 @@
+
+.feedback-message {
+    justify-content: center;
+}
+
+
+.thank-you {
+    color:  rgb(119 92 92);
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.message {
+    color: rgb(50 40 40);
+    font-family: monospace;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style-type: none;
+}
+
+
+.contact-logo {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
