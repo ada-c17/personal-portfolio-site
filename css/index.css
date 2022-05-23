@@ -1,33 +1,128 @@
-* {
-    border: red 1px solid;
-}
+/* * {
+    border: white 1px solid;
+} */
 
-h1 span:first-child {
+body {
+    /* background-color: #fed43a; */
+    background-color: #026dff;
+    }
+
+
+
+/* h1 span:first-child {
     display: inline-block;
     width: 100%;
-}
+} */
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
-h1 span.title {
+/* h1 span.title {
     font-weight: 700;
-}
+} */
 
-.container-flip {
+/* .container-flip {
     position: relative;
     overflow: hidden;
     display: inline-block;
-}
-
-header {
-    background-color: plum;
-}
-
-/* .flip::after {
-    content: " ";
-    display: inline-block;
-    transform: translateX(5px);
-    background-size: cover;
 } */
+
+/* nav bar */
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.navigation-link{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    /* color: black; */
+    /* color: #2ce1e2; */
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.navigation-link:hover {
+    color: #2ce1e2;
+}
+
+
+/* text homepage */
+
+.h1-wrapper-container{
+    border: white 2px dotted;
+    height: 100%;
+    width: 50%;
+    /* align-items: center; */
+    display: flex;
+    /* justify-content: center; */
+}  
+
+.h1-wrapper{
+    border: red 2px dotted;
+    font-family: Verdana, sans-serif;
+    margin: 0%;
+}    
+
+.h1-header-yellow {
+    /* color: #FED43A; */
+    color: #2ce1e2;
+    font-size: 40px;
+    margin: 0%;
+}
+
+#h1-name-bold{
+    color: #FFFFFF;
+    font-size: 60px;
+    margin: 0%;
+}
+
+.subtitle{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+/* #welcome-page-text-side{
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* width: 50%; */
+    /* height: 100%; */
+    /* background-color: black; */
+/* } */
+
+
+#profile-picture{
+    align-items: center;
+}
+
+.wrap-text-and-picture{
+    display: flex;
+    /* border: white 2px dotted; */
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+            
+
+.picture-wrapped-container{ 
+    border: red 2px dotted;
+    
+}
+
+/* .h1-wrapper-container{
+    border: orange 2px dotted;
+ }   */
+

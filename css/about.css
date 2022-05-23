@@ -1,0 +1,33 @@
+/* text */
+.first-h1-white {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin: 0%;
+    margin-left: 5%;
+}
+
+.second-h1-white {
+    font-family: Verdana, sans-serif;
+    color: #2ce1e2;
+    font-size: 35px;
+}
+
+.container-content {
+    /* border: red 2px dotted; */
+    display: flex;
+    flex-direction: row;
+}
+
+.container-text {
+    /* border: white 2px dotted; */
+    padding: 70px 0;
+    margin-right: 3%;
+}
+
+.paragraph-content {
+    /* border: white 2px dotted; */
+    font-family: Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    
+}

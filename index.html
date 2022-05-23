@@ -5,26 +5,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../css/index.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <!-- <link href="style.css" rel="stylesheet"> -->
   <title>Homepage</title>
 </head>
 <body>
   <header>
-    <!-- <h1>Welcome to my portfolio website!</h1> -->
     <nav>
-      <a href="pages/index.html">Vera</a>
-      <a href="pages/about.html">About</a>
-      <a href="pages/skills.html">Skills & Tools</a>
-      <a href="pages/portfolio.html">Portfolio</a>
-      <a href="pages/contact-me.html">Contact Me</a>
+      <ul class="nav-bar">
+        <li class="nav-item"><a class="navigation-link" href="index.html">VERA</a></li>
+        <li class="nav-item"><a class="navigation-link" href="pages/about.html">ABOUT</a></li>
+        <li class="nav-item"><a class="navigation-link" href="pages/skills.html">SKILLS & TOOLS</a></li>
+        <li class="nav-item"><a class="navigation-link" href="pages/portfolio.html">PORTFOLIO</a></li>
+        <li class="nav-item"><a class="navigation-link" href="pages/contact-me.html">CONTACT ME</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section>
-    <h1>
-      <img src="images/git.png">
-      <span>Hey! I am Vera Sazonova👋</span>
-        I'm a Economist turned to Developer and
+  <div>
+    <h1 id="welcome-page-text-side">
+      <div class="wrap-text-and-picture">
+        <div class="h1-wrapper-container">
+          <div class="h1-wrapper">
+            <h1 class="h1-header-yellow">Hey! I'am</h1>
+            <h1 id="h1-name-bold" class="h1-wrapper">Vera Sazonova</h1>
+            <h1 class="h1-header-yellow">Software Engineer Student</h1>
+
+            <p class="h1-wrapper subtitle"> 
+              I'm a student Software Engineer with front end
+              <br>
+              and back end development skills
+              <br>
+              based in Seattle, WA.
+            </p>
+          </div>
+        </div>
+
+        <div class="picture-wrapped-container">
+          <div id="profile-picture"> 
+            <img src="../images/c-profile-5-designify.png">
+          </div>
+        </div>
+      </div>
+        <!-- I'm a Economist turned to Developer and
       <span class="container-flip">
         <span class="flip flip-cat">
           cat lover.
@@ -35,14 +57,11 @@
         <span class="flip flip-design">
           design addicted.
         </span>
-      </span>
+      </span> -->
     </h1>
-    <p> 
-      <!-- I am a Software Engineer Student at the Ada Developers Academy. -->
-      
-    </p>
+  </div>
+
     
-  </section>
   
 </body>
 </html>
