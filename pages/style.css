@@ -113,6 +113,8 @@ footer {
     height: 100px;
 }
 
+/* Styling specific to portfolio pg only */
+
 .grid-wrap {
     display: grid;
     grid-template-columns:auto auto auto;
@@ -125,4 +127,12 @@ footer {
     padding: 50px;
     font-size: 30px;
     text-align: center;
+}
+
+/* styling specific to about pg only */
+
+.responsive img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;;
 }
