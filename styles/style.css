@@ -336,6 +336,7 @@ footer .separator {
 footer a:any-link {
     color: var(--plum-black);
     text-decoration: none;
+    font-style: normal;
 }
 
 footer a:hover {
