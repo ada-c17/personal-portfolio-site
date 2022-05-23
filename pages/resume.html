@@ -1,12 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Amy Nguyen</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/resume.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
 </head>
+
 <body>
-  
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="portfolio.html">My Portfolio</a>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <aside class="profile-card">
+        <img class="profile-image" src="assets/profile_pic.JPG" alt="profile pic">
+        <div class="profile-basic-info">
+          <h3 class="profile-name">Amy Nguyen</h3>
+          <p><i class="fa fa-map-marker"></i> Kirkland, WA</p>
+          <p class="link">
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:thaimynguyen@gmail.com"> thaimynguyen@gmail.com</a>
+          </p>
+          <p class="link">
+            <i class="fa fa-laptop"></i>
+            <a href="http://helloamy.me/"> helloamy.me</a>
+          </p>
+          <p class="link">
+            <i class="fa fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/thaimynguyen">linkedin.com/in/thaimynguyen</a>
+          </p>
+          <p class="link">
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/thaimynguyen"> https://github.com/thaimynguyen</a>
+          </p>
+        </div>
+      </aside>
+      <div class="main-content">
+        <div id="upper-container">
+          <section id="projects">
+            <h3><i class="fa fa-file-code-o"></i> Coding Projects</h3>
+            <div class="project">
+              <p class="project-title">Otters Matching Card Game</p>
+              <p class="project-tech-stack">HTML, CSS, JavaScript</p>
+              <ul class="project-description">
+                <li>Simple memory web-game using vanila JavaScript</li>
+              </ul>
+            </div>
+            <div class="project">
+              <p class="project-title">Space Invaders</p>
+              <p class="project-tech-stack">Python: Pygame, OOP, Pytest</p>
+              <ul class="project-description">
+                <li>Interactive GUI spaceship shooting game with AI enemies using Pygame.</li>
+              </ul>
+            </div>
+            <div class="project">
+              <p class="project-title">Tic Tac Toe</p>
+              <p class="project-tech-stack">Python: Pygame, Numpy, Pytest</p>
+              <ul class="project-description">
+                <li>Interactive GUI 2-player game.</li>
+                <li>Responsive to different board sizes etc 3x3, 4x4 etc.</li>
+              </ul>
+            </div>
+            <div class="project">
+              <p class="project-title">Cover Letter Generator</p>
+              <p class="project-tech-stack">Python: Pygame, Numpy, Pytest</p>
+              <ul class="project-description">
+                <li>Generated Cover Letters from a csv file containing company names.</li>
+              </ul>
+            </div>
+          </section>
+          <section id="work-experience">
+            <h3><i class="fa fa-briefcase"></i> Work Experience</h3>
+            <div class="job">
+              <p class="job-title">Business & Costing Associate</p>
+              <p class="company"><i class="fa fa-map-marker"></i> Brooks Running (Seattle WA)</p></p>
+              <p class="tools">SmartSheet, Excel, Data Analysis</p>
+              <ul class="job-description">
+                <li>Provided costing forecast & seasonal analysis.</li>
+                <li>Streamlined headcount planning & budgeting processes.</li>
+              </ul>
+            </div>
+            <div class="job">
+              <p class="job-title">Finance & Account Analyst</p>
+              <p class="company"><i class="fa fa-map-marker"></i> UPS (Singapore)</p>
+              </p>
+              <p class="tools">SQL, Oracle GL, Excel, Microsoft Office Suites</p>
+              <ul class="job-description">
+                <li>Prepared monthly Income Statement/Balance Sheet variance analysis reports.</li>
+                <li>Implemented SQL database checks and reconciliations for a new revenue reporting system.</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <section id="lower-container">
+          <h3><i class="fa fa-wrench"></i> Skills</h3>
+          <div class="skills">
+            <div class="skills-column">
+              <p>Python
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </p>
+              <p>JavaScript
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>HTML & CSS
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>SQL
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+            </div>
+            <div class="skills-column">
+              <p>Flask
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>Django
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>Pandas
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>Numpy
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+            </div>
+            <div class="skills-column">
+              <p>Test Driven Development (Pytest)
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>REST APIs
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>Game Development (Pygame)
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+              <p>Web Scraping
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&#169; 2022 Amy Nguyen</p>
+    <p>Thank you!</p>
+  </footer>
+
 </body>
+
 </html>

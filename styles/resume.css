@@ -1,0 +1,117 @@
+.profile-card {
+    box-shadow: none;
+    width: 55vh;
+    height: 80vh;
+    margin: 1vh;
+}
+
+.profile-image {
+    width: 50%;
+}
+
+.profile-name {
+    text-align: center;
+}
+
+.profile-basic-info p {
+    font-size: 1em;
+}
+
+.profile-basic-info a {
+    font-size: 0.9em;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 70vh;
+}
+
+/* * {
+    border: red 1px solid;
+} */
+
+#upper-container {
+    display: flex;
+    padding: 1vh;
+}
+
+#upper-container section, 
+.project,
+.job {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0.3vh;
+    margin-right: 0.5vh;
+}
+
+
+.project *,
+.job * {
+    padding: 0.1em;
+    margin: 0;
+    line-height: 3vh;
+    font-size: 2.5vh;
+}
+
+.project-title,
+.job-title{
+    font-weight: bold;
+}
+
+.project-tech-stack,
+.tools {
+    font-style: italic;
+}
+
+#upper-container li {
+    margin-left: 2vh;
+    line-height: 2.5vh;
+    font-size: 2.3vh;
+}
+
+#lower-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 20vh;
+    padding: 0.5vh;
+    margin: 0.5vh;
+}
+
+#lower-container * {
+    padding: 0.1vh;
+    margin: 0.2vh;
+}
+
+.skills {
+    flex-grow: 1;
+    padding-top: 0;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+
+.skills * {
+    font-size: 2vh;
+    padding: 0;
+}
+
+.main-content {
+    margin: 0;
+}
+
+.main-content h3 {
+    text-transform: uppercase;
+    background-color: #F6EBF4;
+    margin-block-start: 0;
+}
+
+.link a{
+    font-weight: normal;
+}
+
