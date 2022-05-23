@@ -1,0 +1,96 @@
+body {
+    background-image: url(../assets/sergey-shmidt-koy6FlCCy5s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    font-size: calc(12px + .8vw);
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 20vh);
+    column-gap: 2vw;
+    row-gap: 2vw;
+    padding: 2vw;
+    /* align-content: center;
+    justify-content: center; */
+    /* background-size: cover; */
+}
+
+.container > div {
+    background-color: #f6f6f66d;
+    border-radius: 50px;
+    padding: .2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.on-hover {
+    display: none;
+}
+
+.project .tags {
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 2vw;
+    row-gap: .2vw;
+    line-height: 0.05vw;
+    justify-content: center;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+
+.project:hover :nth-child(2n) {
+    display: none;
+}
+
+.project:hover :nth-child(3n) {
+    display: block;
+    font-size: calc(12px + .2vw);
+    color: black;
+    text-justify: center;
+    text-align: center;
+}
+
+.tags > p {
+    background: linear-gradient(to right, #ffbb91, #ff8d6ebc);
+    padding: .4vw;
+    border-radius: 20px;
+}
+
+#lewis-structures {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#adagrams {
+    grid-row: span 2;
+}
+
+#swap-meet {
+    grid-column: span 2;
+}
+
+#solar-system-api {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#task-list {
+
+    grid-column: span 3;
+}
+
+
+
