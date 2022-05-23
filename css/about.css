@@ -13,3 +13,21 @@ h2 {
 h3:hover {
     background-color: aqua;
 }
+
+.text-center {
+    position: absolute;
+    margin-top: 850px;
+    right: 360px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.set-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    opacity: 0.3;
+    right: 300px;
+    margin-top: 770px;
+}
+
