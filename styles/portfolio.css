@@ -1,0 +1,92 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    background-color: #97C4B8;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 1.5rem;
+}
+
+.nav-bar li {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.page-link {
+    text-decoration: none;
+}
+
+.page-link:hover {
+    background-color: #F9F3EE;
+    border-radius: 5px;
+    padding: 1.5rem;
+    transition: 100ms ease-in-out;
+}
+
+.projects .task-list h1 {
+    align-items: center;
+    justify-content: center
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding: 1rem;
+    background-color: #F9F3EE;
+    border-radius: 5px;
+} 
+
+.project {
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project {
+    line-height: 2rem;
+}
+
+.task-list:hover p,
+.solar-system:hover p,
+.swap-meet:hover p,
+.viewing-party:hover p {
+    line-height: 2rem;
+    color: #F9F3EE;
+}
+
+.task-list:hover li,
+.swap-meet:hover li,
+.viewing-party:hover li {
+    color: #F9F3EE;
+}
+
+.project-skills {
+    list-style: none;
+}
+
+.project:hover{
+    visibility: visible;
+    transition: .5sec ease-out;
+}
+
+footer ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr .1fr .1fr .1fr .1fr;
+}
+
+.fa-brands:hover {
+    color: #F9F3EE;
+}

@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    background-color: #97C4B8;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav-bar li {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.page-link {
+    text-decoration: none;
+}
+
+.page-link:hover {
+    background-color: #F9F3EE;
+    border-radius: 5px;
+    padding: 1.5rem;
+    transition: 100ms ease-in-out;
+}
+
+.ada-link {
+    text-decoration: none;
+    color: #F9F3EE;
+}
+img {
+    border-radius: 10px;
+    object-fit: hidden;
+    object-position: center;
+    height: 250px;
+    width: auto;
+    border: 2px solid #F9F3EE;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    padding: 2rem;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 2rem;
+    background-color: #97C4B8;
+}
+
+.home-page-photo {
+    background-color: #97C4B8;
+}
+
+.introduction p{
+    font-weight: 100;
+    line-height: 2em;
+}
+
+.introduction h1 {
+    color: #F9F3EE;
+    font-size: 2em;
+}
+
+footer ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr .1fr .1fr .1fr .1fr;
+}
+
+.fa-brands:hover {
+    color: #F9F3EE;
+}
