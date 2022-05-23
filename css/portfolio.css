@@ -9,6 +9,8 @@ h3:hover {
 }
 
 h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
     color:darkgoldenrod;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
