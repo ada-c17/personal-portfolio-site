@@ -5,6 +5,8 @@ body {
 div {
     height: 80vh;
     display: flex; 
+    background-color:rgb(61, 100, 228);
+    border-radius: 20px
 }
 
 .header {
@@ -54,20 +56,19 @@ main {
     flex-flow: nowrap;
     border:3px rgb(79, 118, 244);
     border-style: solid; 
-    padding: 20px
+    padding: 20px;
+    border-radius: 00px;
 
 }
 
 
 .left-column {
     background-color: rgb(75, 131, 227);
-    /* grid-column-start: 1;
-    grid-row-start: 2; */
+
 }
 .right-column {
     background-color: rgb(75, 131, 227);
-    /* grid-column-start: 3;
-    grid-row-start: 2 */
+
 }
 
 .footer {
@@ -84,12 +85,14 @@ main {
 img {
     height: 100%;
     width: 100%;
+    /* border-radius: 30px; */
 }
 
 .my-info {
     background-color: rgb(181, 194, 216);
     border:4px rgb(79, 118, 244);
     border-style: double;
+    border-radius: 20px;
     display:flex;
     align-items: center;
     height: 300px;

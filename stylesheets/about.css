@@ -1,7 +1,7 @@
 
 main {
     width:100 vw;
-    height: 100 vh;
+    height: 10 vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr;
@@ -44,7 +44,6 @@ article {
 p {
     border: 3px dotted rgb(168, 95, 61);
     border-radius: 10px;
-    /* border: 4px solid rgb(76, 76, 235); */
     background-color:  rgb(92, 157, 227);
     padding: 5px;
 }
