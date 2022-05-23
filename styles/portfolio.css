@@ -8,7 +8,6 @@
 .portfolio-cards {
     flex-shrink: 1;
     display: flex;
-    flex-wrap: space-around;
     margin-bottom: 2vh;
     height: 70vh;
     perspective: 1000px; /*3D effect*/
@@ -25,7 +24,7 @@
 }
 
 .portfolio-title{
-    height: 10%;
+    height: 10%;    
 }
 
 .portfolio-flip-card {

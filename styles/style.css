@@ -82,8 +82,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 4vh;
-    padding-bottom: 1vh;
+    height: 1.5em;
+    padding-bottom: 1em;
     background-color: #482673;
     display: flex;
     color: #F6EBF4;
