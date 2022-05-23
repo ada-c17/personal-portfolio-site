@@ -1,0 +1,217 @@
+/* If time/desire, separate out styling into individual Index, About, Portfolio CSS files. */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+footer {
+    grid-column: 1/5;
+    grid-row: -1/-2;
+    background-color: #365858;
+    /* background-color: #132e2e; */
+    font-size: 20px;
+    text-align: center;
+    color: rgb(228, 227, 220);
+}
+
+.side-containers {
+    grid-column: 1/5;
+    grid-row: 2/4;
+    background-color: #750507a9;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: 100px 150px auto 80px;
+    grid-gap: 1px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.about, .portfolio, .index {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: #f8f7f75d;
+    color: black;
+}
+
+.width-container {
+    width: 100%;
+    padding: 0px 50px;
+}
+
+h3 {
+    margin: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(228, 227, 220);
+    font-family: 'Zen loop';
+}
+
+p {
+    margin: 50px;
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    font-family: 'Zen';
+}
+
+/* navigation bar */
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #365858;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid rgb(228, 227, 220);
+}
+
+/* items in nav bar */
+.nav-bar .menu li a {
+    color: #f2cc8f;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+/* hover feature for nav buttons */
+.nav-bar .menu li a:hover {
+    opacity: 0.6;
+}
+
+/* formatting nav list */
+.nav-bar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* nav header "Morgan" */
+h1 {
+    font-size: 90px;
+    color: rgb(228, 227, 220);
+    font-family: 'Zen Loop';
+}
+
+/* nav header "Adkisson" */
+h1 span {
+    font-size: 90px;
+    color: #bc262b80;
+    font-family: 'Zen Loop';
+}
+
+/* nav bar formatting on width-container */
+.nav-bar .width-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  */
+/* ABOUT */
+/*  */
+.about .width-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 { 
+    margin: 50px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(228, 227, 220);
+    font-family: 'Zen Loop';
+}
+
+#photo {
+    grid-column: 2/3;
+    border-radius: 50%;
+    border: 5px solid rgb(228, 227, 220);
+    width: 400px;
+    padding: 1px;
+}
+
+/*  */
+/* PORTFOLIO */
+/*  */
+.tile {
+    width: auto;
+    height: 500px;
+    padding: 2px;
+    border: 2px solid #f2cc8f;
+}
+
+.tile:hover {
+    opacity: .2;
+}
+
+.portfolio .width-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    row-gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    /* position: relative; */
+}
+
+.portfolio img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.portfolio .width-container:nth-child(2){
+    background-color: #bc6a6b36;
+}
+
+.portfolio .width-container:nth-child(4){
+    background-color: #bc6a6b36;
+}
+
+/* Attempted hover over to reveal text */
+/* .description {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    color: white;
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+} */
+/* .portfolio:hover div {
+    visibility: visible;
+} */
+
+/*  */
+/* INDEX */
+/*  */
+.index img {
+    width: auto;
+    height: 350px;
+    display: flex;
+    grid-column: 2/3;
+    justify-content: center;
+}
+
+.index .width-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.index a {
+    font-size: 30px;
+}
