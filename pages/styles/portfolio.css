@@ -109,6 +109,7 @@ section a:hover{
 .portfolio-a p, .portfolio-b p, .portfolio-c p {
     font-family: Zen Maru Gothic;
     font-size: calc(14px + 0.8vw);
+    max-width: 38vw;
 }
 .portfolio-a a, .portfolio-b a, .portfolio-c a {
     font-family: Zen Maru Gothic;
@@ -265,32 +266,31 @@ div {
 
 /* portfolio-c */
 .portfolio-c img {
-    grid-column: 2/span 3;
-    grid-row: 2/span 4;
+    grid-column: 2/2;
+    grid-row: 2/span 2;
     
     border-style:ridge;
     border-width:2px;
-    margin-left: 15px;
-    margin-bottom: 15%;
-    padding: 1px;
+    
+    margin-right: 2vw;
 
-    align-self: center;
+
 }
 .portfolio-c p {
     grid-column: 1/1;
-    grid-row: 2/span 2;
+    grid-row: 1/span 2;
 
     width: 38vw;
-    padding-left: 1vw;
+    padding-left: 2vw;
 
     align-items: center;
 }
 .portfolio-c a {
     grid-column: 1/1;
-    grid-row: 3/span 2;
-
-    padding: 4vw;
-    margin-top: 20px;
+    grid-row: 3/3;
+    /* justify-content: space-evenly; */
+    padding-right: 7vw;
+    margin-right: 5vw;
 }
 .portfolio-c h3 {
     grid-column: 2/ 2;
@@ -316,9 +316,6 @@ div {
     padding-left: 35vw;
 }
 
-.portfolio-c textarea {
-    margin-top: 10px;
-}
 /*  */
 
 
