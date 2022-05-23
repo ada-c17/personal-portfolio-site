@@ -1,16 +1,58 @@
 body {
-    background-color: pink;
-    display: flex;
+    background-color: hsl(0, 100%, 90%);
+    margin: 10px auto;
+    padding: 75px;
+    max-width: 1200px;
+    color: rgb(79, 76, 76);
 }
 
 h1 {
-    color: red;
+    color: maroon;
+    font-size: 50px;
+    margin: 0px;
+}
+h2{
+    color: maroon;
 }
 
 nav {
     width: 100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px
+    display:grid;
+    grid-template-columns: 1fr repeat(6, max-content);
+    align-items: end;
+
+}
+img{
+    margin:auto
+}
+nav a{
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+p{
+    color:rgb(79, 76, 76);
+    font-size: 20px;
+}
+a{
+    color:rgb(79, 76, 76)
+}
+a:hover{
+    color: maroon;
+}
+
+.information{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px
+
+}
+.textabout{
+    padding: 20px
+}
+
+footer{
+    text-align: end;
+    padding-top: 60px
 }
