@@ -1,0 +1,24 @@
+.figure {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+}
+
+a img:last-child {
+  display: none;
+}
+a:hover img:last-child {
+  display: block;
+}
+a:hover img:first-child {
+  display: none;
+}
+
+em:hover {
+  color: gray;
+}
