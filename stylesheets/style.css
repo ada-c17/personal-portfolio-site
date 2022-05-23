@@ -2,7 +2,7 @@ body {
     background-color: rgb(179, 184, 220);
 }
 
-div {
+.main-page-content {
     height: 80vh;
     display: flex; 
     background-color:rgb(61, 100, 228);
@@ -12,19 +12,18 @@ div {
 .header {
     background-color: rgb(143, 195, 227);
     font-family: Audiowide;
-    font-size: 55px;
+    font-size: 15px;
     color: rgb(61, 100, 228);
     font-weight: bold;
     border:4px rgb(79, 118, 244);
     border-style: double;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 13px;  
+    text-align:center;
+    margin: 15px;
 }
 
-section {
-    margin-bottom: 7px;
+h2 {
+    margin-bottom: 25px;
+    font-size: 40px;
 }
 
 .nav {
