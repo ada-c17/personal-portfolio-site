@@ -29,11 +29,6 @@ main p {
     padding: 5% 0 0 10%;
 }
 
-/* li ul {
-    padding-left: 0;
-    margin-left: 0;
-} */
-
 .pets {
     display: flex;
     flex-direction: row;
