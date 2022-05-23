@@ -4,9 +4,152 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>yingye profile</title>
+  <link href="../styles/style.css" rel="stylesheet" />
 </head>
+
 <body>
-  
+  <main class="container">
+
+    <header class="header">
+      <!-- header1 profile pic -->
+      <div >
+        <svg id="profile-pic" width="425" height="200">
+          <defs>
+            <clipPath id="myCircle">
+                <circle cx="250" cy="100" r="100" fill="#FFFFFF" />
+            </clipPath>
+          </defs>
+          <image width="500" height="250" xlink:href="../images/self2.jpg" clip-path="url(#myCircle)" />
+        </svg> 
+      </div>
+
+      <!-- header2 name and title -->
+      <div >
+        <h1>
+          Ying Ye
+        </h1>
+        <p>
+          Future Software Developer
+        </p>
+      </div>
+    </header>
+
+    <!-- nav -->
+    <nav>
+      <ul>
+        <li>
+          <a href="../pages/about.html">About Ying</a>
+        </li>
+        <li>
+          <a href="../pages/portfolio.html">Project Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- context on left side -->
+    <section class="left">  
+      <!-- tech skills -->
+      <div>
+        <block>  
+          <h5> Tech Skills </h5>
+          <ul>
+            <li>
+              Front End: JS, React, HTML, CSS
+            </li>
+            <li>
+              Back End: Python3, SQL, RESTful APIs, Postman
+            </li>
+            <li>
+              Development Tools: Unit Testing
+            </li>
+            <li>
+              Command Line Navigation: Git, Visual Studio
+            </li>
+          </ul>
+        </block>
+      </div>
+
+      <!--  education-->
+      <div>
+        <block>
+        <h5> Education </h5>
+        <ul>
+          <li>Ada Developers Academy: full stack software engineer student </li>
+          <li>Rutgers University-Camden: Bachelor's degree in Accounting  </li>
+        </ul>
+      </block>
+      </div>
+
+      <!-- interest -->
+      <div>
+        <block>
+        <h5> Interests </h5>
+        <ul>
+          <li>
+            Fitness
+          </li>
+          <li>
+            Travel
+          </li>
+          <li>
+            Stocks
+          </li>
+        </ul>
+      </block>
+      </div>
+    </section>
+    
+    <!-- context on left side -->
+    <section class="right"> 
+      <!-- 1.about me with tag -->
+      <div class="profile">
+        <h3> Profile </h3>
+        <ul>
+          <li> # future software Developer</li>
+          <li> # previous auditor </li>
+          <li> # waitress experience </li>
+          <li> # happy mother </li>
+          <li> # multi-language </li>
+        </ul>
+      </div>
+
+      <!-- 2.project -->
+      <div class="projects">
+        <h3> Projects </h3>
+        <ul>
+          <li> Swap Meet</li>
+          <li> Solar System API </li>
+          <li> Task List API</li>
+        </ul>
+      </div>
+
+      <!-- previous experience -->
+      <div class="experience">
+        <h3> Experience </h3>
+        <ul>
+          <li> Audit Associate - KPMG </li>
+          <li> Accounting Assistant - Korman Residential Properties </li>
+          <li> Fiduciary Tax Prepare - PWC </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- footer: contact me -->
+    <footer>
+      <ul>
+        <li>
+          <a href="yingwilliams1406@outlook.com">Email: yingwilliams1406@outlook.com</a>
+        </li>
+        <li>
+          Cell: 616-676-6478
+        </li>
+        <li>
+          Westampton, NJ
+        </li>
+      </ul>
+    </footer>
+  </main>
+    
 </body>
 </html>
