@@ -1,0 +1,39 @@
+
+img {
+    width: 350px;
+    height:auto;
+    
+}
+
+
+ul{ 
+    display: grid;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    list-style-type: none; 
+}
+
+
+
+#swap_meet {
+    grid-column: 4;
+    grid-row: 2;
+    padding-top: 20px;
+}
+
+#task_list {
+    grid-column: 2;
+    grid-row: 2;
+    padding-top: 20px;
+}
+
+#viewing_party {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#solar_sys {
+    grid-column: 3;
+    grid-row: 1;
+}

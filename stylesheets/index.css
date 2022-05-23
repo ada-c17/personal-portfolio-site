@@ -1,0 +1,33 @@
+blockquote > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+figcaption { 
+    font-size: small;
+    text-align: right;
+}
+
+figure {
+    max-width: 20%;
+
+}
+
+img {
+    max-width: 45%;
+    margin-bottom: 10px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+main > p{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    max-width: 35%;
+    text-align: justify;
+    text-justify: inter-word;
+}
