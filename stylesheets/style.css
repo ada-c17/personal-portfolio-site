@@ -81,10 +81,10 @@ a.social__link img {
 
 .intro__inner {
   display: flex;
+  justify-content: space-between;
   padding-left: 1rem;
   padding-top: 6rem;
   padding-bottom:120px;
-  position: relative;
   border-bottom: 1px solid fade(gray, 30%);
 }
 
@@ -110,8 +110,6 @@ a.social__link img {
 }
 
 #intro__photo {
-  position: relative;
-  margin-left: 300px;
   width: 600px;
   border-radius: 20px;
 
@@ -125,7 +123,7 @@ a.social__link img {
   grid-template-columns: 1fr 2fr 6fr 4fr;
   font-size: 0.7em;
   margin-top: 200px;
-  /* padding: 2rem 0; */
+  padding: 2rem 0;
   background-color: var(--black);
   color: #bbbbcc;
 }
