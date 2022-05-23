@@ -31,3 +31,8 @@ p {
     margin-right: 30px;
     text-align: justify;
 }
+
+.section-img {
+    width: 50%;
+    height: 50%;
+}
