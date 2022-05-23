@@ -1,12 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Main page</title>
+  <link href="../styles/style.css" rel="stylesheet" />
+  <link href="./../styles/index.css" rel="stylesheet" />
+
 </head>
+
 <body>
-  
+  <div class="content">
+
+
+
+    <nav class="nav-container">
+
+      <ul>
+        <li class="nav-item">
+          <a href="index.html" class="active"> Home</a>
+        </li>
+        <li>
+          <a href="about.html">About me</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+
+      </ul>
+
+    </nav>
+    <header>
+
+
+      <div class="header-content">
+
+        <img class="author-photo" alt="author's photo" src="../images/me.JPG">
+        <div class="text-about-me">
+          <p class="hello">Hello, my name is <br>
+            <m>Olena Rostotskyy</m> <br>
+          </p>
+          <p class="info">I'm a full-stack developer specialised in frontend and backend
+            development
+            for complex scalable web apps. I am curently studying at Ada developers academy and regularly post my
+            project
+            in
+            my github. Want to know how I may help your project? Check out my projects and resume.
+          </p>
+          <button type="button"><a href="mailto:olenazachkow@gmail.com">Contact me!</a></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="skill-overview">
+        <h2>Skills Overview</h2>
+        <p>
+          I have experience building applications that leverage modern programming languages and frameworks. Below is a
+          quick overview of my main technical skill sets and tools I use. Want to find out more about my experience?
+          Check out my online resume.
+        </p>
+      </div>
+      <div class="skills">
+        <div class="skill-1">
+          <img class="front-end" src="../images/front-end-icon.png">
+          <h3>Frontend</h2>
+            <ul>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>HTML/CSS</li>
+            </ul>
+
+        </div>
+        <div class="skill-2">
+          <img class="back-end" src="../images/back-end-icon.png">
+          <h3>Backend</h2>
+
+            <ul>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>PostgresAQL</li>
+              <li>SQLAlchemy</li>
+              <li>SQL</li>
+            </ul>
+        </div>
+        <div class="skill-3">
+          <img class="other" src="../images/other-icon.png">
+          <h3>Others</h2>
+            <ul>
+              <li>Unit Testing</li>
+              <li>Git</li>
+              <li>Debugging</li>
+              <li>Branching</li>
+            </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-img"><img alt="author photo" src="../images/me.JPG"></div>
+        <h2>Interested in hiring me for your project?</h2>
+        <p class="footer-text">
+          Looking for a full-stack developer to build your web app or software product? To start
+          a chat, just drop me an email at <a href="mailto:olenazachkow@gmail.com">olenazachkow@gmail.com.</a>
+        </p>
+      </div>
+      <p>&copy; <em id="date"></em> Olena Rostotskyy 2022</p>
+    </footer>
+  </div>
 </body>
+
 </html>

@@ -1,0 +1,134 @@
+header{
+    grid-row-start: 2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end: 4;
+    background-color:rgb(141, 134, 201);
+} 
+
+
+.author-photo{
+    margin: 20px;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+}
+
+.header-content{
+    align-content: space-around;
+    display: flex;
+}
+
+.header-content p{
+    margin: 10px;
+    line-height: 150%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:white;
+    text-align: center;
+}
+.header-content a {
+    text-decoration: none;
+}
+
+.header-content m{
+    color:white;
+    font-size: 2em;
+}
+
+.header-content .hello{
+    font-size: 0.875em;
+}
+
+.header-content .info{
+    text-align:justify;
+}
+
+button{
+    width:100px;
+    background-color: rgb(144, 103, 198); 
+    color:white; 
+    border: 1px solid rgb(202, 196, 206);;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: rgb(202, 196, 206);
+    color: white;
+  }
+
+
+
+
+
+.main-content{
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 500px;
+    background-color:white;
+}  
+
+
+.skill-overview{
+    display:inline-block;
+    margin:2%;
+    justify-content: center;
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+.skill-overview h2,p{
+    text-align: center;
+}
+
+.skills{
+    display:flex;
+    justify-content: space-evenly;
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+.skills ul{
+    list-style: none;
+    display: inline;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1em;
+    
+}
+
+.skills img{
+    margin: 20px;
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.skills .skill-1 {
+    margin: 2px;
+    padding: 5%;
+    list-style: circle;
+    background-color: rgb(228, 221, 233);
+}
+
+
+.skills .skill-2{
+    padding: 5%;
+    margin: 2px;
+    list-style: circle;
+    background-color: rgb(228, 221, 233);
+}
+
+.skills .skill-3{
+    padding: 5%;
+    margin: 2px;
+    list-style: circle;
+    background-color: rgb(228, 221, 233);
+}
+
+.skills h3{
+    text-align: center;
+}

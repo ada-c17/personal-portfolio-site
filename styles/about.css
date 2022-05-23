@@ -1,0 +1,111 @@
+.content-about-me{
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:250px 4fr 1fr;
+    grid-template-rows: auto auto auto  1fr;
+    
+}
+
+.about-me-header{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin: 2px;
+}
+
+hr{
+   border:rgb(141, 134, 201);
+   display: block; 
+   margin-left: 0.5em; 
+   margin-right: 0.5em; 
+   margin-top: auto; 
+   margin-bottom: auto; 
+   overflow: hidden; 
+   border-style: inset; 
+   border-width: 1px;
+}
+
+#maincontent{
+    display: flex;
+    justify-content: space-evenly;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.left-column{
+    padding: 30px;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    margin: 2px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: block;
+    height: 20%;
+    font-size: 0.8em;
+}
+.left-column ul{
+    padding: 10px;
+}
+.right-column{
+    border-left: rgb(141, 134, 201) solid 1px;
+    margin: 2px;
+    padding: 30px;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.right-column h4{
+    text-align: center;
+}
+
+.languages ul {
+    list-style: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.interests li {
+    list-style: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.contact-info li{
+    list-style: none;
+    display: inline-flex;
+    font-family: "Lucida Console", "Courier New", monospace;;
+}
+
+.soft-skills li{
+    list-style: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.fa {
+    display: inline-flex;
+    
+}
+i{
+    color:rgb(144, 103, 198);
+    margin-right: 2px;
+}
+h4{
+    color:rgb(144, 103, 198);
+}
+.right-column li{
+    margin-bottom:7px ;
+    list-style-type: circle;
+}
+.footer-content-about{
+    
+        grid-row-start: 5;
+        grid-row-end:6;
+        display: block;
+        grid-column-start:1;
+        grid-column-end:4;
+        background-color: rgb(36, 32, 56);
+    
+}
