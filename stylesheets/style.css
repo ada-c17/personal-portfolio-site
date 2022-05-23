@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
 
 html, body {
+    /* width: 100vw; */
+    /*min-height: 100vh; */
     font-family: 'Lora', "Noto Serif", "Lato", serif;
-    color: #222;
     margin: 0;
     padding: 0;
 }
@@ -24,10 +25,11 @@ header {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
-    border-style: dotted;
-    border-color: pink;
+    /* border-style: dotted; */
+    /* border-color: red; */
+    /* margin: 0px; */
 }
 
 h4 {
@@ -39,31 +41,22 @@ h4 {
     /* padding: 0px; */
 }
 
-/* img {
-    border-radius: 50%;
-} */
-
 nav {
+    /* background-color: #faf7f7; */
+    /* border-style: dotted;
+    border-color: blueviolet; */
     text-align: center;
     padding: 50px;
+    /* display: flex; */
     text-align: center;
 }
 
 section {
-    text-align: center;
+    text-align: justify;
     font-size: 32px;
+    /* border-style: dashed; */
     overflow: hidden;
 }
-
-/* .avatar {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    float: right;
-    background-image: url("github.jpg");
-    overflow: hidden;
-    border-collapse: separate;
-} */
 
 .container {
     display: flex;
@@ -85,6 +78,10 @@ section {
     margin: 100px;
 } 
 
+/* .navbar-light {
+    background-color: #e3f2fd;
+} */
+
 .topnav {
     padding-top: 30px;
     display: flex;
@@ -95,22 +92,37 @@ section {
 
 .topnav-left, .topnav-right {
     font-size: 24px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 } 
+
+/* .topnav-left {
+    float: left; 
+    padding-left: 50px;
+} */
 
 .topnav-right {
     align-items: center;
     margin-left: auto;
+    justify-content: space-between;
+}
+
+.topnav-right > a {
+    padding-right: 15px;
 }
 
 .update-section {
     display: grid;
+    /* font-size: 20px; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: minmax(min-content, max-content);
-    border-style: dashed;
-    border-color: red;
+    /* padding: 15px; */
+    /* border-style: dashed;
+    border-color: red; */
 }
 
 .current-column, .latest-column {
+    /* border-style: dashed;
+    border-color: green; */
     padding: 25px;
     text-align: justify;
     font-size: 15px;;
@@ -119,18 +131,25 @@ section {
 /****** Footer ******/
 
 footer {
+    /* position: fixed; */
+    /* border-style: dashed;
+    border-color: plum; */
     display: flex;
     align-items: center;
-    font-size: 18px;
+    /* bottom: 0;
+    width: 100%; */
+    /* height: 90px;  */
+    /* justify-content: space-around; */
+    font-size: 20px;
 }
 
 .footer-left {
-    padding-left: 25px;
+    padding-left: 40px;
     align-items: center;
 }
 
 .footer-right {
-    padding-right: 25px;
+    padding-right: 40px;
     align-items: center;
     margin-left: auto;
     justify-content: space-between;
