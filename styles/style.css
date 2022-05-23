@@ -57,10 +57,10 @@ li {
   width: 60%;
 }
 
-footer {
-  display: flex;
+.footer > div {
+  display: inline-block;
 }
 
-#social-media {
+.social-media {
   margin-left: auto;
 }
