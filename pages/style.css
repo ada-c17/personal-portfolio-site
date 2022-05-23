@@ -1,0 +1,147 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    align-items: flex-end;
+    font-size: 60px;
+    height: 100px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 50px;
+} 
+
+nav {
+    letter-spacing: 3px;
+    bottom: 50px;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -100px;
+	background-color: #7f86c2;
+}
+
+
+#introduction {
+    font-size: 20px;
+    padding: 300px;
+    background-image: url("../images/sunset-1.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#introduction p {
+    position: relative;
+    right: 150px;
+    top: 100px;
+    padding-bottom: 2.5rem;
+
+}
+
+#about_me {
+    background-image: url("../images/prof.jpeg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+#about_me p {
+    min-height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 40px;
+    border: 3px solid white;
+    position: relative;
+    top: 5px;
+    width: 400px;
+    bottom: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 60px 50px;
+}
+
+#skiing {
+    background: lightskyblue;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#travel {
+    background: lightseagreen;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hiking {
+    background: lightgoldenrodyellow;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.projects {
+    border: 1px solid #466995;
+    margin: 20px;
+    display: inline-block;
+}
+
+#projects_ada {
+    background-color: #DBE9EE;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+#portfolio {
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+footer p {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
