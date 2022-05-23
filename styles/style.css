@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&&family=Smooch&display=swap');
 
 .header-tabs {
   display:flex;
@@ -31,10 +31,18 @@ a:hover {
 }
 
 h1 {
-  padding-top:1em;
   color:saddlebrown;
   font-style:bold;
   font-size:2em;
+}
+
+.title-header {
+  font-family:Smooch;
+  margin: 0 auto;
+  padding-top:0.5em;
+  font-size:5em;
+  text-indent:80px;
+  color:saddlebrown;
 }
 
 h2 {
