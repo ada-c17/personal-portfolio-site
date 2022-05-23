@@ -1,8 +1,9 @@
 
-.project-wrapper h1 {
-
-    margin-left: 3em;
+.project-wrapper h2 {
+    margin-left: 4em;
+    padding-top: 5%;
 }
+
 .project-flex{
     /* border: 2px solid rgb(0, 255, 60); */
     /* display: grid;
@@ -34,15 +35,18 @@
     border: 1px solid #9BAAAE;
 }
 
-
+.project-desc h3{
+    /* border: 1px solid #9BAAAE; */
+    text-indent: 1em;
+}
 .project-desc{
     /* border: 2px solid rgb(96, 20, 210); */
     width: 100%;
     height: auto;
 }
 
-.project-desc > p {
-    
+.project-desc .desc{
+    /* border: 1px solid #9BAAAE; */
     text-align: left;
 }
 .tech-stack {

@@ -32,20 +32,21 @@ a:hover{
     justify-content: center;
     font-weight: bold;
     padding: 10px;
-    /* border: 1px solid blue;
-     */
+    
 }
 
 .nav-items > li {
     margin: 0 80px;
-    font-weight: lighter;
-    font-weight:300;
-  
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: .1em;
 }
 
 .nav-items > li > a:hover{
-    color: #863929;
+    color: #9BAAAE;
+    text-decoration: underline;
 }
+
 
 footer > h1{
     margin-top: 10%;
@@ -75,15 +76,16 @@ footer h1 , p{
     padding: 20px;
 }
 
-mark {
+/* mark {
     background-color:lightgray;
     color: #715650;
-}
+} */
 
 #email {
     padding-top: 10px;
+    text-decoration: underline;
 }
 
 ::selection{
-    color:#715650;
+    background-color:#9BAAAE;
 }

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/style/style.css" rel="stylesheet" />
   <link href="/style/project_style.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/profile.png">
   <title>Projects</title>
 </head>
 <body>
@@ -18,12 +19,13 @@
       </ul>
     </nav>
     <div class="project-wrapper"> 
-    <h1>My Work</h1>
+    <h2>My Work</h2>
     <div class="project-flex">
       
       <div class="project" id="Backend"><img class="project-img" src="/assets/projects/cadet-grey-solid-color-desktop-wallpaper.png" />
         <div class="project-desc"> <h3><a href="https://flask-task-list-api.herokuapp.com/tasks">Task List</a></h3>
-          <p>Applied restfull API methods to <br> create/get/update/delete tasks.</p>
+          <p class="desc">Applied restfull API methods to create, get, update, and delete tasks. Integrated with Postgres SQLAlchemy to store created
+            "Task" and "Goal" models with user input values. Deployed at Heroku.</p>
           <div class="tech-stack">
           <span><img src="/assets/projects/icons8-flask.svg"/></span>
           <span>Flask</span>
@@ -40,8 +42,10 @@
         </div> <!--class="project-desc"-->
       </div> <!--class="project"-->
       <div class="project"  id="Java"><img class="project-img" src="/assets/projects/Movie.png" />
-          <div class="project-desc"> <h3><a href="">Movie Recomendation System</a></h3>
-            <p>Applied restfull API methods to <br> create/get/update/delete tasks.</p>
+          <div class="project-desc"> <h3><a href="">Movie Recomendation System</a></h4>
+            <p class="desc">A Java obeject-oriented project that prompts users rate movies and recommend movies to users based on similar rating, weighted averages, and filters.
+              Reads 4000+ movies and ratings data files.
+            </p>
             <div class="tech-stack">
               <span><img src="/assets/projects/icons8-java.svg"/></span>
               <span>Java</span>
@@ -60,7 +64,8 @@
       
       <div class="project" id="MEAN"> <img class="project-img" src="/assets/projects/ReactFood.gif" />
         <div class="project-desc"> <h3><a href="">Food Order Web App</a></h3>
-          <p>Applied restfull API methods to <br> create/get/update/delete tasks.</p>
+          <p class="desc">A food ordering web application that allows users to add, delete, and modify orders to the shopping cart and submit the order.
+                          Users' order information are stored in Firebase real-time database by implementing HTTP protocols.</p>
           <div class="tech-stack">
           <span><img src="/assets/projects/icons8-react-native.svg"/></span>
           <span>React</span>
@@ -77,7 +82,8 @@
       </div>
       <div class="project"  id="html-css"> <img class="project-img" src="/assets/projects/WackAMole.gif" />
         <div class="project-desc"> <h3><a href=""></a>WackAMole Game</h3>
-          <p>Applied restfull API methods to <br> create/get/update/delete tasks.</p>
+          <p class="desc">Whac-A-Mole is an arcade game, originally known as Mogura Taiji (モグラ退治, "Mole Buster") in Japan. 
+            Users gain points by whacking each mole as it appears. Press 'Start' and 'Stop' to play the game and 'Levelup' the speed.</p>
           <div class="tech-stack">
           <span><img src="/assets/projects/icons8-html-filetype-50.png"/></span>
           <span>HTML</span>
@@ -94,7 +100,7 @@
       </div>
       <div class="project" id="JS"><img class="project-img" src="/assets/projects/landingpage.png" />
           <div class="project-desc"> <h3><a href="">Landing Page</a></h3>
-            <p>Applied restfull API methods to <br> create/get/update/delete tasks.</p>
+            <p class="desc">Developed a brand landing page based on existing Figma web design. Practice HTML and CSS layout and responsive web design. </p>
             <div class="tech-stack">
             <span><img src="/assets/projects/icons8-html-filetype-50.png"/></span>
             <span>HTML</span>
@@ -106,8 +112,8 @@
           </div> <!--class="project-desc"-->
       </div>
       <div class="project" id="Spring"><img class="project-img" src="/assets/projects/cadet-grey-solid-color-desktop-wallpaper.png" />
-        <div class="project-desc"> <h3><a href=""></a>Advertisng Integration</h3>
-          <p>Applied restfull API methods to <br> create/get/update/delete tasks.</p>
+        <div class="project-desc"> <h3><a href=""></a>Google Ads Integration (Volunteer Project)</h3>
+          <p class="desc">Developed features and integrated between projects to build up server-side software. Reads excel data through Java OOP design and update data at database to automate advertising. </p>
           <div class="tech-stack">
           <span><img src="/assets/projects/icons8-java.svg"/></span>
           <span>Java</span>
@@ -133,7 +139,7 @@
       <span><a href="https://www.linkedin.com/in/liqingcathy/?locale=en_US" ><img class="icons" src="/assets/linkedin.png"></a> </span>
       <span><a href="https://github.com/Liqingcathy"><img class="icons" src="/assets/git.png"></a> </span>
       <p id="email">
-      <span><mark>E-mail: cathy.glc@gmail.com</mark></span>
+        <span><a href="mailto:cathy.glc@gmail.com">cathy.glc@gmail.com</a></span>
       </p>
     </ul>
     <p>©2022 Designed and developed by Liqing Li with 🪴</p>
