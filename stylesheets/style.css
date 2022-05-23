@@ -1,0 +1,154 @@
+/* Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
+
+html, body {
+    /* width: 100vw; */
+    /*min-height: 100vh; */
+    font-family: 'Lora', "Noto Serif", "Lato", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+}
+
+a {
+    /* border-style: dotted;
+    border-color: red; */
+    font-size: 24px;
+}
+
+
+header {
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    border-style: dotted;
+    border-color: pink;
+}
+
+h4 {
+    border-style: dashed;
+    border-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* padding: 0px; */
+}
+
+nav {
+    /* background-color: #faf7f7; */
+    /* border-style: dotted;
+    border-color: blueviolet; */
+    text-align: center;
+    padding: 50px;
+    /* display: flex; */
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    font-size: 32px;
+    border-style: dashed;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+}
+
+.copyright-info {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.name-title {
+    margin: 100px;
+} 
+
+.topnav {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+} 
+
+.topnav-left, .topnav-right {
+    font-size: 24px;
+    /* letter-spacing: 30px; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+} 
+
+/* .topnav-left a {
+    letter-spacing: 10px;
+} */
+
+.topnav-right {
+    align-items: center;
+    margin-left: auto;
+    /* justify-content: space-between; */
+
+}
+
+.update-section {
+    display: grid;
+    /* font-size: 20px; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(min-content, max-content);
+    /* padding: 15px; */
+    border-style: dashed;
+    border-color: red;
+}
+
+.current-column, .latest-column {
+    border-style: dashed;
+    border-color: green;
+    padding: 25px;
+    text-align: justify;
+    font-size: 15px;;
+}
+
+/****** Footer ******/
+
+footer {
+    /* position: fixed; */
+    border-style: dashed;
+    border-color: plum;
+    display: flex;
+    align-items: center;
+    /* bottom: 0;
+    width: 100%; */
+    /* height: 90px;  */
+    /* justify-content: space-around; */
+    font-size: 18px;
+}
+
+.footer-left {
+    padding-left: 25px;
+    align-items: center;
+}
+
+.footer-right {
+    padding-right: 25px;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.social a {
+    color: #222;
+    font-size: 30px;
+    padding-right: 10px;
+}
