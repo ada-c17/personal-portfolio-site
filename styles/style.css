@@ -71,6 +71,8 @@ nav a.current:hover {
     text-shadow: 0 20px 20px hsl(129, 100%, 42%);
 }
 
+/* I didn't quite get what I was going for here (yet!), but in any case I took inspiration from Sarah Fossheim's Neon Light 
+Text (https://codepen.io/fossheim/pen/PoqKoLY) as a starting point but tried to adapt the flickering effect into a slow pulse. */
 @keyframes glow {
     0% {
         text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
@@ -130,9 +132,6 @@ main p > a:hover {
     text-shadow: rgb(300, 160, 220) 0 0 2px;
 }
 
-/* #landing {
-    --intro-font-size: 1.9rem;
-} */
 #landing p:first-of-type {
     font-size: var(--intro-font-size);
     line-height: calc(var(--intro-font-size) * 1.4);
@@ -246,7 +245,6 @@ main p > a:hover {
 
 #updates .image-grid div {
     overflow: hidden;
-    
 }
 
 #updates .image-grid .tall img {
@@ -256,7 +254,6 @@ main p > a:hover {
 #updates .image-grid .wide img {
     width: 120%;
     margin-left: -10%;
-    /* height: 50%; */
 }
 
 #updates .image-grid div:nth-of-type(2) {
