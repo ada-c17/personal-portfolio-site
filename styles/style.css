@@ -93,13 +93,41 @@ main {
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    color: var(--plum-black);
 }
 
 main h1 {
     font-family: oddly-calming;
-    font-size: 2.5rem;
+    font-size: calc(var(--intro-font-size) * 1.7);
+    letter-spacing: 0.05rem;
+    /* padding-left: 2rem; */
+}
+
+main p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main p > em {
+    font-family: oddly-calming;
+    font-size: calc(var(--intro-font-size) * 1.5);
     letter-spacing: 0.05rem;
     padding-left: 2rem;
+    font-style: normal;
+    line-height: inherit;
+}
+
+main p > a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+main p > a:visited {
+    color: var(--plum-black);
+}
+
+main p > a:hover {
+    text-shadow: rgb(300, 160, 220) 0 0 2px;
 }
 
 /* #landing h1 {
@@ -107,9 +135,12 @@ main h1 {
     letter-spacing: 0.05rem;
     padding-left:2rem;
 } */
-
+#landing {
+    --intro-font-size: 1.9rem;
+}
 #landing p:first-of-type {
-    font-size: 1.4rem;
+    font-size: var(--intro-font-size);
+    line-height: calc(var(--intro-font-size) * 1.4);
 }
 
 #landing p {
@@ -135,16 +166,15 @@ main h1 {
     border-width: 0rem;
     margin-left: 0rem;
     transition-property: border margin;
-    /* background-color: hsla(120, 90%, 33%, 0.5); */
-    /* box-shadow: inset 0 0 1rem rgb(30, 16, 22), 0 0 0.2rem var(--plum-black); */
-    /* transition-property: box-shadow; */
     transition-duration: var(--hover-transition-duration); 
     transition-timing-function: ease-out;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 
 .project:hover {
-    /* box-shadow: inset 0 0 0rem rgb(30, 16, 22), 0 0 1rem var(--plum-black); */
     border-width: 0.7rem;
     margin-left: -0.7rem;
 }
@@ -154,13 +184,24 @@ main h1 {
     color: rgb(30, 16, 22);
 }
 
-.inner-grow {
+.project .description {
+    max-height: 10rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(255, 255, 255, 0.0);
+    transition: color 1s ease;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.project:hover .description {
+    color: rgba(30, 16, 22, 0.9);
+}
+
+.inner-shrink {
     width: 100%;
     margin-left: 0;
     transition: width var(--hover-transition-duration), 
-                margin-left var(--hover-transition-duration), 
-                font-size var(--hover-transition-duration),
-                letter-spacing var(--hover-transition-duration)
+                margin-left var(--hover-transition-duration)
                 ease;
     display: flex;
     flex-direction: column;
@@ -170,11 +211,17 @@ main h1 {
     letter-spacing: .1rem;
 }
 
-.inner-grow:hover {
-    width: 102%;
-    margin-left: -0.3rem;
-    font-size: 2.04rem;
-    letter-spacing: .102rem;
+.project:hover .inner-shrink {
+    width: 65%;
+}
+
+.inner-grow {
+    width: 0%;
+    transition: width var(--hover-transition-duration) ease;
+}
+
+.project:hover .inner-grow {
+    width: 30%;
 }
 
 .project h1 {
@@ -186,14 +233,4 @@ main h1 {
 
 .project img {
     width: 100%;
-    /* border-radius: 1rem; */
-}
-
-.project img#tasklist {
-    width: calc(100% - 5.2rem);
-    align-self: center;
-    border-radius: 0.5rem;
-    overflow: hidden;
-    box-shadow: 0 0.7rem 2rem black;
-    margin-bottom: 2.8rem;
 }
