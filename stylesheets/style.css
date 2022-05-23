@@ -6,7 +6,6 @@
 header {
     grid-column: 1;
     grid-row: 1;
-    /* border: 2px grey solid; */
     color: teal;
     text-align: center;
     /* letter-spacing: .1em; */
@@ -15,7 +14,6 @@ header {
 nav {
     grid-column: 1;
     grid-row: 2;
-    /* border: 2px grey solid; */
     /* text-align: center; */
     background-color: #eda691;
     display: flex;
@@ -27,9 +25,8 @@ nav {
 
 footer {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 5;
     font-size: .75em;
-    /* border: 2px grey solid; */
 }
 
 li {
