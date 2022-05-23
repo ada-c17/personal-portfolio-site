@@ -1,28 +1,26 @@
 .content {
     display: flex;
     flex-flow: row wrap;
-    column-gap: 1vw;
+    column-gap: 2vw;
     row-gap: 4vh;
     justify-content: space-evenly;
     align-items: stretch;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .projects {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    box-shadow: 5px 5px 5px #807A7A;
+    box-shadow: .5vw .5vh .5vw #807A7A;
     max-width: 25vw;
     align-items: center;
     background-color: #E2E1E6;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .projects img {
-    margin-top: 35px;
+    margin-top: 3vh;
     width: 20vw;
     max-height: 15vw;
 }
@@ -39,4 +37,3 @@ a:hover {
 h2 {
     text-align: center;
 }
-
