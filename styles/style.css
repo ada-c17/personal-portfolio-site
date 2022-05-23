@@ -7,6 +7,8 @@ a {
 body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
+    width: 100%;
+    height: 100%;
 }
 
 button {
@@ -16,45 +18,46 @@ button {
     color: white;
     border: none;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 1.5vh;
     padding: 10px 20px
 }
 
 footer {
     width: 100%; 
-    font-size: 25px; 
+    font-size: 2.2vh; 
     color:#ffffff;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5vh;
     font-weight: bold;
     color: #a5a58d;
     /* color: #ccd5ae; */
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 3.6vh;
     font-weight: bold;
     margin: 20px;
     color: #a5a58d;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 2.5vh;
     font-weight: normal;
     margin: 20px;
     color: #4a4e69;
 }
 
 h4 {
-    font-size: 22px;
-    letter-spacing: .8em;
+    font-size: 100%;
+    letter-spacing: 1em;
 }
 
 hr {
     height: 2px;
     border-width: 0;
+    margin: 0;
     background-color: #4a4e69;
     color: #4a4e69;
 }
@@ -65,6 +68,10 @@ img.grayscale {
 
 img.grayscale:hover {
     filter: none;
+}
+
+p > h2 {
+    align-items: left;
 }
 
 .trees-a {
@@ -86,8 +93,8 @@ nav  {
 
 .about-grid{
     display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    grid-auto-rows: 10vw;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 7vw;
     grid-gap: none;
 }
 
@@ -99,6 +106,7 @@ nav  {
 
 .about-grid  p {
     font-size: 3vh;
+    font-weight: bold;
     display: block;
     text-align: left;
     margin-top: 0%;
@@ -131,12 +139,8 @@ section.about-grid-up {
     object-fit: cover;
 }
 
-.about-grid-right h3{
-    place-self: center;
-}
-
 .about-grid-up {
-    grid-area: 1 / 1 / 8 / 7;
+    grid-area: 1 / 1 / 8 / 6;
 }
 
 .about-grid-side {
@@ -146,30 +150,25 @@ section.about-grid-up {
 }
 
 .about-grid-middle {
-    grid-area: 3/ 3 / 6 / 10;
+    grid-area: 3/ 2 / 6 / 9;
 }
 
 .about-grid-right {
-    grid-area: 4/ 10/ 5/ 13;
+    grid-area: 4/ 9/ 5/ 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .about-grid-name {
-    grid-area: 1/ 3/ 3/ 6;
-}
-
-.about-paragraphs {
-    padding: 3px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: normal;
+    grid-area: 1/ 2/ 3/ 6;
 }
 
 .collage-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-auto-rows: 5vw;
-    grid-gap: 5px;
+    grid-auto-rows: 3vw;
+    grid-gap: .4vw;
 }
 
 .collage-grid img {
@@ -211,7 +210,7 @@ section.about-grid-up {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    row-gap: 12px;
+    row-gap: 1vh;
 }
 
 .img_name {
@@ -221,7 +220,7 @@ section.about-grid-up {
     font-size: 1vw;
     font-weight: bold;
     text-align: right;
-    padding: 4px;
+    padding: .3vh;
     pointer-events: none;
 }
 
@@ -233,14 +232,15 @@ section.about-grid-up {
 }
 
 .line {
-    border-left: 5px solid #000000;
-    height: 100%;
+    border-left: .3vw solid #000000;
+    height: 50%;
 }
 .nav-item a{
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
     color:#000000;
+    font-size: 1.6vh;
 }
 
 .nav-bar {
@@ -248,6 +248,11 @@ section.about-grid-up {
     justify-content: space-between;
     align-items: center;
     background-color: #cb997e;
+}
+
+.nav-bar a {
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .nav-footer {
@@ -285,7 +290,7 @@ section.about-grid-up {
 
 
 .project-items > span {
-    font-size: 2vh;
+    font-size: 2.5vh;
     display: block;
     text-align: center;
     line-height: 2.5;
@@ -298,8 +303,9 @@ section.about-grid-up {
     line-height: 2.5;
 }
 
-.project-page {
+.project-page-title {
     text-align: center;
+    margin-bottom: 0;
 }
 
 #first-p {
