@@ -306,7 +306,7 @@ main p > a:hover {
 }
 
 footer {
-    background-color: rgba(248,248,248, 0.9);
+    background-color: rgba(248,248,248, 0.8);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
     font-size: 0.5rem;
@@ -319,4 +319,25 @@ footer p {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+footer p > em {
+    font-family: oddly-calming;
+    font-style: normal;
+    letter-spacing: 0.02rem;
+    line-height: inherit;
+}
+
+footer .separator {
+    padding-left: 0.2rem;
+}
+
+footer a:any-link {
+    color: var(--plum-black);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(300,160,220);
 }
