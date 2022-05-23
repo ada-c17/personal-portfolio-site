@@ -12,20 +12,15 @@ ul > li {
     display: inline-block;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.35fr 1.5fr 1.5fr 1fr 0.25fr;
-}
-
 nav {
-    margin: 2px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    margin-right: 30%;
+    margin-left: 2px;
 }
 
 header {
-    background: url(assets/amanda-frank-qLfyTluVZAY-unsplash.jpg);
+    background: url(/assets/amanda-frank-qLfyTluVZAY-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,16 +36,11 @@ header {
 .contact {
     margin-left: 2px;
     margin-right: 30%;
+    padding-top: 20px;
 }
 
 .contact > h3 {
     text-decoration: underline;
-}
-
-#bio {
-    font-size: large;
-    margin-left: 2px;
-    margin-right: 30%;
 }
 
 footer {
