@@ -1,0 +1,117 @@
+
+body{
+    background-color: #938977;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1{
+    color:whitesmoke
+}
+
+.container h2{
+color: #dee2fd;
+}
+
+.nav-wrapper{
+    max-width:  1200px;
+    margin: auto;
+    position: relative;
+    padding: 7px  10px;
+    /* top & bottom 7px,  left & right 0 */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.title{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 5rem;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+
+nav ul li a {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: 20px;
+    /* line height set at 5px greater than font-size */
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    padding-bottom: 3px;
+    transition: 0.3s; 
+    /* Adding hover effect to links */
+    /* border-bottom: 1px solid transparent;
+  
+    /* smooth transition to hover effect */
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid rgb(70, 160, 160);
+}
+
+.header-main{
+        background: url("../images/Wasoruku_1.jpeg") right center;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+} 
+
+p{
+ font-weight: 600;   
+
+}
+
+.about{
+    padding: 10px;
+}
+
+.title h1:first-child{
+    color: #DEECFF;
+}
+
+.title h1:nth-child(2){
+    color: #C6CFFF;
+}
+
+
+.title h1:nth-child(3){
+    color: #E8D3FF;
+}
+
+.title h1:nth-child(4){
+    color: #DEECFF;
+}
+
+.title h1:nth-child(5){
+    color: #C6CFFF;
+}
+
+
+.title h1:nth-child(6){
+    color: #E8D3FF;
+}
+
+.title h1:nth-child(7){
+    color: #C6CFFF;
+}
+
+/* 
+.title h1:nth-child(6){
+    color: #E8D3FF;
+} */
+
