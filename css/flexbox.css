@@ -19,7 +19,7 @@ header h1 {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-    text-shadow: 2px 2px 5px gold  ; 
+    text-shadow: 2px 2px 5px gold; 
     
 }
 
@@ -29,17 +29,17 @@ header h1 {
 
 .left {
     width: 20%;
-    height: 1500px;
+    height: 150vh;
 }
 
 .center {
     width: 60%;
-    height: 1500px;
+    height: 150vh;
 }
 
 .right {
     width: 20%;
-    height: 1500px;
+    height: 150vh;
 }
 .fixed-content {
     top: 0;
@@ -113,7 +113,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: blueviolet;
     text-shadow: 3px 2px lemonchiffon;
@@ -124,7 +124,7 @@ img {
 .sidebar-item {
     display: flex;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     color:cornflowerblue;
     justify-content: center;
     margin-top: 20px;
@@ -133,10 +133,10 @@ img {
     height: 30px;
 }
 
-.sidebar-item:hover {
+.sidebar-item:hover, .sidebar-content:hover {
     background-color: aqua;
     color:coral;
-}
+} 
 
 footer {
     display: flex;
