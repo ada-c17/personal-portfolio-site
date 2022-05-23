@@ -29,17 +29,17 @@ header h1 {
 
 .left {
     width: 20%;
-    height: 150vh;
+    height: 160vh;
 }
 
 .center {
     width: 60%;
-    height: 150vh;
+    height: 160vh;
 }
 
 .right {
     width: 20%;
-    height: 150vh;
+    height: 160vh;
 }
 .fixed-content {
     top: 0;
