@@ -64,6 +64,9 @@ body, htmls{
 .item h1 {
     font-size:500%;
 }
+.item a:visited  {
+    color:darkolivegreen;
+}
 .item a:hover {
     color: azure;
 }
