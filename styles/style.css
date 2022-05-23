@@ -19,6 +19,11 @@ a {
     font-size: 24px;
 }
 
+footer {
+    border-style: dashed;
+    border-color: plum;
+}
+
 header {
     display: block;
 }
@@ -28,6 +33,15 @@ h1 {
     text-align: center;
     border-style: dotted;
     border-color: pink;
+}
+
+h4 {
+    border-style: dashed;
+    border-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* padding: 0px; */
 }
 
 nav {
