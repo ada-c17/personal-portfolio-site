@@ -207,8 +207,8 @@ p {
 
 .row {
     margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
 }
 
 .project-col {
