@@ -1,12 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../styles/portfolio.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/813a89c764.js" crossorigin="anonymous"></script>
+    <title>Lin's Website</title>
 </head>
-<body>
-  
+
+<body id="main">
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="nav-name">Lin Liu</a>
+            <ul class="nav-menu">
+                <li class="nav-link"><a href="#home"> Home </a></li>
+                <li class="nav-link"><a href="#about"> About </a></li>
+                <li class="nav-link"><a href="#portfolio"> Portfolio </a></li>
+                <li class="nav-link"><a href="#" class="media-content" onclick="openNav()"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="home" id="home">
+            <aside class="side-bar left-side-bar"></aside>
+            <div class="content">
+                <div class="content-hello">
+                    <h1 id="hello">Hello, World!</h1>
+                </div>
+                <article>
+                    <h2 class="content-item" id="name">I am Lin</h2>
+                    <h2 class="content-item" id="desc">{"A Software Developer in training"}</h2>
+                </article>
+            </div>
+            <aside class="side-bar right-side-bar">
+            </aside>
+            <footer>
+                <img src="../assets/Images/next-page.png" alt="next-page">
+            </footer>
+        </section>
+        <section class="about" id="about">
+            <aside class="side-bar left-side-bar"></aside>
+            <div class="content">
+                <div class="content-item skills">
+                    <h3>SKILLS</h3>
+                    <ul class="my-skills">
+                        <li class="skill ">
+                            <i class="fa-brands fa-python fa-3x"></i>
+                            <p>Python</p>
+                        </li>
+                        <li class="skill">
+                            <i class="fa-solid fa-database fa-3x"></i>
+                            <p>SQL</p>
+                        </li>
+                        <li class="skill">
+                            <i class="fa-brands fa-html5 fa-3x"></i>
+                            <p>HTML</p>
+                        </li>
+                        <li class="skill">
+                            <i class="fa-brands fa-css3 fa-3x"></i>
+                            <p>CSS</p>
+                        </li>
+                        <li class="skill">
+                            <i class="fa-brands fa-js-square fa-3x"></i>
+                            <p>JavaScript</p>
+                        </li>
+                        <li class="skill">
+                            <i class="fa-solid fa-laptop-code fa-3x"></i>
+                            <p>Flask</p>
+                        </li>
+                        <li class="skill">
+                            <i class="fa-brands fa-react fa-3x">
+                            </i>
+                            <p> React</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-item" id="my-desc">
+                    <p class="about-desc">
+                        <i class="fa-solid fa-m fa-2x fa-pull-left"></i>
+
+                        y name is Lin, I am a student software developer @ <a href="https://adadevelopersacademy.org/"
+                            id="ada">Ada Developer Academy</a>
+                        Seattle, WA.
+                        <br> I look forward to making a pivot into tech!
+                    </p>
+                    <div class="about-desc">
+                        <P>MY LOCATION</P>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.41615943256!2d-122.48214582349799!3d47.61294318530369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1653254461700!5m2!1sen!2sus"
+                            width="95%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <aside class="side-bar right-side-bar"></aside>
+            <footer>
+                <img src="../assets/Images/next-page.png" alt="next-page">
+            </footer>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <aside class="side-bar left-side-bar"></aside>
+            <div class="content">
+                <div class="project" id="project-1">
+                    <div class="project-content">
+                        <h3>Task List API
+                        </h3>
+                        <p>Student Project, designed web API to organize tasks.
+                        </p>
+                        <p>Tool: Python / Flask /<a href="https://task-list-lin.herokuapp.com"> Web API</a></p>
+                        <a href="https://github.com/lin6692/task-list-api"><i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="project" id="project-2">
+                    <div class="project-content">
+                        <h3>Sample Project 2</h3>
+                        <p>Project Desc
+                        </p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="project" id="project-3">
+                    <div class="project-content">
+                        <h3>Sample Project 3</h3>
+                        <p>Project Desc
+                        </p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="project" id="project-4">
+                    <div class="project-content">
+                        <h3>Sample Project 4</h3>
+                        <p>Project Desc
+                        </p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <aside class="side-bar right-side-bar">
+
+            </aside>
+            <footer>
+                <a href="#" class="media-content" onclick="openNav()">
+                    Hire Me<i class="fa-solid fa-heart fa-3x content"></i>
+                </a>
+            </footer>
+        </section>
+    </main>
+
+    <div id="contact-info" class="contact">
+        <a href="javascript:void(0)" class="closebtn contact-link transition: 0.3s;
+        opacity: 0.7;" onclick="closeNav()">&times;</a>
+        <h1 class="contact-item">Get in Touch</h1>
+
+        <a href="mailto:someone@yoursite.com" class="contact-item contact-link">
+            <img src="../assets/Images/email_icon.png" alt="email-icon">
+        </a>
+        <a href="" class="contact-item contact-link">
+            <img src="../assets/Images/github_icon.png" alt="github-icon">
+        </a>
+        <a href="" class="contact-item contact-link">
+            <img src="../assets/Images/linkdin_icon.png" alt="linkdin-icon">
+        </a>
+        <a href="" class="contact-item contact-link">
+            <img src="../assets/Images/facebook_icon.png" alt="facebook-icon">
+        </a>
+        <div class="contact-item">
+            <img src="../assets/Images/contact.jpg" alt="contact">
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("contact-info").style.width = "400px";
+            document.getElementById("main").style.marginRight = "400px";
+        }
+
+        function closeNav() {
+            document.getElementById("contact-info").style.width = "0";
+            document.getElementById("main").style.marginRight = "0";
+        }
+    </script>
+
 </body>
+
 </html>

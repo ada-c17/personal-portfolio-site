@@ -1,0 +1,70 @@
+.about {
+    background-color: #f8f7ff;
+}
+
+.about .content {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.about-desc {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.about .content-item {
+    margin: 5% 0 5% 5%;
+}
+
+.content-item h3 {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.my-skills {
+    grid-column: 1/2;
+    padding: 5% 5% 15% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills {
+    border-right: 2px #22333b solid;
+}
+
+.skill {
+    display: inline;
+    width: 25%;
+    margin-bottom: 3rem;
+}
+
+.skill p {
+    margin-top: 0.5rem;
+}
+
+#my-desc {
+    grid-column: 2/3;
+    padding: 5% 2% 15% 5%;
+}
+
+.about-desc:first-child {
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.about-desc:first-child p {
+    padding-bottom: 2rem;
+}
+
+#ada {
+    color: #247ba0;
+}
+
+#ada:hover {
+    border-bottom: 2px solid #247ba0;
+}
