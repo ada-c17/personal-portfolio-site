@@ -13,6 +13,7 @@ turqouise = 277DA1 */
 
 body {
     border-top: 20px solid #277DA1;
+    display: block;
     text-align: center;}
 
 footer {
@@ -22,7 +23,8 @@ footer {
     height: 30px;
     justify-content: space-around;
     padding-top: 5px;
-}
+    bottom: 0;
+}   
 
 
 footer > a:hover {
