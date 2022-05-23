@@ -1,5 +1,5 @@
 body {
-    background-image: url(../assets/sergey-shmidt-koy6FlCCy5s-unsplash.jpg);
+    background-image: radial-gradient(closest-side, rgba(165, 0, 0, 0.335) 50%,rgba(255, 153, 0, 0.2) 100%), url("../assets/sergey-shmidt-koy6FlCCy5s-unsplash.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -9,8 +9,10 @@ body {
 
 h1 {
     color: white;
+    text-shadow:.1vw .1vw .1vw #515070;
     font-size: calc(12px + .8vw);
 }
+
 
 
 
@@ -21,15 +23,13 @@ h1 {
     column-gap: 2vw;
     row-gap: 2vw;
     padding: 2vw;
-    /* align-content: center;
-    justify-content: center; */
-    /* background-size: cover; */
 }
 
 .container > div {
-    background-color: #f6f6f66d;
-    border-radius: 50px;
-    padding: .2vw;
+    /* background: linear-gradient(to right bottom, #f6f6f66d, #f6f6f695 80%, #f6f6f6 85%, #f6f6f66d); */
+    background: radial-gradient(ellipse farthest-corner at -30% -90%, #f6f6f622 ,#f6f6f645 50%, #f6f6f695 80%, #f6f6f6ed 85%, #f6f6f66d);
+    border-radius: 3vw;
+    padding: 0vw .2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,9 @@ h1 {
 
 .on-hover {
     display: none;
+    padding: 0vw 0.2vw;
 }
+
 
 .project .tags {
     display: flex;
@@ -48,7 +50,11 @@ h1 {
     row-gap: .2vw;
     line-height: 0.05vw;
     justify-content: center;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    padding: 0.2vw;
+}
+
+.container > div:hover {
+    background: #515070;
 }
 
 .project:hover :nth-child(2n) {
@@ -57,15 +63,22 @@ h1 {
 
 .project:hover :nth-child(3n) {
     display: block;
-    font-size: calc(12px + .2vw);
-    color: black;
+
+}
+
+.on-hover {
+    padding: 0px;
+    font-size: calc(12px + .5vw);
+    color: white;
     text-justify: center;
     text-align: center;
 }
 
 .tags > p {
-    background: linear-gradient(to right, #ffbb91, #ff8d6ebc);
-    padding: .4vw;
+    background: linear-gradient(to right bottom, #fff7f2, #ffbb91 70%, #ff8d6ebc);
+    height:1vw;
+    text-align: center;
+    padding: 1vw .4vw 0vw .4vw;
     border-radius: 20px;
 }
 
@@ -92,5 +105,11 @@ h1 {
     grid-column: span 3;
 }
 
+@media only screen and (max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+} 
 
 
