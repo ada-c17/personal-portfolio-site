@@ -89,6 +89,7 @@ footer a:hover {
     color: rgb(131, 188, 118);
 }
 
+/* animation sourced from: https://alvarotrigo.com/blog/css-text-animations/ */
 h1 {
     font-family: 'Press Start 2P';
     align-self: center;
