@@ -1,0 +1,19 @@
+#my-photo {
+    width: 75%;
+    position: left;
+}
+
+section {
+    display: table;
+}
+
+#contacts {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h3 {
+    margin-top: 0px;
+}
