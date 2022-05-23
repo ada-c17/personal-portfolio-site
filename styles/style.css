@@ -1,0 +1,160 @@
+/* style.css */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #51B6E8;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFBEE3;
+    border-radius: 2px;
+}
+
+html {
+    cursor: url('../images/nat885.cur'), auto;	
+}
+
+::selection {
+    background-color: #F8E16C;
+    color: #51B6E8;
+    }
+
+body {
+    width:1000px;
+    height: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #8F6EC6;
+    grid-template: .5fr .3fr 1fr .5fr 1fr/ 1fr ;
+    display: grid;
+}
+
+h1 {
+    background-color: #FFBEE3;
+    margin: 5px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #8F6EC6;
+    text-shadow: 5px 2px 1px #51B6E8;
+    font-size: 3em;
+    word-spacing: 5px;
+}
+
+#header {
+    background-color: #FFBEE3;
+    grid-row: 1;
+    outline: solid 4px #51B6E8;
+    margin: 5px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #8F6EC6;
+    text-shadow: 7px 2px 1px #51B6E8;
+    font-size: 6em;
+}
+
+#header:after {
+    content: "JULI";
+}
+
+#header:hover:after {
+    content: "i make stuff";
+}
+
+#nav-top {
+    grid-row: 2;
+    margin: 5px;
+}
+#nav-bottom {
+    grid-row: 4;
+    margin: 5px;
+}
+
+#nav-top ul, #nav-bottom ul {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav-top li, #nav-top a, #nav-bottom li, #nav-bottom a  {
+    display: inline;
+    padding: 10px;
+    font-family: Helvetica;
+    color: #FFBEE3;
+    text-shadow: 3px 2px 1px #51B6E8;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    background-color: #F8E16C;
+    text-decoration: line-through;
+    cursor: url('../images/nat886.cur'), auto;
+}
+
+#main-content {
+    background-color: #FFBEE3;
+    grid-row: 3;
+    margin: 5px;
+    outline: solid 4px #51B6E8;
+    padding: 50px;
+    color: #010203;
+    font-family: Helvetica, sans-serif;
+}
+
+#footer {
+    grid-row: 5;
+    text-align: center;
+    color: #010203;
+    font-size: .9em;
+    margin: 30px;
+    width: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+}
+
+#footer a {
+    color: #010203
+}
+
+
+
+.tags ul {
+    text-align: center;
+    list-style: inside;
+}
+
+.tags li {
+    list-style-type: none;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: .5em;
+    font-size: .7em;
+    font-weight: bold;
+    width: 40px;
+    display: inline;
+}
+
+.tags li:nth-of-type(1) {
+    background-color: #4B8BBE;
+}
+
+.tags li:nth-of-type(2) {
+    background-color: #a995c8;
+}
+
+.tags li:nth-of-type(3) {
+    background-color: #34aaa2;
+}
+
+.tags-align {
+    text-align: left;
+}

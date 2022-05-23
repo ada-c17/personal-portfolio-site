@@ -1,0 +1,7 @@
+.blue-container, .purple-container, .yellow-container {
+    width: 300px;
+}
+
+.yellow-container {
+    height: 300px;
+}

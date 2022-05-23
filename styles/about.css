@@ -1,0 +1,76 @@
+
+
+#profile {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .2fr .5fr .5fr;
+    margin-left:auto;
+    margin-right:auto;
+    grid-row-gap: 20px;
+    width: 500px;
+}
+
+.content-header {
+    grid-column: 1/1;
+    grid-row: 1;
+    text-align: center;
+    font-family: Helvetica;
+    color: #8F6EC6;
+    font-size: 1.5em;
+}
+
+.content-purple {
+    background-color: #9577c6;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: Helvetica;
+    color: #fceaf5;
+}
+
+.content-purple a{
+    color: #fceaf5
+}
+
+.content-purple a:hover{
+    text-decoration: none;
+    background-color: #51B6E8;
+}
+
+.content-yellow {
+    background-color: #F8E16C;
+    grid-column: 1;
+    grid-row: 3;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 1.6em;
+    text-align: center;
+    color: #7449b9
+}
+
+.content-yellow ul {
+    text-align: left;
+    font-size: .6em;
+}
+
+.bullet-hearts {
+    list-style-image: url(../images/pink-heart.png);
+}
+
+.content-yellow ::selection {
+    background-color: #FFBEE3;
+    }
