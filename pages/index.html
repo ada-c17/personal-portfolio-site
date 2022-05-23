@@ -22,7 +22,7 @@
 <body id="main">
     <header>
         <nav class="navbar">
-            <a class="nav-name">Lin Liu</a>
+            <a href="#home" class="nav-name">Lin Liu</a>
             <ul class="nav-menu">
                 <li class="nav-link"><a href="#home"> Home </a></li>
                 <li class="nav-link"><a href="#about"> About </a></li>
@@ -31,11 +31,6 @@
             </ul>
         </nav>
     </header>
-    <div class="share-container">
-        <ul class="share-menu">
-            <li class="share-media"></li>
-        </ul>
-    </div>
     <div class="container">
         <section class="home" id="home">
             <aside class="side-bar" id="left-side-bar"></aside>
@@ -93,7 +88,11 @@
 
                 </div>
                 <div class="content-item" id="my-desc">
-                    <p class="about-desc">My name is Lin, I am a student software developer from Ada Developer Academy
+                    <p class="about-desc">
+                        <i class="fa-solid fa-m fa-2x fa-pull-left"></i>
+
+                        y name is Lin, I am a student software developer @ <a href="https://adadevelopersacademy.org/"
+                            id="ada">Ada Developer Academy</a>
                         Seattle, WA.
                         <br> I look forward to making a pivot into tech!
                     </p>
@@ -135,27 +134,30 @@
                     <img src="../assets/Images/project-4.jpg" alt="">
                 </div>
             </div>
-            <aside class="side-bar" id="right-side-bar"></aside>
-            <footer>
+            <aside class="side-bar" id="right-side-bar">
 
+            </aside>
+            <footer>
+                <i class="fa-solid fa-heart fa-3x content"></i>
             </footer>
         </section>
     </div>
 
     <div id="contact-info" class="contact">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn contact-link transition: 0.3s;
+        opacity: 0.7;" onclick="closeNav()">&times;</a>
         <h1 class="contact-item">Get in Touch</h1>
 
-        <a href="mailto:someone@yoursite.com" class="contact-item">
+        <a href="mailto:someone@yoursite.com" class="contact-item contact-link">
             <img src="../assets/Images/email_icon.png" alt="email-icon">
         </a>
-        <a href="" class="contact-item">
+        <a href="" class="contact-item contact-link">
             <img src="../assets/Images/github_icon.png" alt="github-icon">
         </a>
-        <a href="" class="contact-item">
+        <a href="" class="contact-item contact-link">
             <img src="../assets/Images/linkdin_icon.png" alt="linkdin-icon">
         </a>
-        <a href="" class="contact-item">
+        <a href="" class="contact-item contact-link">
             <img src="../assets/Images/facebook_icon.png" alt="facebook-icon">
         </a>
         <div class="contact-item">

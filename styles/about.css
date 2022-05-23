@@ -60,3 +60,11 @@
 .about-desc:first-child p {
     padding-bottom: 2rem;
 }
+
+#ada {
+    color: #247ba0;
+}
+
+#ada:hover {
+    border-bottom: 2px solid #247ba0;
+}
