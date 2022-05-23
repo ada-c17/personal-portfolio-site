@@ -4,9 +4,81 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="../styles/style.css" rel="stylesheet" />
+  <link href="../styles/portfolio.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Elaine Smith | Portfolio</title>
 </head>
 <body>
-  
+  <header>
+    <img src="/assets/elainee-logo.png" alt="elainee logo written in blue bubble font" id="main-logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <!-- <a href="blog.html">Blog</a> -->
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <div id="portfolio-flex">
+    <div id="feature-photo">
+      <!-- Image source: https://unsplash.com/photos/RLw-UC03Gwc -->
+      <a href="https://github.com/elainesmith/task-list-api">
+        <img src="/assets/task-list.png" alt="Artistic photo of a hand holding a pen over a to-do list" />
+      </a>
+    </div>
+    <div id="secondary-photo">
+      <!-- Image source: https://unsplash.com/photos/PpYOQgsZDM4 -->
+      <a href="https://github.com/elainesmith/viewing-party">
+        <img src="/assets/viewing-party.png" alt="Cropped photo of a lady reclining w/ bowl of popcorn in lap and popcorn littered everywhere" class="secondary-photo" />
+      </a>
+      <!-- Image source: https://unsplash.com/photos/sVKNd73HhI8 -->
+      <a href="https://github.com/elainesmith/swap-meet">
+        <img src="/assets/swap-meet.png" alt="Photo of miscellaneous items on a table: vintage binoculars, tea set pieces, an ashtray, a screw, a wallet" class="secondary-photo" />
+      </a>
+      <!-- Image source: https://unsplash.com/photos/gYwfpVI2JzM -->
+      <a href="https://github.com/elainesmith/solar-system-api">
+        <img src="/assets/solar-system.png" alt="Nasa photograph of an astonaut floating in space with Earth behind them" class="secondary-photo" />
+      </a>
+    </div>
+  </div>
+  <div id="proj-desc-row">
+    <section class="proj-desc-col">
+      <h1>Task List</h1>
+      <h3>A RESTful API deployed on Heroku. Written with Python, Flask, & SQLAlchemy.</h3>
+      <p>
+        Task List manages a user's tasks and goals list using CRUD principals. When a task is marked completed, a Slack Bot posts a little message in my private server.
+      </p>
+    </section>
+    <section class="proj-desc-col">
+      <h1>Viewing Party</h1>
+      <h3>OOP program written in Python. Developed with TDD.</h3>
+      <p>
+        Viewing Party is a program that keeps tracks of movies you and your friends have watched or want to watch. The program can give suggestions for movie night based on: hosting availability, rating, genre, who's watched it, etc. This was my first dive into nested data structures.
+      </p>
+    </section>
+    <section class="proj-desc-col">
+      <h1>Swap Meet</h1>
+      <h3>OOP program written in Python.</h3>
+      <p>
+        Swap Meet keeps track of user's inventory & helps calculate item swaps based on availability, condition, age, category, etc.
+      </p>
+    </section>
+    <section class="proj-desc-col">
+      <h1>Solar System</h1>
+      <h3>Paired project. A RESTful API written with Python, Flask, & SQLalchemy.</h3>
+      <p>
+        Using CRUD methods, Solar System allows a user to maintain a database of planets - either real or fictional!
+      </p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2022 Elaine Smith</p>
+    <div id="footer-icons">
+      <a href="https://github.com/elainesmith"><i class="fa github fa-2x">&#xf09b;</i></a>
+      <a href="https://twitter.com/codeElaine"><i class="fa twitter fa-2x">&#xf099;</i></a>
+      <a href="https://www.linkedin.com/in/elainesmith1219/"><i class="fa linkedin-square fa-2x">&#xf08c;</i></a>
+      <a href="mailto:oneile1219@gmail.com"><i class="fa envelope fa-2x">&#xf0e0;</i></a>
+    </div>
+  </footer>
 </body>
 </html>

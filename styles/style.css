@@ -1,0 +1,88 @@
+/* || General styles */
+
+#main-logo {
+    width: 250px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+
+/* || Typography */
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color: #00BBF9;
+}
+
+h1, h3 {
+    font-weight: lighter;
+    color: #F15BB5;
+}
+
+h2 {
+    font-weight: lighter;
+    color: #00BBF9;
+
+}
+
+
+/* || Navbar */
+
+nav {
+    display: flex;
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    color: #F15BB5;
+    font-size: larger;
+    font-weight: 150;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto; 
+}
+
+nav a:hover {
+    background-color: #00BBF9;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+
+
+/* || Footer */
+
+footer {
+    font-size: smaller;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #00BBF9;
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+footer p {
+    padding-left: 15px;
+}
+
+#footer-icons {
+    margin-left: auto;
+    align-content: center;
+    padding-right: 5px;
+}
+
+#footer-icons i {
+    padding: 10px;
+    color: #FFFFFF;
+}

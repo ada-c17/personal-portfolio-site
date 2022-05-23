@@ -1,0 +1,53 @@
+#portfolio-flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#feature-photo img {
+    border-radius: 25px;
+    width: 70vw;
+    opacity: 0.5;
+    padding: 10px;
+}
+
+#feature-photo img:hover {
+    opacity: 1.0;
+}
+
+#secondary-photo {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.secondary-photo {
+    border-radius: 25px;
+    opacity: 0.5;
+    width: 21.5vw;
+    padding: 10px;
+}
+
+.secondary-photo:hover {
+    opacity: 1.0;
+}
+
+#proj-desc-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.proj-desc-col {
+    flex: 20%;
+    padding: 20px;
+}
+
+h3 {
+    font-size: smaller;
+}
+
+p {
+    text-align: left;
+}

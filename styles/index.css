@@ -1,0 +1,48 @@
+#hello-pic {
+    width: 80vw;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+/* Source for blinking-cursor code: 
+https://www.amitmerchant.com/simple-blinking-cursor-animation-using-css/ 
+*/
+
+@keyframes cursor-blink {
+    0% {
+    opacity: 0;
+    }
+}
+
+.cursor-blink h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cursor-blink h2::after {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background: #00BBF9;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+#tech-skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#tech-skills ul {
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+li::before {
+    content: "- ";
+}
