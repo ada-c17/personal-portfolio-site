@@ -4,9 +4,90 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Nish</title>
+  <link rel="stylesheet" href="../styles/all.min.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
 </head>
 <body>
+<section class="sub-header">
+  <nav>
+    <a href="index.html"><img src="../assets/logo.png" alt="nishat's-logo"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../pages/index.html">HOME</a></li>
+          <li><a href="../pages/about.html">ABOUT</a></li>
+          <li><a href="../pages/portfolio.html">PORTFOLIO</a></li>
+        </ul>
+    </div>
+    <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i>
+  </nav>
+  <h1>Portfolio</h1>
+</section>
+
+<section class="portfolio">
+  <h1>Projects</h1>
+  <p>Click on any of the projects to view!</p>
+  <div class="row">
+    <div class="project-col">
+      <a href="https://github.com/nishatsalsabil/viewing-party">
+        <h3>Viewing-Party</h3>
+          <p>Love watching shows & movies? Getting tired of keeping track of all the movies you and your friends like/dislike/have watched/want to watch etc.? 
+          Viewing-Party uses python with lists/dictionaries/nesting to easily and quickly filter through in whatever way's you would like! Perfect project for
+          beginners in Python Fundamentals</p>
+      </a>
+    </div>
+
+    <div class="project-col">
+      <a href="https://github.com/nishatsalsabil/adagrams-py">
+        <h3>Adagrams</h3>
+          <p>Who likes playing Scrabble? If you're not familiar with Scrabble, it's a game where players draws from a pool of tiled letters to create a word. 
+          Adagrams is a type of anagram similar to Scrabble. Check out this project and implement this Python code and see how many words you can come up with!</p>
+      </a>
+      </div>
+
+    <div class="project-col">
+      <a href="https://github.com/nishatsalsabil/swap-meet">
+        <h3>Swap-Meet</h3>
+          <p>Have you ever gone to an actual swap-meet? It's truly an exciting feeling! What's more exciting is creating it all from your desktop!
+          Check out this project to get a feel for a virtual meetup and keep track of various inventories all through code! It's great for those
+          looking to explore more into OOP.</p>
+      </a>
+
+    </div>
+    <div class="project-col">
+      <a href="https://github.com/nishatsalsabil/task-list-api">
+        <h3>Task-List</h3>
+          <p>Keeping To-Do lists can help us keep track of what needs to be done in our busy lives! It's defintely not effective to write it down on paper or worse,
+          make a mental note of it in your head! Why not create a task-list using Python to keep track of Tasks and Goals that you need to complete? Check out this project that uses Python, SQL, Flask, and APIs</p>
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ----- Javascript for toggle menu to comment out as project does not allow this ----- -->
+<!-- <script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script> -->
+<!-- ----- Javascript for toggle menu to comment out as project does not allow this ----- -->
   
 </body>
+
+<section class="footer">
+  <small>&copy; Copyright  2022, Nishat Salsabil</small>
+</section>
+
 </html>
