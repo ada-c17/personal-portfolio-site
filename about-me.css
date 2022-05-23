@@ -1,0 +1,18 @@
+header img {
+    margin: 1em;
+}
+
+main section {
+    background-color: #f3f3f3;
+    margin: 3em;
+    margin-bottom: 4em;
+    border: 2px solid #EBEBEB;
+    border-radius: 10px;
+}
+
+section h2 {
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+    margin-bottom: .5em;
+}

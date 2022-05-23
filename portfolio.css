@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 0.5fr 2fr 0.25fr;
+}
+
+header {
+    margin-bottom: 5em;
+}
+
+header img {
+    height: 400px;
+}
+
+main section {
+    background-color: #f3f3f3;
+    margin: 2em;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 10px;
+    width: 600px;
+}
+
+section img {
+    height: 350px;
+}
+
+section h2, section a, section h3 {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+section h3 {
+    margin-top: 2em;
+    font-size: 1.50em;
+}
+
+section a:hover {
+    color: royalblue;
+}
+
+section ul {
+    text-align: center;
+}
+
+section ul {
+    border-radius: 10px;
+    padding: .5em;
+    font-size: 1em;
+    font-weight: lighter;
+    }
