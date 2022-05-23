@@ -1,0 +1,120 @@
+
+/* 242F9B  646FD4  9BA3EB   DBDFFD */
+
+body {
+    /* font-family: "Helvetica", "Arial", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    /* max-width: 60em; */
+}
+.container {
+    display: grid;
+    grid-template-rows: 1fr 5fr .5fr;
+}
+
+header {
+    grid-row: 1/2;
+    border: solid #242F9B 2px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+h1 {
+    color: #242F9B;
+    font-size: 40px;
+    line-height:0%;
+    padding-left: 20px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #9BA3EB;
+}
+
+
+/* container for mountains img from : */
+#nature-pic {
+    grid-row: 2/3;
+    border: solid #242F9B 2px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    display: flex; 
+    justify-content: start;
+}
+
+/* acutal img */
+#mountains {
+    height: 100%;
+    grid-column:1/2;
+    object-fit: cover;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items:flex-end; 
+}
+/* align-items not working above */
+
+header nav a {
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+footer {
+    grid-row: 3/4;
+    border: solid #242F9B 2px;
+    background-color: #242F9B ;
+    color: #DBDFFD;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* parent to copywrite and contact (li elements) */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items:baseline ;
+    font-size: larger;
+}
+
+#copywrite {
+    position: absolute;
+    left: 5%;
+}
+
+.contact {
+    margin-right: 50px;
+}
+
+.contact a {
+    color: #DBDFFD;
+}
+
+.contact a:hover {
+    color: #9BA3EB;
+}
+
+#resume {
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #242F9B;
+}

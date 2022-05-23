@@ -1,0 +1,15 @@
+.projects p{
+    max-width: 40em;
+    margin-left: 100px;
+}
+
+h2 {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.projects a {
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 80px;
+}
