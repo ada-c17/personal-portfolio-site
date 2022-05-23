@@ -51,8 +51,7 @@ body {
 
 footer {
     display: flex;
-    background-color: #515070;
-    justify-content:center;
+    background: #515070;
     font-size: calc(12px + .5vw);
     height: fit-content;
     padding: 1vw;
