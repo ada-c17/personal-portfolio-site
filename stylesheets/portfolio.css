@@ -1,0 +1,22 @@
+.github-icon {
+    width: 100%;
+    height: auto;
+    max-width: 25px;
+    background-color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    place-self: center;
+    justify-items: center;
+    grid-column-gap: 8rem;
+}
+
+.project-photo {
+    height: auto;
+    max-width: 50%;
+}
