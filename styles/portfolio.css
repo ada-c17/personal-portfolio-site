@@ -1,11 +1,17 @@
 #linkstosocial li {
-    width: 150px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     list-style: None;
-}
-  .logoimage {
-      max-width:100%;
+    align-items: center;
+
+} 
+.logoimage {
+      max-width:150px;
       height: auto;
+      margin-bottom: 8%;
+    
   } 
+
+  
+

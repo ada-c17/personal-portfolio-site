@@ -1,0 +1,17 @@
+ p {
+  padding: 50px;
+  height: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #373e98;
+ }
+
+ #frontpage {
+     display:grid;
+
+     grid-template-columns: 5fr 2fr;
+ }
+
+#yo {
+    width: 250px;
+    height: auto;
+}

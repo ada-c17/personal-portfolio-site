@@ -4,16 +4,39 @@
     flex-wrap: wrap;
     list-style: None;
     justify-content: space-around;
+    padding: 15px;
 }
   .aboutimage {
-      max-width:auto;
-      height: 280px;
+      max-width:300px;
+      height: auto;
+      max-height: 275px !important;
+      margin: 15px;
+      justify-content: baseline;
   } 
 
 #aboutme li {
     text-decoration: None;
     font-family: Arial, Helvetica, sans-serif;
-    color: #4A6163;
+    color: #373e98;
     text-align: center;
-    background-color: #FFC94B;
+    margin-bottom: 20px;
+
+    /* align-items: baseline; */
+    /* background-color: #c29591; */
 }
+/* #aboutme li h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+/* #aboutfotos {
+    display: flex;
+    align-items: center;
+} */
+
+/* #aboutme li img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+} */
