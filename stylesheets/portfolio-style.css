@@ -42,15 +42,16 @@ a:hover {
     grid-row: 4;
     border: 2px grey solid;
     text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
     padding-top: 2%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#project-1 {
-
+.projects>section {
+    border: 2px grey solid;
+    max-width: 25vw;
 }
