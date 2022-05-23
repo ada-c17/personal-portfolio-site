@@ -74,7 +74,7 @@ main {
 }
 
 main img {
-    max-width: 50vw;
+    max-width: 25vw;
     flex: 2;
 }
 
