@@ -3,21 +3,20 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     color:#264653;
     grid-row-start:1;
-    grid-column-start:1;
     grid-row-end: 2;
+    grid-column-start:1;
     grid-column-end: 3;
 }
 
-title {
-    color: #9D8189;
-    font-size: x-large;
+h1 {
+    margin-left: 8%;
 }
 
 aside {
     background-color: #F4ACB7;
     grid-row-start: 2;
-    grid-column-start: 1;
     grid-row-end: 5;
+    grid-column-start: 1;
     grid-column-end: 2;
 }
 
@@ -32,22 +31,28 @@ body {
     height: 100vh;
 }
 
-ul {
+nav {
     color:#9D8189;
-    list-style: none;
     text-align: center;
+}
+
+ul {
+    list-style: none;
 }
 
 p {
     color: #808080;
+    margin-left: 8%;
 }
 
 h2 {
     color: #9D8189;
+    margin-left: 5%;
 }
 
 h3 {
     color: #F4ACB7;
+    margin-left: 5%;
 }
 
 footer {
@@ -61,5 +66,8 @@ footer {
 .profile_img {
     width: 25%;
     height: auto;
+    margin-left: 8%;
+}
 
+.contact_links {
 }
