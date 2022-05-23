@@ -15,19 +15,23 @@ body {
 
 h1 {
     display:flex;
+    flex-direction: column-reverse;
+
+    width: 100vw;
+    height: 75vh;
+
     color: #24917C;
     font-family: Zen Maru Gothic;
     background-color: #9ec1b5;
     background-image:url(/Users/shelby_faulconer/ada/projects/personal-portfolio-site/assets/fireweed_d80.jpg);
     background-position-x: 40%;
     background-position-y: center;
+
     border-style:groove;
     border-color: #9ec1b5;
     border-width: 4px;
     padding: 7px;
-    width: 100vw;
-    height: 25vh;
-    flex-direction: column-reverse;
+
 }
 
 
@@ -47,9 +51,7 @@ footer {
 }
 
 
-/* nav ul {
-    list-style: none;
-} */
+
 
 a {
     color: #584c99;
@@ -181,13 +183,4 @@ border-style: none;
     font-size: calc(16px+0.8vw);
 }
 
-/* main {
-    display: flex;
-}
-
-#intro-box {
-    display: flex;
-    margin: 2%;
-    padding: 10px;
-} */
 
