@@ -1,8 +1,15 @@
-.projects a, .projects p{
+.projects p{
     max-width: 60em;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 h2 {
     margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.projects a {
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 80px;
 }
