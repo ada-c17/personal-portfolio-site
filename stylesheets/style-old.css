@@ -1,0 +1,131 @@
+/* Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Lora:bold,italic|Noto+Serif:bold,italic');
+
+html, body {
+    font-family: 'Lora', "Noto Serif", "Lato", serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+}
+
+a {
+    font-size: 24px;
+}
+
+
+header {
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+nav {
+    text-align: center;
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    font-size: 32px;
+    overflow: hidden;
+}
+
+/* .avatar {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-image: url("github.jpg");
+    overflow: hidden;
+    border-collapse: separate;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+}
+
+.copyright-info {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.name-title {
+    margin: 100px;
+} 
+
+.topnav {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+} 
+
+.topnav-left, .topnav-right {
+    font-size: 24px;
+} 
+
+.topnav-right {
+    align-items: center;
+    margin-left: auto;
+}
+
+.update-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(min-content, max-content);
+} 
+
+.current-column, .latest-column {
+    padding: 25px;
+    text-align: justify;
+    font-size: 15px;;
+}
+
+/****** Footer ******/
+
+footer {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.footer-left {
+    padding-left: 25px;
+    align-items: center;
+}
+
+.footer-right {
+    padding-right: 25px;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.social a {
+    color: #222;
+    font-size: 30px;
+    padding-right: 10px;
+}
