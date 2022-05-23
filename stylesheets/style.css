@@ -26,7 +26,7 @@ nav {
     justify-content: space-evenly;
     background-color: #eda691;
     color: white;
-    max-height: 10vh;
+    height: 10vh;
 }
 
 .nav-links a {
