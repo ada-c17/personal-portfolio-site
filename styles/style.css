@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&&family=Smooch&display=swap');
+
+.header-tabs {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  list-style:none;
+  background-image:url("../assets/paper_background3.jpg");
+  border-radius:15px;
+  padding: 1em 0em 1em 0em;
+}
+
+.tab {
+  padding:1em 3em 1em 3em;
+  background:moccasin;
+  border-radius:15px;
+}
+
+a {
+  text-decoration:none;
+  color:olive;
+}
+
+a:visited {
+  color:olive;
+}
+
+a:hover {
+  color:seashell;
+}
+
+h1 {
+  color:saddlebrown;
+  font-style:bold;
+  font-size:2em;
+}
+
+.title-header {
+  font-family:Smooch;
+  margin: 0 auto;
+  padding-top:0.5em;
+  font-size:5em;
+  text-indent:80px;
+  color:saddlebrown;
+}
+
+h2 {
+  color:sienna;
+  font-size:1.5em;
+  text-indent:40px;
+}
+
+footer {
+  color:black;
+  background-color: bisque;
+  position: fixed ;
+  left: 0 ;
+  bottom: 0 ;
+  z-index: 1 ;
+  border-radius:5px;
+  padding:.5em;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family:Lato;
+}
+
+.center-list {
+  margin: 0 auto;
+  max-width:40em;
+}
+
+p {
+  font-size:1.2em;
+  text-align:justify;
+  line-height:120%;
+}
+
+.page-body {
+  background-image:url("../assets/paper_background3.jpg");
+  padding: 1.5em;
+  border-radius:15px;
+}
+
+section {
+  padding: 1em 0em 1em 0em;
+}
+
+.self-image {
+  border-radius:15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.self-paragraph {
+    padding: 2em 0em 0em 0em;
+    text-align:justify;
+    margin: 0 auto;
+    max-width:30em;
+}
+
+.tile {
+  width:31%;
+  border-radius:10px;
+  margin: 0 auto;
+}
+
+
+.tile:hover {
+  opacity:60%;
+}
+
+.tiles {
+  margin: 0 auto;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  flex-basis:20%;
+  flex-wrap:wrap;
+  flex-shrink:5;
+  gap:10px;
+}
+
+
+
+
+
+
