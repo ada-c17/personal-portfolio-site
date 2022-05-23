@@ -16,7 +16,9 @@ body {
   align-items: center;
 }
 .about__content {
-  width: 60%;
+  width: 50%;
+  margin-left: 100px;
+
 }
 
 #about__bigtitle {
@@ -40,5 +42,6 @@ body {
 
 .about__text {
   text-align: justify;
-  text-indent: 2em;
+  line-height: 1.5em;
+
 }

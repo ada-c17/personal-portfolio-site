@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin: 40px;
+    margin: 60px;
 
 }
 .blog__entry img{
@@ -14,5 +14,7 @@
     border-radius: 20px;
 }
 .blog__entry a{
-    color: var(--white)
+    color: var(--white);
+    line-height: 1.5em;
+
 }

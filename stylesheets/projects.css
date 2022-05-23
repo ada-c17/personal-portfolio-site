@@ -53,13 +53,13 @@ body{
 }
 .project__description{
     color:var(--white);
-    font-size: 1.23rem;
-    text-indent: 2em;
+    line-height: 1.5em;
 }
 
 
 #view{
-    background-image: url("../images/movie.jpeg");
+    background-image: url("../images/movie.webp");
+    color: var(--black)
 }
 
 #swap{
