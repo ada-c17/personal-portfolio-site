@@ -1,0 +1,8 @@
+.projects a, .projects p{
+    max-width: 60em;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
