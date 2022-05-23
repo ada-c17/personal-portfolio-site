@@ -40,3 +40,10 @@ body {
     margin: 0%;
     margin-left: 4%;
 }
+
+.text-block-footer{
+    color: #FFFFFF;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}

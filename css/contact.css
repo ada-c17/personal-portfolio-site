@@ -1,0 +1,45 @@
+/* .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2ce1e2;
+}
+
+.paragraph-content:hover .overlay {
+    opacity: 1;
+} */
+
+
+.paragraph-content {
+    /* border: white 2px dotted; */
+    font-family: Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.icon-container-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 17%;
+}
+
+.icon-item{
+    list-style-type: none;
+    margin-left: 2%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    /* margin-left: 200%; */
+}

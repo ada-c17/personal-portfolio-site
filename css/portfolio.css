@@ -41,6 +41,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .project-container {
@@ -51,9 +52,10 @@
 
 .project-item {
     font-family: Verdana, sans-serif;
-    color: #000000;
+    color: #026dff;
     list-style-type: none;
     font-size: 27px;
+    font-weight: bold;
 }
 
 img {
