@@ -114,7 +114,7 @@ section {
 
 
 .footer {
-    background: linear-gradient(#000000, #fbff12);
+    background: linear-gradient(to right, #000000, #fbff12);
     margin-bottom: 40px;
     justify-content: center;
     align-items: center;
@@ -214,9 +214,15 @@ a:hover::after {
     padding: 200px  100px;
     margin: 50px;
     background-repeat: no-repeat;
-    opacity:0.6;
+    opacity:0.9;
     
 
+}
+
+.index-grid {
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 p span {
@@ -234,7 +240,7 @@ p span:not(:first-child){
 
 .contact-me {
     position:relative;
-    top: -100px;
+    top: -140px;
     left: 40px;
 }
 
