@@ -57,6 +57,8 @@ a {
     font-size: 4rem;
     font-family: 'Grape Nuts', cursive;
     font-weight: bolder;
+    align-items: center;
+    justify-self: center;
 }
 
 .nav-link:hover {
