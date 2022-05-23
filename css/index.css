@@ -2,11 +2,15 @@
     border: white 1px solid;
 } */
 
-body {
-    /* background-color: #fed43a; */
+/* body {
+    background-color: #fed43a;
     background-color: #026dff;
-    }
+    } */
 
+body {
+    background: linear-gradient(to right,
+    #000000 55%, #026dff 20%);
+}
 
 
 /* h1 span:first-child {
