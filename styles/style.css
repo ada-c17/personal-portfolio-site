@@ -1,0 +1,148 @@
+img [alt="Accounting Memes"] {
+    opacity: 0.5;
+}
+
+nav {
+    grid-column: 1 / 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 800px;
+}
+
+section.content {
+    top: 10%;
+    left: 30%;
+    margin: 303px;
+    position: sticky;
+    align-items: center;
+    padding: 10px;
+    background-color: goldenrod;
+    opacity: 0.9;
+}
+
+section.content p {
+    margin: 2.5%;
+    position: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+.blank {
+    padding:10px; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container.center{
+    justify-content: center;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footer-container {
+    position: relative;
+    min-height: 10vh;
+    text-align: center;
+}
+
+.intro-1 {
+    font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 3.5em;
+    letter-spacing: -1.5px;
+    line-height: 110%;
+}
+
+.intro-2 {
+    font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.intro-3 {
+    font-family: Arial Narrow, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 18px;
+}
+
+.pic-2 {
+    max-height: 700px;
+}
+
+.portfolio-container a{
+    margin: 200px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    border:solid 3px black;
+}
+
+.portfolio-container p {
+    font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.shades {
+    display: flex;
+    align-items: center;
+    height: 1280px;
+    width: 100%;
+    height: 100% 
+}
+
+.spotify {
+    width: 1000;
+    height: 2000;
+    margin: 75px;
+    text-align: center;
+    
+}
+
+.roadtrip.container img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 300px;
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 3.5rem;
+}
+
+.sticky-container {
+    max-width:900px; 
+    margin:0 auto; 
+    border:solid 5px black;
+    padding:200px; 
+    margin-top: 800px;
+}
+
+.title {
+    font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+}
