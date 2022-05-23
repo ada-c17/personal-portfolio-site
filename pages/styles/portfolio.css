@@ -1,7 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&display=swap');
-
 
 
 body {
@@ -53,7 +51,6 @@ a:hover {
 .dropdown {
     display: inline-block;
 }
-
 .dropdown > span {
     text-decoration: underline;
 }
@@ -75,7 +72,6 @@ a:hover {
 
 /* box */
 main {
-
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 
@@ -86,15 +82,15 @@ main {
     align-content: center;
     
 }
+
 main img {
     max-width: 50vw;
     max-height: 35vh;
 }
 /* end box */
 
+
 /* tags */
-
-
 section a{
     word-spacing: 15px;
 }
@@ -111,6 +107,7 @@ section a:hover{
     font-size: calc(14px + 0.8vw);
     max-width: 38vw;
 }
+
 .portfolio-a a, .portfolio-b a, .portfolio-c a {
     font-family: Zen Maru Gothic;
     font-size: calc(12px + 0.8vw);
@@ -120,8 +117,8 @@ div {
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: calc(14px + 08.vw);
 }
-/* portfolio a and c - right img */
 
+/* portfolio a and c */
 .portfolio-a, .portfolio-c {
     border: 1px dotted;
     border-radius: 17px;
@@ -150,6 +147,7 @@ div {
     margin-bottom: 10%;
     padding: 1px;
 }
+
 .portfolio-a h3 {
     grid-column: 1/ 1;
     grid-row: 1/1;
@@ -159,6 +157,7 @@ div {
 
     align-self: initial;
 }
+
 .portfolio-a div {
     grid-column: 2/2;
     grid-row: 3/3;
@@ -172,6 +171,7 @@ div {
 
     margin: 2px;
 }
+
 .portfolio-a p {
     grid-column: 2/2;
     grid-row: 1/span 2;
@@ -207,10 +207,12 @@ div {
     align-items:space-evenly;
 
 }
+
 .portfolio-b h3 {
     grid-column: 4/ span 2;
     grid-row: 1/1;
 }
+
 .portfolio-b p {
     text-align: center;
     grid-column: 1/ span 2;
@@ -219,6 +221,7 @@ div {
     width: 40vw;
     padding-top: 8vh;
 }
+
 .portfolio-b div {
     grid-column: 1/ span 2;
     grid-row: 2/ 2;
@@ -227,6 +230,7 @@ div {
     padding-left: 2vw;
     
 }
+
 .portfolio-b img {
     max-width: 25vw;
     max-height: 32vh;
@@ -236,12 +240,14 @@ div {
     align-items: center;
     justify-content: center;
 }
+
 .portfolio-b h4 {
     font-style: normal;
     font-size: small;
     grid-area: 4/1/4/span 2;
     margin-top: -15vh;
 }
+
 #img-b-1 {
     grid-column: 3/3;
     grid-row-start: 2;
@@ -264,7 +270,7 @@ div {
 /* end portfolio-b */
 
 
-/* portfolio-c */
+/* portfolio-c with right image*/
 .portfolio-c img {
     grid-column: 2/2;
     grid-row: 2/span 2;
@@ -273,9 +279,8 @@ div {
     border-width:2px;
     
     margin-right: 2vw;
-
-
 }
+
 .portfolio-c p {
     grid-column: 1/1;
     grid-row: 1/span 2;
@@ -285,13 +290,14 @@ div {
 
     align-items: center;
 }
+
 .portfolio-c a {
     grid-column: 1/1;
     grid-row: 3/3;
-    /* justify-content: space-evenly; */
     padding-right: 7vw;
     margin-right: 5vw;
 }
+
 .portfolio-c h3 {
     grid-column: 2/ 2;
     grid-row: 1/1;
@@ -302,11 +308,13 @@ div {
 
     align-self: initial;
 }
+
 .portfolio-c div {
     grid-column: 1/1;
     grid-row: 4/span 2;
     max-width: 40vw;
 }
+
 .portfolio-c h4 {
     grid-area: 4/1/4/1;
 
@@ -319,6 +327,3 @@ div {
 /*  */
 
 
-/* .tag {
-    background-color: #f2df55;
-} */
