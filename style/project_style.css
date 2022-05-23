@@ -35,10 +35,24 @@
     border: 1px solid #9BAAAE;
 }
 
+
+
 .project-desc h3{
     /* border: 1px solid #9BAAAE; */
     text-indent: 1em;
+    
 }
+
+
+.project-desc h3 .git{
+    width: 14px;
+    margin-left: 8px ;
+}
+
+.project-desc h3:hover {
+    opacity: 50%;
+}
+
 .project-desc{
     /* border: 2px solid rgb(96, 20, 210); */
     width: 100%;
@@ -57,7 +71,7 @@
     font-size: smaller;
     border-radius: 1em;
     padding: 0 10px;
-    
+    margin-left: 1em;
 }
 
 
