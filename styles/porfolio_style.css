@@ -1,0 +1,69 @@
+body {
+    background-color: mistyrose;
+    font-family: Helvetica, sans-serif;
+    font: 100%;
+}
+
+img{
+    max-width: 75%;
+}
+
+nav{
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+header{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    padding-top: 3%;
+}
+
+main{
+    text-align: center;
+    margin: 3%;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+p{
+    padding: 3%;
+}
+
+
+nav a:link{
+    color:aliceblue;
+}
+
+nav a:visited{
+    color: mistyrose;
+}
+
+a:link{
+    color: slategrey;
+}
+
+a:visited{
+    color: darkslategrey;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.photography, .coding{
+    border-style: dotted;
+    border-color:aliceblue;
+    margin: 3%;
+}
+
+div{
+    margin:10%;
+}

@@ -1,0 +1,63 @@
+body {
+    background-color: mistyrose;
+    font-family: Helvetica, sans-serif;
+    font: 100%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 75%;
+}
+
+nav{
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+header{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    padding-top: 3%;
+}
+
+main{
+    text-align: center;
+    margin: 3%;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+p{
+    padding: 3%;
+}
+
+footer{
+    padding-top: 3%;
+}
+
+nav a:link{
+    color:aliceblue;
+}
+
+nav a:visited{
+    color: mistyrose;
+}
+
+a:link{
+    color: slategrey;
+}
+
+a:visited{
+    color: darkslategrey;
+}
