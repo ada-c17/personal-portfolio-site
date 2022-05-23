@@ -1,20 +1,4 @@
-body {
-    display: grid;
-    grid-template-columns: 20% auto 20%;
-    grid-template-rows: 2fr 1fr .25fr;
-}
-
-header {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-    
-header img {
-    width: 600px;
-}
-
 main {
-    grid-column: 1/4;
     grid-row: 2/2;
     align-content: center;
 }
@@ -25,26 +9,18 @@ main a:hover {
 
 main h2 {
     text-align: center;
-    padding: 2em;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-size: 2em;
 }
-
-main section {
-    align-content: center;    
-}
-
 
 section h4 {
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-align: center;
 }
 
-footer {
-    grid-column: 1/4;
-    grid-row: 4/4;
-}
-
-.footer_links:hover {
-    color: #ADFFD3;
+section ul {
+    width: 500px;
 }
 
 .subjects li {
