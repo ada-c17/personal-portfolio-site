@@ -4,23 +4,13 @@
     justify-content: space-evenly;
 }
 
-.details {
-    text-align: center;
-    height:40vh;
-    width: 90%;
-}
-
-#intro {
-    font-size: 28px;
-}
-
 .picture {
-    max-width: 22%;
-    margin-bottom: 5vh;
+    max-width: 20vw;
 }
 
 .gradient-box {
-  border: 5px solid;
+  border: .5vw solid;
+  border-radius: 1vw;
   background: linear-gradient(to right, #E2E1E6, #807A7A, #2286A9, #191970);
-  padding: 8px;
+  padding: 1vw;  
 }

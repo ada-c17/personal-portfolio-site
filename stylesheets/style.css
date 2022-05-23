@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5vh, 2fr;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
     column-gap: 2vw;
     font-family: 'Poppins', sans-serif;
 }
@@ -9,7 +9,6 @@
 header, footer {
     color: snow;
     grid-column: 1 / span 7;
-    font-size: x-large;
 }
 
 header, footer, nav {
@@ -32,7 +31,7 @@ nav ul {
 .navlink {
     color: snow;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 4vh;
     padding-right: 15vh;
 }
 
@@ -41,7 +40,7 @@ nav ul {
     text-align: left;
     background-color: #2286A9;
     color: midnightblue;
-    border: 1mm ridge snow;
+    border: .5vh ridge snow;
 }
 
 body {
@@ -51,7 +50,7 @@ body {
 .container main {
     background-color: snow;
     color: midnightblue;
-    grid-area: 2 / 1 / span 2 / span 7;
+    grid-area: 2 / 1 / span 5 / 7;
 }
 
 h1 {
@@ -60,5 +59,5 @@ h1 {
 
 p::first-letter {
     text-transform: capitalize;
-    font-size: xx-large;
+    font-size: 2rem;
 }
