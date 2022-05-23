@@ -4,13 +4,12 @@ body, htmls{
 }
 
 .item{
-    scroll-snap-align: start;
     height: 100vh;
     position: relative;
     display: flex;
-    text-align: center;
-    align-items: center;
+    align-items:center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container{
@@ -22,7 +21,6 @@ body, htmls{
 
 .wrapper{
     overflow: scroll;
-    scroll-snap-type: y proximity;
 }
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -55,3 +53,22 @@ body, htmls{
     text-align: center;
 }
 
+.item h3, h1 {
+    width: 80%;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-family:'Amatic SC';
+    font-size: 200%;
+}
+
+.item h1 {
+    font-size:500%;
+}
+.item a:hover {
+    color: azure;
+}
+.item a {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 70px;
+}

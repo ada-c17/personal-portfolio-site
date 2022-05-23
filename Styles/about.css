@@ -11,7 +11,7 @@
     align-content: center;
     place-items: center;
     row-gap: 50px;
-    border: 5px black solid;
+    border: 5px tomato dotted;
 }
 .header {
     grid-area: header;
@@ -21,11 +21,25 @@
 .content {
     grid-area: main;
     align-self: center;
+    font-size: 40px;
+    font-family:'Amatic SC';
+    font-weight: bold;
     padding-top: 150px;
     padding-bottom: 200px;
 }
+
+.content p {
+    width: 45%;
+    color: darkolivegreen;
+    letter-spacing:2px;
+    word-spacing: 4px;
+    padding-left: 15px;
+}
 #amberphoto {
     border: 10px #fcfaef solid;
+    width:45%;
+    height:50%;
+    
 }
 .socials {
     grid-area: main2;
