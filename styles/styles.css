@@ -28,13 +28,6 @@ header img {
     margin: 2em;
 }
 
-header h2 {
-    line-height: 200%;
-    margin: 0.5em;
-    margin-bottom: 2em;
-    font-weight: lighter;
-} 
-
 header nav li {
     background-color: #f3f3f3;
     padding: 0.5em;
@@ -66,7 +59,7 @@ nav li:hover {
 
 a {
     text-decoration: none;
-    color: #3e3e3e;
+    color: #2F2F2D;
 }
 
 a:hover {
@@ -80,7 +73,7 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    background-color:#f3f3f3;
+    background-color: white;
 }
 
 section {

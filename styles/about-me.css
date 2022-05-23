@@ -2,10 +2,6 @@ header img {
     margin: 1em;
 }
 
-main {
-    background-color: white;
-}
-
 main section {
     background-color: #f3f3f3;
     margin: 3em;
@@ -19,26 +15,4 @@ section h2 {
     padding: 1em;
     font-size: 2em;
     margin-bottom: .5em;
-}
-
-.footer_links:hover {
-    color: #ADFFD3;
-}
-
-.experience li, .interests li, .education li {
-    border-radius: 10px;
-    font-size: 1.25em;
-    font-weight: bolder;
-    }
-
-.experience li {
-    background-color: aliceblue;
-}
-
-.interests li {
-    background-color: honeydew
-}
-
-.education li {
-    background-color:#EBE0D5;
 }

@@ -12,17 +12,12 @@ header img {
     height: 400px;
 }
 
-main {
-    background-color: white;
-} 
-
 main section {
     background-color: #f3f3f3;
     margin: 2em;
     padding: 2em;
     padding-left: 4em;
     padding-right: 4em;
-    border: 2px solid #EBEBEB;
     border-radius: 10px;
     width: 600px;
 }

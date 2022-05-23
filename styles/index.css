@@ -1,6 +1,14 @@
+header h2 {
+    line-height: 200%;
+    margin: 0.5em;
+    margin-bottom: 2em;
+    font-weight: lighter;
+} 
+
 main {
     grid-row: 2/2;
     align-content: center;
+    background-color:#f3f3f3
 }
     
 main a:hover {
@@ -29,25 +37,33 @@ section ul {
     padding: .5em;
     font-size: 1em;
     font-weight: bold;
-    }
+    width: 600px;
+}
 
 .subjects li:nth-child(1) {
     background-color: #9FE5F9;
-    }
+}
 
 .subjects li:nth-child(2) {
     background-color: #40CBF2;
-    }
+}
 
 .subjects li:nth-child(3) {
     background-color: #10B7E5;
-    }
+}
 
 .subjects li:nth-child(4) {
     background-color: #0C89AC;
-    }
+}
 
 .subjects li:nth-child(5) {
     background-color: #0A6A85;
 }
     
+.subjects li:nth-child(6) {
+    background-color: #064d60;;
+}
+
+.subjects li:nth-child(7) {
+    background-color: #043b4a;
+}
