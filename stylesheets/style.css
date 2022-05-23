@@ -53,6 +53,13 @@ body {
     grid-area: 2 / 1 / span 5 / 7;
 }
 
+.gradient-box {
+    border: .5vw solid;
+    border-radius: 1vw;
+    background: linear-gradient(to right, #E2E1E6, #807A7A, #2286A9, #191970);
+    padding: 1vw;  
+}
+
 h1 {
     text-align: right;
 }

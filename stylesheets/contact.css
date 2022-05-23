@@ -22,13 +22,6 @@ h2 {
     grid-row: 2/4;
 }
 
-.gradient-box {
-    border: .5vw solid;
-    border-radius: 1vw;
-    background: linear-gradient(to right, #E2E1E6, #807A7A, #2286A9, #191970);
-    padding: 1vw;  
-  }
-  
 .details {
     grid-column: 4/span 2;
     list-style-type: none;

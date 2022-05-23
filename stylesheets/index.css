@@ -1,37 +1,10 @@
 .content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-}
-
-.info {
-    font-family: 'Poiret One', cursive;
-    display: grid;
-    grid-template-columns: 3vw 17vw 37vw 25vw 1fr;
-    grid-template-rows: 25vh 1fr;
-    position: absolute;
-    font-size: 36px;
-    text-shadow: 2px 2px snow;
-}
-
-#one {
-    grid-column-start: 3;
-    grid-row-start: 4;
-}
-
-#two {
-    grid-column-start: 4;
-    grid-row-start: 4;
+    justify-content: center;
+    align-items: center;
 }
 
 .content .picture {
-    border: 3px solid #807A7A;
-    max-width: 25vw;
-    opacity: 40%;
-    margin: 3vh;
+    max-width: 85vw;
 }
-
-.content .picture:nth-of-type(2) {
-    opacity: 100%;
-}
-
