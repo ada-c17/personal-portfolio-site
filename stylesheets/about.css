@@ -10,6 +10,7 @@ main {
 
 div {
     border: 5px solid rgb(76, 76, 235);
+    border-radius: 30px;
     background-color: rgb(218, 159, 131);
     grid-column-start: 1;
     grid-column-end: 3;
