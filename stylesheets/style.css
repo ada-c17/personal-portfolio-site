@@ -2,22 +2,20 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-    column-gap: 2vw;
+    row-gap: 2vh;
+    align-items: stretch;
     font-family: 'Poppins', sans-serif;
 }
 
-header, footer {
+header, footer, nav {
     color: snow;
     grid-column: 1 / span 7;
-}
-
-header, footer, nav {
     background: linear-gradient(90deg, #191970 20%, #2286A9 50%, #191970 100%);
 }
 
 footer {
     text-align: center;
-    height: 10vh;
+    grid-row-start: 6;
 }
 
 nav {
@@ -31,12 +29,12 @@ nav ul {
 .navlink {
     color: snow;
     text-decoration: none;
-    font-size: 4vh;
+    font-size: 1.5em;
     padding-right: 15vh;
 }
 
 #active {
-    padding: 3vh 2vw 3vh 2vw;
+    padding: 2vh;
     text-align: left;
     background-color: #2286A9;
     color: midnightblue;
@@ -50,7 +48,7 @@ body {
 .container main {
     background-color: snow;
     color: midnightblue;
-    grid-area: 2 / 1 / span 5 / 7;
+    grid-row-start: 2;
 }
 
 .gradient-box {
