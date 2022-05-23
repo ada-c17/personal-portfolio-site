@@ -1,5 +1,5 @@
 html{
-    height: 1200px;
+    height: 1000px;
     background-color: #FFD6FF; /* For browsers that do not support gradients */
     background-image: linear-gradient( #FFD6FF,#C8B6FF);
   }
@@ -8,14 +8,10 @@ html{
     color:#8093F1;
 }
 a:hover{
-    color: #80FFDB;
+    color: #B388EB;
 }
-nav{
-    display:flex;
-    
-    justify-content: space-around;
-}
-header nav li{
+
+nav li{
         background-color: #f3f3f3;
         padding: .75em;
         border-radius: 10px;
@@ -44,10 +40,40 @@ ul{
 .pictures{
     display:flex;
     justify-content: space-evenly;
-    align-content: flex-start;
-    
+    align-content: flex-start;  
 }
+
 footer{
-text-align: center;
+   text-align: center;
+
+}
+
+div.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center; 
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+div.container{
+    display: grid;
+    grid-template-columns:1fr,1fr,1fr,1fr;
+    grid-template-rows: 1fr;
+}
+div.API{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #80FFDB;
+
+}
+div.python{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #7400B8;
 
 }
