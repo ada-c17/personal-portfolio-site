@@ -8,7 +8,7 @@ header {
     grid-row: 1;
     color: teal;
     text-align: center;
-    max-height: 15vh;
+    /* height: 15vh; */
 }
 
 footer {
