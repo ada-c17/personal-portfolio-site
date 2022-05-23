@@ -1,0 +1,125 @@
+
+main {
+    width:100 vw;
+    height: 10 vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    background-color: rgb(79, 118, 244);
+}
+
+div {
+    border: 5px solid rgb(76, 76, 235);
+    border-radius: 30px;
+    background-color: rgb(218, 159, 131);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    padding: 30px;
+
+}
+
+h1 {
+    font-family: Audiowide;
+    grid-column-start: 2;
+    text-align:center;
+    padding: 30px;
+    margin: 5px;
+    color:rgb(61, 100, 228);   
+
+}
+
+.back-color {
+    border: 4px solid rgb(205, 122, 84);
+    border-radius: 50px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-family: Audiowide;
+    padding:100px;
+    text-align: center;
+    color:rgb(13, 23, 56);
+    font-size: larger;
+    background-color: rgb(13, 23, 56);
+}
+
+p {
+    border: 3px dotted rgb(168, 95, 61);
+    border-radius: 10px;
+    background-color:  rgb(92, 157, 227);
+    padding: 5px;
+}
+
+#spotify {
+    border: 3px dotted rgb(45, 45, 131);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+
+.spotify-container {
+    position:relative;
+    padding-bottom: 43.10%;
+    padding-top: 35px;
+    height: 0;
+    overflow:hidden;
+}
+
+.spotify-container iframe {
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+iframe {
+    border-radius: 12px;
+    width: 100px;
+    height: 380px;
+    border:  0;
+
+}
+
+
+aside {
+    font-family: Audiowide;
+    grid-column-start: 3;
+    grid-column-end: 3;  
+    grid-row-start: 1;
+    border: 4px solid rgb(76, 76, 235);
+    border-radius: 20px;
+    color:rgb(178, 112, 64);
+    background-color:rgb(218, 159, 131);
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.skills {
+    background-color: rgb(13, 23, 56);
+    border: 4px solid rgb(205, 122, 84);
+    border-radius: 50px;
+    text-align: center;
+    padding: 27px;
+    margin: 30px;
+    list-style: none;
+    color: rgb(218, 159, 131);
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(61, 100, 228);
+}
+
+.titles {
+    font-size: 25px;
+    color: rgb(61, 100, 228);
+}
+
+.spaces {
+    margin: 5px;
+}

@@ -1,0 +1,97 @@
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(79, 118, 244);
+}
+
+
+aside {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    font-family: Audiowide;
+    border: 3px solid rgb(193, 111, 63);
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgb(47, 47, 152);
+}
+
+article {
+    background-color: rgb(92, 157, 227);
+    border-style: dotted;
+    border-color: rgb(47, 47, 152);
+    color:rgb(165, 72, 76);
+    font-size: 22px;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 30px;
+    font-family: Audiowide;
+    grid-row-start: 1;
+}
+
+.contact {
+    background-color: rgb(92, 157, 227);
+    border-style: dotted;
+    border-color:rgb(47, 47, 152);
+    color:rgb(165, 72, 76);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 40px;
+    font-family: Audiowide;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.projects {
+    list-style: none;
+    margin: 30px;
+    padding: 40px;
+    border: 3px solid rgb(116, 154, 235);
+    border-radius:10px;
+    font-size: 25px;
+    background-color: rgb(214, 157, 132);
+}
+
+.photo {
+    display:flex;
+    align-items:flex-start;
+    height: 400px;
+    width: 400px;
+    margin: 1px;
+    padding: 20px;
+}
+
+#image {
+    border-color: aliceblue;
+    border-radius: 60px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.link-3 {
+    margin: 15px;
+    color: rgb(196, 73, 87);
+    text-decoration: none;
+}
+
+.link-3:hover {
+    background-color:rgb(47, 47, 152);
+}
+
+.heading {
+    background-color: rgb(92, 157, 227);
+    border-style: dotted;
+    border-color:rgb(47, 47, 152);
+    color:rgb(206, 102, 86);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.email-color {
+    color:rgb(220, 38, 47)
+}
