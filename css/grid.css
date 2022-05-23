@@ -27,7 +27,6 @@ header {
     grid-area: header;
     align-content: center;
     justify-content: start;
-
 }
 
 header h1 {
@@ -45,7 +44,6 @@ main {
     grid-area: main;
     margin-right: 20px;
     margin-left: 20px;
-
 }
 
 #left-sidebar {
@@ -77,7 +75,6 @@ main {
 }
 
 footer {
-
     grid-area: footer;
     display: flex;
     justify-content: center;
