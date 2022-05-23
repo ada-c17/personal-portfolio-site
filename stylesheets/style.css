@@ -1,10 +1,14 @@
 header{
     background-color: #ffa500;
+    background-image: url("https://github.com/gabw13/personal-portfolio-site/blob/master/images/icons/gab_doughnut.png?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
-    color:#264653;
-    grid-row-start:1;
+    font-size: xx-large;
+    color: #ECE4DB;
+    grid-row-start: 1;
     grid-row-end: 2;
-    grid-column-start:1;
+    grid-column-start: 1;
     grid-column-end: 3;
 }
 
@@ -33,11 +37,28 @@ body {
 
 nav {
     color:#9D8189;
-    text-align: center;
+    text-align: left;
 }
 
 ul {
     list-style: none;
+}
+
+li {
+    font-size: x-large;
+    padding: 15%;
+}
+
+a:visited {
+    color: #4c41a6;
+}
+
+a:hover {
+    color: #7fffd4;;
+}
+
+a:active {
+    color: #ff1493;
 }
 
 p {
@@ -62,7 +83,8 @@ footer {
     grid-row-end: 5;
     grid-column-end: 3;
     font-family: 'Courier New', Courier, monospace;
-    color:#264653;
+    font-size: small;
+    color: #264653;
 }
 
 .profile_img {
@@ -81,3 +103,24 @@ footer {
     height: auto;
 }
 
+.doughnut {
+    width: 50%;
+    height: auto;
+}
+
+.code_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project_box {
+    height: 425px;
+    width: 512px;
+    margin-top: 10px;
+    background: #faebd7;
+    padding-right: 25px;
+    text-align: left;
+    align-self :auto;
+}
