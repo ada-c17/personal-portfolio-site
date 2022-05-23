@@ -1,0 +1,82 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.portfolio-cards {
+    flex-shrink: 1;
+    display: flex;
+    margin-bottom: 2vh;
+    height: 70vh;
+    perspective: 1000px; /*3D effect*/
+}
+
+.portfolio-card {
+    flex: 1 1;
+    margin: 0em 2em;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.portfolio-title{
+    height: 10%;    
+}
+
+.portfolio-flip-card {
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    margin-bottom: 2vh;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /*Not visible when flipped over*/
+}
+
+.flip-card-back {
+    transform: rotateY(180deg); /* Not visible when not hovered over */
+}
+
+.flip-card-front img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-bottom: 1em;
+    flex-grow: 1;
+}
+
+.portfolio-flip-card:hover {
+    transform: rotateY(180deg);
+}
+
+.portfolio-static-card {
+    width: 100%;
+    height: 10%;
+}
+
+
+.contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info > p {
+    padding: 0;
+    margin: 0;
+}
+
+
