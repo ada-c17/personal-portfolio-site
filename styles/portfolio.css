@@ -1,0 +1,17 @@
+#linkstosocial li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: None;
+    align-items: center;
+
+} 
+.logoimage {
+      max-width:150px;
+      height: auto;
+      margin-bottom: 8%;
+    
+  } 
+
+  
+
