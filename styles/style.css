@@ -76,6 +76,7 @@ section.flex-container {
     width: 54px;
     height: 54px;
     margin: auto;
+    margin-left: -3.5px;
 }
 
 p.credits {
