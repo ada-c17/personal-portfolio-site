@@ -9,17 +9,6 @@ body {
     grid-template: 1fr 6fr 1fr / 1fr;
 }
 
-header, footer {
-    color: black;
-    font-size: 36pt;
-    font-weight: bolder;
-    background-color: whitesmoke;
-    line-height: 100px;
-    align-items: center;
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
-}
-
 header {
     grid-row: 1 / 2;
 }
@@ -28,9 +17,23 @@ footer {
     grid-row-start: 3 / 4;
 }
 
+header, footer {
+    font-size: 36pt;
+    font-weight: bolder;
+    color: black;
+    background-color: whitesmoke;
+    line-height: 100px;
+    align-items: center;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 nav {
-    display: inline;
-    float: right;
+    display: inline-flex;
+    justify-content: right;
     font-size: 14pt;
     font-weight: lighter;
 }
@@ -79,7 +82,7 @@ p {
     flex-direction: row;
 }
 
-.aboutme img {
+#aboutme img {
     max-height: 50vh;
     max-width: 50vw;
     padding-right: 5%;
@@ -91,7 +94,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -104,10 +107,15 @@ p {
 #portfolio a{
     width: 30vw;
     height: 30vh;
+    padding-bottom: 20px;
+    justify-items: center;
 }
 
 #portfolio img{
+
     max-width: 100%;
+    max-height:100%;
     width: auto;
-    height: 100%;
+    height: auto;
+    align-items: center;
 }
