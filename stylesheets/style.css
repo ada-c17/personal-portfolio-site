@@ -56,3 +56,58 @@ footer{
     text-align: end;
     padding-top: 60px
 }
+.homepagelinks{
+    display:grid;
+
+}
+
+.homepagelinks a{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+    align-self: center;
+
+}
+
+.homepage{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hometitle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-left: 40px
+}
+
+.publications{
+    display:grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+
+.otherworks{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 40px;
+    align-self: end;
+}
+.projects a{
+    text-decoration: none;
+    font-size: 30px;
+    align-self: end;
+}
+.projects p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    align-self:end;
+}
