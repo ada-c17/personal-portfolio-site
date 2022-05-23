@@ -55,6 +55,10 @@ a:hover {
     text-decoration: underline;
 }
 
+body a:hover{
+    letter-spacing: 0.25vw;
+}
+
 .dropdown {
     display: inline-block;
 }
