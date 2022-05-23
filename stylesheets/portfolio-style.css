@@ -21,17 +21,17 @@ footer {
     grid-row: 6;
 }
 
-a {
+/* a {
     color: #302e27;
     text-decoration: none;
-}
+} */
 
 a:hover {
     /* text-decoration: underline dotted; */
     color: grey;
 }
 
-.body-link {
+.github-link {
     color: teal;
     text-decoration: underline;
     text-underline-offset: .1em;
