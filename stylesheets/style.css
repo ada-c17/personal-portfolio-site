@@ -61,6 +61,8 @@ footer {
     grid-column-start: 2;
     grid-row-end: 5;
     grid-column-end: 3;
+    font-family: 'Courier New', Courier, monospace;
+    color:#264653;
 }
 
 .profile_img {
@@ -70,4 +72,12 @@ footer {
 }
 
 .contact_links {
+    display: inline;
+    padding: 8%;
 }
+
+.contact_icon {
+    width: 10%;
+    height: auto;
+}
+
