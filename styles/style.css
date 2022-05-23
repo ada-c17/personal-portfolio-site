@@ -30,16 +30,6 @@ a:hover {
   color:seashell;
 }
 
-
-
-/*#about-highlight {
-  background:purple;
-}
-
-#index-highlight {
-  background:purple;
-}*/
-
 h1 {
   padding-top:1em;
   color:saddlebrown;
@@ -106,11 +96,27 @@ section {
     max-width:30em;
 }
 
+.tile {
+  width:31%;
+  border-radius:10px;
+  margin: 0 auto;
+}
 
 
+.tile:hover {
+  opacity:60%;
+}
 
-
-
+.tiles {
+  margin: 0 auto;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  flex-basis:20%;
+  flex-wrap:wrap;
+  flex-shrink:5;
+  gap:10px;
+}
 
 
 
