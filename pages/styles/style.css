@@ -1,0 +1,121 @@
+html {
+    font-size: calc(15px + 0.390625vw);
+    line-height: 110%;
+}
+
+body {
+    font-family: serif;
+    color: burlywood;
+    /* margin: calc(8px + 1.5625vw); */
+    color-scheme: dark;
+    background-color: #1b1e1d;
+    padding: calc(8px + 1.5625vw);
+    min-width: 66vw;
+}
+
+h1, h2, h3, h4, h5, h6, nav, .fancy-text {
+    font-family: 'Eczar',italic, serif;
+    /* line-height: 100%; */
+    /* text-indent: 1rem; */
+}
+
+#site_title {
+    /* align-self: flex-start; */
+    text-indent: 1rem;
+}
+
+nav {
+    /* text-indent: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* min-width: 66vw; */
+    align-items: flex-end;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+    margin: 1rem;
+    /* max-width: 66vw; */
+}
+
+header{
+    border-style: solid;
+    border-left-color: #a13722;
+    border-bottom-color: #a13722;
+    border-left: solid;
+    border-bottom: solid;
+    border-right: none;
+    border-top: none;
+    border-image: 
+    linear-gradient( 
+        to top right,
+        #a13722, 
+        rgba(0, 0, 0, 0),
+        rgba(20, 5, 10, 1)
+    ) 1 1;
+    /* line-height: 110%; */
+    min-width: 66vw;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* min-width: 66vw; */
+    align-items: flex-start;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+    margin: 1rem;
+}
+
+.list-grid {
+    margin: calc(8px + 1.5625vw);
+    justify-content: center;
+    align-items: center;
+}
+
+.list-grid li {
+    list-style-type: none;
+    /* width: 8rem;
+    height: 8rem; */
+}
+
+img {
+    max-width: 88%;
+}
+
+#coffee {
+    /* background-image:url("../images/camellia50.png"); */
+}
+
+p {
+    font-family: serif;
+    line-height: 105%;
+    text-indent: none;
+    margin: 1rem;
+}
+
+footer {
+    margin: calc(8px + 1.5625vw);
+    display: grid;
+    grid-template-columns: 6.125% repeat(2, 43.8125%) 6.125%;
+    grid-template-rows: repeat(4, 25%);
+}
+
+footer > section {
+    font-family: serif;
+    font-size: 0.5rem;
+    font-style: italic;
+}
+
+#updated {
+    grid-area: 2 / 3 / 1 / 2;
+
+}
+
+a:link {
+    color: burlywood;
+}
+
+a:visited {
+    color: rgb(235, 180, 108);
+}
