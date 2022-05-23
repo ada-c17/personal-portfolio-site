@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template: 1fr .5fr .25fr 4fr .25fr / 1fr;
+}
+
+.welcome {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

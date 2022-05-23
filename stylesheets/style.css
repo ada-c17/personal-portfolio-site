@@ -1,0 +1,59 @@
+.container {
+    font-family: Avenir, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    grid-column: 1;
+    grid-row: 1;
+    color: teal;
+    text-align: center;
+    /* height: 15vh; */
+}
+
+footer {
+    grid-column: 1;
+    grid-row: 5;
+    font-size: .75em;
+}
+
+nav {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #eda691;
+    color: white;
+    height: 10vh;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 4em;
+    font-size: 20px;
+    padding-right: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+a:hover {
+    color: #2c2e2d;
+}
+
+.body-link {
+    color: teal;
+    text-decoration: underline;
+    text-underline-offset: .1em;
+}
