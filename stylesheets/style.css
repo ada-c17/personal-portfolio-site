@@ -49,8 +49,12 @@ li {
     padding: 15%;
 }
 
-a:visited {
+a:link {
     color: #4c41a6;
+}
+
+a:visited {
+    color: #264653;
 }
 
 a:hover {
@@ -122,5 +126,5 @@ footer {
     background: #faebd7;
     padding-right: 25px;
     text-align: left;
-    align-self :auto;
+    align-self: auto;
 }
