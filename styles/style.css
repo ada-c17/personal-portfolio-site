@@ -10,6 +10,9 @@
     justify-items: center;
 }
 
+nav {
+    border-bottom: 1px solid #333333;
+}
 .nav-bar ul {
     list-style: none;
     padding: 1rem;
@@ -52,13 +55,14 @@ img {
 .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
     padding: 2rem;
     justify-items: center;
     align-items: center;
     grid-gap: 2rem;
     background-color: #97C4B8;
 }
+
+
 
 .home-page-photo {
     background-color: #97C4B8;
@@ -78,6 +82,10 @@ footer ul {
     display: grid;
     list-style: none;
     grid-template-columns: 1fr .1fr .1fr .1fr .1fr;
+}
+
+footer {
+    border-top: 1px solid #333333;
 }
 
 .fa-brands:hover {
