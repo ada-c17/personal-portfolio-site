@@ -1,0 +1,33 @@
+.intro-section h1{
+    font-size: 40px;
+}
+
+.type-container{
+    display: inline-block;
+}
+
+#typing{
+    font-size: 25px;
+    overflow: hidden;
+    border-right: .15em solid rgb(238, 174, 53);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blinking .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0}
+    to { width: 100% }
+}
+
+@keyframes blinking {
+    from, to { border-color: transparent} 
+    50% { border-color:rgb(238, 174, 53);}
+}
+
+.img-container{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}

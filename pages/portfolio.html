@@ -4,9 +4,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="/styles/styles.css" rel="stylesheet">
+  <link href="/styles/projects.css" rel="stylesheet">
+
+  <title>My Portfolio</title>
 </head>
 <body>
-  
+  <header>
+    <a id="logo" href="index.html">
+      <img src="/images/Logo.png" alt="Home" width="150">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">My Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class ="projects-container">
+    <h2> Here are some of my projects from Ada!</h2>
+    <hr>
+    <div class ="project-1">
+      <a href="https://github.com/shkx281/adagrams-py">
+        <img src="/images/AdaGrams.png" alt="AdaGrams" width="260">
+      </a>
+      <p> Ada Grams <br>
+        In this project, my partner and I used Python to create a word game and practiced usign GitHub to collaborate on one repo. 
+      </p>
+    </div>
+    <hr>
+    <div class ="project-2">
+      <a href="https://github.com/shkx281/swap-meet">
+        <img src="/images/SwapMeet.png" alt="SwapMeet" width="260">
+      </a>
+      <p> Swap Meet <br>
+        In this project, I used Object Oriented Programming and implemented classes to mimic swamp meet transactions.  
+      </p>
+    </div>
+    <hr>
+    <div class ="project-3">
+      <a href="https://github.com/shkx281/task-list-api">
+        <img src="/images/TaskList.png" alt="TaskList" width="260">
+      </a>
+      <p> Task List <br>
+        In this project, I created a Flask app and used SQLAlchemy to connect to a local and cloud database. I was able to practice creating CRUD endpoints and deploying my app for other clients to make HTTP Requests and receive HTTP Responses.
+      </p>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="email">
+        Contact: shkx281@gmail.com
+      </div>
+      <div class="copyright">
+        &copy; Site created by Kelly Kang 2022
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

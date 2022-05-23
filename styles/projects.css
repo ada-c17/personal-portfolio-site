@@ -1,0 +1,59 @@
+body {
+    color: rgb(64, 81, 134);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.projects-container {
+    height: 100vh;
+    display: grid inline-grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project-1 {
+    grid-template-columns: repeat(4, 25%);
+    display: grid;
+}
+
+.project-1 img {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.project-1 p {
+    grid-row: 1/2;
+    grid-column: 2/5;
+}
+
+.project-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.project-2 img {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.project-2 p {
+    grid-column: 2/4;
+}
+
+
+.project-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.project-3 img {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.project-3 p {
+    grid-column: 2/5;
+}
+

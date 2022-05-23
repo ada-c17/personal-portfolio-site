@@ -1,0 +1,29 @@
+.aboutme {
+    color: rgb(64, 81, 134);
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
+}
+
+#about-me-h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.aboutme h3 {
+    font-size: 23px;
+    grid-column: 1;
+}
+
+.aboutme #p1 {
+    grid-column: 2/5;
+    grid-row: 2;
+}
+
+.aboutme #h3-2 {
+    grid-row: 4;
+}
+.aboutme #p2 {
+    grid-column: 2/5;
+    grid-row: 5;
+}
