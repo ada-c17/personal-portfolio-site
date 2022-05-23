@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    padding: inherit;
+    margin: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+
+/* header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+} */
+header nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+
+a {
+    text-decoration: none; 
+    color: currentColor; 
+    /* padding-left: 2%;  */
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    /* margin-left: 1em;
+    margin-right: 1em;
+    width: 100%; */
+} 
+
+.heading a {
+        display: inline-block;
+        background-color: #cefe9d;
+        background-position: center;
+        line-height: 50px;
+        font-weight: 600;
+        text-decoration: none;
+    
+}
+.heading a:hover {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000, -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
+}
+
+main {
+    padding-top: 4%;
+}
+
+.lorem,
+.lorem2,
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    
+    margin-left: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-right: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+footer {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/* footer > nav { */
+    /* margin-left: 2%;  */
+
+.github img {
+    width: 100px;
+    height: 100px;
+}
+
+.grid-wrap {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    column-gap: 40px;
+}
+
+.grid-item {
+    background-color: #cefe9d;
+    border: 2px solid #96ba72;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
