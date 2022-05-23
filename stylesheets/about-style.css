@@ -9,15 +9,15 @@ header {
     grid-column: 1 / 3;
 }
 
+footer {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+
 nav {
     grid-column: 1 / 3;
     grid-row: 2;
     /* text-align: center; */
-}
-
-footer {
-    grid-column: 1 / 3;
-    grid-row: 5;
 }
 
 .body-link {

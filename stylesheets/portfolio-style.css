@@ -10,15 +10,15 @@ header {
     grid-column: 1 / 4;
 }
 
+footer {
+    grid-column: 1 / 4;
+    grid-row: 6;
+}
+
 nav {
     grid-column: 1 / 4;
     grid-row: 2;
     /* text-align: center; */
-}
-
-footer {
-    grid-column: 1 / 4;
-    grid-row: 6;
 }
 
 /* a {

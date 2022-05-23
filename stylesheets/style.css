@@ -30,6 +30,7 @@ nav {
 
 .nav-links a {
     color: white;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -37,6 +38,8 @@ nav {
     gap: 4em;
     font-size: 20px;
     padding-right: 2em;
+    text-align: center;
+    justify-content: center;
 }
 
 li {
