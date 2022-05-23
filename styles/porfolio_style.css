@@ -4,13 +4,6 @@ body {
     font: 100%;
 }
 
-.container{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
 img{
     max-width: 75%;
 }
@@ -42,9 +35,6 @@ p{
     padding: 3%;
 }
 
-footer{
-    padding-top: 3%;
-}
 
 nav a:link{
     color:aliceblue;
@@ -60,4 +50,20 @@ a:link{
 
 a:visited{
     color: darkslategrey;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.photography, .coding{
+    border-style: dotted;
+    border-color:aliceblue;
+    margin: 3%;
+}
+
+div{
+    margin:10%;
 }

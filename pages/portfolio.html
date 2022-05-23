@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="/styles/porfolio_style.css" rel="stylesheet" />
 </head>
 <body>
   <header>
@@ -17,20 +18,29 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
-      <h2>CV</h2>
-      <p>
-        For more info about my education and work experience see my CV!
-      </p>
-      <a>Smith CV 2022</a>
-    </section>
-    <section>
+  <main class="container">
+    <section class="photography">
       <h2>Photography</h2>
-      <img src ="#", alt="scan of silver gelatin print" />
+      <div>
+        <div id="one">
+          <img src ="/images/Earlhamite2.jpg", alt="scan of silver gelatin print of farm building at Earlham College " />
+        </div>
+        <div id="two">
+          <img src ="/images/Scan 9.jpeg", alt="scan of silver gelatin print of tree in woods" />
+        </div>
+        <div id="three">
+          <img src ="/images/Reflection.jpeg", alt="scan of silver gelatin print of reflected telephone pole in pond ice" />
+        </div>
     </section>
-    <section>
+    <section class="coding">
       <h2>Coding Projects</h2>
+      <p>
+          As a recent project I built and deployed the backend of a task list app using Flask and SQLAlchemy. The app allows for you to make tasks and assign them to an overarching goal, while managing when tasks are completed. It even messages Slack to let you know when one of your tasks has been completed!
+      </p>
+      <ul>
+        <li><a href="https://github.com/ada-c17/task-list-api">Task List API</a></li>
+      </ul>
+
     </section>
   </main> 
   <footer>
