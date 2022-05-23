@@ -4,10 +4,10 @@ Congratulations! You're submitting your assignment!
 ## Comprehension Questions
 Question | Answer
 :------------- | :-------------
-Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
-Why is it important to consider and use semantic HTML? |
-How did you decide to structure your CSS? |
-What was the most challenging piece of this assignment? |
-Describe one area that you gained more clarity on when completing this assignment |
+Did you have to resolve any issues when running the HTML Validator? If so, what were they? | None
+Why is it important to consider and use semantic HTML? | It makes it easier to read and follow the code as well as organization.
+How did you decide to structure your CSS? | At first, I added a css file to go along each html file; but after styling, I realized I really needed the style css file that held all the styling for each three of the pages.
+What was the most challenging piece of this assignment? | For me it was hard to plan how each page supposed to look like before I start writing the html code.
+Describe one area that you gained more clarity on when completing this assignment | I learned more about the differences and similarities of grid and flexbox and which one to use where.
 **Optional** |
 Did you deploy to GitHub Pages? If so, what is the URL to your website? |
