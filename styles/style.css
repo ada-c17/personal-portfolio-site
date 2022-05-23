@@ -10,6 +10,11 @@ a{
 a:hover{
     color: #80FFDB;
 }
+img.winnie{ 
+        width: 225px;
+        height: 400px;
+    }
+
 footer{
-    display:flex ;
+    display:flex;
 }
