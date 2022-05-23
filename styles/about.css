@@ -30,9 +30,10 @@
     margin: 5pc;
 }
 
-.gridi main{
+.gridi .main{
     grid-area: a;
     background-color: #95d9f8;
+    padding: 10px;
 }
 
 .gridi section:first-of-type{
