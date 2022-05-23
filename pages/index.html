@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css" />
+
+    <title>Home</title>
+    
 </head>
 <body>
-  
+
+<!-- Navbar Section -->
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">Yonese James Portfolio</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="about.html" class="navbar__links">About Yonese</a>
+            </li>
+            <li class="navbar__item">
+                <a href="portfolio.html" class="navbar__links">Portfolio</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="" class="button">Resume</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="" class="button">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="main">
+  <div class="main__container">
+      <div class="main__content">
+          <h1>Yonese James</h1>
+          <p>Your friendly neighborhood programmer!</p>
+      </div>
+      <div class="main__img--container">
+          <img src="/static/images/woman_programmer.svg" alt="pic" id="main__img">
+      </div>
+  </div>
+</div>
+
+
+<!-- Services Section -->
+<div class="services">
+    <h1>See what the hype is about</h1>
+    <div class="services__container">
+        <a href="" class="services__card">
+            <h2 id="project1">Project 1</h2>
+            <p>Description of project</p>
+            <button>Learn More</button>
+        </a>
+        <a href="" class="services__card">
+            <h2 id="project2">Project 2</h2>
+            <p>Description of project</p>
+            <button>Learn More</button>
+        </a>
+    </div>
+</div>
+
+
+<!-- Footer Section -->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About</h2>
+                <a href="">About Me</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Projects</h2>
+                <a href="">Project 1</a>
+                <a href="">Project 2</a>
+                <a href="">Project 3</a>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Contact</h2>
+                <a href="">Contact Me</a>
+                <a href="">Resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <p class="website__rights">© Yonese 2022. All rights reserved</p>
+            <div class="social__icons">
+                <a href="" class="social__icons--link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="" class="social__icons--link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="social__icons--link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="social__icons--link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="social__icons--link" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
+
 </html>
