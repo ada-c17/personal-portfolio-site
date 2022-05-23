@@ -1,18 +1,3 @@
-  /* body ul {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: #F9FAF4;
-
-
-  } */
-  /* header h1 { */
-    /* display: flex; */
-    /* background-color: #FFC94B; */
-    /* height: 80px; */
-    /* text-align: start; */
-    /* justify-content: left; */
-  /* } */
 
   h1 a {
     text-decoration: None;
@@ -47,4 +32,21 @@
    font-size: smaller;
    color: grey;
  }
+
+
+   /* body ul {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF4;
+
+
+  } */
+  /* header h1 { */
+    /* display: flex; */
+    /* background-color: #FFC94B; */
+    /* height: 80px; */
+    /* text-align: start; */
+    /* justify-content: left; */
+  /* } */
 
