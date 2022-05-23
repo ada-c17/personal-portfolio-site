@@ -1,4 +1,7 @@
 
+h2 {
+    margin: 0 3em;
+}
 section .about-content {
     /* display: grid;
     grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr));
@@ -6,7 +9,6 @@ section .about-content {
     display: flex;
     flex-direction: row;
     /* border:1px solid blue; */
-    list-style-type: none;
     justify-content: space-between;
     padding: 12% 5% 0 10%;
     height: 550px;
@@ -18,6 +20,11 @@ section .about-content {
     width: 70%;
 }
 
+
+.profile-text {
+    height: 80%;
+    margin-left: 5%;
+}
 .profile-text h1 {
     margin: 0 38px
     
@@ -25,16 +32,16 @@ section .about-content {
 
 .about-content .profile-text p {
     text-align: left;
-    /* border:1px solid blue;  */
     margin: 0 20px
 }
 
-#profession {
+.profession {
     display: inline-flex;
     border-radius: 2em;
     border: 1px solid gray;
-    margin-left: 30px;
+    margin-left: 35px;
     padding: 0 10px;
+    
 }
 
 
@@ -47,7 +54,7 @@ section .skill-container{
     justify-content: center;
     align-items: center;
     /* border: 1px solid blue; */
-    padding:20px;
+    padding:5%;
     margin: 30px;
 }
 
@@ -74,12 +81,13 @@ section .project {
     grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr));
     /* background-color: black; */
     /* height: 600px; */
-    padding: 30px;
+    padding: 5%;
     list-style-type: none;
     width: 90%;
     margin: 0 auto;
     text-align: right;
     /* grid-gap: 10px; */
+
 }
 
 
@@ -92,7 +100,7 @@ section .project > li {
     transition-duration: 2s;
     transition-timing-function: ease;
     transition-delay: 0s;
-    padding: 5px;
+    padding: 10px;
     
 }
 
