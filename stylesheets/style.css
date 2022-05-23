@@ -5,6 +5,7 @@ html, body {
     /* width: 100vw; */
     /*min-height: 100vh; */
     font-family: 'Lora', "Noto Serif", "Lato", serif;
+    color: #222;
     margin: 0;
     padding: 0;
 }
@@ -40,6 +41,10 @@ h4 {
     /* padding: 0px; */
 }
 
+/* img {
+    border-radius: 50%;
+} */
+
 nav {
     /* background-color: #faf7f7; */
     /* border-style: dotted;
@@ -57,13 +62,15 @@ section {
     overflow: hidden;
 }
 
-.avatar {
+/* .avatar {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    /* float: right; */
+    float: right;
     background-image: url("github.jpg");
-    }
+    overflow: hidden;
+    border-collapse: separate;
+} */
 
 .container {
     display: flex;
