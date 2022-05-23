@@ -30,3 +30,12 @@ body {
     font-family: Verdana, sans-serif;
     color: #ffffff;
 }
+
+/* text */
+
+.first-h1-white {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin: 0%;
+    margin-left: 4%;
+}
