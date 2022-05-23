@@ -14,7 +14,13 @@ h1 {
 }
 
 
+a {
+    text-decoration: none;
+}
 
+h1:hover {
+    color: #FF8E6E;
+}
 
 .container {
     display: grid;
