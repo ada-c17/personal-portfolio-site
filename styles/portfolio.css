@@ -19,7 +19,7 @@
 }
 
 
-.ada-projects-grid h3, p {
+.ada-projects-grid h3, p{
     text-align: center;
 }
 
@@ -52,13 +52,6 @@
 }
 
 
-.other-projects-grid div p:first-child, .flex-box p:first-child {
-    font-weight: bold;
-    font-size: 18px;
-    color: #732d39;
-}
-
-
 iframe {
     width: 95%;
     height: 400px;
@@ -83,6 +76,14 @@ ul {
 }
 
 
-.ul-bold {
+.other-projects-grid p:first-child, .project-description {
+    font-weight: bold;
+    font-size: 18px;
+    color: #732d39;
+}
+
+
+.technologies-skills p {
     font-weight: bold;
 }
+
