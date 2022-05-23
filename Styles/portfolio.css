@@ -1,0 +1,57 @@
+body, htmls{
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    scroll-snap-align: start;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    width: 100vw; height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+.wrapper{
+    overflow: scroll;
+    scroll-snap-type: y proximity;
+}
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+.wrapper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+.wrapper > div {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+}
+
+.navigation {
+    font-size:xx-large;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family:Chalkduster, fantasy;
+    align-self: center;
+    text-align: center;
+}
+
