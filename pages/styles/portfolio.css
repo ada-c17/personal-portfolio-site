@@ -1,10 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&display=swap');
 
 
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #6c6066;
 }
 
 h1 {
@@ -24,8 +26,7 @@ h2 {
 }
 
 header nav a {
-    color: #f2df55;
-    background-color: whitesmoke;
+    color: #584c99;
     text-decoration: none;
 }
 
@@ -40,9 +41,11 @@ footer {
 
 a {
     color: #584c99;
+    text-decoration: none;
 }
 a:hover {
-    color: #cbb1d4;
+    color: #f2df55;
+    text-decoration: underline;
 }
 
 textarea {
@@ -65,7 +68,7 @@ textarea {
     box-shadow: 0px 4px 8px 0px whitesmoke;
     padding: 10px 10px;
     z-index: 1;
-    background-color: whitesmoke;
+    background-color: #b3b0a8;
 }
 
 .dropdown:hover .dropdown-content {
@@ -100,9 +103,31 @@ main img {
     background-color: #584c99;
     border-radius: 2%;
 } */
+
+section a{
+    word-spacing: 15px;
+}
+
+section a:hover{
+    letter-spacing: 0.25vw;
+}
 /* end tags */
 
+
 /* portfolio style types */
+.portfolio-a p, .portfolio-b p, .portfolio-c p {
+    font-family: Zen Maru Gothic;
+    font-size: calc(14px + 0.8vw)
+}
+.portfolio-a a, .portfolio-b a, .portfolio-c a {
+    font-family: Zen Maru Gothic;
+    font-size: calc(12px + 0.8vw)
+}
+
+div {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: calc(14px + 08.vw)
+}
 /* portfolio a and c - right img */
 
 .portfolio-a, .portfolio-c {
@@ -118,99 +143,98 @@ main img {
     align-items:center;    
     width: 90vw;
     height: 50vh;
-
 } 
-
-.portfolio-a h3, .portfolio-c h3 {
-    grid-column: 1/ 1;
-    grid-row: 1/1;
-    align-self: initial;
-    margin-bottom: 6vh;
-    padding-bottom: 7vh;
-}
-
-.portfolio-a div, .portfolio-c div {
-    grid-column: 2/2;
-    grid-row: 3/span 2;
-    max-width: 40vw;
-}
-
-.portfolio-a h4, .portfolio-c h4 {
-    font-style: normal;
-    font-size: small;
-    grid-area: 4/2/4/span 2;
-    margin: 2px;
-}
-
-.portfolio-a p, .portfolio-c p {
-    grid-column: 2/2;
-    grid-row: 1/span 3;
-    width: 38vw;
-}
-.portfolio-a a, .portfolio-c a {
-    grid-column: 2/2;
-    grid-row: 2/span 2;
-}
-
 /* end a and c */
+
+
 /* portfolio-a */
 .portfolio-a img {
     grid-column: 1/ 1;
     grid-row: 2/span 2;
+
     border-style:ridge;
     border-width:2px;
     margin-left: 15px;
     margin-bottom: 10%;
     padding: 1px;
-    /* max-width: 45vh; */
+}
+.portfolio-a h3 {
+    grid-column: 1/ 1;
+    grid-row: 1/1;
+
+    margin-bottom: 6vh;
+    padding-bottom: 7vh;
+
+    align-self: initial;
+}
+.portfolio-a div {
+    grid-column: 2/2;
+    grid-row: 3/span 2;
+
+    max-width: 40vw;
+}
+.portfolio-a h4 {
+    grid-area: 4/2/4/span 2;
+
+    font-style: normal;
+    font-size: small;
+
+    margin: 2px;
+}
+.portfolio-a p {
+    grid-column: 2/2;
+    grid-row: 1/span 3;
+
+    width: 38vw;
+}
+.portfolio-a a {
+    grid-column: 2/2;
+    grid-row: 2/span 2;
 }
 /* end a */
 
+
 /* portfolio b with 4 img */
 .portfolio-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    background-color: #ffc2bd;
+    width: 90vw;
+    height: 75vh;
+
     border: 1px dotted;
     border-radius: 17px;
     margin: 10px;
     padding: 7px;
-    background-color: #ffc2bd;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     align-items:space-evenly;
 
-    width: 90vw;
-    height: 75vh;
 }
-
 .portfolio-b h3 {
     grid-column: 4/ span 2;
     grid-row: 1/1;
 }
-
 .portfolio-b p {
     text-align: center;
     grid-column: 1/ span 2;
     padding: 2vw;
     grid-row: 1/span 2;
     width: 40vw;
+    padding-top: 8vh;
 }
 .portfolio-b div {
     grid-column: 1/ span 2;
     grid-row: 2/ 2;
     width: 40vw;
-    /* height: fit-content; */
-    /* justify-content: center; */
-    padding-top: 20vh;
+    padding-top: 30vh;
+    padding-left: 2vw;
     
 }
-
 .portfolio-b img {
     max-width: 25vw;
     max-height: 32vh;
-    /* max-width: 20vw; */
-    /* height: 25vw; */
-    /* height:fit-content; */
     padding: 1px;
     border-style:ridge;
     border-width:2px;
@@ -223,7 +247,6 @@ main img {
     grid-area: 4/1/4/span 2;
     margin-top: -15vh;
 }
-
 #img-b-1 {
     grid-column: 3/3;
     grid-row-start: 2;
@@ -245,10 +268,12 @@ main img {
 }
 /* end portfolio-b */
 
+
 /* portfolio-c */
 .portfolio-c img {
-    grid-column: 1/span 3;
-    grid-row: 2/span 3;
+    grid-column: 2/span 3;
+    grid-row: 2/span 4;
+    
     border-style:ridge;
     border-width:2px;
     margin-left: 15px;
@@ -256,6 +281,52 @@ main img {
     padding: 1px;
 
     align-self: center;
+}
+.portfolio-c p {
+    grid-column: 1/1;
+    grid-row: 1/span 3;
 
+    width: 38vw;
+    padding: 2vw;
+    margin-top: 10px;
+
+    align-items: center;
+}
+.portfolio-c a {
+    grid-column: 1/1;
+    grid-row: 3/span 2;
+
+    padding: 2vw;
+    margin-top: 10px;
+}
+.portfolio-c h3 {
+    grid-column: 2/ 2;
+    grid-row: 1/1;
+
+    margin-bottom: 6vh;
+    padding-bottom: 7vh;
+
+    align-self: initial;
+}
+.portfolio-c div {
+    grid-column: 1/1;
+    grid-row: 3/span 2;
+    max-width: 40vw;
+}
+.portfolio-c h4 {
+    grid-area: 4/1/4/1;
+
+    font-style: normal;
+    font-size: small;
+    
+    padding-left: -30%;
+}
+.portfolio-c textarea {
+    margin-top: 10px;
 }
 /*  */
+
+
+/* .tag {
+    background-color: #f2df55;
+} */

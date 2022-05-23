@@ -3,9 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nobile&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+html {
+    background-color:#cbb1d4;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
 
 h1 {
     display:flex;
@@ -13,6 +19,8 @@ h1 {
     font-family: Zen Maru Gothic;
     background-color: #9ec1b5;
     background-image:url(/Users/shelby_faulconer/ada/projects/personal-portfolio-site/assets/fireweed_d80.jpg);
+    background-position-x: 40%;
+    background-position-y: center;
     border-style:groove;
     border-color: #9ec1b5;
     border-width: 4px;
@@ -45,9 +53,11 @@ footer {
 
 a {
     color: #584c99;
+    text-decoration: none;
 }
 a:hover {
-    color: #cbb1d4;
+    color: #f2df55;
+    text-decoration: underline;
 }
 
 .dropdown {
@@ -77,33 +87,42 @@ a:hover {
     border: 1px dotted ;
     border-radius: 17px;
     grid-template-columns: 1fr  1fr;
-    grid-template-rows: 1fr 1fr 3fr 3fr;
-    align-items: stretch;
+    grid-template-rows: 1fr 1fr 3fr;
+    /* align-items: center; */
+    background-color: #9ec1b5;
+    color:#584c99;
+    align-items: space-evenly;
 } 
 
 #project-display h2 {
     grid-column: 1/1;
-    grid-row: 1/span 2;
+    grid-row: 1/1;
     align-self: stretch;
     font-size: 6vh;
     padding-left: 6vw;
 }
 
 #project-display img {
+    margin: auto;
     width: 27vw;
     height: 27vw;
     /* align-content: space-around; */
-    margin: auto;
     padding: 1vw;
     padding: 1vh;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: dotted;
+    border-color:#24917C;
+
+    float: center;
 }
 
 #project-display div {
-    grid: merge;
     grid-column: 1/span 2;
-    grid-row: 3/ span 4;
+    grid-row: 1/ span 4;
     align-items: space-evenly;
     margin-left: 5vw;
+    margin-top: 15vh;
 }
 
 
@@ -123,18 +142,22 @@ h2 {
     align-items: center;
 }
 .socials img {
-    margin-left: 2vw;
-    padding-left: 2vw;
+    /* margin-left: 2vw; */
+    margin-right: 10vw;
+    align-self: center;
 }
 
 #self-socials {
     padding-left: 70%;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    /* background-color: #cbb1d4; */
 }
+
 #self-socials h3 {
-    color:#ff8d83;
+    color:#584c99;
     font-family: 'Indie Flower', cursive;
     font-size: x-large;
     padding-left: 4%;
@@ -151,19 +174,13 @@ h2 {
 border-style: none;
 }
 
-#intro-box {
-    display: block;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-bottom: 20vh;
-    margin-left: 20vh;
+#intro {
+    display: flex;
+    justify-content: center;
+    margin-right: 4vw;
+    font-size: calc(16px+0.8vw);
+}
 
-    /* flex: -1; */
-}
-#intro-box p {
-    margin-left: -5vw;
-}
 /* main {
     display: flex;
 }
