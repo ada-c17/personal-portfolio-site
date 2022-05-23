@@ -1,0 +1,117 @@
+/* 
+Dark Red: #8F0C0C
+Rosewood: #5F1212 
+Dark Sienna: #230707
+Tuscany: #CAA2A2
+Snow: #F7F2F2
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #230707;
+    background-image: url(/images/cairovercoat-timetiles2.png);
+    background-repeat: repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #F7F2F2;
+    border-bottom: #8F0C0C;
+}
+
+h3 a {
+    color: #5F1212;
+}
+
+.header {
+    background-color: white;
+    margin-left: 118px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main {
+    background-color: #F7F2F2;
+    margin-left: 118px;
+    margin-top: 10px;
+    height: 100vh;
+    padding: 50px;
+    font-size: large;
+    border: 3px #8F0C0C solid;
+}
+
+.main h2 {
+    text-align: center;
+}
+.main-list {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.footer {
+    display: flex;
+    margin-left: 118px;
+    margin-top: 10px;
+    height: 20px;
+    align-content: flex-end;
+    border-top: 3px #8F0C0C solid;
+    background-color: #5F1212;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-size: small;
+    color: #F7F2F2;
+}
+
+nav {
+    background-color: #5F1212;
+    margin-left: 118px;
+    width: auto;
+    border-bottom: 3px #8F0C0C solid;
+    padding-top: 3px;
+    padding-bottom: 3px
+}
+
+nav ul {
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    font-weight: bold;
+    list-style: none;
+} 
+
+nav ul a:hover {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    color: #8F0C0C;
+}
+
+.art-container {
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+} 
+
+.art-container > a img {
+    border-radius: 10px;
+    border: 5px #8F0C0C solid;
+}
