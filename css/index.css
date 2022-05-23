@@ -22,6 +22,8 @@ h3:hover {
 
 
 h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
     color:darkmagenta;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
