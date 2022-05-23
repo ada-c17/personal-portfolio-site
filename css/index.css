@@ -1,9 +1,10 @@
-div {
+.box {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
-div img {
+.pro-img {
 
     border-radius: 50%;
     width: 200px;
@@ -36,3 +37,27 @@ p {
     width: 50%;
     height: 50%;
 }
+
+
+.text-center {
+    position: absolute;
+    margin-top: 720px;
+    right: 130px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.set-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    opacity: 0.3;
+    right: 50px;
+    margin-top: 630px;
+
+}
+
+
+
+
+
