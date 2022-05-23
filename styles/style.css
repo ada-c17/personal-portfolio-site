@@ -28,8 +28,10 @@ nav {
 }
 
 .spotify {
-    width: 100%;
-    height: 450;
+    width: 1000;
+    height: 2000;
+    margin: 75px;
+    text-align: center;
     
 }
 
@@ -139,7 +141,7 @@ section.content p {
     align-items: center;
 }
 
-h1 {
+.title {
     font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1.75em;
     text-align: center;
