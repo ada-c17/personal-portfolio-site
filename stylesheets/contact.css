@@ -1,28 +1,43 @@
 .content {
     display: grid;
     grid-template-columns: 3vw 25vw 5vw 20vw 20vw 1fr;
-    grid-template-rows: 10% 10% 10% 10% 1fr;
+    grid-template-rows: 10vh 20vh 20vh 1fr;
+    row-gap: 1vh;
+    column-gap: 1vw;
     align-items: center;
 }
 
 h2 {
     grid-column: 1/span 7;
+    grid-row: 1/2;
     text-align: center;
     color: snow;
     background: linear-gradient(180deg,  #2286A9 35%, #191970 100%);
 }
 
 .picture {
-    border: 3px solid #807A7A;
-    border-radius: 10px;
+    border-radius: 5vw;
     max-width: 25vw;
     grid-column: 2/3;
-    grid-row-start: 2;
+    grid-row: 2/4;
 }
+
+.gradient-box {
+    border: .5vh solid;
+    background: linear-gradient(to right, #E2E1E6, #807A7A, #2286A9, #191970);
+    padding: 8px;
+  }
 
 .details {
     grid-column: 4/span 2;
     list-style-type: none;
+    grid-row: 2/4;
+}
+
+.contact-form {
+    grid-column-start: 5;
+    grid-row: 2/4;
+    list-style-type: none;    
 }
 
 li img {
