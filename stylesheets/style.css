@@ -111,7 +111,7 @@ a.social__link img {
 
 #intro__photo {
   position: relative;
-  right:-350px;
+  margin-left: 300px;
   width: 600px;
   border-radius: 20px;
 
