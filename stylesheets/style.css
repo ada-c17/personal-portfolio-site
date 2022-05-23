@@ -1,8 +1,61 @@
+/* colors-
+red = F94144
+drk orange = F8961E
+orange = F9844A
+yellow = F9C74F
+light green = 9OBE6D
+aqua green= 43AA8B
+drk green = 4D9O8E
+dark blue = 57759O
+turqouise = 277DA1 */
+
+
+
 body {
-    margin: 0 auto;
-    max-width: 50em;
+    border-top: 20px solid #277DA1;
+    text-align: center;}
+
+footer {
+    background-color: lightblue ;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-around;
+    padding-top: 5px;
 }
 
-header{
-    display: flex
+
+footer > a:hover {
+    color: #577590
 }
+header{
+    background-color: #43AA8B;
+    display: flex block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1{
+    max-height:20px;
+}
+
+nav{
+    background-color: #277DA1;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    justify-content: space-around;
+
+}
+
+nav > a {
+    color: whitesmoke;
+    
+}
+
+nav > a:hover {
+    color: #F8961E
+}
+
