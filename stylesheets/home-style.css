@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto 1fr auto;
+    color: #3e3e3e;
+    font-weight: 400;
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 4em;
+    margin-bottom: 1.5em;
+    grid-column: 2/3;
+    text-align: center; 
+}
+
+header img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+header nav a {
+    background-color: #e3e3f1;
+    padding: .5em;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+header nav a:hover {
+    background-color: rgb(131, 188, 118);
+    color: whitesmoke
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+li {
+    list-style-type: none;
+}
+
+menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #3e3e3e;
+}
+
+main {
+    grid-column: 1/4;
+    background-color: #e3e3f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main img{
+    width: 25%;
+    mix-blend-mode: multiply;
+    
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-color: #605f63;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: rgb(131, 188, 118);
+}
+
+/* animation sourced from: https://alvarotrigo.com/blog/css-text-animations/ */
+h1 {
+    font-family: 'Press Start 2P';
+    align-self: center;
+    text-align: center;
+    background-image: linear-gradient(
+    -225deg,
+    #1a0081 0%,
+    rgba(238,174,202,1) 29%,
+    rgba(148,187,233,1) 67%,
+    rgb(131, 188, 118) 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    font-size: 120px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    header nav a:hover {
+    transition: all 1s ease;
+    }
+
+    @keyframes textclip{
+        to {
+            background-position: 200% center;
+        }
+    }
+}
