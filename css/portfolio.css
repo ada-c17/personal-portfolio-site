@@ -1,5 +1,11 @@
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .overlay {
+    /* border: greenyellow 2px dotted; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -12,13 +18,16 @@
     background-color: #2ce1e2;
 }
 
-.project-container:hover .overlay {
+.grid-item:hover .overlay {
     opacity: 1;
 }
 
-.project-item {
-    color: white;
-    font-size: 20px;
+.text {
+    font-family: Verdana, sans-serif;
+    color: #026dff;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,40 +35,19 @@
     -ms-transform: translate(-50%, -50%);
 }
 
-
-.list-project-wrap-first-line {
+.grid-container{
     /* border: greenyellow 2px dotted; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 4%;
-}
-
-.list-project-wrap-second-line {
-    /* border: greenyellow 2px dotted; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     margin-top: 2%;
-    margin-bottom: 2%;
+    justify-content: center;
+    gap: 60px 60px;
+    margin-bottom: 5%;
 }
 
-.project-container {
-    /* border: red 2px dotted; */
-    text-align: center;
+.grid-item {
+    /* border: greenyellow 2px dotted; */
     position: relative;
-}
-
-.project-item {
-    font-family: Verdana, sans-serif;
-    color: #026dff;
-    list-style-type: none;
-    font-size: 27px;
-    font-weight: bold;
-}
-
-img {
-    width: 250px;
-    height: 250px;
 }
 
