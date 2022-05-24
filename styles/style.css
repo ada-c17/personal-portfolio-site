@@ -26,8 +26,6 @@ li {
 }
 
 #portrait {
-  /* position: absolute;
-  left: auto; */
   width: 20%;
   border-radius: 30%;
 }
@@ -57,7 +55,7 @@ li {
   width: 60%;
 }
 
-.footer > div {
+.footer p {
   display: inline-block;
 }
 
