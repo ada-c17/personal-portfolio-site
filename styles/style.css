@@ -21,7 +21,7 @@ img{
     height: 300px
 }
 #purple{
-    display: grid;
+    display: block;
     background-color: aqua;
     align-items:flex-start;
     height: 75px;
