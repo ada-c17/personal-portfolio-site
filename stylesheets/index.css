@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #01395e;
+    color: #ffffff;
+    margin: 0px;
+}
+
+content {
+    max-width: 50%;
+    padding: 100px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+#portrait {
+    width: 200px;
+    height: auto;
+}
+
+#quote {
+    text-align: center;
+}
+
+q {
+    font-style: italic;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #d1e6f7;
+    color: #01395e;
+}
+
+footer {
+    background-color: #e0c389;
+    padding: 10px;
+    text-align: center;
+}
