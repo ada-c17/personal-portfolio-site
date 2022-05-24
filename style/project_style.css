@@ -82,3 +82,6 @@
     margin-top: 10px;
 }
 
+#Spring p, #Spring h3, #Spring .tech-stack{
+    text-decoration: line-through;
+}
