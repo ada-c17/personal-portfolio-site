@@ -1,3 +1,4 @@
+/* ----- Home page ----- */
 * {
     margin: 0;
     padding: 0;
@@ -67,7 +68,7 @@ nav img {
 }
 
 .text-box h1 {
-    font-family: 'Over the Rainbow', cursive;
+    font-family: 'Nanum Gothic Coding', monospace;
     font-size: 100px;
     color: rgb(34, 33, 52);
 }
@@ -85,7 +86,7 @@ nav img {
     color: whitesmoke;
     border: 1px solid whitesmoke;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 15px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -103,8 +104,8 @@ nav .fa-solid {
 
 @media(max-width: 700px) {
     .text-box h1 {
-        font-family: 'Over the Rainbow', cursive;
-        font-size: 40px;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 30px;
         color: rgb(34, 33, 52);
     }
     .nav-links ul li {
@@ -114,7 +115,7 @@ nav .fa-solid {
         position: relative;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         background: rgb(238, 240, 238);
         height: 100vh;
         width: 200px;
@@ -134,10 +135,14 @@ nav .fa-solid {
     .nav-links ul {
         padding: 30px;
     }
+
+    .text-box p {
+        font-size: 12px;
+    }
 }
 
 
-/* ----- About ----- */
+/* ----- About page ----- */
 .sub-header {
     height: 50vh;
     width: 100%;
@@ -149,7 +154,9 @@ nav .fa-solid {
 }
 
 .sub-header h1{
-    margin-top: 100px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: 60px;   
+margin-top: 100px;
 }
 
 .about-me {
@@ -164,6 +171,15 @@ nav .fa-solid {
     padding: 30px 2px;
 }
 
+.about-col p { 
+    font-size: 20px; 
+}
+
+.about-col a { 
+    font-size: 20px; 
+    font-weight: bold;   
+}
+
 .about-col img {
     width: 80%;
 }
@@ -176,11 +192,21 @@ nav .fa-solid {
     padding: 15px 0 25px;
 }
 
-address a {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(36, 33, 33);
+.purple-btn {
+    border: 1px solid rgb(165, 164, 185);
+    background: transparent;
+    color: rgb(161, 105, 205);
 }
+
+.purple-btn:hover {
+    color: whitesmoke;
+}
+
+.icons a {
+    margin-left: 10px;
+    color: rgb(76, 120, 120);
+}
+
 
 .about-row {
     margin-top: 5%;
@@ -188,8 +214,29 @@ address a {
     justify-content: space-between;
 }
 
+.fa-mug-saucer {
+    color: rgb(76, 120, 120);
+}
 
-/* ----- Portfolio ----- */
+.contact-col input, .contact-col textarea {
+    display: flex;
+    width: 20%;
+    padding: 15px;
+    margin-left: 185px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid rgb(5, 5, 5);
+    box-sizing: border-box;
+}
+
+.contact-col button, .hero-btn .purple-btn {
+    margin-left: 185px;
+    margin-bottom: 17px;
+    outline: none;
+
+}
+
+/* ----- Portfolio page ----- */
 .portfolio {
     width: 80%;
     margin: auto;
@@ -213,8 +260,8 @@ p {
 
 .row {
     margin-top: 5%;
-    display: grid;
-    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
 
 .project-col {
@@ -247,10 +294,19 @@ h3 {
     }
 }
 
+
+/* ----- Footer ----- */
 .footer {
     width: 100%;
     text-align: center;
     padding: 30px 0;
 }
 
+.footer p {
+    font-size: 20px;
+}
+.fa-heart {
+    color: rgb(76, 120, 120);
+
+}
 

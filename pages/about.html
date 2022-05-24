@@ -33,14 +33,20 @@
   <div class="about-row">
     <div class="about-col">
       <h1>Nishat Salsabil</h1>
-      <p>I started my journey into coding back in 2021. I was a high school math teacher for 3 years and 
-      I began looking into programming during my past-time to try something different. I soon fell in love 
-      with all things codes and here I am today!</p>
-      <address>
-        <a href="mailto:nsalsabil25@gmail.com">Contact Me</a>
-        </address>
+      <p>Hello! I am a full-stack software engineer who is passionate about clean, modern code! I started my journey into coding back in 2021. I was a high school math teacher for about 3 years and 
+      I began looking into programming during my past-time to try something different and challenging. I first began with Python,
+      later learning SQL, HTML, CSS, JS etc. I soon fell in love with all things code and here I am today!</p>
+      <p> In my spare time I love scrapbooking, collecting perfumes, a good book, hiking, and sipping some delicious tea! <i class="fa-solid fa-mug-saucer"></i></p>
+      <contact class="icons">
+        <a href="mailto:nsalsabil25@gmail.com"><i class="fa-solid fa-envelope-open-text"></i></a>
+        <a href="https://www.linkedin.com/in/nishat-salsabil"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="../resume.pdf"><i class="fa-solid fa-paperclip"></i></a><br/>
+
+
+      </contact>
+
         <br/>
-      <a href="../pages/portfolio.html">EXPLORE NOW</a>
+      <a href="../pages/portfolio.html" class="hero-btn purple-btn">EXPLORE</a>
     </div>
     <div class="about-col">
       <img src="../assets/pic1.jpg" alt="Nishat Salsabil">
@@ -49,9 +55,20 @@
 
 </section>
 
+<div class="contact-col">
+  <form action="form-handler.php" method="post">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="subject" placeholder="Subject" required>
+    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="hero-btn purple-btn">Send me a Message</button>
+  </form>
 
-<!-- ----- Javascript for toggle menu to comment out as project does not allow this ----- -->
-<!-- <script>
+
+</div>
+
+<!-- # Javascript for toggle menu -->
+<script>
   var navLinks = document.getElementById("navLinks");
   function showMenu() {
     navLinks.style.right = "0";
@@ -59,13 +76,14 @@
   function hideMenu() {
     navLinks.style.right = "-200px";
   }
-</script> -->
-<!-- ----- Javascript for toggle menu to comment out as project does not allow this ----- -->
+</script>
+<!-- # Javascript for toggle menu -->
   
 </body>
 
+<!-- # Footer -->
 <section class="footer">
-  <small>&copy; Copyright  2022, Nishat Salsabil</small>
+  <p> Made with <i class="fa-solid fa-heart"></i> by Nishat Salsabil</p>
 </section>
 
 </html>
