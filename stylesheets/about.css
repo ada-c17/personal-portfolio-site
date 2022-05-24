@@ -1,0 +1,36 @@
+#profile-pic {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5em;
+}
+
+h2 {
+  padding: 3em 0 2em 0;
+  font-family: 'Lato', sans-serif;
+  color: #657eff;
+  font-size: 35px;
+}
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #deddff;
+}
+.about-paragraph {
+  padding-top: 1em;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #f3f3ff;
+  text-align: start;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto+Slab:wght@100;300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #001649;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  display: flex;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #deddff;
+  justify-content: right;
+}
+
+nav {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding-right: 3em;
+}
+
+li {
+  padding-left: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #deddff;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #657eff;
+  bottom: 0;
+  position: fixed;
+  padding-bottom: 2em;
+}
+
+footer a {
+  color: #657eff;
+}
+
+body {
+  margin-bottom: 10%;
+}
