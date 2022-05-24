@@ -16,12 +16,11 @@ header {
 }
 
 header img {
-    width: 200px;
-    border-radius: 100%;
+    width: 100vw;
 }
 
 header nav li {
-    background-color: #f3f3f3;
+    background-color: #E2E2F3;
     padding: .5em;
     border-radius: 10px;
 }
@@ -44,7 +43,7 @@ a {
 main {
     grid-column: 1/4;
     grid-row: 2/3;
-    background-color: #f3f3f3;
+    background-color: #E2E2F3;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
