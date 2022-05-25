@@ -1,0 +1,87 @@
+
+.project-wrapper h2 {
+    margin-left: 4em;
+    padding-top: 5%;
+}
+
+.project-flex{
+    /* border: 2px solid rgb(0, 255, 60); */
+    /* display: grid;
+    grid-template-columns:repeat(2, minmax(12rem, 1fr));
+    grid-auto-rows: minmax(300px, auto); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    
+
+}
+
+.project-flex .project {
+    /* border: 2px solid rgb(210, 20, 140); */
+    width: 45%;
+    height: 100%;
+    /* display: block; */
+    margin: 20px 20px;
+    
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #9BAAAE; */
+ 
+}
+
+
+.project-desc h3{
+    /* border: 1px solid #9BAAAE; */
+    text-indent: 1em;
+    
+}
+
+
+.project-desc h3 .git{
+    width: 14px;
+    margin-left: 8px ;
+}
+
+.project-desc h3:hover {
+    opacity: 50%;
+}
+
+.project-desc{
+    /* border: 2px solid rgb(96, 20, 210); */
+    width: 100%;
+    height: auto;
+}
+
+.project-desc .desc{
+    /* border: 1px solid #9BAAAE; */
+    text-align: left;
+}
+.tech-stack {
+    border: 1px solid gray;
+    display: inline-flex;
+    /* vertical-align: top; */
+    align-items: center;
+    font-size: smaller;
+    border-radius: 1em;
+    padding: 0 10px;
+    margin-left: 1em;
+}
+
+
+.tech-stack img {
+    width: 20px;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#Spring p, #Spring h3, #Spring .tech-stack{
+    text-decoration: line-through;
+}
