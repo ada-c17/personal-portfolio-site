@@ -2,7 +2,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 5em;
-    background-image: url(../assets/World\ Map\ BG\ 3\ transparent.png);
+    background-image: url(assets/World\ Map\ BG\ 3\ transparent.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
