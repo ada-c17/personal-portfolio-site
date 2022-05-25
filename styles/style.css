@@ -72,3 +72,7 @@ footer {
 footer img {
     height: 100px;
 }
+
+footer a{
+    text-decoration: none;
+}
