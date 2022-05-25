@@ -7,7 +7,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .25fr 1.25fr .25fr;
+    grid-template-rows: 150px 1.25fr 150px;
     margin: 0;
     padding: 0;
 }
