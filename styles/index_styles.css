@@ -1,0 +1,62 @@
+body {
+    background-color: #201C42;
+}
+
+h1 {
+    text-align: center;
+    color: #BFABED;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vw;
+}
+
+header img {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vw;
+}
+
+h2 {
+    text-align: center;
+    color: #2A2B27;
+    background-color: #B7B6C1
+}
+
+nav {
+    word-spacing: 270px;
+    text-align: center;
+    border-style: solid;
+    border-color: #645986;
+}
+
+#about {
+    word-spacing: 0px;
+    color: #BFABED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#portfolio {
+    color: #BFABED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#home {
+    color: #BFABED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    color: #343630;
+    font-weight: 800;
+    font-size: larger;
+    word-spacing: 10xp;
+}
+
+p {
+    color: #BFABED;
+    text-align: center;
+    font-size: 2rem;
+    border: #BFABED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
