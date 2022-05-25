@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <link href="stylesheets/style.css" rel="stylesheet" />
+    <link href="stylesheets/portfolio.css" rel="stylesheet" />
+    <title>Shayla Logan</title>
+  </head>
+
+  <body class="container">
+    
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a class="navlink" href="index.html">Home</a>
+            <a class="navlink" href="about.html">About</a>
+            <a class="navlink" id="active">Projects</a>
+            <a class="navlink" href="contact.html">Contact</a>
+          </li>
+        </ul>        
+      </nav>
+
+      <h1>Projects</h1>
+    </header>
+
+    <main>
+      <section class="content">
+        <div class="projects">
+          <a href="https://github.com/compugrl/viewing-party" target="_blank">
+          <img alt="Viewing Party" src="images/watching-movies.png" /><h2>Viewing Party</h2></a>
+          
+          <p>  
+            Viewing Party is written in Python. It takes in movie-related dictionaries and outputs data, based on user requirements.
+          </p>
+
+          <h2>Features</h2>         
+            <ul>
+              <li>Create a movie</li>
+              <li>Add movies to a "watched" dictionary</li>
+              <li>Add movies to a "watchlist" dictionary</li>
+              <li>Get the average rating of movies watched</li>
+              <li>Determine the most watched genre</li>
+              <li>Determine which movies a user has watched that their friends haven't - and vice versa</li>
+              <li>Create and utilize movie recommendations</li>
+              <li>Add a movie to favorites</li>
+            </ul>
+        </div>
+
+        <div class="projects">
+          <a href="https://github.com/compugrl/adagrams-py" target="_blank">
+          <img alt="word game" src="images/word-game.png" />
+          <h2>Adagrams</h2></a>
+
+          <p>  
+            Adagrams is written in Python. It is a game, similar to Scrabble, in which a player is given a random set of letters and must make an anagram using those letters. Each submitted word will score points.
+          </p>
+
+          <h2>Features</h2>
+          <ul>
+            <li>Create a list of random letters for the user to make a word from</li>
+            <li>Validate the word submitted</li>
+            <li>Score each word submitted</li>
+            <li>Determine the highest score of a selection of words</li>
+            <li>Break ties if the highest word score is related to more than one word</li>
+          </ul>
+          
+        </div>
+
+        <div class="projects">
+          <a href="https://github.com/compugrl/task-list-api" target="_blank">
+          <img alt="task list" src="images/task-list.png" /></a>
+          <h2>Task List</h2>
+
+          <p>
+            Task List is an API written in Python, utilizing Flask as a framework. It allows a user to manage tasks and related goals. It utilizes a postgreSQL database and returns task related data in JSON format.
+          </p>
+          
+          <h2>Features</h2>
+          <ul>
+            <li>Create a task</li>
+            <li>Retreive a specific task by ID</li>
+            <li>Retrieve all tasks</li>
+            <li>Sort tasks</li>
+            <li>Mark tasks complete or incomplete</li>
+            <li>Replace, update, or delete tasks</li>
+            <li>Create a goal</li>
+            <li>Link tasks to a specific goal</li>            
+          </ul>
+          
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Shayla Logan &copy; 2022</p>
+    </footer>
+
+  </body>
+
+</html>

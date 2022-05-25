@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.picture {
+    max-width: 20vw;
+}

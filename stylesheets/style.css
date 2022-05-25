@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+    row-gap: 2vh;
+    align-items: stretch;
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer, nav {
+    color: snow;
+    grid-column: 1 / span 7;
+    background: linear-gradient(90deg, #191970 20%, #2286A9 50%, #191970 100%);
+}
+
+footer {
+    text-align: center;
+    grid-row-start: 7;
+}
+
+nav {
+    background: linear-gradient(180deg,  #2286A9 35%, #191970 100%);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.navlink {
+    color: snow;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 15vh;
+}
+
+#active {
+    padding: 2vh;
+    text-align: left;
+    background-color: #2286A9;
+    color: midnightblue;
+    border: .5vh ridge snow;
+}
+
+body {
+    background-color: snow;
+}
+
+.container main {
+    background-color: snow;
+    color: midnightblue;
+    grid-row-start: 2;
+}
+
+.gradient-box {
+    border: .5vw solid;
+    border-radius: 1vw;
+    background: linear-gradient(to right, #E2E1E6, #807A7A, #2286A9, #191970);
+    padding: 1vw;  
+}
+
+h1 {
+    text-align: right;
+}
+
+p::first-letter {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
