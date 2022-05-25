@@ -4,9 +4,86 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Nish</title>
+  <link rel="stylesheet" href="../styles/all.min.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
 </head>
 <body>
+<section class="sub-header">
+  <nav>
+    <a href="index.html"><img src="../assets/logo.png" alt="nishat's-logo"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../pages/index.html">HOME</a></li>
+          <li><a href="../pages/about.html">ABOUT</a></li>
+          <li><a href="../pages/portfolio.html">PORTFOLIO</a></li>
+        </ul>
+    </div>
+    <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i>
+  </nav>
+  <h1>About Me</h1>
+</section>
+
+<section class="about-me">
+  <div class="about-row">
+    <div class="about-col">
+      <h1>Nishat Salsabil</h1>
+      <p>Hello! I am a full-stack software engineer who is passionate about clean, modern code! I started my journey into coding back in 2021. I was a high school math teacher for about 3 years and 
+      I began looking into programming during my past-time to try something different and challenging. I first began with Python,
+      later learning SQL, HTML, CSS, JS etc. I soon fell in love with all things code and here I am today!</p>
+      <p> In my spare time I love scrapbooking, collecting perfumes, a good book, hiking, and sipping some delicious tea! <i class="fa-solid fa-mug-saucer"></i></p>
+      <contact class="icons">
+        <a href="mailto:nsalsabil25@gmail.com"><i class="fa-solid fa-envelope-open-text"></i></a>
+        <a href="https://www.linkedin.com/in/nishat-salsabil"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="../resume.pdf"><i class="fa-solid fa-paperclip"></i></a><br/>
+
+
+      </contact>
+
+        <br/>
+      <a href="../pages/portfolio.html" class="hero-btn purple-btn">EXPLORE</a>
+    </div>
+    <div class="about-col">
+      <img src="../assets/pic1.jpg" alt="Nishat Salsabil">
+    </div>
+  </div>
+
+</section>
+
+<div class="contact-col">
+  <form action="form-handler.php" method="post">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="subject" placeholder="Subject" required>
+    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="hero-btn purple-btn">Send me a Message</button>
+  </form>
+
+
+</div>
+
+<!-- # Javascript for toggle menu -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+<!-- # Javascript for toggle menu -->
   
+
+<!-- # Footer -->
+<section class="footer">
+  <p> Made with <i class="fa-solid fa-heart"></i> by Nishat Salsabil</p>
+</section>
+
 </body>
 </html>
