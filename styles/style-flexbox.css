@@ -1,0 +1,167 @@
+/* Listed in alphabetical order by type, then class, then id */
+
+/* body element as a flex-container, with header, footer, and main as its children */
+body {
+  background-color: #f5f0f0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer ul {
+  flex: 0.10;
+  background-color: #c8c8c8;
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  flex: 0.10;
+  background-color: #c8c8c8;
+}
+
+html {
+  background-color: #c8c8c8;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+li {
+  font-family: "Lucida Console";
+  font-size: 20px;
+  line-height: 1.15l;
+  list-style-type: none;
+  padding: 10px;
+  outline: 1px solid #f5f0f0;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  margin: 0;
+}
+
+.box.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  font-family: "Lucida Console";
+  font-size: 18px;
+  color: #53b6c5;
+  line-height: 1.5;
+  margin-left: 40px;
+  max-width: 800px;
+  flex-wrap: wrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+.box {
+  padding: .5rem;
+  height: 300px;
+  border-radius: 2px;
+  font-family: "Lucida Console";
+  font-size: 18px;
+  background: #53b6c5;
+}
+
+.box p {
+  max-width: 200px;
+  text-align: center;
+  background: rgba(255,255,255,0.5);
+  margin: .25rem;
+  padding: .25rem;
+}
+
+.center {
+  display: block;
+  justify-content: center;
+  /* margin-left: 0;
+  margin-right: 0; */
+  width: 100%;
+}
+
+.footer {
+  display: grid;
+}
+
+.title {
+  color: #FBF7F0;
+  margin-left: 20px;
+  font-family: "Lucida Console";
+  font-weight: 600;
+  line-height: 1.15l
+}
+
+.othertitle {
+  color: #53b6c5;
+  font-size: 60px;
+  font-family: "Lucida Console";
+  margin-left: 40px;
+  font-weight: 600;
+  line-height: 1.15l
+}
+
+a:link, a:visited {
+  color: #da920c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dab061;
+  text-decoration: none;
+}
+
+.logo:link, .logo:visited {
+  color: #da920c;
+}
+
+.logo:hover, logo:active {
+  color: lightcoral;
+}
+
+.greyscalehover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.greyscalehover img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+/* Display and extra features */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  footer ul {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+}
