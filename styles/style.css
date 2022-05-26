@@ -3,54 +3,65 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
 }
+
+/* fixed position */
+.page-text, 
+#about-body-text,
+#about-heading,
+#tech-skills
+{
+    position: fixed;
+}
+
 .page-text{
     font-size: 80px;
-    position:fixed;
+}
+
+/* left 4% */
+#home-text,
+.non-index-text
+{
+    left:4%;
 }
 
 #home-text {
     top: 15%;
-    left:4%;
+}
+
+#about-body-text,
+#about-heading, 
+#tech-skills
+{
+    left: 16%;
+    right: 16%;
 }
 
 #about-body-text{
     font-size: 22px;
-    position: fixed;
     top: 30%;
-    left: 16%;
-    right: 16%;
 }
 
 #about-heading{
     font-size: 40px;
-    position: fixed;
     top: 48%;
-    left: 16%;
-    right: 16%;
 }
 
 #tech-skills{
     font-size: 20px;
-    position: fixed;
     top: 57%;
-    left: 16%;
-    right: 16%;
 }
-#non-index-text{
+.non-index-text{
     top: -2%;
-    left:4%;
 }
 
 .nav-bar {
     display: flex;
     justify-content:space-evenly;
-    min-height: 18vh
+    min-height: 18vh;
 }
 
 .nav-bar a{
     color: black;
-    text-decoration:none;
-
 }
 
 .normal-nav-button:hover{
@@ -62,7 +73,7 @@
     font-size: x-large;
 }
 
-#top-non-index-nav a{
+.top-non-index-nav a{
     margin-top: 21vh;
 }
 
@@ -97,7 +108,7 @@
     
 }
 
-#line{
+#home-line{
     margin-top: 447px;
     border-width:"100%";
     border-color:black;
@@ -105,19 +116,46 @@
 
 
 .art-grid{
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 30vw);
     padding: 3%;
 }
 
-#elephant-art{
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
+#elephant-art,
+#figby,
+#trigby,
+.project-grid a
+{
     border-style: solid;
     border-color: black;
+}
+
+#elephant-art,
+#figby,
+#trigby
+{
     border-width: 2px;
+}
+
+#elephant-art,
+#figby,
+#trigby,
+#portfolio-img,
+#task-img,
+#swapmeet-img,
+#viewingparty-img
+{
+    object-fit: cover;
+}
+
+#elephant-art,
+#trigby
+{
+    width: 100%;
+}
+
+#elephant-art{
+    height: 80%;
 }
 
 #elephant-art:hover{
@@ -128,10 +166,6 @@
 #figby{
     width: 110%;
     height: 240%;
-    object-fit: cover;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
     margin-left: -6%;
 }
 
@@ -140,12 +174,7 @@
 }
 
 #trigby{
-    width: 100%;
     height: 108%;
-    object-fit: cover;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
     margin-top: -12%;
 }
 
@@ -153,17 +182,25 @@
     border-color:blue;
 }
 
-.project-grid{
+.project-grid,
+.art-grid
+{
     display: grid;
+}
+
+.project-grid{
     grid-template: 1fr 1fr / 1fr 1fr;
     padding:75px;
 }
 
+.project-grid a,
+.nav-bar a
+{
+    text-decoration:none;
+}
+
 .project-grid a{
     font-size:x-large;
-    text-decoration:none;
-    border-style: solid;
-    border-color: black;
     border-width: 3px;
     margin:18px;
 
@@ -177,34 +214,40 @@
 }
 
 
-#port-img{
+#portfolio-img{
     width: 105%;
     height: 105%;
-    object-fit: cover;  
+}
+
+#task-img,
+#swapmeet-img
+{
+    margin-left: -50px;
 }
 
 #task-img{
     width: 135%;
     height: 135%;
-    object-fit: cover;
     margin-top: -20px;
-    margin-left: -50px;
 }
+
 
 #swapmeet-img{
     width: 125%;
     height: 125%;
-    object-fit: cover;
     margin-top: -10px;
-    margin-left: -50px;
+}
+
+#viewingparty-img,
+#swapmeet-figcap
+{
+    margin-top: 30px;
 }
 
 #viewingparty-img{
     width: 85%;
     height: 85%;
-    object-fit: cover;  
     margin-left: 33px;
-    margin-top: 30px;
 }
 
 
@@ -219,9 +262,4 @@
 #viewingparty-figcap{
     margin-top: 54px;
 }
-
-#swapmeet-figcap{
-    margin-top: 30px;
-}
-
 
