@@ -5,36 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <section>
-    <nav>
-      <ul>
-        <li>
-          <a href="">HOME</a>
-        </li>
-        <li>
-          <a href="">ABOUT</a>
-        </li>
-        <li>
-          <a href="">PORTFOLIO</a>
-        </li>
-      </ul>
-    </nav>
-  </section>
-  <section> 
-    <header>
-      <h1>Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper eget duis at tellus at urna condimentum mattis pellentesque. At risus viverra adipiscing at. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Molestie a iaculis at erat pellentesque. Amet mattis vulputate enim nulla aliquet. Nec dui nunc mattis enim. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Viverra aliquet eget sit amet tellus cras adipiscing enim eu. Sed turpis tincidunt id aliquet risus feugiat in.
-      </p>
-    </header>
-  </section>
-  <section>
-    <footer>
-      "Copyright 2022"
-      <a href="">Huma Hameed</a>
-      "All rights reserved."
-    </footer>
-  </section>
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="portfolio.html">PORTFOLIO</a>
+  </nav>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My journey to becoming a full stack software engineer.
+    </p>
+  </header>
+  <main class="container">
+    <section class="sec-container">
+      <a href="https://github.com/hhameed1/viewing-party">VIEWING PARTY</a>
+      <h3>A Python program to organize movies on your/friends watchlist</h3>
+      <img src="/images/viewing-party.jpg" alt="hand scrolling through stacked VHS videos" style="width:250px">
+      <cite>Photo by Lucas Pezeta: https://www.pexels.com/photo/assorted-title-movie-case-lot-2398354/</cite>
+    </section>
+    <section class="sec-container">
+      <a href="https://github.com/hhameed1/swap-meet">SWAP MEET</a>
+      <h3>This project utilizes object oriented programming, implementation of inheritance and tdd.</h3>
+      <img src="/images/swap-meet.jpg" alt="variety of items in a thrift store" style="width:250px">
+      <cite>Photo by Roman Kraft: https://unsplash.com/photos/ChSJFIAEoRM</cite>
+    </section>
+    <section class="sec-container">
+      <a href="https://github.com/hhameed1/task-list-api">TASK LIST API</a>
+      <h3>An API project that used SQL, Flask, external APIs and TDD.</h3>
+      <img src="/images/tasklist-API.jpg" alt="checklist of items in a book" style="width:250px">
+      <cite>Photo by Polina Kovaleva: https://www.pexels.com/photo/white-notebook-on-the-table-5717425/</cite>
+    </section>
+  </main>
+  <footer>
+    "Copyright 2022" Huma Hameed "All rights reserved."
+  </footer>
 </body>
 </html>
