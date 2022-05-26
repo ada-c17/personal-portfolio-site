@@ -1,0 +1,163 @@
+body {
+    background-color: white ;
+    font-size: 12px;
+    font-family: 'Shadows Into Light', sans-serif;
+    
+}
+
+.container1 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 80px 60px auto auto 60px;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "left-sidebar main main main right-sidebar"
+    "left-sidebar content1 content2 content3 right-sidebar"
+    "left-sidebar footer footer footer footer";
+    padding: 0; 
+}
+
+header {
+    display: grid;
+    background-image: url("../images/Classy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: header;
+    align-content: center;
+    justify-content: start;
+}
+
+header h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: olivedrab;
+    text-shadow: 2px 2px 5px gold;
+}
+
+nav {
+    background-color: darkseagreen;
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#left-sidebar {
+    background-color: darkseagreen;
+    grid-area: left-sidebar;
+}
+
+#right-sidebar {
+    background-color: darkseagreen;
+    grid-area: right-sidebar;
+}
+
+#content1 {
+    grid-area: content1;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#content2 {
+    grid-area: content2;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#content3 {
+    grid-area: content3;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, fit-content(150px));
+    gap: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: end;
+    list-style-type: none;
+}
+
+.top-nav-item {
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.top-nav-item:hover {
+    background-color:lemonchiffon;
+    color: black;
+}
+
+span {
+    margin-right: 8px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+.sidebar-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    text-shadow: 3px 2px lemonchiffon;
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+.sidebar-item {
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    color:cornflowerblue;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: flex-start;
+    height: 30px;
+}
+
+.sidebar-item:hover, .sidebar-content:hover {
+    background-color: aqua;
+    color:coral;
+} 
