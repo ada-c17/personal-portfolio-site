@@ -2,8 +2,8 @@
     display:grid;
     grid-template-columns:  25% 40% 35%;
     /* grid-template-rows:  50px 300px 300px 300px 50px; */
-    grid-template-rows:  4fr 1fr 6fr 6fr 6fr 1fr
     /* grid-template: 30% 40% 30% / 200px 100px 200px 200px 200px ; */
+    grid-template-rows:  4fr 1fr 6fr 6fr 6fr 1fr
 }
 
 
@@ -18,10 +18,10 @@ footer{
 footer li{
     list-style-type: none;
     display: inline;
+    font-size: 25px;
 }
 
 .header{
-    /* background-color: rgb(183, 137, 186); */
     grid-column-start: 1;
     grid-column-end: 4;
     display:grid;
@@ -34,10 +34,9 @@ footer li{
     font-weight: 100;
 }
 
-h1{
+.header h1{
     padding-top: 50px;
     font-family: Arial;
-    
 }
 
 h3{
@@ -52,7 +51,6 @@ h5{
 }
 
 .left{
-    /* background-color: cornflowerblue; */
     grid-row-start: 3;
     grid-row-end: 6;
     padding-top: 100px;
@@ -63,7 +61,7 @@ h5{
     align-items: center;
     padding-left: 60px;
     padding-right: 120px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -80,13 +78,14 @@ nav li{
     list-style-type: none;
     display: inline;
     font-size: 25px;
+    font-weight: bold;
 }
 
 
 #profile-pic{
     /* height: 200px;
     width: 180px; */
-    padding-left: 500px;
+    padding-left: 1200px;
     padding-top: 6px;
 }
 
@@ -130,6 +129,9 @@ li{
 
 .portfolio-container{
     display: flex;
+    flex-direction: row;
+    padding: 200px;
+    background-image:url("pages/portfolio.html")
 }
 
 .portfolio-container > div{
@@ -142,10 +144,15 @@ li{
     border-radius: 25px;
 }
 
-portfolio-nav li{
+.portfolio-nav li{
     display: inline-box
 }
 
+.portfolio-nav{
+    background-color: whitesmoke;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
 
 
 /* About Me css */
@@ -166,7 +173,16 @@ portfolio-nav li{
     border-radius: 25px;
 }
 
-.about-header{
-    font-size: 40px;
+.about-container h4{
+    font-size: large;
+    color: rgb(33, 27, 112);
 }
 
+.about-header{
+    font-size: 40px;
+    align-items:center;
+}
+
+.about-nav{
+    background-color: whitesmoke;
+}
