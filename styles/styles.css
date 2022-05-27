@@ -26,17 +26,15 @@ nav {
     text-align: center;
     background-color: #70a288;
     margin-bottom: 20px;
-    
-    
 }
 
 li {
     display: inline;
 }
+
 h1 {
     vertical-align: middle;
 }
-
 
 a {
     color: #dab785;

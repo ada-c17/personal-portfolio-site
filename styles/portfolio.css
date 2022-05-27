@@ -4,6 +4,14 @@
     justify-content: space-evenly;
 }
 
+.portfolio-item {
+    font-weight: bold;
+    background-color: #dab785;
+    margin: 25px;
+    padding: 20px;
+    border: solid;
+}
+
 body {
     background-color: #d5896f;
     color: #04395e;
@@ -17,3 +25,4 @@ a {
 a:hover {
     color: #dab785
 }
+
