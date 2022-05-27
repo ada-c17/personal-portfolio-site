@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-left: 0;
 }
-
 .portfolio-item {
     font-weight: bold;
     background-color: #dab785;
@@ -11,18 +11,17 @@
     padding: 20px;
     border: solid;
 }
-
+.portfolio-item:hover {
+    color:#70a288;
+}
 body {
     background-color: #d5896f;
     color: #04395e;
 }
-
 a {
     color: #04395e;
     text-decoration: none;
 }
-
 a:hover {
-    color: #dab785
+    color: #dab785 
 }
-
