@@ -1,0 +1,50 @@
+head {
+    font-weight: 300 
+}
+header {
+    text-align: center;
+}
+.container {
+    display: grid;
+    width: 60vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 150px;
+}
+body {
+    background-color: #04395e;
+    color: #d5896f;
+    font-family: andale mono;
+    align-items: center;
+}
+nav {
+    text-align:center;
+    background-color: #70a288;
+    margin-bottom: 20px;
+    
+}
+h1 {
+    vertical-align: middle;
+}
+li {
+    display: inline;
+}
+a {
+    color: #dab785;
+    text-decoration: none;
+}
+a:hover {
+    color: #d5896f 
+}
+nav a {
+    padding: 8px;
+    text-transform: uppercase;
+}
+footer {
+    margin-bottom: -400px;
+}
+#lighthouse {
+    width: 60vw;
+}
