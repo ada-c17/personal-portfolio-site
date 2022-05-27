@@ -1,0 +1,206 @@
+:root {
+    --background_blue:#0B3954;
+    --teal_blue: #087E8B;
+    --light_blue: #BFD7EA;
+    --yellow: #FFB703;
+    --pink: #FF5A5F;
+    --red: #C81D25;
+    --gray: #e7e6e6;
+    --text_black: #555;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/Users/awildjolie/Ada/unit3/personal-portfolio-site/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(/Users/awildjolie/Ada/unit3/personal-portfolio-site/assets/fonts/SourceSansPro-Light.ttf);
+}
+
+/* * {
+    border: red 1px solid;
+} */
+
+
+/* || GENERAL STYLES */
+
+body {
+    font-family: OpenSans, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 1.5em;
+    text-align: justify;
+    color: var(--text_black);
+}
+
+h1 {
+    font-family: SourceSansPro;
+    font-size: 3em;    
+    font-weight: 300;
+    line-height: 1em;
+    color: var(--yellow);
+}
+
+h2 {
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    border: 0px;   
+    padding: .5em 0 .5em 0;
+    text-align: center;
+    color: var(--gray);
+    background-color: var(--teal_blue);
+}
+
+/* || SITEWIDE */
+
+.main-container {
+    margin: 0 auto;
+    max-width: 60em;
+    line-height: 1.5;
+    padding: 3em 1em;
+}
+
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 1em 1em 1em;
+    max-width: 60em;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3em;
+    padding: 1em 0 2em 0;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+.nav-buttons a {
+    display: inline-block;
+    padding: .5em 1em;
+    letter-spacing: .05em;
+    border-radius: 5px;
+    color: var(--gray);
+    border: 1px solid var(--gray);
+    background-color: var(--teal_blue);
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+.nav-buttons a:hover {
+    color: var(--gray);
+    background:  var(--pink);
+}
+
+#nav-logo {
+    max-width: 6em;
+    height: 6em;
+}
+
+.page-header {
+    margin: 0;
+    padding: 4em 0 .25em 0;
+    font-weight: 500;
+    line-height: 1em;
+    min-width: 20em;
+    color: var(--gray);
+}
+
+
+/* || HOME PAGE */
+
+.home-page {
+    background-color: var(--background_blue);
+}
+
+.main-container-home {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0em 1em 100px 1em;
+    max-width: 60em;
+    justify-content: center;
+}
+
+.left-side-container {
+    padding-top: 30px;
+    padding-right: .5em;
+    padding-left: .5em;
+    min-width: 50%;
+    color: var(--gray);
+}
+
+.logo-container > a * {
+    width: 50px;
+    height: auto;
+    padding: 1em 2em 1.5em 0;
+    transition: transform .2s;
+}
+
+.logo-container a img:hover {
+    transform: scale(1.25);
+}
+
+.right-side-container {
+    flex: 1 1 350px;
+    max-width: 350px;
+}
+
+#headshot {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+
+/* || ABOUT PAGE */
+
+.about-header {
+    position: relative;
+    background-color: var(--background_blue);
+    background: rgba(0, 0, 0, .3)url("/Users/awildjolie/Ada/unit3/personal-portfolio-site/assets/bridge.jpg");
+    background-blend-mode: darken;
+    background-position: 33% 67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#j-bicycle {
+    height: 300px;
+    width: auto;
+    float: right;
+    padding: 0 .5em .75em 2em;
+}
+
+
+/* || PORTFOLIO PAGE */
+
+/* header image by Finn, via unsplash.com */
+.portfolio-header {
+    position: relative;
+    background-color: var(--background_blue);
+    background: rgba(0, 0, 0, .4)url("/Users/awildjolie/Ada/unit3/personal-portfolio-site/assets/finn-8SybeS9_Kb4-unsplash.jpg");
+    /* background: rgba(0, 0, 0, .4)url("/Users/awildjolie/Ada/unit3/personal-portfolio-site/assets/finn-w8ckd_hpM4s-unsplash.jpg"); */
+    background-blend-mode: darken;
+    background-position: 33% 67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
