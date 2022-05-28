@@ -76,6 +76,8 @@ footer {
 
 /* || SITEWIDE HEADER */
 
+/* struggling to find a way to DRY this section without losing formatting */
+
 .nav-container {
     display: flex;
     flex-flow: row nowrap; 
@@ -83,6 +85,7 @@ footer {
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 1em 1em 1em;
+    max-width: 60em;
 }
 
 .nav-buttons {
@@ -91,12 +94,12 @@ footer {
     align-items: center;
     justify-content: flex-end;
     gap: 1em;
-    padding: 1.5em 0 1.5em 1em;
+    padding: 1.5em .5em 1.5em 1em;
     list-style-type: none;
     background-color: transparent;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 525px) {
     .nav-buttons {
         gap: 3em;
         padding: 1em 0 2em 0;
@@ -131,12 +134,17 @@ footer {
 }
 
 .page-header {
+    display: flex;
+    flex-flow: row nowrap; 
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
     padding: 4em 0 .5em .5em;
+    max-width: 20em;
     font-weight: 500;
     line-height: 1em;
     color: var(--gray);
 }
-
 
 /* || HOME PAGE */
 
