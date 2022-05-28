@@ -1,10 +1,8 @@
 :root {
     --background_blue:#0B3954;
     --teal_blue: #087E8B;
-    --light_blue: #BFD7EA;
     --yellow: #FFB703;
     --pink: #FF5A5F;
-    --red: #C81D25;
     --gray: #e7e6e6;
     --text_black: #555;
 }
@@ -19,9 +17,9 @@
     src: url(/Users/awildjolie/Ada/unit3/personal-portfolio-site/assets/fonts/SourceSansPro-Light.ttf);
 }
 
-* {
+/* * {
     border: red 1px solid;
-}
+} */
 
 
 /* || GENERAL STYLES */
@@ -34,6 +32,10 @@ body {
     line-height: 1.5em;
     text-align: justify;
     color: var(--text_black);
+}
+
+a:hover {
+    color: var(--pink);
 }
 
 h1 {
@@ -140,9 +142,7 @@ footer {
 }
 
 .left-side-container {
-    padding-top: 30px;
-    padding-right: .5em;
-    padding-left: .5em;
+    padding: 2em .5em 0 .5em;
     min-width: 50%;
     color: var(--gray);
 }
@@ -150,7 +150,7 @@ footer {
 .logo-container > a * {
     width: 50px;
     height: auto;
-    padding: 1em 2em 1.5em 0;
+    padding: 1em 2em 3em 0;
     transition: transform .2s;
 }
 
@@ -207,14 +207,21 @@ footer {
 
 .project-grid {
     display: grid;
-    grid-template-columns: 250px 1fr 250px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 3em 2em;
-    grid-template-areas: 
-        "icon1 text1 text1"
-        "text2 text2 icon2"
-        "icon3 text3 text3"
-        "text4 text4 icon4";
+    gap: 2em;
+}
+
+@media (min-width: 700px) {
+    .project-grid {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        gap: 4em 2em;
+        grid-template-areas: 
+            "icon1 text1"
+            "icon2 text2"
+            "icon3 text3"
+            "icon4 text4"        
+            "icon5 text5";
+    }
 }
 
 .icon {
@@ -228,18 +235,7 @@ footer {
     padding: 1em 1em;
 }
 
-.text1 { grid-area: text1; }
-.text2 { grid-area: text2; }
-.text3 { grid-area: text3; }
-.text4 { grid-area: text4; }
-
-.icon1 { grid-area: icon1; }
-.icon2 { grid-area: icon2; }
-.icon3 { grid-area: icon3; }
-.icon4 { grid-area: icon4; }
-
-
-#cats {
+.cats {
     height: 250px;
     width: auto;
     border-radius: 10px;
