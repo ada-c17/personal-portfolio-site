@@ -1,3 +1,5 @@
+/* || UTILITIES */
+
 :root {
     --background_blue:#0B3954;
     --teal_blue: #087E8B;
@@ -21,19 +23,6 @@
     border: red 1px solid;
 } */
 
-
-/* || GENERAL STYLES */
-
-body {
-    font-family: OpenSans, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 0 auto;
-    vertical-align: middle;
-    line-height: 1.5em;
-    text-align: justify;
-    color: var(--text_black);
-}
-
 a:hover {
     color: var(--pink);
 }
@@ -52,6 +41,26 @@ h2 {
     font-weight: 400;
 }
 
+
+/* || GENERAL STYLES */
+
+body {
+    font-family: OpenSans, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 1.5em;
+    text-align: justify;
+    color: var(--text_black);
+}
+
+main {
+    margin: 0 auto;
+    max-width: 60em;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
 footer {
     position: relative;
     bottom: 0;
@@ -64,23 +73,16 @@ footer {
     background-color: var(--teal_blue);
 }
 
-/* || SITEWIDE */
 
-.main-container {
-    margin: 0 auto;
-    max-width: 60em;
-    line-height: 1.5;
-    padding: 4em 1em;
-}
+/* || SITEWIDE HEADER */
 
 .nav-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap; 
     align-items: flex-end;
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 1em 1em 1em;
-    max-width: 60em;
 }
 
 .nav-buttons {
@@ -88,10 +90,17 @@ footer {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: flex-end;
-    gap: 3em;
-    padding: 1em 0 2em 0;
+    gap: 1em;
+    padding: 1.5em 0 1.5em 1em;
     list-style-type: none;
     background-color: transparent;
+}
+
+@media (min-width: 500px) {
+    .nav-buttons {
+        gap: 3em;
+        padding: 1em 0 2em 0;
+    }
 }
 
 .nav-buttons a {
@@ -116,12 +125,15 @@ footer {
     height: 6em;
 }
 
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
 .page-header {
-    margin: 0;
-    padding: 4em 0 .25em 0;
+    padding: 4em 0 .5em .5em;
     font-weight: 500;
     line-height: 1em;
-    min-width: 20em;
     color: var(--gray);
 }
 
@@ -212,7 +224,6 @@ footer {
 
 @media (min-width: 700px) {
     .project-grid {
-        display: grid;
         grid-template-columns: 250px 1fr;
         gap: 4em 2em;
         grid-template-areas: 
