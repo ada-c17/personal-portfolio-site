@@ -8,7 +8,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
+header {
+    display: flex;
     color: #FF8D83;
     font-family: Zen Maru Gothic;
     background-color: #FFC2BD;
@@ -17,9 +18,13 @@ h1 {
     border-width: 4px;
     padding: 7px;
     max-width: 100vw;
+    height: 20vh;
+}
+h1 {
+    flex-direction: column-reverse;
 }
 
-
+/* 
 header nav a {
     color: #f2df55;
     background-color: whitesmoke;
@@ -54,7 +59,6 @@ a:hover {
 .dropdown-content {
     display:none;
     min-width: 80px;
-    box-shadow: 0px 4px 8px 0px whitesmoke;
     padding: 10px 10px;
     z-index: 1;
     background-color: whitesmoke;
@@ -62,7 +66,46 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+} */
+ul {
+    list-style: none;
 }
+
+header nav {
+    display: inline-flex;
+    margin-left: 55vmax;
+}
+
+header a {
+    color: #24917C;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+header a {
+    color: #584c99;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color:#FF8D83;
+    font-size: larger;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    padding-left: 1vw;
+}
+
+
+
+
 
 main {
     display: flex;
@@ -96,3 +139,6 @@ main h3 {
     font-size:calc(12px +0.8vw);
 }
 
+main {
+    text-align: center;
+}
