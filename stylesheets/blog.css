@@ -1,20 +1,20 @@
 .blog__inner{
-
     padding-bottom:120px;
 }
+
 .blog__entry{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin: 60px;
-
 }
+
 .blog__entry img{
     width: 500px;   
     border-radius: 20px;
 }
+
 .blog__entry a{
     color: var(--white);
     line-height: 1.5em;
-
 }

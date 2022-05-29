@@ -10,7 +10,6 @@
 #intro__title::before {
     content: attr(data-text);
     position: absolute;
-
     top: 0;
     left: 0;
     width:0;
@@ -20,7 +19,6 @@
     border-right: 2px solid #15fa8f;
     overflow: hidden;
     animation: animate 6s linear infinite;
-
 }
 
 @keyframes animate {

@@ -2,6 +2,7 @@ body {
     background-color: var(--black);
     color: var(--white);
 }
+
 .nav__link {
   color: var(--white);
   border: 2px solid var(--white);
@@ -11,14 +12,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom:120px;
-
   padding-top: 7rem;
   align-items: center;
 }
+
 .about__content {
   width: 55%;
   margin-left: 100px;
-
 }
 
 #about__bigtitle {
@@ -28,7 +28,6 @@ body {
 
 .btn {
   margin-top: 5rem;
-  /* position: relative; */
   font-size: 0.93rem;
   color: var(--white);
   text-transform: uppercase;

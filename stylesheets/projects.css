@@ -1,8 +1,8 @@
 body{
     background-color: var(--black);
     color: var(--white);
-
 }
+
 .nav__link {
     color: var(--white);
     border: 2px solid white;
@@ -37,8 +37,8 @@ body{
 .project__link{
     font-size: 2rem;
     font-weight: 700;
-
 }
+
 .project__link:hover{
     color: var(--white)
 }
@@ -47,15 +47,16 @@ body{
     font-size: 1rem;
     font-weight: 700;
 }
+
 .project__date{
     font-size: 1rem;
     font-weight: 700;
 }
+
 .project__description{
     color:var(--white);
     line-height: 1.5em;
 }
-
 
 #view{
     background-image: url("../images/movie.webp");
@@ -65,7 +66,6 @@ body{
 #swap{
     background-image: url("../images/swap.webp");
     color: var(--black)
-
 }
 
 #task{

@@ -13,9 +13,11 @@
     z-index:1;
     letter-spacing: 0.095em; 
 }
+
 .text span{
     color:#15fa8f
 }
+
 .fadingEffect {
     position:absolute;
     top:0; bottom:0; right:0;

@@ -127,6 +127,7 @@ a.social__link img {
   background-color: var(--black);
   color: #bbbbcc;
 }
+
 .footer__inner a {
   color: #bbbbcc;
   font-size: 0.94rem;
@@ -143,6 +144,7 @@ a.social__link img {
   font-size: 0.94rem;
   padding-left: 1em;
 }
+
 .footer__social img {
   width: 18px;
 }
