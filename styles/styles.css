@@ -1,38 +1,48 @@
+
+header {
+    background-color: black;
+    /* color: lightgray; */
+    text-decoration-color: lavender;
+    list-style: none;
+}
+
 h1, h2 {
     font-family: comfortaa, 'Courier New', Courier, monospace;
-    color: gray;
+    color: blanchedalmond;
 }
 
 p {
     font-family: comfortaa, 'Courier New', Courier, monospace;
-}
-
-header {
-    background-color: slategrey;
-}
-
-li {
-    background-color: honeydew;
-    /* list-style: none; */
+    color: lavender;
 }
 
 body {
-    background-color: rgb(173, 208, 208);
+    background-color: black;
     font-family: comfortaa, 'Courier New', Courier, monospace;
     text-align: justify;
     
 }
 
 footer {
-    background-color: honeydew;
+    color: gray;
+    background-color: black;
+}
+
+.bookend-info {
+    color: lavender;
 }
 
 .project {
-    color: darkgray;
+    color: blanchedalmond;
     border: 2px dashed gray;
 
 }
 
 #current-project {
-    color: indigo;
+    color: honeydew;
+}
+
+span {
+    text-decoration:underline;
+
 }
