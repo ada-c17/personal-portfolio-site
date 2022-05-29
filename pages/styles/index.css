@@ -85,7 +85,6 @@ body a:hover{
     border-radius: 17px;
     grid-template-columns: 1fr  1fr;
     grid-template-rows: 1fr 1fr 3fr;
-    /* align-items: center; */
     background-color: #9ec1b5;
     color:#584c99;
     align-items: space-evenly;
@@ -103,7 +102,6 @@ body a:hover{
     margin: auto;
     width: 27vw;
     height: 27vw;
-    /* align-content: space-around; */
     padding: 1vw;
     padding: 1vh;
     border-radius: 100%;
@@ -149,7 +147,6 @@ h2 {
     flex-direction: column;
     align-items: right;
     justify-content: right;
-    /* background-color: #cbb1d4; */
 }
 
 #self-socials h3 {
