@@ -44,6 +44,8 @@ header nav {
 header a {
     color: #24917C;
     background-color: whitesmoke;
+    border-radius: 12%;
+    padding: 4%;
     text-decoration: none;
 }
 
@@ -56,6 +58,8 @@ header a:hover {
     text-decoration: underline;
     color:#FF8D83;
     font-size: larger;
+    padding: 6%;
+
 }
 
 
@@ -72,22 +76,11 @@ main a:hover{
     color: #f2df55;
     letter-spacing: 0.25vw;
 }
-/* .dropdown > span {
-    text-decoration: underline;
-}
 
-.dropdown-content {
-    display:none;
-    min-width: 80px;
-    box-shadow: 0px 4px 8px 0px whitesmoke;
-    padding: 10px 10px;
-    z-index: 1;
-    background-color: whitesmoke;
+p {
+    text-align: center;
+    padding-bottom: 3vh;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
-} */
 
 #project-display {
     display: grid;
@@ -175,12 +168,6 @@ h2 {
     border-style: none;
 }
 
-#intro {
-    display: flex;
-    justify-content: center;
-    margin-right: 4vw;
-    font-size: calc(16px+0.8vw);
-}
 
 footer {
     padding: 10px;
