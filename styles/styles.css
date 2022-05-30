@@ -2,11 +2,23 @@
 header {
     background-color: black;
     /* color: lightgray; */
-    text-decoration-color: lavender;
+    /* text-decoration-color: lavender;
+    list-style: none; */
+}
+
+header ul li a {
+    color: rgb(106, 106, 174);
+    font-family: comfortaa, 'Courier New', Courier, monospace;
+    /* text-decoration-color: lavender; */
     list-style: none;
 }
 
-h1, h2 {
+h1 {
+    font-family: comfortaa, 'Courier New', Courier, monospace;
+    color: lavender;
+}
+
+h2 {
     font-family: comfortaa, 'Courier New', Courier, monospace;
     color: blanchedalmond;
 }
@@ -20,11 +32,12 @@ body {
     background-color: black;
     font-family: comfortaa, 'Courier New', Courier, monospace;
     text-align: justify;
+    margin: 20px;
     
 }
 
-footer {
-    color: gray;
+footer a{
+    color: rgb(106, 106, 174);
     background-color: black;
 }
 
@@ -35,6 +48,7 @@ footer {
 .project {
     color: blanchedalmond;
     border: 2px dashed gray;
+    padding: 5px 20px;
 
 }
 
