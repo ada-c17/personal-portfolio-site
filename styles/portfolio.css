@@ -1,23 +1,10 @@
-/* projects to list:
-    - task list @ top
-    - solar system api next - specify this one was pair programmed
-    - swap meet next
-    - viewing party - note that this was first project
-total rows: 
-    1. header image - 2fr
-    2. navbar - .15 fr
-    3. task list api - 1 fr
-    4. solar system api - 1fr
-    5. swap meet - 1fr
-    6. viewing party - 1fr
-    7. footer - .1fr
-*/
 
 .nested-container {
     width: 100%;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
     row-gap: 10px;
+    overflow: visible;
 }
 
 body {
@@ -27,6 +14,11 @@ body {
 main {
     background-color: #723F43;
     margin-top: 10px;
+}
+
+article {
+    display: block;
+    width: 100%;
 }
 
 section, div {
@@ -51,6 +43,7 @@ div > a {
     display: block;
     text-align: center;
 }
+
 
 section > p > a {
     color: #723F43;
@@ -81,7 +74,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+
 
 .description {
     background-color: #B8C4D1;
@@ -91,6 +88,10 @@ img {
 .git-link {
     background-color: #7491AD;
     color: #723F43;
+}
+
+.git-link:hover img {
+    opacity: .3;
 }
 
 .left-column {
