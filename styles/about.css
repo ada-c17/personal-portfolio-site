@@ -1,0 +1,43 @@
+.nested-container {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr;
+    
+}
+
+body {
+    background-color: #8B6267;
+}
+
+main > div {
+    background-color: #7491AD; 
+    color: #723F43;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-color: #723F43;
+    border-style: double;
+    border-radius: 25px;
+    border-width: medium;
+}
+
+#teapot-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left-style: double;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right-style: double;
+    padding-right: 20px;
+}
+

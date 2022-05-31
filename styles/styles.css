@@ -1,0 +1,101 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 56px 1fr .10fr/ .5fr 1fr 1fr .5fr;
+}
+
+body {
+    background-color: #7491AD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #2E231A;
+    color: white;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-image: url(../images/Spring\ at\ bryn\ mawr!\ 010.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -100px;
+    text-align: center;
+    font-size: 3em;
+    text-shadow:
+		-2px -2px 0 #2E231A,
+		2px -2px 0 #2E231A,
+		-2px 2px 0 #2E231A,
+		2px 2px 0 #2E231A;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-subtitle{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+nav {
+    background-color: #2E231A;
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    align-content: center;
+    font-size: larger;
+}
+
+nav > ul > li > a {
+    color: #B8C4D1;
+    text-decoration: none;
+    padding: 10px 30px
+}
+
+nav > ul> li > a:hover {
+    background-color: #B8C4D1;
+    color: #2E231A;
+}
+
+nav > ul > li > a:visited:hover {
+    color: #723F43;
+}
+
+/* Set defaults for pages */
+main {
+    grid-column: 2 / 4; 
+    grid-row: 3 / 4;
+    background-color: #8B6267;
+    color: #B8C4D1;
+    border-radius: 5px;
+}
+
+main > p {
+    padding: 10px;
+}
+
+footer{
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    background-color: #723F43;
+    order: 1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer > p {
+    padding: 5px;
+    color: #2E231A;
+    border-style: double;
+    border-color: #2E231A; 
+    margin: 5px
+}
