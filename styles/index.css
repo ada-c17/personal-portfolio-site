@@ -1,0 +1,30 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+
+}
+
+#left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+    /* position: absolute; */
+    /* top: 0; left: 0; bottom: 0; right: 0; */
+}
+
+#left img{
+    width: 90%;
+}
+
+#right {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #F7B2AD;
+    padding: 1rem 0 1rem 0;
+}
+
+#right img{
+    width: 65%;
+}
