@@ -11,12 +11,12 @@
 
 @font-face {
     font-family: OpenSans;
-    src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    src: url(/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
 @font-face {
     font-family: SourceSansPro;
-    src: url(assets/fonts/SourceSansPro-Light.ttf);
+    src: url(/assets/fonts/SourceSansPro-Light.ttf);
 }
 
 /* * {
@@ -196,7 +196,7 @@ footer {
 .about-header {
     position: relative;
     background-color: var(--background_blue);
-    background: rgba(0, 0, 0, .2)url("assets/images/bridge.jpg");
+    background: rgba(0, 0, 0, .2)url("/assets/images/bridge.jpg");
     background-blend-mode: darken;
     background-position: 33% 67%;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ footer {
 .portfolio-header {
     position: relative;
     background-color: var(--background_blue);
-    background: rgba(0, 0, 0, .4)url("assets/images/finn-8SybeS9_Kb4-unsplash.jpg");
+    background: rgba(0, 0, 0, .4)url("/assets/images/finn-8SybeS9_Kb4-unsplash.jpg");
     background-blend-mode: darken;
     background-position: 33% 67%;
     background-repeat: no-repeat;
