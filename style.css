@@ -5,7 +5,7 @@
     --teal_blue: #087E8B;
     --yellow: #f3d437;
     --pink: #FF5A5F;
-    --gray: #e7e6e6;
+    /* --gray: #e7e6e6; */
     --text_black: #555;
 }
 
@@ -36,11 +36,10 @@ h1 {
 }
 
 h2 {
-    color: var(--gray);
+    color: white;
     font-size: 16px;
     font-weight: 400;
 }
-
 
 /* || GENERAL STYLES */
 
@@ -69,7 +68,7 @@ footer {
     border: 0px;   
     padding: .5em 0 .5em 0;
     text-align: center;
-    color: var(--gray);
+    color: white;
     background-color: var(--teal_blue);
 }
 
@@ -108,15 +107,15 @@ footer {
     padding: .5em 1em;
     letter-spacing: .05em;
     border-radius: 5px;
-    color: var(--gray);
-    border: 1px solid var(--gray);
+    color: white;
+    border: 1px solid white;
     background-color: var(--teal_blue);
     transition: none 200ms ease-out;
     transition-property: color, background;
 }
 
 .nav-buttons a:hover {
-    color: var(--gray);
+    color: white;
     background:  var(--pink);
 }
 
@@ -138,9 +137,9 @@ footer {
     justify-content: space-between;
     margin: 0 auto;
     padding: 4em 0 .5em .5em;
-    max-width: 20em;
+    max-width: 22em;
     font-weight: 500;
-    color: var(--gray);
+    color: white;
 }
 
 /* || HOME PAGE */
@@ -161,8 +160,8 @@ footer {
 .left-side-container {
     padding: 1.5em .5em 4em 0.5em;
     min-width: 50%;
-    justify-content: flex-start;
-    color: var(--gray);
+    text-align: left;
+    color: white
 }
 
 .logo-container > a * {
@@ -217,7 +216,7 @@ footer {
 .portfolio-header {
     position: relative;
     background-color: var(--background_blue);
-    background: rgba(0, 0, 0, .4)url("./assets/images/finn-8SybeS9_Kb4-unsplash.jpg");
+    background: rgba(0, 0, 0, .5)url("./assets/images/finn-8SybeS9_Kb4-unsplash.jpg");
     background-blend-mode: darken;
     background-position: 33% 67%;
     background-repeat: no-repeat;
