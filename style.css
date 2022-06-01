@@ -29,7 +29,7 @@ a:hover {
 
 h1 {
     font-family: SourceSansPro;
-    font-size: 3em;    
+    font-size: 2.75em;    
     font-weight: 300;
     line-height: 1em;
     color: var(--yellow);
@@ -84,7 +84,7 @@ footer {
     align-items: flex-end;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 1em 1em 1em;
+    padding: 1.5em 1em 1em .5em;
     max-width: 60em;
 }
 
@@ -94,7 +94,7 @@ footer {
     align-items: center;
     justify-content: flex-end;
     gap: 1em;
-    padding: 1.5em .5em 1.5em 1em;
+    padding: .5em .5em;
     list-style-type: none;
     background-color: transparent;
 }
@@ -102,7 +102,7 @@ footer {
 @media (min-width: 525px) {
     .nav-buttons {
         gap: 3em;
-        padding: 1em 0 2em 0;
+        padding: 1em 0 1em 0;
     }
 }
 
@@ -124,8 +124,8 @@ footer {
 }
 
 #nav-logo {
-    max-width: 6em;
-    height: 6em;
+    max-width: 5em;
+    height: 5em;
 }
 
 .break {
@@ -164,6 +164,7 @@ footer {
 .left-side-container {
     padding: 2em .5em 0 .5em;
     min-width: 50%;
+    justify-content: flex-start;
     color: var(--gray);
 }
 
