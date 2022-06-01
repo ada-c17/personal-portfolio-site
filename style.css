@@ -19,9 +19,9 @@
     src: url(assets/fonts/SourceSansPro-Light.ttf);
 }
 
-* {
+/* * {
     border: red 1px solid;
-}
+} */
 
 a:hover {
     color: var(--pink);
