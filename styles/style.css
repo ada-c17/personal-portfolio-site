@@ -1,14 +1,18 @@
 html, body {
   margin: 0;
-  /* height: 100%; */
   background-color: pink;
-  font-family: Nunito, Arial, Helvetica;
+  font-family: 'Nunito', Arial, Helvetica;
   line-height: 1.5;
+}
+
+#page-title {
+  margin: 0;
 }
 
 .header-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  align-items: center;
   background-color: white;
   border: 2px solid black;
   padding: 1%;
@@ -22,7 +26,7 @@ li {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: inline-block;
+  display: inline;
 }
 
 #portrait {
@@ -41,13 +45,11 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* display: block; */
 }
 
 .projects-container > section {
   text-align: center;
   border-style: dotted;
-  /* padding: 10%; */
   margin: 5%;
 }
 
@@ -60,6 +62,14 @@ footer {
   justify-content: center;
 }
 
-.social-media {
-  padding-left: 5%;
+footer p {
+  display: inline;
 }
+
+ul {
+  display: inline;
+}
+
+/* .social-media {
+  padding-left: 5%;
+} */
