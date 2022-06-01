@@ -1,5 +1,5 @@
 
-let heading = "Hover your cursor over any of the text on this page to see the color my brain percieves for each letter.";
+let heading = "Hover your cursor over any of the text on this page to see the color my brain perceives for each letter.";
 for (let i = 0; i < heading.length; i++){
     
     let c = (heading[i]).toLowerCase();
