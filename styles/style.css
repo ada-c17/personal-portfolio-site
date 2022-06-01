@@ -4,7 +4,7 @@
     font-weight: 100;
 }
 
-/* fixed position */
+
 .page-text, 
 #about-body-text,
 #about-heading,
@@ -13,11 +13,11 @@
     position: fixed;
 }
 
+
 .page-text{
     font-size: 80px;
 }
 
-/* left 4% */
 #home-text,
 .non-index-text
 {

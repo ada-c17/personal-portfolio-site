@@ -1,3 +1,104 @@
+
+.syn-grid{
+    display: grid;
+    margin-top: -10%;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 3%;
+}
+
+.syn-grid section{
+    margin:15px;
+}
+
+#syn-definition-grid{
+    padding: 15px;
+    padding-bottom: 5px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#page-descritpion-grid{
+    padding: 10px;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#grapheme-grid{
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+
+#syn-definition{
+    font-size: 60px;
+    line-height: 57px;
+}
+
+#page-description{
+    font-size: 58px;
+    line-height: 55px;
+}
+
+
+
+#grapheme{
+    font-size: 31px;
+    line-height: 26px;
+}
+
+#breakk{
+    font-size: 1px;
+    line-height: 1px;
+}
+
+#fake-colors, #fake-colors-link{
+    font-size: 28px;
+    line-height: 28px;
+}
+
+
+.impossible-colors:visited{
+    color: black;
+}
+
+
+#grapheme, 
+#fake-colors,
+#fake-colors-link,
+#page-description,
+#syn-definition{
+    font-family: 'Seymour One', sans-serif;
+    font-weight: 900;
+}
+
+
+
+.synesthesia-nav-bar{
+    display:flex;
+    justify-content:space-evenly;
+    min-height: 18vh;
+}
+
+.synesthesia-nav-bar a{
+    color: black;
+    font-size: small;
+    margin-top: 2vh;
+    text-decoration:none;
+}
+
+
 .a:hover{
     color:rgb(4, 4, 180);
 }
