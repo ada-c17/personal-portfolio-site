@@ -91,10 +91,8 @@ footer {
 .nav-buttons {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 1em;
-    padding: .5em .5em;
+    gap: .75em;
+    padding: 0 0 0 .75em;
     list-style-type: none;
     background-color: transparent;
 }
@@ -102,7 +100,6 @@ footer {
 @media (min-width: 525px) {
     .nav-buttons {
         gap: 3em;
-        padding: 1em 0 1em 0;
     }
 }
 
@@ -124,7 +121,6 @@ footer {
 }
 
 #nav-logo {
-    min-height: 3.5em;
     max-height: 6em;
     width: 100%;
 }
@@ -143,7 +139,6 @@ footer {
     padding: 4em 0 .5em .5em;
     max-width: 20em;
     font-weight: 500;
-    line-height: 1em;
     color: var(--gray);
 }
 
@@ -157,13 +152,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 0em 1em 100px 1em;
+    padding: 1em 1em 100px 1em;
     max-width: 60em;
     justify-content: center;
 }
 
 .left-side-container {
-    padding: 2em .5em 0 .5em;
+    padding: 1.5em .5em 0 .5em;
     min-width: 50%;
     justify-content: flex-start;
     color: var(--gray);
@@ -172,7 +167,7 @@ footer {
 .logo-container > a * {
     width: 50px;
     height: auto;
-    padding: 1em 2em 3em 0;
+    padding: 1.5em 2em 4em 0;
     transition: transform .2s;
 }
 
