@@ -1,0 +1,259 @@
+/* || UTILITIES */
+
+:root {
+    --background_blue:#0B3954;
+    --teal_blue: #087E8B;
+    --yellow: #f3d437;
+    --pink: #FF5A5F;
+    /* --gray: #e7e6e6; */
+    --text_black: #555;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(assets/fonts/SourceSansPro-Light.ttf);
+}
+
+/* * {
+    border: red 1px solid;
+} */
+
+a:hover {
+    color: var(--pink);
+}
+
+h1 {
+    font-family: SourceSansPro;
+    font-size: 2.75em;    
+    font-weight: 300;
+    line-height: 1em;
+    color: var(--yellow);
+}
+
+h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* || GENERAL STYLES */
+
+body {
+    font-family: OpenSans, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 1.5em;
+    text-align: justify;
+    color: var(--text_black);
+}
+
+main {
+    margin: 0 auto;
+    max-width: 60em;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    border: 0px;   
+    padding: .5em 0 .5em 0;
+    text-align: center;
+    color: white;
+    background-color: var(--teal_blue);
+}
+
+
+/* || SITEWIDE HEADER */
+
+/* struggling to find a way to DRY this section without losing formatting */
+
+.nav-container {
+    display: flex;
+    flex-flow: row nowrap; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1.5em 1em 1em 1em;
+    max-width: 60em;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: .75em;
+    padding: 0 0 0 .75em;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+@media (min-width: 525px) {
+    .nav-buttons {
+        gap: 3em;
+    }
+}
+
+.nav-buttons a {
+    display: inline-block;
+    padding: .5em 1em;
+    letter-spacing: .05em;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color: var(--teal_blue);
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+.nav-buttons a:hover {
+    color: white;
+    background:  var(--pink);
+}
+
+#nav-logo {
+    max-height: 6em;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.page-header {
+    display: flex;
+    flex-flow: row nowrap; 
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 4em 0 .5em .5em;
+    max-width: 22em;
+    font-weight: 500;
+    color: white;
+}
+
+/* || HOME PAGE */
+
+.home-page {
+    background-color: var(--background_blue);
+}
+
+.main-container-home {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1em 1em 100px 1em;
+    max-width: 60em;
+    justify-content: center;
+}
+
+.left-side-container {
+    padding: 1.5em .5em 4em 0.5em;
+    min-width: 50%;
+    text-align: left;
+    color: white
+}
+
+.logo-container > a * {
+    width: 50px;
+    height: auto;
+    padding: 1.5em 2em 0 0;
+    border: 0;
+    transition: transform .2s;
+}
+
+.logo-container a img:hover {
+    transform: scale(1.25);
+}
+
+.right-side-container {
+    flex: 1 1 350px;
+    max-width: 350px;
+}
+
+#headshot {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+
+/* || ABOUT PAGE */
+
+.about-header {
+    position: relative;
+    background-color: var(--background_blue);
+    background: rgba(0, 0, 0, .2)url("./assets/images/bridge.jpg");
+    background-blend-mode: darken;
+    background-position: 33% 67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#j-bicycle {
+    height: 300px;
+    width: auto;
+    float: right;
+    padding: 0 .5em .75em 2em;
+}
+
+
+/* || PORTFOLIO PAGE */
+
+/* header image by Finn, via unsplash.com */
+/* https://unsplash.com/photos/8SybeS9_Kb4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink */
+.portfolio-header {
+    position: relative;
+    background-color: var(--background_blue);
+    background: rgba(0, 0, 0, .5)url("./assets/images/finn-8SybeS9_Kb4-unsplash.jpg");
+    background-blend-mode: darken;
+    background-position: 33% 67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-grid {
+    display: grid;
+    gap: 2em;
+}
+
+@media (min-width: 700px) {
+    .project-grid {
+        grid-template-columns: 250px 1fr;
+        gap: 4em 2em;
+        grid-template-areas: 
+            "icon1 text1"
+            "icon2 text2"
+            "icon3 text3"
+            "icon4 text4"        
+            "icon5 text5";
+    }
+}
+
+.icon {
+    display: grid;
+    place-items: center;
+}
+
+.text {
+    border: 1px solid var(--text_black);
+    border-radius: 10px;
+    padding: 1em 1em;
+}
+
+.cats {
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+}
