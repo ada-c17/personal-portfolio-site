@@ -55,10 +55,11 @@ li {
   width: 60%;
 }
 
-.footer p {
-  display: inline-block;
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 .social-media {
-  margin-left: auto;
+  padding-left: 5%;
 }
