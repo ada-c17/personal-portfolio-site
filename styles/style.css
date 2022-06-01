@@ -94,6 +94,7 @@
     overflow: hidden;
 }
 
+
 .elephant img{
     position: absolute;
     animation: move-elephant 26s linear infinite;

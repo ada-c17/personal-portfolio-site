@@ -12,7 +12,7 @@ for (let i = 0; i < heading.length; i++){
     document.write('<span id = '+textId+' class= '+c+'>' + letter+ '</span>');
 }
 
-let mySyn = "Some of the letters will remain black. This is because the colors I percieve those letters are not ~actually~ possible to see. These are known as impossible colors. ";
+let mySyn = "Some of the letters will remain black. This is because the colors I perceive those letters are not ~actually~ possible to see. These are known as impossible colors. ";
 for (let i = 0; i < mySyn.length; i++){
     
     let c = (mySyn[i]).toLowerCase();
