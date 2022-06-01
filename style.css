@@ -3,7 +3,7 @@
 :root {
     --background_blue:#0B3954;
     --teal_blue: #087E8B;
-    --yellow: #FFB703;
+    --yellow: #f3d437;
     --pink: #FF5A5F;
     --gray: #e7e6e6;
     --text_black: #555;
@@ -81,10 +81,10 @@ footer {
 .nav-container {
     display: flex;
     flex-flow: row nowrap; 
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 1.5em 1em 1em .5em;
+    padding: 1.5em 1em 1em 1em;
     max-width: 60em;
 }
 
@@ -124,8 +124,9 @@ footer {
 }
 
 #nav-logo {
-    max-width: 5em;
-    height: 5em;
+    min-height: 3.5em;
+    max-height: 6em;
+    width: 100%;
 }
 
 .break {
