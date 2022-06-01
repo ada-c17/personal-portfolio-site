@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  background-color: pink;
+  font-family: 'Nunito', Arial, Helvetica;
+  line-height: 1.5;
+}
+
+#page-title {
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  padding: 1%;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#portrait {
+  width: 20%;
+  border-radius: 30%;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4%;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.projects-container > section {
+  text-align: center;
+  border-style: dotted;
+  margin: 5%;
+}
+
+#apple-acc {
+  width: 60%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  display: inline;
+}
+
+ul {
+  display: inline;
+}
+
+/* .social-media {
+  padding-left: 5%;
+} */
