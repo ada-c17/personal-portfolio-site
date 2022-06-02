@@ -1,4 +1,3 @@
-
 *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
@@ -89,17 +88,20 @@
 }
 
 
-
 .elephant{
     overflow: hidden;
+    position: relative;
 }
 
 
 .elephant img{
     position: absolute;
+    /* position:relative; */
     animation: move-elephant 26s linear infinite;
     left: -350px;
-    top: 31%;
+    /* top: 31%; */
+    top:48%;
+
 }
 
 @keyframes move-elephant{
@@ -263,4 +265,3 @@
 #viewingparty-figcap{
     margin-top: 54px;
 }
-
