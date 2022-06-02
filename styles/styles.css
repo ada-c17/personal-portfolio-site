@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Lato&family=Playfair+Display:wght@600&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4E878C;
+}
+
+.nav-container a {
+    font-family: 'Lato', sans-serif;
+    font-weight:bold;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #95A5A6;
+}
+
+a:active {
+    color: #95A5A6;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 35px;
+    margin-bottom: -20px;
+}
+
+#name {
+    font-family: 'Yeseva One', cursive;
+    font-size: 84pt;
+    text-align: center;
+}
+
+footer {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    margin-top: 2vh;
+    width: 100%;
+}
+
+.info-icon {
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.disclaimer {
+    font-family: 'Arsenal', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+}
+
+.icon {
+    width: 30px;
+    padding: 20px;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+
+::selection {
+    background-color: #4E878C;
+    color: white;
+}
+
+.scroll-top {
+    font-family: 'Arsenal', sans-serif;
+    text-transform: lowercase;
+    font-size: 13pt;
+    text-align: right;
+    margin-right: 2%;
+}

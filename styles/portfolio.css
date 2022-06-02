@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Lato&family=Playfair+Display:wght@600&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
+
+main {
+    margin: auto;
+    width: 40vw;
+}
+
+.project-details img {
+    display: block;
+    width: 30vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+.project-details {
+    text-align: center;
+}
+
+.project-details h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: -8px;
+    font-size: 3vh;
+}
+
+.project-details h3 {
+    font-family: 'Arsenal', sans-serif;
+    margin-bottom: 1em;
+    font-size: 1.8vh;
+    color: #535960;
+}
+
+a {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.4vh;
+}
+
+h4 {
+    border-bottom: 1px solid black;
+    width: 12em;
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vh;
+    font-weight: 300;
+    color: #535960;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

@@ -95,3 +95,10 @@ A lot of developers find their initial foray into CSS frustrating. Every browser
 
 ### Optional: Deploy with GitHub Pages
 Want more? Make your site live on the internet! There are a lot of ways to go about hosting a live website, but GitHub provides a way to host static sites for free using your GitHub account. [Follow the steps listed here](https://pages.github.com/).
+
+
+### Attribute: Flaticon & Unsplash
+- Credit to [Enamo Studios](https://www.flaticon.com/authors/enamo-studios) for the LinkedIn icon
+- [Pixel perfect](https://www.flaticon.com/authors/pixel-perfect) for the Github icon 
+- [Freepik](https://www.flaticon.com/authors/freepik) for the Arroba and Info icon
+- Credit to [Unsplash](https://unsplash.com/) for all project display images

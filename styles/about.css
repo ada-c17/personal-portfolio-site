@@ -1,0 +1,119 @@
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 65vw;
+}
+
+.info-container img {
+    width: 400px;
+    height: auto;
+}
+
+.portrait {
+    margin-right: 100px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35pt;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+    padding-top: 0;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #4E878C;
+    font-size: 13pt;
+    letter-spacing: 1px;
+}
+
+.info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+
+}
+
+#strengths {
+    word-spacing: 0.6em;
+}
+
+#contact {
+    font-size: 11pt;
+}
+
+#contact span {
+    margin-right: 0.6em;
+}
+
+.info-container {
+    display: grid;
+    grid-template: 1fr 1fr 20% / 1fr 1fr;
+    margin-bottom: -70px;
+}
+
+#portrait {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+.info {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#education {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#about {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#knowledge {
+    grid-row: 3;
+    margin-top: -25px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    color: #535960;
+}
+
+h4 {
+    border-bottom: 1px solid black;
+    width: 12em;
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.skills-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    margin-bottom: 2%;
+}
+
+.skills-container li {
+    border: #4E878C solid 2px;
+    text-align: center;
+    padding: 10px;
+    margin: 0.5vw;
+    border-radius: 40px;
+    height: auto;
+}
+
+.blue {
+    color:#4E878C;
+    font-weight: 400;
+}
