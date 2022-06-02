@@ -77,8 +77,12 @@ main {
 }
 
 main img {
-    max-width: 25vw;
+    max-width: 30vw;
     flex: 2;
+}
+
+span img {
+    max-width: 10vw;
 }
 
 main h2 {
