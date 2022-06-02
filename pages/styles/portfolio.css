@@ -151,6 +151,11 @@ ul {
     align-content: space-around;
 }
 
+.portfolio-b h4 {
+    font-style: normal;
+    font-size: calc(8px * 0.8vw);
+}
+
 /* portfolio a and c */
 .portfolio-a, .portfolio-c {
     border: 1px dotted;
@@ -166,6 +171,14 @@ ul {
     width: 90vw;
     height: 50vh;
 } 
+
+.portfolio-a ul {
+    grid-column: 2/span 2;
+    grid-row: 3/3;
+    align-content: space-evenly;
+    inline-size: 30vw;
+    overflow: auto;
+}
 /* end a and c */
 
 
@@ -191,11 +204,6 @@ ul {
     align-self: initial;
 }
 
-.portfolio-a div {
-    grid-column: 2/2;
-    grid-row: 3/3;
-}
-
 .portfolio-a h4 {
     grid-area: 4/2/4/span 2;
     
@@ -217,7 +225,7 @@ ul {
     grid-row: 2/span 2;
     align-items: space-evenly;
     padding: 4vw;
-    margin-bottom: 6vw;
+    margin-bottom: 5vh;
 }
 .portfolio-a ul {
     grid-column: 2/span 2;
@@ -250,13 +258,12 @@ section li {
     margin: 10px;
     padding: 7px;
     
-    align-items:space-evenly;
-    
 }
 
 .portfolio-b h3 {
     grid-column: 4/ span 2;
     grid-row: 1/1;
+    margin-right: 12vw;
 }
 
 .portfolio-b p {
@@ -268,14 +275,15 @@ section li {
     padding-top: 8vh;
 }
 
-.portfolio-b div {
-    grid-column: 1/ span 2;
-    grid-row: 2/ 2;
-    width: 40vw;
-    padding-top: 30vh;
-    padding-left: 2vw;
-}    
-
+.portfolio-b ul {
+    grid-column: 1/span 2;
+    grid-row: 3/3;
+    align-content: center;
+    text-align: center;
+    margin-left: 7vw;
+    inline-size: 30vw;
+    overflow: auto;
+}
 
 
 .portfolio-b img {
@@ -290,9 +298,10 @@ section li {
 
 .portfolio-b h4 {
     font-style: normal;
-    font-size: small;
-    grid-area: 4/1/4/span 2;
-    margin-top: -15vh;
+    font-size: calc(8px * 0.8vw);
+    grid-column: 1/span 2;
+    grid-row: 3/4;
+    padding-top: 25vh;
 }
 
 #img-b-1 {
@@ -300,7 +309,6 @@ section li {
     grid-row-start: 2;
 }
 #img-b-2 {
-    
     grid-column: 4/ span 2;
     grid-row: 2 / 2;
 }
@@ -340,9 +348,9 @@ section li {
 
 .portfolio-c a {
     grid-column: 1/1;
-    grid-row: 3/3;
-    padding-right: 7vw;
-    margin-right: 5vw;
+    grid-row: 2/2;
+    padding-right: 10vw;
+    padding-top: 4vh;
 }
 
 .portfolio-c h3 {
@@ -356,10 +364,14 @@ section li {
     align-self: initial;
 }
 
-.portfolio-c div {
-    grid-column: 1/1;
-    grid-row: 4/span 2;
-    max-width: 40vw;
+.portfolio-c ul {
+    grid-column: 1/span 2;
+    grid-row: 3/3;
+    align-content: space-evenly;
+    text-align: center;
+    inline-size: 30vw;
+    overflow: auto;
+    margin-left: 13vw;
 }
 
 .portfolio-c h4 {
@@ -368,7 +380,7 @@ section li {
     font-style: normal;
     font-size: small;
     
-    padding-left: 35vw;
+    padding-left: 20vw;
 }
 /*  */
 
