@@ -1,0 +1,246 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 4em;
+}
+
+.parallax_wrapper {
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px;
+}
+
+.intro_outro_screen {
+    height: 100vh;
+    align-items: center;
+
+}
+
+.parallax_group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+
+.parallax_layer {
+    position: absolute;
+    inset: 0;
+}
+
+.top_layer {
+     /* scale calculation: 1 + ((Z transform value * -1) / perspective) */
+    transform: translateZ(110px) scale(0.63);
+}
+
+.mid_layer {
+    transform: translateZ(0);
+}
+
+.base_layer {
+    /* scale calculation: 1 + ((Z transform value * -1) / perspective) */
+    transform: translateZ(-300px) scale(2); 
+}
+
+
+#intro {
+    z-index: 10;
+    background-color: hotpink;
+}
+
+
+/* #group_one {
+    z-index: 5;
+} */
+.group_one_z_index {
+    z-index: 5;
+}
+#group-one > .base_layer {
+    background-color: lightskyblue;
+    
+}
+#group-one > .mid_layer {
+    /* background-color: cyan; opacity: 0.5; */
+}
+#group-one > .top_layer {
+    /* background-color: magenta; opacity: 0.5; */
+}
+
+
+/* #group_two {
+    z-index: 0;
+} */
+/* .group_two_z_index {
+    z-index: 0;
+} */
+#group-two > .base_layer {
+
+    background-color: rgb(114, 14, 202); 
+}
+#group-two > .mid_layer {
+    /* background-color: magenta; opacity: 0.5; */
+}
+#group-two > .top_layer {
+    /* background-color: yellow; opacity: 0.5; */
+}
+
+
+/* #group_three {
+    z-index: -5;
+} */
+/* .group_three_z_index {
+    z-index: -5;
+} */
+#group-three > .top_layer {
+    /* background-color: yellow; opacity: 0.5; */
+}
+#group-three > .base_layer {
+    background-color: lightgreen;
+}
+#group-three > .mid_layer {
+    /* background-color: magenta; opacity: 0.5; */
+}
+
+#outro {
+    z-index: 10;
+    background-color: rgb(255, 255, 147);
+}
+
+.container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.group_title {
+    box-sizing: border-box;
+    padding-top: 4vh;
+    color: black;
+}
+.mid_layer_blurb {
+    font-size: 20px;
+    color: black;
+    width: calc(100% - 330px);
+    margin-left: inherit;
+}
+.group_footer {
+    font-size: 15px;
+    color: black;
+    box-sizing: border-box;
+    padding-top: 90vh;
+    
+}
+
+img {
+    border-radius: 8px;
+    width:300px;
+    height:400px;
+}
+
+.section {
+    display: none;
+}
+
+nav {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightgoldenrodyellow;
+}
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav_link {
+    list-style: none;
+    padding: 10px;
+    align-items: right;
+    font-size: 10px;    
+}
+
+a:link {
+    color: rgb(255, 255, 147);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(201, 132, 216);
+    background-color: transparent;
+    text-decoration: underline;
+}
+.about {
+    background-color: lightblue;
+}
+
+.about_flex_box {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;  
+    justify-content: center;
+    
+}
+.about_items {
+    padding: 40px;
+    list-style: none;
+}
+
+.about_footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 10px; 
+    background-color: hotpink;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+}
+
+.portfolio {
+    background-color: lightgreen;
+}
+
+.portfolio_flex_box {
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;  
+    justify-content: center;
+    
+}
+.portfolio_items {
+    padding: 40px;
+    list-style: none;
+}
+
+.portfolio_footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 10px; 
+    background-color: hotpink;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+}
+
