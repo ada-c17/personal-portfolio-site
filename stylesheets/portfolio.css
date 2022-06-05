@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
-@import url('http://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 .container {
@@ -51,10 +49,9 @@ nav {
     text-transform: uppercase;
 }
 
-#gp{
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
+.project-icon{
+    width: 100px;
+    height: 100px;
 }
 
 main {
@@ -69,39 +66,59 @@ main {
 }
 
 section {
-    margin: 10%;
+    margin: 10px;
 }
 
-.div-container {
-    width: 500px;
-    display: flex;  
-    flex-direction: column;  
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    row-gap: 20px; /* row-gap column gap */
-    width: 150px;
-    height: 50px;
+.project-container {
+    display: grid;
+    width: 80vw;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% auto;
+    border: 1px solid aliceblue;
 }
 
-.div-container>div {
-    text-align: center;
-    background-color: #dee2ff;
-    color:#353535;
-    min-width: 50px;
-    min-height: 50px;
-    border: lightblue 2px solid;
+.project-title {
+    grid-column: 2;
+    grid-row: 1;
+}
+.project-image {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    padding: 5px 5px 5px 5px;
+}
+
+.project-description {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 5px 5px 5px 5px;
 }
 
 footer {
     grid-row: 4;
     grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     color:azure;
     text-align: center;
     font-size: small;
     background-color: #5f5d5d;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 a:hover {
-    color: #c63baa
+    color: #c63baa;
+}
+
+a:visited {
+    color:cadetblue;
+}
+
+a {
+    color:blanchedalmond;
+    text-decoration: underline;
 }

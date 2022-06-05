@@ -26,7 +26,6 @@ header{
     background-color: #353535;
     color: #dee2ff;
     text-align: center;
-
 }
 
 .header-title {
@@ -51,17 +50,10 @@ nav {
     text-transform: uppercase;
 }
 
-#gp{
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-}
 
 main {
     grid-row: 3;
     grid-column: 2;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     background-color: #353535;
@@ -69,39 +61,59 @@ main {
 }
 
 section {
-    margin: 10%;
+    margin: 10px;
 }
 
-.div-container {
-    width: 500px;
-    display: flex;  
-    flex-direction: column;  
+.image-container{
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    row-gap: 20px; /* row-gap column gap */
-    width: 150px;
-    height: 50px;
 }
-
-.div-container>div {
-    text-align: center;
-    background-color: #dee2ff;
-    color:#353535;
-    min-width: 50px;
-    min-height: 50px;
-    border: lightblue 2px solid;
+.image {
+    width: 250px;
+    height: auto;
+    border: solid 2px #8e9aaf;
+	border-radius: 0.8rem;
 }
 
 footer {
     grid-row: 4;
     grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     color:azure;
     text-align: center;
     font-size: small;
     background-color: #5f5d5d;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 a:hover {
-    color: #c63baa
+    color: #c63baa;
+}
+
+a:visited {
+    color:cadetblue;
+}
+
+a {
+    color:blanchedalmond;
+    text-decoration: underline;
+}
+
+ul {
+list-style-position: inside;
+}
+
+#gpfrog {
+    width: 250px;
+    height: auto;
+    border: solid 2px #8e9aaf;
+	border-radius: 0.8rem;
 }
