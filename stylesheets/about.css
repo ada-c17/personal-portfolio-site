@@ -1,6 +1,6 @@
 body {
-    background-color: var(--black);
-    color: var(--white);
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .nav__link {

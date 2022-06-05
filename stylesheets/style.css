@@ -19,17 +19,8 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3{
   margin: 0;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
 }
 
 .container {
@@ -42,8 +33,6 @@ h6 {
 
 .header {
   padding: 1.2rem 0;
-  display: flex;
-  justify-content: space-between;
 }
 .nav {
   display: flex;
@@ -85,7 +74,6 @@ a.social__link img {
   padding-left: 1rem;
   padding-top: 6rem;
   padding-bottom:120px;
-  border-bottom: 1px solid fade(gray, 30%);
 }
 
 .intro__content {
