@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.container {
+    border: 1px;
+    border-color:cyan;
+    border-style: dotted;
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    grid-template-rows: 15vw 5vw auto 10vw;
+    grid-template-columns: 10vw 80vw 10vw;
+}
+
+body {
+    font-family: Muli, sans-serif;
+    color:aliceblue;
+    background-color: #8e9aaf;
+}
+
+header{
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #353535;
+    color: #dee2ff;
+    text-align: center;
+
+}
+
+.header-title {
+    font-family: Jua, sans-serif;
+    font-size: 5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+nav {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #625f5f;
+    border: 1px;
+    border-color: aliceblue;
+    color: white;
+    font-size: smaller;
+    text-transform: uppercase;
+}
+
+#gp{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+main {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+    background-color: #353535;
+    color:#dee2ff;
+}
+
+section {
+    margin: 10px;
+}
+
+
+footer {
+    grid-row: 4;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:azure;
+    text-align: center;
+    font-size: small;
+    background-color: #5f5d5d;
+}
+
+
+a:hover {
+    color: #c63baa;
+}
+
+a:visited {
+    color:cadetblue;
+}
+
+a {
+    color:blanchedalmond;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
