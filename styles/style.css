@@ -44,7 +44,25 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 50%;
+    min-height: 75vh;
+    margin: 0 auto 0 auto;
+}
+
+#about-header {
+    color: #c875ad;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: row-wrap;
+    justify-content: space-around;
+}
+
+#about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
     min-height: 75vh;
     margin: 0 auto 0 auto;
 }
