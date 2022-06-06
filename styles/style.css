@@ -35,3 +35,7 @@ a {
 .home-content {
     display: flex;
 }
+
+.footer {
+    color: #c875ad;
+}
