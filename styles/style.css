@@ -1,0 +1,267 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+
+.page-text, 
+#about-body-text,
+#about-heading,
+#tech-skills
+{
+    position: fixed;
+}
+
+
+.page-text{
+    font-size: 80px;
+}
+
+#home-text,
+.non-index-text
+{
+    left:4%;
+}
+
+#home-text {
+    top: 15%;
+}
+
+#about-body-text,
+#about-heading, 
+#tech-skills
+{
+    left: 16%;
+    right: 16%;
+}
+
+#about-body-text{
+    font-size: 22px;
+    top: 30%;
+}
+
+#about-heading{
+    font-size: 40px;
+    top: 48%;
+}
+
+#tech-skills{
+    font-size: 20px;
+    top: 57%;
+}
+.non-index-text{
+    top: -2%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content:space-evenly;
+    min-height: 18vh;
+}
+
+.nav-bar a{
+    color: black;
+}
+
+.normal-nav-button:hover{
+    color:rgb(0, 255, 149);
+}
+
+
+.top-nav a{
+    font-size: x-large;
+}
+
+.top-non-index-nav a{
+    margin-top: 21vh;
+}
+
+
+.bottom-nav a{
+    font-size:small;
+    position: sticky;
+    margin-top: 78vh;
+}
+
+#bottom-home-nav a{
+    margin-top: auto;
+}
+
+
+.elephant{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.elephant img{
+    position: absolute;
+    /* position:relative; */
+    animation: move-elephant 26s linear infinite;
+    left: -350px;
+    /* top: 31%; */
+    top:48%;
+
+}
+
+@keyframes move-elephant{
+    0%{
+        transform: translateX(calc(100vw + 350px));
+    }
+    
+}
+
+#home-line{
+    margin-top: 447px;
+    border-width:"100%";
+    border-color:black;
+}
+
+
+.art-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 30vw);
+    padding: 3%;
+}
+
+#elephant-art,
+#figby,
+#trigby,
+.project-grid a
+{
+    border-style: solid;
+    border-color: black;
+}
+
+#elephant-art,
+#figby,
+#trigby
+{
+    border-width: 2px;
+}
+
+#elephant-art,
+#figby,
+#trigby,
+#portfolio-img,
+#task-img,
+#swapmeet-img,
+#viewingparty-img
+{
+    object-fit: cover;
+}
+
+#elephant-art,
+#trigby
+{
+    width: 100%;
+}
+
+#elephant-art{
+    height: 80%;
+}
+
+#elephant-art:hover{
+    border-color:cyan;
+}
+
+
+#figby{
+    width: 110%;
+    height: 240%;
+    margin-left: -6%;
+}
+
+#figby:hover{
+    border-color:rgb(64, 255, 0);
+}
+
+#trigby{
+    height: 108%;
+    margin-top: -12%;
+}
+
+#trigby:hover{
+    border-color:blue;
+}
+
+.project-grid,
+.art-grid
+{
+    display: grid;
+}
+
+.project-grid{
+    grid-template: 1fr 1fr / 1fr 1fr;
+    padding:75px;
+}
+
+.project-grid a,
+.nav-bar a
+{
+    text-decoration:none;
+}
+
+.project-grid a{
+    font-size:x-large;
+    border-width: 3px;
+    margin:18px;
+
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+
+.project-grid a:hover{
+    color:deepskyblue;
+    border-color:magenta;
+}
+
+
+#portfolio-img{
+    width: 105%;
+    height: 105%;
+}
+
+#task-img,
+#swapmeet-img
+{
+    margin-left: -50px;
+}
+
+#task-img{
+    width: 135%;
+    height: 135%;
+    margin-top: -20px;
+}
+
+
+#swapmeet-img{
+    width: 125%;
+    height: 125%;
+    margin-top: -10px;
+}
+
+#viewingparty-img,
+#swapmeet-figcap
+{
+    margin-top: 30px;
+}
+
+#viewingparty-img{
+    width: 85%;
+    height: 85%;
+    margin-left: 33px;
+}
+
+
+.portfolio-caption{
+    text-align: center;
+}
+
+#tasklist-figcap{
+    margin-top: 10px;
+}
+
+#viewingparty-figcap{
+    margin-top: 54px;
+}
