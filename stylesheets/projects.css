@@ -1,0 +1,74 @@
+body{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.nav__link {
+    color: var(--white);
+    border: 2px solid white;
+    }
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-bottom:120px;
+}
+
+.portfolio__col {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: var(--black) ;
+}
+
+.project__content{
+    position:relative;
+    width: 500px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: 75px;
+}
+
+.project__link{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.project__link:hover{
+    color: var(--white)
+}
+
+.project__cat{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.project__date{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.project__description{
+    color:var(--white);
+    line-height: 1.5em;
+}
+
+#view{
+    background-image: url("../images/movie.webp");
+    color: var(--black)
+}
+
+#swap{
+    background-image: url("../images/swap.webp");
+    color: var(--black)
+}
+
+#task{
+    background-image: url("../images/todo_list.webp");
+    color: var(--black)
+}

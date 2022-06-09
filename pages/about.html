@@ -1,12 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/about.css">
+    <link rel="stylesheet" href="../stylesheets/animate_about.css">
+    <link rel="stylesheet" href="../stylesheets/about_resume.css">
+    <link rel="stylesheet" href="../stylesheets/resume.css">
+
+    <title>Portfolio</title>
 </head>
+
 <body>
-  
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="../index.html">home</a>
+                <a class="nav__link" href="portfolio.html">projects</a>
+                <a class="nav__link" href="about.html">about me</a>
+                <a class="nav__link" href="blog.html">blog</a>
+                <a class="nav__link" href="contact.html">contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- About -->
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__content">
+                    <h2 id="about__bigtitle" data-text="WHO AM I...">WHO AM I</h2>
+
+                    <div class="card">
+                        <div class="content">
+                            <label class="btn modal-label" for="modal-open">
+                                SEE MY RESUME
+                            </label>
+                            <input type="radio" name="modal" value="open" id="modal-open" class="modal-radio" />
+                            <div class="modal">
+                                <label class="modal-label overlay">
+                                    <input type="radio" name="modal" value="close" class="modal-radio" />
+                                </label>
+                                <div class="content">
+                                    <div class="top">
+                                        <label class="modal-label close-btn">
+                                            <input type="radio" name="modal" value="close" class="modal-radio" />
+                                        </label>
+                                    </div>
+
+                                    <div class="modal__content">
+                                        <h3 class="modal__title">RESUME</h3>
+
+                                        <div class="timeline">
+                                            <div class="timeline__col  timeline__col--left">
+                                                <h4 class="timeline__title">EXPERIENCE</h4>
+
+                                                <div class="timeline__item">
+                                                    <div class="timeline__date">Sept 2022 - Present</div>
+                                                    <h5 class="timeline__subtitle">Software Engineer</h5>
+                                                    <div class="timeline__position">Amazon, Seattle, USA</div>
+                                                    <div class="timeline__text">
+                                                        <p>Internership</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="timeline__item">
+                                                    <div class="timeline__date">2007 - 2014</div>
+                                                    <h5 class="timeline__subtitle">Head of Custody</h5>
+                                                    <div class="timeline__position">UniCredit Securities, Moscow, Russia
+                                                    </div>
+                                                    <div class="timeline__text">
+                                                        <p>Managing Custody Department (in submission 7 persons);
+                                                            Safekeeping, reporting of customers' marketable securities,
+                                                            supervizing daily operations, control over corporate
+                                                            actions, reconcillliations and settlement process.
+                                                            Optimizing operational expences; Working out new products
+                                                            and implementing them; Writing technical requirements to IT
+                                                            Department for Custody Software; assighning responsibilities
+                                                            among employees.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="timeline__item">
+                                                    <div class="timeline__date">2002 - 2007</div>
+                                                    <h5 class="timeline__subtitle">Settlement Officer</h5>
+                                                    <div class="timeline__position">ATON, Moscow, Russia</div>
+                                                    <div class="timeline__text">
+                                                        <p>Settlements processing through many depositories such as DCC
+                                                            /NDC /Gazprombank /ING /DTC /Euroclear etc.
+                                                            Settle all trades within a predetermined time frame
+                                                            Check all COB and intraday reports
+                                                            Investigate and resolve any booking or settlement
+                                                            discrepancies in a timely manner
+                                                            Follow up on any outstanding confirmations and fixing
+                                                            notifications with counterparties
+                                                            Check custody invoices
+                                                            Check and sign manual instructions and fixing notifications
+                                                            Opening customer accounts and preparing agreements with
+                                                            external custodies.
+                                                            Monitoring of external custodies’ demands and introduction
+                                                            of necessary changes into internal instructions
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline__col  timeline__col--right">
+                                                <h4 class="timeline__title">EDUCATION</h4>
+
+                                                <div class="timeline__item">
+                                                    <div class="timeline__date">Mar 2022 -Aug 2022</div>
+                                                    <h5 class="timeline__subtitle">Software Engineering Student</h5>
+                                                    <div class="timeline__position">Ada Developers Academy, Seattle, USA
+                                                    </div>
+                                                </div>
+
+                                                <div class="timeline__item">
+                                                    <h5 class="timeline__subtitle">Bachelor's degree in Law</h5>
+                                                    <div class="timeline__position">Kutafin Moscow State Law University,
+                                                        Moscow, Russia</div>
+                                                </div>
+
+                                                <div class="timeline__item">
+                                                    <h5 class="timeline__subtitle">Master's degree, Investments and
+                                                        Securities</h5>
+                                                    <div class="timeline__position">State University of Management,
+                                                        Moscow, Russia</div>
+                                                </div>
+
+                                                <div class="timeline__item">
+                                                    <h5 class="timeline__subtitle">Skills</h5>
+                                                    <div class="timeline__position">Flask, SQL </div>
+                                                    <div class="timeline__position">React</div>
+                                                    <div class="timeline__position">HTML, CSS</div>
+                                                    <div class="timeline__position">Python, JavaScript, C#</div>
+                                                    <div class="timeline__position">SWIFT </div>
+                                                </div>        
+                                            </div>
+                                        </div><!-- /.timeline -->
+                                    </div><!-- /.modal__content -->
+                                </div><!-- /.content -->
+                            </div><!-- /.modal -->
+                        </div><!-- /.content -->
+                    </div><!-- /.card -->
+                </div><!-- /.about__content -->
+
+                <div class="about__text">
+                    <p>Hi, I am Nina.</p>
+                    <p>I moved to US from Russia.</p>
+                    <p>My background is in security market. For more then 10 years I worked in a back offices of the investment companies starting with security settlement and moving to managing a Custody Department</p>
+                    <p>I have a Master’s degree in investment management and a bachelor’s degree in civil law. </p>
+                    <p>I made the decision to pivot my career into software development as I was ready for a change and have always been someone who was curious and interested in the workings of how code and software worked.</p>
+                    <p>I am currently an Ada Developers Academy student and started my software development journey about a year ago. So far, I am really enjoying it as I have learned so much from the program.</p>
+                    
+                </div><!-- /.about__text -->
+            </div><!-- /.about__inner -->
+        </div><!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div id="footer__copyright">
+                    &copy; 2022
+                </div>
+                <div class="footer__social">
+                    <a href="https://github.com/NinaPatrina" target="_blank" rel="noopener noreferrer">
+                        <img src="../images/white-github.png" alt="Logo Github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/patrina-nina-8a90295/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="../images/linkedIn-gray.png" alt="Logo LinkedIn">
+                    </a>
+                </div>
+                <div id="disclaimer"> I'm not responsible for, and expressly disclaims all liability for, damages of any
+                    kind arising out of use, reference to, or reliance on any information contained within the site.
+                    While the information contained within the site is periodically updated, no guarantee is given that
+                    the information provided in this Web site is correct, complete, and up-to-date. Enjoy! </div>
+                <nav class="footer__nav">
+                    <a class="footer__nav-link" href="portfolio.html">Projects</a>
+                    <a class="footer__nav-link" href="about.html">About me</a>
+                    <a class="footer__nav-link" href="blog.html">Blog</a>
+                    <a class="footer__nav-link" href="contact.html">Hire me</a>
+                </nav>
+            </div><!-- /.footer__inner -->
+        </div><!-- /.container -->
+    </footer>
+
 </body>
 </html>

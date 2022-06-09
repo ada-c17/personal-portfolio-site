@@ -1,0 +1,27 @@
+/* this code is based on Youtube tutorial Creative Text Animation by Online Tutorials */
+#intro__title {
+    position:relative;
+    color: var(--black);
+    -webkit-text-stroke: 0.3vw rgb(59, 58, 58);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#intro__title::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    color: #15fa8f;
+    -webkit-text-stroke: 0vw var(--white);
+    border-right: 2px solid #15fa8f;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0%, 10%, 100%{ width: 0;}
+    70%, 90% {width:100%}
+}

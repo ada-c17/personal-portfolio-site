@@ -1,0 +1,137 @@
+:root {
+  --black: #0e1538;
+  --white: #f0ebd8;
+}
+
+html {
+  font-size: 18px;
+  background-color: #0e1538;
+  color: var(--white);
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  position: relative;
+  }
+
+h1,
+h2,
+h3{
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 2rem 0;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav__link {
+  margin-left: 2rem;
+  position: relative;
+  font-size: 1rem;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  border: 2px solid var(--white);
+  border-radius: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+a.social__link img {
+  width: 100px;
+}
+
+.intro__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-top: 6rem;
+  padding-bottom:120px;
+}
+
+.intro__content {
+  width: 40%;
+}
+
+.intro__subtitle {
+  font-size: 2rem;
+  font-weight: 450;
+}
+
+#intro__title {
+  margin-bottom: 5px;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro__text {
+  margin-bottom: 150px;
+  margin-top: 25px;
+}
+
+#intro__photo {
+  width: 600px;
+  border-radius: 20px;
+
+}
+
+.footer__inner {
+  position: absolute;
+  bottom: 0px;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 6fr 4fr;
+  font-size: 0.7rem;
+  margin-top: 200px;
+  padding: 2rem 0;
+  background-color: var(--black);
+  color: #c4c4d1;
+}
+
+.footer__inner a {
+  color: #c4c4d1;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.7rem;
+}
+
+#disclaimer {
+  text-align: center;
+  margin-right: 50px;
+}
+
+#footer__copyright {
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.footer__social img {
+  width: 20px;
+}

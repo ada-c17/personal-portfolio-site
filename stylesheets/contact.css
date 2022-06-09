@@ -1,0 +1,20 @@
+.contacts__inner{
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom:120px;
+}
+
+input{
+    position:absolute;
+    background-color: #15fa8f;
+    padding: 10px;
+    color: var(--black);
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 350px;
+    font-size: 1.5rem;
+    border-color: var(--white);
+    border-width: 5px;
+}
+
