@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    min-height: 110vh;
+    min-width: 100vw;
+    border: 7px tomato dotted;
+}
+.header {
+    align-self: center;
+    font-family:Chalkduster, fantasy;
+    color:tomato;
+    font-size:40px;
+    text-align: center;
+}
+body {
+    background-color:rgba(245,224,184,255);
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-self:flex-end;
+    margin-top: auto;
+    padding-bottom: 75px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkolivegreen;
+    padding-left: 60px;
+}
+nav a:hover {
+    color: azure;
+}
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+}
+
+.animate-flicker {
+    animation: fadeIn 3s;
+}
