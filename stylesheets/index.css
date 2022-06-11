@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #01395e;
+    color: #ffffff;
+    margin: 0px;
+}
+
+main {
+    padding: 100px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    margin: 0px 240px;
+}
+
+#portrait {
+    width: 200px;
+    height: auto;
+}
+
+#quote {
+    text-align: center;
+    margin: 0px 240px;
+}
+
+q {
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #d1e6f7;
+    color: #01395e;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e0c389;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}

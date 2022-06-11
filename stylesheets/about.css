@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #01395e;
+    color: #ffffff;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    max-width: 75%;
+    padding: 10px 100px;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e0c389;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    max-width: 75%;
+    padding: 100px;
+}
+
+#about_text {
+    text-align: justify;
+}
+
+footer {
+    background-color: #e0c389;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
