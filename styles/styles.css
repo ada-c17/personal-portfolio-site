@@ -1,12 +1,13 @@
 
-header {
+header ul li {
     background-color: black;
     /* color: lightgray; */
-    /* text-decoration-color: lavender;
-    list-style: none; */
+    /* text-decoration-color: lavender;*/
+    list-style: none;
+    display: inline-block; 
 }
 
-header ul li a {
+li a {
     color: rgb(106, 106, 174);
     font-family: comfortaa, 'Courier New', Courier, monospace;
     /* text-decoration-color: lavender; */
@@ -36,9 +37,12 @@ body {
     
 }
 
-footer a{
+footer li a{
     color: rgb(106, 106, 174);
     background-color: black;
+    list-style: none;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
 }
 
 .bookend-info {
@@ -51,7 +55,13 @@ footer a{
     padding: 5px 20px;
 
 }
-
+#title {
+    color: rgb(126, 126, 176);
+    text-align: center;
+    border: 2px dashed gray;
+    padding: 5px 20px;
+    cursor: pointer;
+}
 #current-project {
     color: honeydew;
 }
@@ -59,4 +69,11 @@ footer a{
 span {
     text-decoration:underline;
 
+}
+.fun-facts {
+    color: rgb(126, 126, 176);
+}
+
+.bio {
+    color: lavender
 }
