@@ -104,6 +104,11 @@ h1:hover {
     grid-row: span 2;
 }
 
+#weather-report {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
 #adagrams {
     grid-row: span 2;
 }
