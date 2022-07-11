@@ -8,7 +8,7 @@ header {
 a {
     text-decoration: none;
     color: black;
-    transition: transform .3s;
+    transition: transform .2s;
     z-index: 7;
 }
 
@@ -62,7 +62,7 @@ section.flex-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgba(239, 235, 221, 0.3);
+    background-color: rgba(239, 235, 221, 0.5);
     padding: 17px;
 }
 
@@ -93,7 +93,7 @@ p.credits {
         padding: 0px 17px;
         margin: 0px;
         border: 0px;
-        background-color: rgba(239, 235, 221, 0.3);
+        background-color: rgba(239, 235, 221, 0.5);
         display: flex;
         justify-content: flex-end;
     }
