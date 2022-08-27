@@ -94,7 +94,8 @@ footer {
 .profile_img {
     width: 25%;
     height: auto;
-    margin-left: 8%;
+    margin-left: 35%;
+    border-style:double
 }
 
 .contact_links {
