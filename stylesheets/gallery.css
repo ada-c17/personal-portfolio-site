@@ -1,0 +1,116 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 12vw);
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+figcaption {
+    background-color: #F4ACB7;
+    color: #264653;
+    font: italic small sans-serif;
+    text-align: center;
+}
+
+.cheeseburger {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.unc {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 12;
+    grid-row-end: 15;
+}
+
+.cheetah {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.wedding_scroll {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.garden {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 12;
+}
+
+.guitar {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 12;
+}
+
+.mouse {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.unicorn {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.twilight {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.poker {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.uga {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.tie-dye {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.jack {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.sprinkles {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 12;
+    grid-row-end: 15;
+}

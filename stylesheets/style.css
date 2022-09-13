@@ -1,0 +1,131 @@
+header{
+    background-color: #ffa500;
+    background-image: url("https://github.com/gabw13/personal-portfolio-site/blob/master/images/icons/gab_doughnut.png?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #ECE4DB;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+h1 {
+    margin-left: 8%;
+}
+
+aside {
+    background-color: #F4ACB7;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+body {
+    background-color: #ECE4DB;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 15% auto auto auto;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    color:#9D8189;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: x-large;
+    padding: 15%;
+}
+
+a:link {
+    color: #4c41a6;
+}
+
+a:visited {
+    color: #264653;
+}
+
+a:hover {
+    color: #7fffd4;;
+}
+
+a:active {
+    color: #ff1493;
+}
+
+p {
+    color: #808080;
+    margin-left: 8%;
+}
+
+h2 {
+    color: #9D8189;
+    margin-left: 5%;
+}
+
+h3 {
+    color: #F4ACB7;
+    margin-left: 5%;
+}
+
+footer {
+    background-color: #7fffd4;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-column-end: 3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #264653;
+}
+
+.profile_img {
+    width: 25%;
+    height: auto;
+    margin-left: 35%;
+    border-style:double
+}
+
+.contact_links {
+    display: inline;
+    padding: 8%;
+}
+
+.contact_icon {
+    width: 10%;
+    height: auto;
+}
+
+.doughnut {
+    width: 50%;
+    height: auto;
+}
+
+.code_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project_box {
+    height: 425px;
+    width: 512px;
+    margin-top: 10px;
+    background: #faebd7;
+    padding-right: 25px;
+    text-align: left;
+    align-self: auto;
+}

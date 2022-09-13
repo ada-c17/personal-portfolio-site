@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gab.code</title>
+        <link href="/stylesheets/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>gaby webb</h1>
+        </header>
+
+        <aside>
+            <nav>
+            <ul>
+                <li>
+                <a href="index.html">home</a>
+                </li>
+                <li>
+                <a href="about.html">about</a>
+                </li>
+                <li>
+                <a href="cake.html">cake</a>
+                </li>
+                <li>
+                <a href="code.html">code</a>
+                </li>
+            </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section class="page_description">
+                <h2>code!</h2>
+                <p>I started learning to code in August 2021 and began studying full stack software development at Ada Developers Academy in March 2022.</p>
+                <p>Check out some of my favorite projects from my time at Ada:</p>
+            </section>
+            <br>
+            <section class="code_container">
+                <section class="project_box">
+                    <h3>
+                    <a href="https://github.com/gabw13/viewing-party">viewing party</a>
+                    </h3>
+                    <p><b>Languages: </b>Python</p>
+                    <p><b>Skills: </b> Conditional logic, Nested data structures</p>
+                    <p><b>Description: </b> This project uses Python to keep track of user watchlist and friend watchlist data. </p>
+                </section>
+                <br>
+                <section class="project_box">
+                    <h3>
+                    <a href="https://github.com/gabw13/task-list-api">task list API</a>
+                    </h3>
+                        <p><b>Languages:</b> Python</p>
+                        <p><b>Skills:</b> Relational databases (PostgreSQL), External APIs (Slack), App deployment</p>    
+                        <p><b>Description:</b> This project is a RESTful API that allows the user to create tasks associated with goals. When tasks are completed, a Slackbot posts a message to a Slack workspace.</p>
+                </section>
+                <br>
+                <section class="project_box">
+                    <h3>
+                    <a href="https://github.com/gabw13/personal-portfolio-site">personal portfolio website</a>
+                    </h3>
+                        <p><b>Languages:</b> HTML, CSS</p>
+                        <p><b>Skills:</b> Semantic HTML, CSS Styling</p>
+                        <p><b>Description:</b> This is my very first static HTML/CSS project! &hearts;</p>
+                </section>
+                <br>
+                <section class="project_box">
+                    <h3>
+                    capstone
+                    </h3>
+                        <p><b>Languages:</b> Coming soon!</p>
+                        <p><b>Skills:</b> Coming soon!</p>    
+                        <p><b>Description:</b> Coming soon!</p>
+                </section>
+                <br>
+            </section>
+            <br>
+        </main>
+
+        <footer>
+            <br>
+            <b>&copy; 2022 Gaby Webb</b>
+        </footer>
+
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
