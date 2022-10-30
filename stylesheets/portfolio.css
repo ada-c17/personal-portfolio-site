@@ -105,12 +105,13 @@ h1:hover {
 }
 
 #weather-report {
-    grid-column: span 2;
-    grid-row: span 2;
+    grid-column: span 3;
+    grid-row: span 1;
 }
 
 #adagrams {
     grid-row: span 2;
+    grid-column: span 1;
 }
 
 #swap-meet {
@@ -124,7 +125,8 @@ h1:hover {
 
 #task-list {
 
-    grid-column: span 3;
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 @media only screen and (max-width:600px) {

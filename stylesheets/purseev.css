@@ -1,0 +1,28 @@
+nav {
+    background-color: #FF8E6E;
+}
+
+body {
+    background-color:#F6F6F6;
+}
+
+.body-minus-nav {
+    display: flex;
+}
+
+.project-image-and-features {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5vw;
+}
+
+.project-right-panel {
+    display: flex;
+    flex-direction: column;
+}
