@@ -78,18 +78,37 @@
         <section class="project-my-code">
             <h2>What I coded</h2>
             <div class="project-my-role-content">
+                <script>
+                    var coll = document.getElementsByClassName("collapsible");
+                    var i;
+                
+                    for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                        console.log("CLICKED");
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                        content.style.display = "none";
+                        } else {
+                        content.style.display = "block";
+                        }
+                    });
+                    }
+                </script>
                 <p>
                     I created our presentation video, instructional video on the website game page, and I was responsible for coding 
                     most of the game logic, which involved the following key coding challenges:
                 </p>
-                <h3>Auto-arranging electrons around element symbols</h3>
-                <p>
+                <button type="button" class="collapsible">
+                    Auto-arranging electrons around element symbols
+                </button>
+                <p class="collapsible-content">
                     The back-end database provides molecular formulas to the React app, and the correct atoms are auto-populated 
                     by converting the molecular
                     formula into a dictionary of element symbols, which then uses the number of valence electrons associated 
                     with the element symbol to generate the correct number of electrons and place them around the element symbol.
                 </p>
-                <h3>Draggable atoms</h3>
+                <button type="button" class="collapsible">Draggable atoms</button>
                 <p>
                     Each element symbol and its corresponding electrons must be draggable as a unit. As the electrons themselves must 
                     allow the user to interact with them, the electrons had to be their own entities. As the user drags an element symbol, 
