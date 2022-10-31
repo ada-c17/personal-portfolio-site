@@ -11,26 +11,69 @@ header {
 
 .screen-1 {
     font-size:calc(20px + 1.5vw);
-    padding-top:4vw;
+    padding-top: 4vw;
     text-align:center;
     justify-content: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 
 .screen-1 h3 {
     /* text-shadow: 2px 2px 2px #515070; */
     line-height:.05em;
+    margin-top: -1vh;
 }
 
 .screen-1 h4{
     /* text-shadow: 2px 2px 3px #515070; */
-    font-size: 0.8em;
+    font-size: 0.5em;
     line-height: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #444;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0;
+    background-color: rgba(255, 255, 255, 0.352);
+    padding: 1vw 5vw 1vw 5vw;
+    border-radius: 3vw;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.home-buttons:hover {
+    background-color: rgba(245, 109, 145, 0.79);
+}
+
+.home-buttons h4:hover {
+    color: white;
+}
+
+.home-buttons img {
+    width: 10vw;
+    min-width: 250px;
+    border-radius: 2vw;
+}
+
+#home-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-buttons a {
+    text-decoration: none;
 }
 
 body {
     background-color: rgb(255, 255, 255);
     margin:0%;
-    
-
 }
