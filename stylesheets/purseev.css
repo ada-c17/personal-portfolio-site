@@ -6,14 +6,38 @@ body {
     background-color:#F6F6F6;
 }
 
-.body-minus-nav {
+.project-header {
+    text-align: center;
+}
+
+.project-links {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1vw;
+    
 }
 
 .project-image-and-features {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.project-features {
+    background-color: #ffe6e0;
+    border-radius: 2vw;
+    padding: 1vw;
+}
+
+.project-features h2 {
+    text-align: center;
+}
+
+.project-about {
+    background-color: #eee;
+    margin: 1vw 0vw 0vw 0vw;
+    padding: 1vw;
 }
 
 .project-description {
@@ -22,21 +46,67 @@ body {
     column-gap: 5vw;
 }
 
+@media only screen and (max-width: 1100px) {
+    .project-description {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
 .project-right-panel {
     display: flex;
     flex-direction: column;
 }
 
+.project-links button {
+    background-color: #FF8E6E;
+    color: white;
+    cursor: pointer;
+    padding: .8vw 1vw .8vw 1vw;
+    border: solid;
+    border-width: 1px;
+    border-color: #FF8E6E;
+    border-radius: 2vw;
+    text-align: left;
+    outline: none;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+    font-weight: bold;
+}
+
+.project-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.project-links button:hover {
+    color: #444;
+    background-color: #ffe6e0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF8E6E;
+}
+
+.project-links a button:hover {
+    color: #444;
+}
+
 .collapsible {
-    background-color: #eee;
+    background-color: rgb(221, 231, 241);
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0vw 2vw 0vw 2vw;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .active, .collapsible:hover {
@@ -48,4 +118,10 @@ body {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+}
+
+.project-upcoming-features {
+    background-color: #ffe6e0;
+    border-radius: 2vw;
+    padding: 1vw;
 }
