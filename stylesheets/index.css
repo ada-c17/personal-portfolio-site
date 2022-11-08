@@ -10,7 +10,7 @@ header {
 }
 
 .screen-1 {
-    font-size:calc(20px + 1.5vw);
+    font-size:calc(20px + 1vw);
     padding-top: 4vw;
     text-align:center;
     justify-content: center;
@@ -42,25 +42,16 @@ header {
     align-items: center;
     justify-content: center;
     column-gap: 0;
-    background-color: rgba(255, 255, 255, 0.352);
-    padding: 1vw 5vw 1vw 5vw;
-    border-radius: 3vw;
     min-width: 300px;
     min-height: 200px;
-}
-
-.home-buttons:hover {
-    background-color: rgba(245, 109, 145, 0.79);
-}
-
-.home-buttons h4:hover {
-    color: white;
 }
 
 .home-buttons img {
     width: 10vw;
     min-width: 250px;
     border-radius: 2vw;
+    border-color: #ffc800;
+    border-width: 3px;
 }
 
 #home-bottom {
@@ -76,4 +67,24 @@ header {
 body {
     background-color: rgb(255, 255, 255);
     margin:0%;
+}
+
+.home-buttons button {
+    background-color: #ff6e46;
+    color: white;
+    cursor: pointer;
+    padding: .8vw 1vw .8vw 1vw;
+    border: solid;
+    border-color: #ffc800;
+    border-width: calc(2px + .2vw);
+    border-radius: calc(20px + 1vw);
+    text-shadow: black 1.5px 1.5px 3px;
+    text-align: left;
+    outline: none;
+    font-size: calc(15px + .2vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+    font-weight: bold;
 }

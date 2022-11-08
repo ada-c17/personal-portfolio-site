@@ -2,8 +2,6 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-
-
 nav {
     background:#cb000061;
     display:grid;
@@ -11,10 +9,15 @@ nav {
     justify-items:center;
     height:6vw;
     min-height:80px;
-    grid-template-columns: 1.5fr minmax(20px, 80vw) 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr minmax(20px, 80vw) 1fr 1fr 1fr 1fr 1fr;
     column-gap:calc(10px + .5vw);
     margin:0px;
     padding:0px;
+}
+
+#featured-project-nav-link {
+    line-height:1.5em;
+    text-underline-offset: 5px;
 }
 
 .body-minus-nav {
@@ -27,7 +30,7 @@ nav {
 .nav-link {
     color:white;
     text-decoration:none;
-    font-size:calc(12px + .8vw);
+    font-size:calc(12px + .5vw);
     justify-self:right;
     margin-right: 5vw;
 
@@ -48,12 +51,31 @@ nav a:hover {
     width: 12vw; 
     height: 12vh; 
     min-width:150px;
-    /* margin-left: 5vw; */
 }
 
 body {
     padding: 0px;
     margin: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        row-gap: 5px;
+        flex-direction: column;
+        min-height: 220px;
+    }
+
+    #header-logo {
+        margin-bottom: -15px;
+    }
+
+    nav a:hover {
+        text-decoration: underline white 2px;
+        text-underline-offset: 5px;
+    }
+    
 }
 
 footer {
