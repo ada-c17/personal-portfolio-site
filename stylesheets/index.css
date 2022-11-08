@@ -88,3 +88,9 @@ body {
     margin: 1vw;
     font-weight: bold;
 }
+
+.home-buttons button:hover {
+    background-color: #ffa646;
+    text-shadow: none;
+    color: black;
+}
