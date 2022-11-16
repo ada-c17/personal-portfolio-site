@@ -1,0 +1,107 @@
+/* Sitewide Layout + Styles */
+html {
+    /* fill screen */
+    height: 100%;
+}
+
+body {
+    /* fill screen (see footer)*/
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* site-wide link behavior */
+a:hover {
+    color: #FFA69E;
+}
+
+header {
+    font-family: Didot, Times, serif;
+}
+
+.site-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: baseline;
+    border-bottom: 2px dotted #787E91;
+    padding-left: 20px;
+}
+
+.site-header h1 a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.site-header h1 a:hover {
+    color: #FFA69E;
+}
+
+header nav {
+    width: fit-content;
+    grid-column-start: 3;
+    padding-right: 25px;
+}
+
+header nav li{
+    margin: 0px;
+    display: inline;
+    padding: 10px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+}
+
+main {
+    font-family: Verdana, sans-serif;
+}
+
+main a {
+    color: #6C0E23;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* display github icon next to github links, purely decorative */
+main a[href*="github"] {
+    background: url("../images/GitHub-Mark-120px-plus.png") no-repeat left center;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #9A9EAC;
+    text-align: center;
+    /* margin-top: auto places footer at bottom of site body flexbox,
+    filling any void space between content and html page bottom
+    with margin */
+    margin-top: auto;
+    border-top: 2px dotted #787E91;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: small;
+}
+
+footer img {
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer :last-child {
+    /* right-align last footer item */
+    margin-left: auto;
+}
+
+
+
+
+

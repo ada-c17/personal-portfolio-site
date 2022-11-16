@@ -1,0 +1,31 @@
+main {
+    text-align: center;
+}
+
+main ul {
+    padding-inline-start: 0px;
+}
+
+main ul a{
+    /* block display allows link to fill container
+    i.e. whole container clickable */
+    display: block;
+    color: #000000;
+}
+
+main li {
+    vertical-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* center list items on screen */
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    /* allow some scaling with window size */
+    max-width: 25vw;
+    min-width: fit-content;
+    background-color: #AED9E0;
+    /* rounds background as well as border */
+    border-radius: 20px;
+}

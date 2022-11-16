@@ -1,0 +1,36 @@
+main {
+    padding-bottom: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+section header {
+    text-align: right;
+    grid-column: 1 / 2;
+    background-color: #E9EAED;
+    margin-top: 10px;
+    padding-right: 20px;
+    font-size: large;
+}
+
+.article-block {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+article{
+    background-color: #AED9E0;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+article a {
+    color: #000000;
+}

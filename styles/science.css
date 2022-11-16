@@ -1,0 +1,34 @@
+main header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main header p {
+    font-family: Verdana, sans-serif
+}
+
+.science-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.science-articles h2 {
+    text-align: center;
+}
+
+.science-articles article {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-width: 25vw;
+    min-width:min-content;
+    background-color: #E9EAED;
+    margin: 10px;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
