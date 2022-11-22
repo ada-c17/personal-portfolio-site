@@ -1,0 +1,79 @@
+
+header ul li {
+    background-color: black;
+    /* color: lightgray; */
+    /* text-decoration-color: lavender;*/
+    list-style: none;
+    display: inline-block; 
+}
+
+li a {
+    color: rgb(106, 106, 174);
+    font-family: comfortaa, 'Courier New', Courier, monospace;
+    /* text-decoration-color: lavender; */
+    list-style: none;
+}
+
+h1 {
+    font-family: comfortaa, 'Courier New', Courier, monospace;
+    color: lavender;
+}
+
+h2 {
+    font-family: comfortaa, 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+}
+
+p {
+    font-family: comfortaa, 'Courier New', Courier, monospace;
+    color: lavender;
+}
+
+body {
+    background-color: black;
+    font-family: comfortaa, 'Courier New', Courier, monospace;
+    text-align: justify;
+    margin: 20px;
+    
+}
+
+footer li a{
+    color: rgb(106, 106, 174);
+    background-color: black;
+    list-style: none;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.bookend-info {
+    color: lavender;
+}
+
+.project {
+    color: blanchedalmond;
+    border: 2px dashed gray;
+    padding: 5px 20px;
+
+}
+#title {
+    color: rgb(126, 126, 176);
+    text-align: center;
+    border: 2px dashed gray;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+#current-project {
+    color: honeydew;
+}
+
+span {
+    text-decoration:underline;
+
+}
+.fun-facts {
+    color: rgb(126, 126, 176);
+}
+
+.bio {
+    color: lavender
+}
