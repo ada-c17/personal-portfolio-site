@@ -1,3 +1,9 @@
+
+
+<img src="./images/portfolio-image.jpeg" alt="Candle" width="700" height="300" />
+
+<br/>
+
 # Personal Portfolio Site
 
 ## Introduction

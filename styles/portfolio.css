@@ -1,30 +1,36 @@
 body{
-    background-color: lightgrey;
+  /* background: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+  height: 100%; */
+
+  background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  
 }
 
 .container {
     display: flex;
     border: 1px dashed indigo;
-    height: 100vh;
-    width: 80vw;
+    height: 70vh;
+    width: 60vw;
     align-items: center;
     row-gap: 3px;
     flex-wrap: wrap;
-    margin-left: 150px;
-    margin-top: 40px;
-
+    position: relative; 
+    left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: space-around;
     flex-direction: row;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
 
 
 .header-portfolio{
     background: url("../images/lotus-candle.jpeg") right center;
-    height: 65vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
 
 } 
 
@@ -33,7 +39,7 @@ body{
     box-sizing: border-box;
   
     width: 33vw;
-    height: 450px;  
+    height: 50vh;  
     font-size: 20px;
     flex-basis: 50%;
     text-align:center;
@@ -49,29 +55,31 @@ body{
 
 
 .box-1 {
-    align-self: flex-start;
+    /* align-self: flex-start; */
     display: flex;
     flex-basis: 100%;
+    height: 40vh;
 
     /* background: #ef4fb9;  */
     background: url("../images/Bello_Mundo_About.jpeg") right center;
     
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 40px;
     
   
     /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), */
                   /* url("../../media/examples/lizard.png"); */ 
   }
   .box-2 {
-    background: indigo;
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
     /* display: flex; */
     flex-basis: 100%;
     height:15vh;
     list-style: none;
-  
-   
   }
+
+
   .box-2 a, .box-3 a,
   .box-6 a,  .box-8 a  {
     color:whitesmoke;
@@ -81,7 +89,8 @@ body{
 
   .box-3  
     {
-        background: rgb(126, 126, 137);
+      background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  
         flex-basis: 100%;
          height:12vh;
          color: whitesmoke;
@@ -93,7 +102,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     flex-basis: 100%;
-    height: 95vh;
+    height: 65vh;
+    margin-bottom: 40px;
     
    
 
@@ -107,6 +117,7 @@ body{
     
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 40px;
 }
   .box-6 {
       background: indigo;
@@ -114,22 +125,29 @@ body{
     } 
 
   .box-7 {
-    background: url("../images/screenshot\ Responsive\ Design\ Project\ 1.PNG") left center;
+    background: url("../images/screenshot\ Responsive\ Design\ Project\ 1.PNG") left top;
     flex-basis: 100%;
     background-repeat: no-repeat;
     background-size: cover;  
+    margin-bottom: 50px;  
+    height: 60vh;
     } 
     .box-8 {
         flex-basis: 100%;
-        background: #b11a7c;
-        height:15vh;
+        background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+        height:10vh;
         color: whitesmoke;
-        margin-bottom: 50px;
-    
     }
 
   .box-9 {background: #aa00ff;}
-  .box-10 {background: #357162;}
+  .box-10 {
+  width: 65vw;
+border-radius: 10px;
+  padding: 30px;
+    height:30vh;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 
 
 
@@ -181,11 +199,31 @@ nav ul li a:hover{
     color: #b982a7;
 }
 
-.header-about{
+.header-portfolio{
         background: url("../images/lotus-candle.jpeg") right center;
-        height: 50vh;
+        height: 60vh;
         background-repeat: no-repeat;
         background-size: cover;
-    
+        margin: 0 auto;
+        width: 1450px;  
 } 
+
+.contact{
+  margin-bottom: 30px;
+}
+.contact-form #details{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#details{
+      flex: 1;
+}
+
+footer{
+  height: 90px;
+  background: #aa00ff;
+  margin-top: 10px;
+}
 /* END ABOUT ME GRID PAGE  STYLES*/
