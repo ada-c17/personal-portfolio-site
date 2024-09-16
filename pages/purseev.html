@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../stylesheets/style.css" rel="stylesheet" />
+    <link href="../stylesheets/purseev.css" rel="stylesheet" />
+	<title>Purseev Lewis Structures App</title>
+    <link rel="icon" type="image/x-icon" href="../assets/a-g-logo-white.png"
+	<!--Google font link-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+	<!--Adobe font link--> 
+	<link rel="stylesheet" href="https://use.typekit.net/yxs0wfp.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <a href="../index.html"><img src="../assets/adriana-gutierrez-logo-white.png" alt="logo" id="header-logo"></a>
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../assets/AGutierrez_resume_221018.pdf" target="_blank" class="nav-link">Resume</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="purseev.html" class="nav-link" id="featured-project-nav-link">Featured Project</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+    </nav>
+</header>
+<div class="project-header">
+    <h1>Lewis Structures Drawing Game</h1>
+    <h2><em>Group Project - Project Lead and Developer</em></h2>
+    <div class="project-links">
+        <a href="https://purseev.com/" target="_blank" class="play-game"><button type="button">Play the Game</button></a>
+        <a href="https://github.com/NataliaWoodson/purseev-lewis-structures-front-end" target="_blank"><button type="button">GitHub Front-End</button></a>
+        <a href="https://github.com/NataliaWoodson/purseev-lewis-structures-back-end" target="_blank"><button type="button">GitHub Back-End</button></a>
+    </div>
+</div>
+
+<div class="project-content body-minus-nav">
+
+    <div class="project-image-and-features">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m0s6ofpSmdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="project-features">
+            <h2>Features</h2>
+            <div class="project-features-list">
+                <ul>
+                    <li>Back-end</li>
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li><a href="https://lewis-structures.purseev-api.com/lewis_structures_main/molecules/" target="_blank">AWS Elastic Beanstalk deployment</a></li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    <li>Front-end</li>
+                        <ul>
+                            <li>React app</li>
+                            <li>Google Firebase deployment</li>
+                            <li><a href="https://konvajs.org/" target="_blank">Konva.js</a> - HTML5 2D canvas JS library</li>
+                        </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="project-about">
+        <h2>About the project</h2>
+        <p>
+            This React app was my capstone project for the <a href="https://adadevelopersacademy.org/" target="_blank">Ada Developers Academy</a> 
+            program. I served as project lead and as a developer on a team with three other WOC developers in the program. We were 
+            given four weeks to create this app. 
+            <br><br>
+            My first year as a high-school chemistry teacher was during the pandemic when most schools were still fully-remote. 
+            I found the task of trying to teach chemistry remotely as a first-year teacher extremely challenging. I realized 
+            that I needed to find online tools to assist me with giving students the immediate feedback they needed to practice 
+            skills effectively. I taught myself coding principles by using Scratch to code 9 games for my students, but was 
+            not skilled enough to create all the tools I needed.
+            <br><br>
+            In particular, I struggled to teach students to draw Lewis Structures in a 
+            virtual setting.
+            <br><br>
+            <b>This game is the game I wish I'd had as a chemistry teacher.</b>
+            <br><br>
+            In fact, it is currently the only online tool available on the internet that allows students to free-draw bonds 
+            directly to certain electrons, and then receive immediate feedback on whether or not the structure is valid. 
+        </p>
+    </div>
+    <div class="project-description">
+        <!-- <img src="../assets/SiOH2.png" alt="A digital ball and stick depiction of an SiOH2 molecule" class="project-img"> -->
+        <section class="project-my-code">
+            <h2>What I coded</h2>
+            <div class="project-my-role-content">
+                
+                <p>
+                    I created our presentation video, instructional video on the website game page, and I was responsible for coding 
+                    most of the game logic, which involved the following key coding challenges:
+                </p>
+                <button type="button" class="collapsible">
+                    <h3>Auto-positioned electrons</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    The back-end database provides molecular formulas to the React app, and the correct atoms are auto-populated 
+                    by converting the molecular
+                    formula into a dictionary of element symbols, which then uses the number of valence electrons associated 
+                    with the element symbol to generate the correct number of electrons and place them around the element symbol.
+                </p>
+                <br><br>
+                <button type="button" class="collapsible">
+                    <h3>Draggable atoms</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    Each element symbol and its corresponding electrons must be draggable as a unit. As the electrons themselves must 
+                    allow the user to interact with them, the electrons had to be their own entities. As the user drags an element symbol, 
+                    the program tracks the mouse pointer and maintains the electrons at the same relative position to the element symbol.
+                    <br><br>
+                    Bonds that are anchored to electrons follow the electron position as it is dragged.
+                </p>
+                <br><br>
+                <button type="button" class="collapsible">
+                    <h3>Drag-and-drop bonds</h3>
+                    <h3>+</h3>
+                </button>
+                <div class="collapsible-content">
+                    <p>
+                    When the user clicks on an electron, the atom will not drag. Instead, if they keep the mouse clicked, a bond will 
+                    anchor on the clicked electron and follow the cursor as it is moved around the stage. When the mouse click is 
+                    released, the bond will do one of two behaviors:
+                        <ul>
+                            <li>
+                                Disappear. If the anchoring electrons were invalid due to one or both already being paired, the bond 
+                                will delete.
+                            </li>
+                            <li>
+                                Anchor. If both anchoring electrons are unpaired, the bond will anchor. 
+                            </li>
+                        </ul>  
+                    </p>
+                </div>
+                <br><br>
+                <button type="button" class="collapsible">
+                    <h3>Delete bond</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    Clicking on a bond deletes it and resets the state of each anchoring electron to unpaired.
+                </p>
+                <br><br>
+                <button type="button" class="collapsible">
+                    <h3>Atom rotation</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    Upon right-click on an atom, as the cursor is moved up or down the electrons will rotate around the atom. This 
+                    allows the user to clean up the structure and 
+                </p>     
+            </div>                               
+        </section>
+        <section class="project-right-panel">            
+            <div class="what-i-learned">
+                <h2>What I learned</h2>
+                <button type="button" class="collapsible">
+                    <h3>Project Lead in a group of 4 developers</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    Serving as the group leader as well as a devleoper was challenging but very fun. I worked for about a month 
+                    before the official start of the capstone coding period in order to think through much of the game logic, 
+                    including creating our element symbol/electron/atom entity relationship diagram. 
+                    <br><br>
+                    I learned how to use Jira and planned the first sprint before the start-date, which helped us hit the ground 
+                    running once the coding period began. 
+                </p>
+                <br><br>
+                <button type="button" class="collapsible">
+                    <h3>Design</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    We originally planned to contain much of the project logic in the back-end and run the game using API calls 
+                    to our back-end. Much of the first week was spent attempting to do this within our Django framework. After 
+                    consulting with various mentors and instructors, we eventually decided to move all of our game logic to the 
+                    front-end. 
+                    <br><br>
+                    While it was frustrating to have to make this change, the game logic I had already coded was simple to translate 
+                    into JSX. Additionally, moving the logic to the front-end made re-deployment much easier, as we only needed to 
+                    redeploy the front-end after any feature changes/additions. The interconnectedness of all our components also 
+                    meant that keeping the logic together in the front-end made it easier to keep track of all the moving pieces.
+                </p>
+                <br><br>
+                <button type="button" class="collapsible">
+                    <h3>Learning to use React Hooks</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    There were several times where a major blocker was fixed by using the React <code>useState</code> hook. We used 
+                    this hook for keeping track of atoms (position, corresponding electrons), electrons (relative position to element 
+                    symbol, whether or not it is already bonded), user messages, score, whether a bond is being drawn, all bonds 
+                    (which electrons the bond connects, (x,y) coordinates for both ends of the bond), if the cursor is touching an 
+                    electron that is available for bonding, whether or not the atom is being dragged, molecular formula, and more.
+                    <br><br>
+                    The React <code>useEffect</code> hook helped us to set the game up at the beginning by selecting five molecules 
+                    from the database, resetting the score, and generating the atoms at the beginning of each round.
+                    <br><br>
+                    Multiple times during development we could not get various pieces of state to update before it was referenced 
+                    again, causing bugs. We solved these issues with <code>useCallback</code> hooks.
+                </p>
+                <br><br>
+                <button type="button" class="collapsible">
+                    <h3>What I would do differently</h3>
+                    <h3>+</h3>
+                </button>
+                <p class="collapsible-content">
+                    I would have invested more time in the pre-development stage in familiarizing myself with React hooks. We lost 
+                    many hours to debugging problems who's solution was to use a React hook. Had I been more familiar with hooks we 
+                    would have had more time to add features.
+                </p>
+                
+            </div>
+            <div>
+                <br><br>
+            </div>
+            <div class="project-upcoming-features">
+                <h2>Upcoming Features</h2>
+                    <ul>
+                        <li>Relational student/teacher accounts</li>
+                        <li>Teacher-created assessments, including custom molecules</li>
+                        <li>Graded assignments associated with teacher/student accounts</li>
+                        <li>More intuitive UI based on user feedback</li>
+                        <li>Integration as LTI with Canvas LMS</li>
+                        <li>Deployment in schools as a free tool</li>
+                    </ul>
+            </div> 
+        </section>      
+    </div>
+</div>
+<footer>
+    <section id="contact-info">
+        <h3>Get In Touch</h3>
+        <ul>
+            <li><b>Phone: </b>704-449-5964</li>
+            <li><b>Email: </b><a href="mailto:adri.j.gutierrez@gmail.com" target="_blank">adri.j.gutierrez@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/adriana-gutierrez1/" target="_blank"><img src="../assets/linked-in-white.png" alt="white-linkedin-logo"></a></li>
+        </ul>
+    </section>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        console.log("CLICKED");
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+</script>
+</body>

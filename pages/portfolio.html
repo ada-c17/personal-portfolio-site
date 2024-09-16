@@ -1,12 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../stylesheets/style.css" rel="stylesheet" />
+	<link href="../stylesheets/portfolio.css" rel="stylesheet" />
+	<title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="../assets/a-g-logo-white.png"
+	<!--Google font link-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+	<!--Adobe font link--> 
+	<link rel="stylesheet" href="https://use.typekit.net/yxs0wfp.css">
 </head>
+
 <body>
-  
+<header>
+    <nav>
+        <a href="../index.html"><img src="../assets/adriana-gutierrez-logo-white.png" alt="logo" id="header-logo"></a>
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../assets/AGutierrez_resume_221018.pdf" class="nav-link">Resume</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="purseev.html" class="nav-link" id="featured-project-nav-link">Featured Project</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+    </nav>
+</header>
+
+	
+    <section class="container">
+        <div id="lewis-structures" class="project">
+            <a href="https://purseev.com/">
+                <h1>Lewis Structures</h1>
+            </a>
+            <div class="tags">
+                <p>python</p>
+                <p>REST API</p>
+                <p>flask</p>
+                <p>relational-databases</p>
+                <p>postgreSQL</p>
+                <p>TDD</p>
+            </div>
+            <div class="on-hover">
+                <p>A game that high school and university students can use to draw and 
+                    verify the validity of freeform Lewis structures with various
+                    levels of difficulty.
+                </p>
+            </div>
+        </div>
+
+        <div id="weather-report" class="project">
+            <a href="https://adrianajg.github.io/weather-report/">
+                <h1>Weather Report</h1>
+                <div class="tags">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>axios API calls</p>
+                    <p>DOM manipulation</p>
+                    <p>proxy server for API keys</p>
+                </div>
+                <div class="on-hover">
+                    <p>A weather app that not only tells you the actual weather, but also allows you to
+                        create your own weather by selecting a temperature and conditions!
+                    </p>
+                </div>
+            </a>
+        </div>
+            
+        <div id="adagrams" class="project">
+            <a href="https://github.com/bensonaa1988/adagrams-py.git">
+                <h1>Adagrams</h1>
+                <div class="tags">
+                    <p>python</p>
+                    <p>TDD</p>
+                </div>
+                <div class="on-hover">
+                    <p>A game in which a player is given a random set of letters and must
+                        make an anagram using those letters whose result is scored.
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div id="swap-meet" class="project">
+            <a href="https://github.com/adrianajg/swap-meet.git">
+                <h1>Swap Meet</h1>
+            
+                <div class="tags">
+                    <p>python</p>
+                    <p>OOP</p>
+                    <p>TDD</p>
+                </div>
+                <div class="on-hover">
+                    <p>An app where vendors can swap items between different inventories.</p>
+                </div>
+            </a>
+        </div>
+        <div id="solar-system-api" class="project">
+            <a href="https://github.com/adrianajg/solar-system-api.git">
+                <h1>Solar System API</h1>
+                <div class="tags">
+                    <p>python</p>
+                    <p>REST API</p>
+                    <p>flask</p>
+                    <p>relational-databases</p>
+                    <p>postgreSQL</p>
+                    <p>SQLAlchemy</p>
+                    <p>TDD</p>
+                </div>
+                <div class="on-hover">
+                    <p>A solar system API with information about planets and their related moons.</p>
+                </div>
+            </a>
+        </div>
+        <div id="task-list" class="project">
+            <a href="https://github.com/adrianajg/task-list-api.git">
+                <h1>Task List API</h1>
+                <div class="tags">
+                    <p>python</p>
+                    <p>REST API</p>
+                    <p>flask</p>
+                    <p>relational-databases</p>
+                    <p>postgreSQL</p>
+                    <p>SQLAlchemy</p>
+                    <p>TDD</p>
+                </div>
+                <div class="on-hover">
+                    <p>A web API to create, read, update, and delete tasks along with associated goals.
+                        Tasks can be sorted, marked complete, and integrates with Slack to alert team 
+                        members of progress.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer>
+		<section id="contact-info">
+			<h3>Get In Touch</h3>
+			<ul>
+				<li><b>Phone: </b>704-449-5964</li>
+				<li><b>Email: </b><a href="mailto:adri.j.gutierrez@gmail.com" target="_blank">adri.j.gutierrez@gmail.com</a></li>
+				<li><a href="https://www.linkedin.com/in/adriana-gutierrez1/" target="_blank"><img src="../assets/linked-in-white.png" alt="white-linkedin-logo"></a></li>
+			</ul>
+		</section>
+
+        <!-- Refactor to make contact form functional -->
+
+		<!-- <section id="contact-form">
+			<h3>Send a message to Adriana</h3>
+			<form action="mailto:contact@yourdomain.com">
+				<div class="form-query">
+					<label for="name">Your name</label>
+					<input type="text" id="name" name="name" placeholder="Your name...">
+				</div>
+				<br>
+				<div class="form-query">
+					<label for="purpose">How can I help?</label>
+					<select id="purpose" name="purpose">					
+						<option value="learn">To learn more about my skills and qualifications</option>
+						<option value="say-hello">Just wanted to say hello!</option>
+						<option value="other">Something else</option>					
+					</select>
+				</div>
+				<br>
+				<div class="form-query">
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" name="subject" placeholder="What is the subject of your message?">
+					<br>
+					<textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+				</div>
+				<br>
+				<div class="submit-button">
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+		</section>
+		<section id="submitted-contact-form">
+			<h5>Your message has been sent!</h5>
+			<p>Thank you for reaching out.
+				<br>
+				I look forward to connecting with you!
+			</p>
+		</section> -->
+	</footer>
 </body>
-</html>

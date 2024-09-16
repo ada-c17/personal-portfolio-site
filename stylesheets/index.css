@@ -1,0 +1,96 @@
+header {
+    background-color: rgb(245, 109, 145);
+    background-image: radial-gradient(closest-side, rgba(165, 0, 0, 0.335) 50%,rgba(255, 153, 0, 0.2) 100%), url("../assets/gerbera_flower_fibbonacci_spiral.jpg");
+    filter:brightness(1.1);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:100vh;
+    margin:0px;
+}
+
+.screen-1 {
+    font-size:calc(20px + 1vw);
+    padding-top: 4vw;
+    text-align:center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.screen-1 h3 {
+    /* text-shadow: 2px 2px 2px #515070; */
+    line-height:.05em;
+    margin-top: -1vh;
+}
+
+.screen-1 h4{
+    /* text-shadow: 2px 2px 3px #515070; */
+    font-size: 0.5em;
+    line-height: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #444;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.home-buttons img {
+    width: 10vw;
+    min-width: 250px;
+    border-radius: 2vw;
+    border-color: #ffc800;
+    border-width: 3px;
+}
+
+#home-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-buttons a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin:0%;
+}
+
+.home-buttons button {
+    background-color: #ff6e46;
+    color: white;
+    cursor: pointer;
+    padding: .8vw 1vw .8vw 1vw;
+    border: solid;
+    border-color: #ffc800;
+    border-width: calc(2px + .2vw);
+    border-radius: calc(20px + 1vw);
+    text-shadow: black 1.5px 1.5px 3px;
+    text-align: left;
+    outline: none;
+    font-size: calc(15px + .2vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+    font-weight: bold;
+}
+
+.home-buttons button:hover {
+    background-color: #ffa646;
+    text-shadow: none;
+    color: black;
+}
