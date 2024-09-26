@@ -1,5 +1,5 @@
 # Personal Portfolio Site
-
+deployed: https://master--astonishing-meerkat-16693c.netlify.app/ 
 ## Introduction
 
 It is common for developers to create a website to show off their web-dev skills and document their work and interests. These sites often feature things like:
@@ -25,12 +25,8 @@ We will use HTML & CSS to create a static site whose content is our personal por
 - Practice applying visual styles with CSS
 - Use both HTML & CSS together to create a comprehensive design
 
-## Project Requirements
 
-### Only Use Static HTML and CSS
-
-We should only use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any kind are not allowed. All submitted HTML needs to pass as valid HTML through an [HTML Validator](https://validator.w3.org/).
-
+Main steps to finish this portfolio:
 ## Wave 1 - Basic HTML
 
 This portfolio site must have the following HTML files:
@@ -75,7 +71,6 @@ Both of these containers do not need to be on the same page. Try using one for o
 
 ### Non-Functional Requirements
 
-The site should follow best practices, including:
   - All markup should be semantic, with consideration of hierarchy and accessibility
   - CSS should be concise and well-formatted
   - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
@@ -89,9 +84,5 @@ The site should follow best practices, including:
   - update any tags with path references (`img`, `link`, `a` tags) to accommodate for the entries being in a different directory.
 - Create any number of additional pages or directories.
 
-### A Word of Caution
-
-A lot of developers find their initial foray into CSS frustrating. Every browser implements the CSS standard a little (or a lot) differently. Learning to manipulate elements and understand the _box model_ takes time. Layout can be especially challenging to developers new to CSS. For this project, focus on understanding the mechanics and semantics of HTML and CSS, and how the two work together.
-
-### Optional: Deploy with GitHub Pages
-Want more? Make your site live on the internet! There are a lot of ways to go about hosting a live website, but GitHub provides a way to host static sites for free using your GitHub account. [Follow the steps listed here](https://pages.github.com/).
+### Optional: Deploy with GitHub Pages / Netlify
+[Follow the steps listed here](https://pages.github.com/).
