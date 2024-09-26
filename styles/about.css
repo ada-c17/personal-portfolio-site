@@ -1,0 +1,133 @@
+
+/* BEGIN ABOUT ME GRID PAGE  STYLES*/
+
+.container2 {
+    display: flex;
+    border: 1px dashed indigo;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #938977;
+    color: indigo;
+    line-height: 1.5;
+    font-size: 18px;
+    /* background: url("./Three_Candles.webp") right center; */
+    /* height: 65vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gridi{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d e"
+    ;
+    margin: 5pc;
+}
+
+.gridi .main{
+    grid-area: a;
+    background-color: #95d9f8;
+    padding: 10px;
+}
+
+.gridi section:first-of-type{
+    grid-area: b;
+    background-color: rgb(187, 247, 187);
+}
+
+
+.gridi section:last-of-type{
+    grid-area: c;
+    background-color: #fadda6;
+}
+
+/* header img{
+    background-image: url(./Wasoruku_1.jpeg);
+    background-repeat:no-repeat; 
+    height: 90vh;
+    width: 100vw;
+} */
+
+.nav-wrapper{
+    max-width:  1200px;
+    margin: auto;
+    position: relative;
+    padding: 7px  10px;
+    /* top & bottom 7px,  left & right 0 */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.title{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+
+nav ul li a {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: 20px;
+    /* line height set at 5px greater than font-size */
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    padding-bottom: 3px;
+    transition: 0.3s; 
+    /* Adding hover effect to links */
+    /* border-bottom: 1px solid transparent;
+  
+    /* smooth transition to hover effect */
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid rgb(70, 160, 160);
+}
+
+.header-about{
+        background: url("../images/Wasoruku_1.jpeg") right center;
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+} 
+
+p{
+ font-weight: 600;   
+
+}
+
+.about{
+    padding: 10px;
+}
+
+h2::first-letter{
+    font-weight: 800;
+    color: #0d5950;
+    font-size: 30px;
+}
+
+#visual{
+    background: url("../images/Self-Portrait.jpg") left bottom;
+    background-size: cover;
+    background-repeat:no-repeat; 
+    color: whitesmoke;
+    font-style: 600;
+}
+
+/* END ABOUT ME GRID PAGE  STYLES*/
